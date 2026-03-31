@@ -13,6 +13,7 @@ import {
   ExternalLink,
   Gamepad2,
   Hammer,
+  Heart,
   Home,
   MessageCircle,
   Package,
@@ -473,10 +474,13 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeRelationshipGuide']} locale={locale}>{t.modules.tomodachiLifeRelationshipGuide.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeRelationshipGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {t.modules.tomodachiLifeRelationshipGuide.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center mb-4 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                  <DynamicIcon name={card.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <h3 className="font-bold text-base mb-2">
                   <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeRelationshipGuide::cards::${index}`]} locale={locale}>
                     {card.name}
                   </LinkedTitle>
@@ -485,13 +489,19 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               </div>
             ))}
           </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.tomodachiLifeRelationshipGuide.highlights.map((h: string, i: number) => (
-              <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
-                <p className="text-sm">{h}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+            <div className="flex items-center gap-2 mb-4">
+              <Heart className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold">Key Relationship Tips</h3>
+            </div>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              {t.modules.tomodachiLifeRelationshipGuide.highlights.map((h: string, i: number) => (
+                <li key={i} className="flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                  <span className="text-muted-foreground text-sm">{h}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
@@ -504,18 +514,30 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeMarriageGuide.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.tomodachiLifeMarriageGuide.regions.map((region: any, index: number) => (
+            {t.modules.tomodachiLifeMarriageGuide.steps.map((step: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
-                  <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeMarriageGuide::regions::${index}`]} locale={locale}>
-                      {region.name}
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                  </div>
+                  <h3 className="font-bold text-sm leading-snug">
+                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeMarriageGuide::steps::${index}`]} locale={locale}>
+                      {step.name}
                     </LinkedTitle>
                   </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{region.type}</span>
+                  <span className="ml-auto text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">{step.type}</span>
                 </div>
-                <p className="text-muted-foreground text-sm">{region.description}</p>
+                <p className="text-muted-foreground text-sm mb-3">{step.description}</p>
+                {step.facts && step.facts.length > 0 && (
+                  <ul className="space-y-1 border-t border-border/50 pt-3">
+                    {step.facts.map((fact: string, fi: number) => (
+                      <li key={fi} className="flex items-start gap-2">
+                        <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-xs text-muted-foreground">{fact}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
           </div>
@@ -529,18 +551,31 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeBabyGuide']} locale={locale}>{t.modules.tomodachiLifeBabyGuide.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeBabyGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.tomodachiLifeBabyGuide.creatures.map((c: any, index: number) => (
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.tomodachiLifeBabyGuide.steps.map((step: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3">
-                  <span className="text-xs px-2 py-1 rounded-full border bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]">{c.role}</span>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+                  </div>
+                  <h3 className="font-bold text-sm leading-snug">
+                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeBabyGuide::steps::${index}`]} locale={locale}>
+                      {step.name}
+                    </LinkedTitle>
+                  </h3>
+                  <span className="ml-auto text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">{step.type}</span>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeBabyGuide::creatures::${index}`]} locale={locale}>
-                    {c.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{c.description}</p>
+                <p className="text-muted-foreground text-sm mb-3">{step.description}</p>
+                {step.facts && step.facts.length > 0 && (
+                  <ul className="space-y-1 border-t border-border/50 pt-3">
+                    {step.facts.map((fact: string, fi: number) => (
+                      <li key={fi} className="flex items-start gap-2">
+                        <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span className="text-xs text-muted-foreground">{fact}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
           </div>
@@ -554,19 +589,30 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeFoodGuide']} locale={locale}>{t.modules.tomodachiLifeFoodGuide.title}</LinkedTitle></h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeFoodGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+          <div className="scroll-reveal space-y-3 mb-8">
             {t.modules.tomodachiLifeFoodGuide.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                    <DynamicIcon name={item.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 mb-1">
+                      <h3 className="font-bold text-sm">
+                        <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeFoodGuide::items::${index}`]} locale={locale}>
+                          {item.name}
+                        </LinkedTitle>
+                      </h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+                    </div>
+                    <p className="text-muted-foreground text-sm mb-2">{item.description}</p>
+                    {item.playerUse && (
+                      <p className="text-xs text-[hsl(var(--nav-theme-light))] bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg px-3 py-2">
+                        <span className="font-semibold">Tip: </span>{item.playerUse}
+                      </p>
+                    )}
+                  </div>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeFoodGuide::items::${index}`]} locale={locale}>
-                    {item.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
               </div>
             ))}
           </div>

@@ -277,152 +277,259 @@
     "tomodachiLifeRelationshipGuide": {
       "title": "Tomodachi Life Relationship Guide",
       "displayType": "cards",
-      "intro": "Tomodachi Life runs on hidden social momentum. Every friendship, romance, and family bond sits on a visible status ladder that directly affects whether Miis become best friends, start dating, propose, fight, or break up.",
+      "intro": "Tomodachi Life runs on hidden social momentum. Every friendship, romance, and family bond sits on a visible status ladder, and those ladders directly affect whether Miis become best friends, start dating, propose, fight, or break up. The fastest way to manage island drama is to learn which statuses matter, which actions raise them, and which mistakes make them collapse.",
       "cards": [
         {
+          "icon": "Users",
           "name": "Relationship Categories",
-          "description": "The game tracks seven main categories: Spouse, Family, Siblings, Sweetheart, Best Friend, Friends, and Ex-Sweethearts/Ex-Spouses. Each category uses its own wording for relationship strength."
+          "description": "The game tracks seven main categories: Spouse, Family, Siblings, Sweetheart, Best Friend, Friends, and Ex-Sweethearts/Ex-Spouses. Each category uses its own wording for relationship strength, and stronger bonds sit toward green while weaker bonds sit toward purple."
         },
         {
+          "icon": "MessageCircle",
           "name": "Friendship Ladder",
-          "description": "Strongest to weakest (NA version): Best bud → Good buddy → Great pal → Good pal → Getting along OK → Kinda getting along → Not getting along. This is the main ladder to watch for ordinary social bonds."
+          "description": "For Friends, Family, and Siblings in the NA version, the ladder runs from strongest to weakest: Best bud, Good buddy, Great pal, Good pal, Getting along OK, Kinda getting along, Not getting along. If a pair slides into the bottom, fights become more dangerous."
         },
         {
+          "icon": "Heart",
           "name": "Romance and Marriage Signals",
-          "description": "Strong Sweetheart statuses include Let's get married!, Super in love, Totally in love, Very much in love. Strong Spouse statuses include Soul mate, Super happy, Totally happy, Very happy."
+          "description": "Strong Sweetheart statuses include Let's get married!, Super in love, Totally in love, Very much in love. Strong Spouse statuses include Soul mate, Super happy, Totally happy, Very happy. These are the status words to check before expecting a confession or proposal."
         },
         {
+          "icon": "TrendingUp",
           "name": "Ways to Raise a Relationship",
-          "description": "Positive relationship advice, dates, and travel tickets are the safest ways to improve bonds. Miis in the same personality group generally get along more easily."
+          "description": "The safest ways to improve bonds are positive relationship advice, dates, and travel tickets. If a Mii asks what you think of a relationship, saying they are great together raises the status. A travel ticket vacation raises the pair by one or two levels automatically."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "How Relationships Break Down",
+          "description": "Arguments, failed reconciliations, and rejected confessions can damage bonds quickly. If a conversation goes badly it can turn into an argument, and if a fight is not resolved the pair can revert to acquaintances. A rejected confession can drop both sides by as many as three levels."
+        },
+        {
+          "icon": "Shield",
+          "name": "Managing Breakup Risk",
+          "description": "If a sweetheart asks to break up and you tell them to work things out, a successful reconciliation resets a negative dating relationship back to its default level. This recovery rule applies to sweethearts with negative status, not spouses asking for divorce."
         }
       ],
       "highlights": [
         "Tell worried Miis they are great together",
         "Use travel tickets to boost bond levels",
-        "Resolve arguments before they escalate",
-        "Keep personality groups in mind when planning friendships"
+        "Resolve arguments before they escalate into breakups",
+        "Rejected confessions drop both sides by up to three levels"
       ]
     },
     "tomodachiLifeMarriageGuide": {
       "title": "Tomodachi Life Marriage Guide",
-      "displayType": "regionCards",
-      "intro": "Marriage in Tomodachi Life is not a random cutscene you simply wait for. A dating pair must stay stable long enough to trigger a proposal request, then you help with a timing-based minigame, and the couple moves into Mii Homes.",
-      "regions": [
+      "displayType": "steps",
+      "intro": "Marriage in Tomodachi Life is not a random cutscene you simply wait for. First, a dating pair has to stay stable long enough to trigger a proposal request. Then you must help with a timing-based proposal minigame. Once the proposal succeeds, the couple moves into Mii Homes, unlocks married life, and can eventually ask for a baby.",
+      "steps": [
         {
-          "name": "Keep the couple stable",
-          "type": "First Requirement",
-          "description": "A marriage request usually appears after the pair has been together for some time. Proposal timing can range from months to, very rarely, under an hour."
+          "name": "Keep the couple stable long enough",
+          "type": "Step 1",
+          "description": "A marriage request usually appears after the pair has been together for some time and both Miis keep a good relationship with each other.",
+          "facts": [
+            "Proposal timing can range from months to, very rarely, under an hour.",
+            "Very rarely, a proposal request can appear even when the couple is still at the default dating level."
+          ]
         },
         {
           "name": "Accept the proposal request",
-          "type": "Love Problem",
-          "description": "When one sweetheart says they want to propose, choose to help instead of putting it off. Saying Not right now can cause the request to disappear."
+          "type": "Step 2",
+          "description": "When one sweetheart gets a love problem and says they want to propose, choose to help instead of putting it off.",
+          "facts": [
+            "Saying Not right now does not instantly fail the relationship, but the request can disappear if you wait too long.",
+            "The proposing Mii asks directly whether they should propose."
+          ]
         },
         {
           "name": "Choose the proposal setup",
-          "type": "Pre-Minigame",
-          "description": "Choose where the proposal happens: Fireworks show, Train station, Amusement park, or Fancy restaurant. Each location has its own interruptions."
+          "type": "Step 3",
+          "description": "Before the minigame starts, you choose where the proposal happens and whether the proposer should change clothes.",
+          "facts": [
+            "The four proposal locations are Fireworks show, Train station, Amusement park, and Fancy restaurant.",
+            "Each location has its own interruptions that can break the timing flow."
+          ]
         },
         {
           "name": "Win the proposal minigame",
-          "type": "Timing Game",
-          "description": "Tap the heart button only when the partner is thinking about the proposer. You must get the timing right four times. Three mistakes and the proposal fails."
+          "type": "Step 4",
+          "description": "During the proposal, tap the heart button only when the partner is thinking about the proposer.",
+          "facts": [
+            "You must get the timing right four times.",
+            "If you make three mistakes, the proposal fails.",
+            "Thought bubbles can switch quickly, so fast, clean timing matters more than tapping often."
+          ]
         },
         {
-          "name": "Watch the wedding and honeymoon",
-          "type": "Post-Proposal",
-          "description": "After the wedding, the couple goes on a honeymoon in a random country. They return with a souvenir and settle in a newly built house in Mii Homes."
+          "name": "Handle child couples correctly",
+          "type": "Step 5",
+          "description": "If the couple are kids, they cannot complete the wedding unless you use an Age-o-matic.",
+          "facts": [
+            "After a successful proposal, a kid couple receives an Age-o-matic as the gift.",
+            "If you refuse to use it, the wedding is called off."
+          ]
+        },
+        {
+          "name": "Watch the wedding and post-marriage move",
+          "type": "Step 6",
+          "description": "A successful proposal leads to the wedding, then a honeymoon, then a move into Mii Homes.",
+          "facts": [
+            "After marriage, the couple spends their honeymoon in a random country.",
+            "They return with a souvenir and settle in a newly built house.",
+            "They can switch between being shown in their house and apartments."
+          ]
         },
         {
           "name": "Unlock married-life outcomes",
-          "type": "Long-Term",
-          "description": "Marriage opens the family layer of the game. A married couple can later ask for a baby if the baby setting is enabled. Divorce is still possible after marriage."
+          "type": "Step 7",
+          "description": "Marriage opens the long-term family layer of the game, but it does not make the relationship permanent.",
+          "facts": [
+            "A married couple can later ask for a baby if the baby setting is enabled.",
+            "Divorce is still possible after marriage."
+          ]
         }
       ]
     },
     "tomodachiLifeBabyGuide": {
       "title": "Tomodachi Life Baby Guide",
-      "displayType": "creatureCards",
-      "intro": "Babies only appear after a couple is already married and living in Mii Homes. The player controls whether births are allowed, how the baby is customized, how the child is raised, and whether they stay on the island or leave as a traveler.",
-      "creatures": [
+      "displayType": "steps",
+      "intro": "Babies only appear after a couple is already married and living in Mii Homes. Once that condition is met, the player controls whether births are allowed, whether a specific request is accepted, how the baby is customized, how the child is raised, and whether they stay on the island or leave as a traveler.",
+      "steps": [
         {
-          "name": "Turn baby births on",
-          "role": "Step 1",
-          "description": "Babies can only happen if baby births are enabled in Town Hall and the married couple has a positive relationship. The request appears as a love problem from one member."
+          "name": "Turn baby births on and keep the marriage positive",
+          "type": "Step 1",
+          "description": "Babies can only happen if baby births are enabled in Town Hall and the married couple has a positive relationship.",
+          "facts": [
+            "The request appears as a love problem from one member of the married couple.",
+            "A couple must already be living in Mii Homes before they can have a child."
+          ]
         },
         {
           "name": "Accept the baby request",
-          "role": "Step 2",
-          "description": "If approved, the baby arrives about one to two days later. A couple can have multiple children but can only actively raise one child at home at a time."
+          "type": "Step 2",
+          "description": "When a spouse says they have been thinking about having a baby, you can approve or decline.",
+          "facts": [
+            "If approved, the baby arrives about one to two days later.",
+            "A married couple can have multiple children, but can only actively raise one child at home at a time.",
+            "If you disable baby births before the delivery, the pending birth is cancelled."
+          ]
         },
         {
           "name": "Customize the newborn",
-          "role": "Step 3",
-          "description": "Choose Boy, Girl, or random gender. The baby's appearance is a mix of both parents' features. Set the personality like Dad, like Mom, or random."
+          "type": "Step 3",
+          "description": "At birth, the mother asks a short series of questions that decide the baby's first profile settings.",
+          "facts": [
+            "You can choose Boy, Girl, or let the gender be random.",
+            "The baby's default appearance is a mix of the mother and father's features.",
+            "You can accept the suggested name, ask for another one, or enter your own.",
+            "The baby's personality can be set like Dad, like Mom, or random."
+          ]
         },
         {
           "name": "Follow the six-day growth cycle",
-          "role": "Step 4",
-          "description": "Day 1: newborn in arms. Day 2: crawling. Day 3: hair grows. Day 4: toddler stage. Day 5: walks and speaks. Day 6: fully grown and ready to leave."
+          "type": "Step 4",
+          "description": "Children grow in visible daily stages and become ready to leave home on day six.",
+          "facts": [
+            "Day 1: newborn in arms, bassinet, or stroller on outings.",
+            "Day 2: crawling begins.",
+            "Day 3: hair starts growing and the baby can stand briefly.",
+            "Day 4: toddler stage begins and walking practice starts.",
+            "Day 5: the child walks, runs, and speaks in a higher-pitched voice.",
+            "Day 6: the child is fully grown and ready to move out."
+          ]
         },
         {
-          "name": "Use the right babysitting actions",
-          "role": "Step 5",
-          "description": "Day 1: rhythmic rocking. Days 2 to 3: head pats, belly tickles, peekaboo. Days 4 to 5: circular motions to lift and spin in the backyard. Parents do not call after 8 PM."
+          "name": "Use the right babysitting actions by age",
+          "type": "Step 5",
+          "description": "Babysitting changes depending on the child's current stage.",
+          "facts": [
+            "Day 1 uses rhythmic rocking with the 3DS system.",
+            "Days 2 to 3 use head pats, belly tickles, and peekaboo.",
+            "Days 4 to 5 use circular stylus motions to lift and spin the child in the backyard.",
+            "Parents only call for crying-baby help during the first three days, and they do not call after 8:00 PM."
+          ]
         },
         {
-          "name": "Choose resident or traveler",
-          "role": "Step 6",
-          "description": "On day six, choose whether the grown child becomes an island resident or a traveler at the port for StreetPass boats. You get one more chance to edit their profile."
+          "name": "Choose resident or traveler on day six",
+          "type": "Step 6",
+          "description": "Once the child grows up, the parents immediately call you to decide the next life path.",
+          "facts": [
+            "Making the child a resident moves them into their own apartment on the island.",
+            "Sending the child away turns them into a traveler who waits at the port for StreetPass boats.",
+            "In both cases, you get one more chance to edit the child's profile before they leave home."
+          ]
         },
         {
-          "name": "Family restrictions and records",
-          "role": "Important Rules",
-          "description": "Neither parent can be deleted until the child moves out. Married Miis do not fight or divorce while raising a child. The family album in Town Hall can hold up to 50 albums."
+          "name": "Know the family restrictions and records",
+          "type": "Step 7",
+          "description": "The child system temporarily changes what the game lets you do with the family.",
+          "facts": [
+            "Once the baby is born, neither parent can be deleted until the child grows up and moves out.",
+            "Married Miis do not fight or divorce while they are actively raising a child at home.",
+            "The family album is stored under Child Info in Town Hall, which can hold up to 50 albums."
+          ]
         }
       ]
     },
     "tomodachiLifeFoodGuide": {
       "title": "Tomodachi Life Food Guide",
-      "displayType": "itemCards",
-      "intro": "Food is one of the most repeated systems in Tomodachi Life. It levels Miis, fills hunger, reveals favorite and hated foods, cures certain problems, and supports completion goals through the Town Hall collection list.",
+      "displayType": "table",
+      "intro": "Food is one of the most repeated systems in Tomodachi Life. It levels Miis, fills hunger, reveals favorite and hated foods, cures certain problems, and supports completion goals through the Town Hall collection list. The smartest way to shop is to understand the Food Mart rotation first, then learn which categories and reaction tiers are worth chasing.",
       "items": [
         {
+          "icon": "BookOpen",
           "name": "Food Mart Basics",
           "type": "Daily Routine",
-          "description": "The Food Mart is the first shop unlocked. Its stock rotates daily. Previously purchased foods are grouped into main dishes, side dishes, desserts, and beverages."
+          "description": "The Food Mart is the first shop unlocked in the game. It opens after the first Mii asks for food, and its stock rotates daily.",
+          "playerUse": "Check it every day early, because new purchases permanently expand your buy-again stock."
         },
         {
+          "icon": "Star",
           "name": "Daily Specials",
           "type": "Discovery Tool",
-          "description": "Each day the shop offers 5 Daily Specials randomly from foods you have not bought yet. Once purchased, they are added to the regular In Stock list permanently."
+          "description": "Each day the shop offers 5 Daily Specials that are randomly selected from foods you have not bought yet. Once purchased, it is added to the regular In Stock list.",
+          "playerUse": "This is the cleanest way to grow your catalog without waiting for random gifts."
         },
         {
+          "icon": "Package",
           "name": "Food Categories",
           "type": "Collection Data",
-          "description": "Main dishes: 43 total (most filling). Side dishes: 83 total. Desserts: 81 total. Beverages: 24 total (least filling). Use mains when hunger is low."
+          "description": "Main dishes: 43 total and fill hunger the most. Side dishes: 83 total and fill less than mains. Desserts: 81 total. Beverages: 24 total and fill the least hunger.",
+          "playerUse": "Use mains when hunger is low, and keep drinks or lighter foods for smaller top-ups."
         },
         {
+          "icon": "Sparkles",
           "name": "Reaction Tiers",
           "type": "Key Mechanic",
-          "description": "Super All-Time Favorite launches the Mii into space. All-Time Favorite triggers a dance. Worst causes a major happiness drop. Worst Ever empties the happiness bar completely."
+          "description": "Super All-Time Favorite launches the Mii into space. All-Time Favorite triggers a dance sequence. Worst causes a major happiness drop. Worst Ever empties the happiness bar completely.",
+          "playerUse": "These four reactions are the key milestones for food collecting and mood control."
         },
         {
+          "icon": "Heart",
+          "name": "Mood Recovery Value",
+          "type": "Practical Use",
+          "description": "A Mii's two strongest favorite-food tiers instantly cheer up a sad Mii and can also be used instead of cold medicine to cure a cold.",
+          "playerUse": "Once you know a Mii's best foods, keep them in reserve for emergencies instead of feeding them casually."
+        },
+        {
+          "icon": "Gift",
           "name": "Special Foods",
           "type": "Premium Items",
-          "description": "Special foods always trigger a very positive response and award the largest amount of money and happiness. They never appear as favorites or worst-ever reactions."
+          "description": "Special foods always trigger a very positive response and award the largest amount of money and happiness. They never appear in a Mii's favorite-food list and can never become All-Time Favorite or Worst Ever.",
+          "playerUse": "Use these when you want guaranteed upside instead of gambling on hidden preferences."
         },
         {
+          "icon": "AlertTriangle",
           "name": "Trash Food",
           "type": "Collection Note",
-          "description": "Trash food costs $0.20 and is always disliked. It cannot be bought from the Food Mart. The Tomodachi Life trash foods are: Ruined meal, Moldy Bread, Banana Peel, and Spoiled Milk."
+          "description": "Trash food always costs $0.20 and is guaranteed to be disliked. It cannot be bought from the Food Mart. The Tomodachi Life trash foods are: Ruined meal, Moldy Bread, Banana Peel, and Spoiled Milk.",
+          "playerUse": "Treat these as collection curiosities, not practical food. They are useful only for filling out item lists or chasing reaction data."
         }
       ],
       "unlockMilestones": [
         "Discover your first All-Time Favorite",
-        "Unlock a Daily Special",
-        "Complete a food category",
-        "Find a Super All-Time Favorite"
+        "Find a Super All-Time Favorite reaction",
+        "Complete a food category in the collection",
+        "Stock a Mii's top favorite as an emergency cheer-up"
       ]
     },
     "tomodachiLifeGiftsGuide": {
