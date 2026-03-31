@@ -4,23 +4,23 @@ import deepMerge from 'deepmerge'
 
 // 静态导入所有翻译文件
 import enMessages from '@/locales/en.json'
-import ruMessages from '@/locales/ru.json'
-import ptMessages from '@/locales/pt.json'
-import deMessages from '@/locales/de.json'
-import esMessages from '@/locales/es.json'
 import jaMessages from '@/locales/ja.json'
-import trMessages from '@/locales/tr.json'
+import esMessages from '@/locales/es.json'
 import frMessages from '@/locales/fr.json'
+import deMessages from '@/locales/de.json'
+import koMessages from '@/locales/ko.json'
+import itMessages from '@/locales/it.json'
+import nlMessages from '@/locales/nl.json'
 
 const messages: Record<string, any> = {
 	en: enMessages,
-	ru: ruMessages,
-	pt: ptMessages,
-	de: deMessages,
-	es: esMessages,
 	ja: jaMessages,
-	tr: trMessages,
+	es: esMessages,
 	fr: frMessages,
+	de: deMessages,
+	ko: koMessages,
+	it: itMessages,
+	nl: nlMessages,
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {

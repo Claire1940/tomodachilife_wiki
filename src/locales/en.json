@@ -10,14 +10,7 @@
       "twitterDescription": "Tomodachi Life Wiki covers Living the Dream, demo, Mii creation, island life, relationships, and daily events for Nintendo Switch."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
