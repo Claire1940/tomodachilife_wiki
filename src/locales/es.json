@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Tomodachi Life Wiki - Living the Dream, Demo y Tráiler",
+      "description": "Tomodachi Life Wiki cubre Living the Dream, fecha de lanzamiento, Demo, tráiler, creación de Mii, vida en la isla, relaciones, tiendas, artículos y eventos diarios.",
+      "keywords": "Tomodachi Life, Living the Dream, Tomodachi Life Demo, tráiler, Mii, vida en la isla, Nintendo Switch",
+      "ogTitle": "Tomodachi Life Wiki - Living the Dream, Demo y Tráiler",
+      "ogDescription": "Tomodachi Life Wiki cubre Living the Dream, fecha de lanzamiento, Demo, tráiler, creación de Mii, vida en la isla, relaciones, tiendas, artículos y eventos diarios.",
+      "twitterTitle": "Tomodachi Life Wiki - Living the Dream, Demo y Tráiler",
+      "twitterDescription": "Tomodachi Life Wiki cubre Living the Dream, Demo, creación de Mii, vida en la isla, relaciones y eventos diarios para Nintendo Switch."
     }
   },
   "nav": {
@@ -22,7 +22,7 @@
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Pre-ordena en Nintendo",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,899 +34,1097 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Simulador de vida Mii peculiar",
+    "title": "Tomodachi Life Wiki",
+    "description": "Crea una isla llena de personajes Mii, observa cómo se desarrollan amistades y romances, personaliza casas y atuendos, y mantente al día con las noticias, Demo y guías de Tomodachi Life: Living the Dream.",
+    "getFreeCodesCTA": "Obtener Demo",
+    "playOnSteamCTA": "Pre-ordena en Nintendo",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "16 de abril de 2026",
+        "label": "Fecha de lanzamiento"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "Nintendo Switch",
+        "label": "Plataforma"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "Disponible ahora",
+        "label": "Demo"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "10",
+        "label": "Idiomas compatibles"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Tomodachi Life: Living the Dream",
+    "description": "Crea una isla de personajes Mii, observa cómo surgen amistades y romances, explora los sistemas de vida en la isla y prepárate para el lanzamiento en Nintendo Switch el 16 de abril de 2026."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Tomodachi Life",
+    "titleHighlight": "Centro de guías",
+    "subtitle": "Todo lo que necesitas para construir tu isla, entender a tus Miis y experimentar todo lo que ofrece Tomodachi Life",
     "cards": [
       {
+        "icon": "Users",
+        "title": "Guía de personalidad de Tomodachi Life",
+        "description": "16 tipos de personalidad, cuestionario de controles deslizantes y química social"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "QR Codes de Tomodachi Life",
+        "description": "Importa Miis desde archivos, paquetes seleccionados y fuentes de la comunidad"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Guía para principiantes de Tomodachi Life",
+        "description": "Primeros residentes, ciclo de resolución de problemas y desbloqueos iniciales"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "icon": "Heart",
+        "title": "Guía de compatibilidad de Tomodachi Life",
+        "description": "Probador de compatibilidad, pronósticos de amistad y romance"
       },
       {
         "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "Guía de relaciones de Tomodachi Life",
+        "description": "Escalas de estado, acciones para aumentar vínculos y prevención de rupturas"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "icon": "Home",
+        "title": "Guía de matrimonio de Tomodachi Life",
+        "description": "Proceso de propuesta, consejos para minijuegos y vida en las Casas Mii"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Guía de bebés de Tomodachi Life",
+        "description": "Peticiones de bebés, ciclo de crecimiento de seis días y opciones de mudanza"
+      },
+      {
+        "icon": "Package",
+        "title": "Guía de comida de Tomodachi Life",
+        "description": "Rotación del Supermercado, niveles de reacción y conceptos básicos de colección"
+      },
+      {
+        "icon": "Gift",
+        "title": "Guía de regalos de Tomodachi Life",
+        "description": "Regalos por subir de nivel para apartamentos, momentos grupales y recuperación tras peleas"
+      },
+      {
+        "icon": "Download",
+        "title": "Guía de ropa y sombreros de Tomodachi Life",
+        "description": "428 prendas de vestir, 157 sombreros y sistema de reacciones"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guía de interiores de Tomodachi Life",
+        "description": "102 diseños, incluyendo 6 habitaciones exclusivas solo por subir de nivel"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Guía de viajeros y StreetPass de Tomodachi Life",
+        "description": "Puerto, Campamento, etiquetas StreetPass y recompensas de viajeros"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guía de artículos de importación de Tomodachi Life",
+        "description": "Tienda de importación, cuestionario de exportación y notas de la colección SpotPass"
+      },
+      {
+        "icon": "Music",
+        "title": "Canciones del Auditorio de Tomodachi Life",
+        "description": "8 tipos de canciones, edición de letras y configuración de presentaciones grupales"
       },
       {
         "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "title": "Guía de voz y frases de Tomodachi Life",
+        "description": "Controles de voz, pronunciación de nombres y tipos de frases"
       },
       {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
-      },
-      {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "icon": "ClipboardCheck",
+        "title": "Guía de desbloqueos de Tomodachi Life",
+        "description": "Mapa de progresión completo desde el tutorial hasta las Casas Mii"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+    "tomodachiLifePersonalityGuide": {
+      "title": "Guía de personalidades de Tomodachi Life",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Tomodachi Life usa cuatro rasgos editables durante la creación de un Mii para ubicar a cada residente en una de las 16 personalidades. Agrupadas en Relajado, Extrovertido, Independiente y Confiado, las personalidades afectan la química social, el estilo de los diálogos y los resultados sociales clave en tu isla.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Cómo funciona el test de personalidad",
+          "description": "La tabla de personalidad se basa en Movimiento, Habla, Expresividad y Actitud. La fila General es cosmética y no cambia el resultado final de la personalidad. Tomodachi Life mantiene los mismos 16 tipos de personalidad usados en Tomodachi Collection."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Personalidades relajadas",
+          "description": "Tipos: Empático, Optimista, Compañero, Soñador. Tono del grupo: relajado, de mente abierta, empático. El Empático es emocional y muy sensible. El Optimista se mantiene alegre. El Compañero pone a los amigos primero. El Soñador es idealista y romántico."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Personalidades extrovertidas",
+          "description": "Tipos: Innovador, Animador, Encantador, Líder. Tono del grupo: social, encantador, enérgico. El Innovador tiene estilo y es socialmente adaptable. El Animador ama la atención. El Encantador se lleva bien con casi todos. El Líder es firme y tiende a tomar el mando."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Personalidades independientes",
+          "description": "Tipos: Espíritu libre, Artista, Lobo solitario, Pensador. Tono del grupo: autosuficiente, individual, introspectivo. El Espíritu libre sigue sus propios valores. El Artista es reservado y creativo. El Lobo solitario mantiene sus emociones en privado. El Pensador es reflexivo y analítico."
+        },
+        {
+          "title": "Personalidades confiadas",
+          "description": "Tipos: Diseñador, Aventurero, Erudito, Emprendedor. Tono del grupo: organizado, motivado, enfocado. El Diseñador es refinado y orientado a objetivos. El Aventurero busca nuevos desafíos. El Erudito es muy inteligente. El Emprendedor avanza con confianza."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Los Mii con personalidades similares tienden a llevarse mejor.",
+        "El perfil de una personalidad se vuelve visible una vez que tu isla tiene al menos un residente con esa personalidad.",
+        "Las personalidades afectan el estilo de los diálogos, la química social y algunas reacciones románticas.",
+        "Puedes consultar el grupo de personalidad de un Mii en su perfil en cualquier momento."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
+    "tomodachiLifeQRCodes": {
+      "title": "QR Codes de Tomodachi Life",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "Los QR Code te permiten añadir personajes establecidos, creaciones de la comunidad y Mii ya listos sin tener que recrearlos a mano. Los mejores recursos de QR combinan grandes archivos de Mii con instrucciones de importación claras y paquetes seleccionados que puedes escanear de inmediato.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Archivo oficial de Mii en MiiWiki",
+          "description": "La categoría de QR Code de MiiWiki es un archivo de Mii creado oficialmente con más de 1,015 archivos QR en total, incluyendo a Aerith, Aonuma, Barret y muchos más. Es ideal para una búsqueda amplia cuando quieres un catálogo extenso."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Paquete del equipo de Nintendo Life",
+          "description": "Nintendo Life publicó un paquete del personal listo para escanear para Tomodachi Life, generado dentro del propio juego. Incluye ropa, decoración de habitaciones, frases, rasgos de personalidad, voz e información de la isla original."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Colección de QR de Crystal Dreams",
+          "description": "Crystal Dreams mantiene una página de QR de Tomodachi Life de larga trayectoria que funciona bien como fuente de consulta comunitaria. Es especialmente útil cuando buscas opciones creadas por fans en lugar de un archivo estrictamente oficial."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Flujo de importación de QR",
+          "description": "En el Editor de Mii: abre Opciones de QR Code/Imagen, toca Escanear QR Code, alinea el código y luego guarda el Mii. En Tomodachi Life: ve al Ayuntamiento, elige Nuevo Mii y luego transfiere el Mii guardado desde el Editor de Mii."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Escanea tu primer QR Code de Mii",
+        "Importa un personaje de Nintendo",
+        "Prueba un paquete de Mii creado por la comunidad"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
+    "tomodachiLifeBeginnerGuide": {
+      "title": "Guía para principiantes de Tomodachi Life",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "Tomodachi Life parece aleatorio al principio, pero el inicio del juego tiene un ciclo predecible: añade residentes, resuelve burbujas de problemas, desbloquea instalaciones, sube de nivel a los Mii y deja que las relaciones crezcan hasta convertirse en eventos más grandes.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Empieza con un grupo de residentes equilibrado",
+          "type": "Paso 1",
+          "description": "Crea tus primeros Mii y sigue expandiéndote pronto. Intenta tener al menos 1 Mii hombre y 1 Mii mujer rápidamente. Muchos edificios iniciales requieren una mezcla de géneros, por lo que un elenco equilibrado acelera el progreso."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Resuelve primero los problemas de burbuja negra",
+          "type": "Paso 2",
+          "description": "Las burbujas de problemas son el motor principal de progresión. Al resolver 5 problemas con 1 Mii hombre + 1 Mii mujer, se abre la Tienda de ropa. Con 10 problemas y 2 hombres + 2 mujeres, se abre la Tienda de sombreros."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Usa el dinero y las tiendas para estabilizarte",
+          "type": "Paso 3",
+          "description": "Las tiendas te dan más formas de aumentar la felicidad, resolver peticiones y definir a cada residente. Ahorra dinero pronto para que la Tienda de interiores se abra después de que dos Mii ahorren $200 o más."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Sube de nivel a los Mii lo antes posible",
+          "type": "Paso 4",
+          "description": "Cada subida de nivel desbloquea recompensas: las canciones abren la Sala de conciertos, los regalos abren la Torre de observación. Cada recompensa profundiza la experiencia de tu isla y crea nuevos eventos sociales."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "name": "Avanza hacia los sistemas de toda la isla",
+          "type": "Paso 5",
+          "description": "Con 5 Mii y 15 problemas: se abre el Tablón de clasificaciones. Con 7 Mii y 3 o más de cada género: se abre Mii News. Con 2+2 Mii y 30 problemas: se desbloquea el Test de compatibilidad."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Deja que las amistades se conviertan en romance",
+          "type": "Paso 6",
+          "description": "Una confesión de amor desbloquea el Parque y la Cafetería. Una boda desbloquea las Casas Mii. Sigue resolviendo problemas de relación para crear más oportunidades de confesiones, citas y matrimonios."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
+    "tomodachiLifeCompatibilityGuide": {
+      "title": "Guía de compatibilidad de Tomodachi Life",
       "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "intro": "La compatibilidad en Tomodachi Life es en parte una herramienta de pronóstico y en parte un planificador de relaciones. Te permite ver rápidamente quién es probable que encaje bien, qué parejas califican para el romance y qué niveles puede alcanzar una relación.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Test de compatibilidad",
+          "role": "Requisito de desbloqueo",
+          "description": "Se desbloquea cuando tienes 2 Mii hombres, 2 Mii mujeres y 30 problemas resueltos. Esta es la primera herramienta real para planificar amistades y romances en lugar de esperar a ciegas."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Requisito de cumpleaños",
+          "role": "Dato obligatorio",
+          "description": "Ambos Mii necesitan tener sus fechas de nacimiento completas guardadas en su perfil. Sin fechas de nacimiento completas, no se puede probar la compatibilidad. Configúralas pronto para los residentes que te interesen."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Pronóstico de amistad",
+          "role": "Parejas del mismo género",
+          "description": "Se usa para parejas del mismo género, familiares o parejas de distinto género en diferentes grupos de edad. Muestra la perspectiva de Trabajo/Estudio, Charlas y Ocio para la próxima semana."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Pronóstico de romance",
+          "role": "Parejas de distinto género",
+          "description": "Se usa para parejas de distinto género en el mismo grupo de edad. Añade el pronóstico de Amor junto con otras categorías semanales. Es ideal para elegir qué parejas impulsar hacia las confesiones y el matrimonio."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "La escala del pronóstico va desde sol radiante (mejor) hasta tormenta total (peor).",
+        "Los Mii con personalidades similares tienden a llevarse mejor.",
+        "Los vales de viaje pueden subir una relación uno o dos niveles automáticamente.",
+        "Una confesión rechazada puede bajar ambos lados hasta tres niveles.",
+        "Revisa la compatibilidad antes de forzar el romance; las confesiones fallidas son costosas."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
+    "tomodachiLifeRelationshipGuide": {
+      "title": "Guía de relaciones de Tomodachi Life",
       "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "intro": "Tomodachi Life funciona con un impulso social oculto. Cada amistad, romance y vínculo familiar se sitúa en una escala de estatus visible, y esas escalas afectan directamente si los Mii se convierten en mejores amigos, empiezan a salir, proponen matrimonio, se pelean o rompen. La forma más rápida de gestionar el drama de la isla es aprender qué estatus importan, qué acciones los elevan y qué errores hacen que colapsen.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "icon": "Users",
+          "name": "Categorías de relaciones",
+          "description": "El juego rastrea siete categorías principales: Cónyuge, Familia, Hermanos, Pareja, Mejor amigo, Amigos y Exparejas/Excónyuges. Cada categoría utiliza su propia terminología para la fuerza de la relación, y los vínculos más fuertes se sitúan hacia el verde, mientras que los más débiles hacia el púrpura."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "icon": "MessageCircle",
+          "name": "Escala de amistad",
+          "description": "Para Amigos, Familia y Hermanos en la versión de NA, la escala va del más fuerte al más débil: Best bud, Good buddy, Great pal, Good pal, Getting along OK, Kinda getting along, Not getting along. Si una pareja cae al fondo, las peleas se vuelven más peligrosas."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "icon": "Heart",
+          "name": "Señales de romance y matrimonio",
+          "description": "Los estatus fuertes de Pareja incluyen Let's get married!, Super in love, Totally in love, Very much in love. Los estatus fuertes de Cónyuge incluyen Soul mate, Super happy, Totally happy, Very happy. Estas son las palabras de estatus que debes revisar antes de esperar una confesión o propuesta."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "icon": "TrendingUp",
+          "name": "Formas de mejorar una relación",
+          "description": "Las formas más seguras de mejorar los vínculos son los consejos de relación positivos, las citas y los boletos de viaje. Si un Mii pregunta qué piensas de una relación, decir que se llevan genial eleva el estatus. Unas vacaciones con boleto de viaje elevan a la pareja uno o dos niveles automáticamente."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "Cómo se deterioran las relaciones",
+          "description": "Las discusiones, las reconciliaciones fallidas y las confesiones rechazadas pueden dañar los vínculos rápidamente. Si una conversación sale mal, puede convertirse en una pelea, y si una pelea no se resuelve, la pareja puede volver a ser conocidos. Una confesión rechazada puede bajar a ambos lados hasta tres niveles."
+        },
+        {
+          "icon": "Shield",
+          "name": "Gestionar el riesgo de ruptura",
+          "description": "Si una pareja pide romper y les dices que intenten solucionar las cosas, una reconciliación exitosa restablece una relación de noviazgo negativa a su nivel predeterminado. Esta regla de recuperación se aplica a las parejas con estatus negativo, no a los cónyuges que piden el divorcio."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Diles a los Mii preocupados que se llevan genial",
+        "Usa boletos de viaje para aumentar los niveles de vínculo",
+        "Resuelve las discusiones antes de que escalen a rupturas",
+        "Las confesiones rechazadas bajan a ambos lados hasta tres niveles"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
+    "tomodachiLifeMarriageGuide": {
+      "title": "Guía de matrimonio de Tomodachi Life",
+      "displayType": "steps",
+      "intro": "El matrimonio en Tomodachi Life no es una escena aleatoria que simplemente esperas. Primero, una pareja que sale debe mantenerse estable el tiempo suficiente para activar una solicitud de propuesta. Luego, debes ayudar con un minijuego de propuesta basado en el ritmo. Una vez que la propuesta tiene éxito, la pareja se muda a las Casas Mii, desbloquea la vida matrimonial y, eventualmente, puede pedir un bebé.",
+      "steps": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "Mantén a la pareja estable el tiempo suficiente",
+          "type": "Paso 1",
+          "description": "Una solicitud de matrimonio suele aparecer después de que la pareja haya estado junta durante algún tiempo y ambos Mii mantengan una buena relación entre sí.",
+          "facts": [
+            "El tiempo de la propuesta puede variar desde meses hasta, muy raramente, menos de una hora.",
+            "Muy raramente, una solicitud de propuesta puede aparecer incluso cuando la pareja todavía está en el nivel de noviazgo predeterminado."
+          ]
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Acepta la solicitud de propuesta",
+          "type": "Paso 2",
+          "description": "Cuando una pareja tiene un problema de amor y dice que quiere proponer matrimonio, elige ayudar en lugar de posponerlo.",
+          "facts": [
+            "Decir 'Ahora no' no arruina instantáneamente la relación, pero la solicitud puede desaparecer si esperas demasiado.",
+            "El Mii que propone pregunta directamente si debería proponer matrimonio."
+          ]
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "Elige la configuración de la propuesta",
+          "type": "Paso 3",
+          "description": "Antes de que comience el minijuego, eliges dónde ocurre la propuesta y si el proponente debe cambiarse de ropa.",
+          "facts": [
+            "Las cuatro ubicaciones de la propuesta son: Espectáculo de fuegos artificiales, Estación de tren, Parque de diversiones y Restaurante de lujo.",
+            "Cada ubicación tiene sus propias interrupciones que pueden romper el flujo del ritmo."
+          ]
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Gana el minijuego de propuesta",
+          "type": "Paso 4",
+          "description": "Durante la propuesta, toca el botón del corazón solo cuando la pareja esté pensando en el proponente.",
+          "facts": [
+            "Debes acertar el ritmo cuatro veces.",
+            "Si cometes tres errores, la propuesta falla.",
+            "Las burbujas de pensamiento pueden cambiar rápido, por lo que un ritmo rápido y limpio importa más que tocar seguido."
+          ]
+        },
+        {
+          "name": "Maneja correctamente a las parejas de niños",
+          "type": "Paso 5",
+          "description": "Si la pareja son niños, no pueden completar la boda a menos que uses un Madurador.",
+          "facts": [
+            "Después de una propuesta exitosa, una pareja de niños recibe un Madurador como regalo.",
+            "Si te niegas a usarlo, la boda se cancela."
+          ]
+        },
+        {
+          "name": "Mira la boda y la mudanza post-matrimonio",
+          "type": "Paso 6",
+          "description": "Una propuesta exitosa conduce a la boda, luego a una luna de miel y después a una mudanza a las Casas Mii.",
+          "facts": [
+            "Después del matrimonio, la pareja pasa su luna de miel en un país aleatorio.",
+            "Regresan con un recuerdo y se instalan en una casa recién construida.",
+            "Pueden alternar entre mostrarse en su casa y en sus departamentos."
+          ]
+        },
+        {
+          "name": "Desbloquea los resultados de la vida matrimonial",
+          "type": "Paso 7",
+          "description": "El matrimonio abre la capa familiar a largo plazo del juego, pero no hace que la relación sea permanente.",
+          "facts": [
+            "Una pareja casada puede pedir un bebé más tarde si la configuración de bebés está activada.",
+            "El divorcio sigue siendo posible después del matrimonio."
+          ]
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
+    "tomodachiLifeBabyGuide": {
+      "title": "Guía de bebés de Tomodachi Life",
+      "displayType": "steps",
+      "intro": "Los bebés solo aparecen después de que una pareja ya está casada y vive en las Casas Mii. Una vez que se cumple esa condición, el jugador controla si se permiten los nacimientos, si se acepta una solicitud específica, cómo se personaliza al bebé, cómo se cría al niño y si se queda en la isla o se va como viajero.",
+      "steps": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Activa los nacimientos de bebés y mantén el matrimonio positivo",
+          "type": "Paso 1",
+          "description": "Los bebés solo pueden nacer si los nacimientos están activados en la Alcaldía y la pareja casada tiene una relación positiva.",
+          "facts": [
+            "La solicitud aparece como un problema de amor de uno de los miembros de la pareja casada.",
+            "Una pareja ya debe estar viviendo en las Casas Mii antes de poder tener un hijo."
+          ]
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Acepta la solicitud de bebé",
+          "type": "Paso 2",
+          "description": "Cuando un cónyuge dice que ha estado pensando en tener un bebé, puedes aprobarlo o rechazarlo.",
+          "facts": [
+            "Si se aprueba, el bebé llega aproximadamente uno o dos días después.",
+            "Una pareja casada puede tener varios hijos, pero solo puede criar activamente a un niño en casa a la vez.",
+            "Si desactivas los nacimientos de bebés antes del parto, el nacimiento pendiente se cancela."
+          ]
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "name": "Personaliza al recién nacido",
+          "type": "Paso 3",
+          "description": "Al nacer, la madre hace una breve serie de preguntas que deciden los primeros ajustes del perfil del bebé.",
+          "facts": [
+            "Puedes elegir Niño, Niña o dejar que el género sea aleatorio.",
+            "La apariencia predeterminada del bebé es una mezcla de los rasgos de la madre y el padre.",
+            "Puedes aceptar el nombre sugerido, pedir otro o ingresar el tuyo.",
+            "La personalidad del bebé se puede configurar como la de papá, como la de mamá o aleatoria."
+          ]
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "name": "Sigue el ciclo de crecimiento de seis días",
+          "type": "Paso 4",
+          "description": "Los niños crecen en etapas diarias visibles y están listos para irse de casa al sexto día.",
+          "facts": [
+            "Día 1: recién nacido en brazos, moisés o cochecito en las salidas.",
+            "Día 2: comienza a gatear.",
+            "Día 3: el cabello comienza a crecer y el bebé puede ponerse de pie brevemente.",
+            "Día 4: comienza la etapa de infante y la práctica para caminar.",
+            "Día 5: el niño camina, corre y habla con una voz más aguda.",
+            "Día 6: el niño ha crecido por completo y está listo para mudarse."
+          ]
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
+          "name": "Usa las acciones de cuidado adecuadas según la edad",
+          "type": "Paso 5",
+          "description": "El cuidado del bebé cambia según la etapa actual del niño.",
+          "facts": [
+            "El día 1 utiliza el balanceo rítmico con el sistema 3DS.",
+            "Los días 2 a 3 se usan caricias en la cabeza, cosquillas en la barriga y el juego de '¿dónde está el bebé?'.",
+            "Los días 4 a 5 se usan movimientos circulares del lápiz táctil para levantar y girar al niño en el patio trasero.",
+            "Los padres solo piden ayuda si el bebé llora durante los primeros tres días, y no llaman después de las 8:00 PM."
+          ]
         },
         {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
+          "name": "Elige residente o viajero en el sexto día",
+          "type": "Paso 6",
+          "description": "Una vez que el niño crece, los padres te llaman de inmediato para decidir su próximo camino de vida.",
+          "facts": [
+            "Convertir al niño en residente lo traslada a su propio departamento en la isla.",
+            "Enviar al niño lejos lo convierte en un viajero que espera en el puerto a los barcos de StreetPass.",
+            "En ambos casos, tienes una oportunidad más de editar el perfil del niño antes de que se vaya de casa."
+          ]
         },
         {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "Conoce las restricciones y registros familiares",
+          "type": "Paso 7",
+          "description": "El sistema de niños cambia temporalmente lo que el juego te permite hacer con la familia.",
+          "facts": [
+            "Una vez que nace el bebé, ninguno de los padres puede ser eliminado hasta que el niño crezca y se mude.",
+            "Los Mii casados no se pelean ni se divorcian mientras crían activamente a un niño en casa.",
+            "El álbum familiar se guarda en Información de hijos en la Alcaldía, que puede contener hasta 50 álbumes."
+          ]
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+    "tomodachiLifeFoodGuide": {
+      "title": "Guía de comida de Tomodachi Life",
+      "displayType": "table",
+      "intro": "La comida es uno de los sistemas más recurrentes en Tomodachi Life. Sube el nivel de los Mii, sacia el hambre, revela comidas favoritas y odiadas, cura ciertos problemas y ayuda a completar objetivos a través de la lista de colección del Ayuntamiento. La forma más inteligente de comprar es entender primero la rotación del Mercado de alimentos y luego aprender qué categorías y niveles de reacción vale la pena buscar.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "icon": "BookOpen",
+          "name": "Conceptos básicos del Mercado de alimentos",
+          "type": "Rutina diaria",
+          "description": "El Mercado de alimentos es la primera tienda que se desbloquea en el juego. Abre después de que el primer Mii pida comida y su inventario rota diariamente.",
+          "playerUse": "Visítalo temprano todos los días, ya que las nuevas compras amplían permanentemente tu inventario de artículos disponibles para volver a comprar."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "icon": "Star",
+          "name": "Ofertas del día",
+          "type": "Herramienta de descubrimiento",
+          "description": "Cada día, la tienda ofrece 5 Ofertas del día que se seleccionan al azar de entre los alimentos que aún no has comprado. Una vez comprados, se añaden a la lista regular de artículos en existencia.",
+          "playerUse": "Esta es la forma más sencilla de ampliar tu catálogo sin tener que esperar a recibir regalos aleatorios."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "icon": "Package",
+          "name": "Categorías de alimentos",
+          "type": "Datos de colección",
+          "description": "Platos principales: 43 en total y son los que más sacian el hambre. Guarniciones: 83 en total y sacian menos que los principales. Postres: 81 en total. Bebidas: 24 en total y son las que menos sacian el hambre.",
+          "playerUse": "Usa platos principales cuando el hambre sea mucha, y reserva las bebidas o alimentos ligeros para pequeños refrigerios."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "icon": "Sparkles",
+          "name": "Niveles de reacción",
+          "type": "Mecánica clave",
+          "description": "Súper ultra favorito lanza al Mii al espacio. Ultra favorito activa una secuencia de baile. No le gusta nada provoca una gran caída de felicidad. Lo peor del mundo vacía la barra de felicidad por completo.",
+          "playerUse": "Estas cuatro reacciones son los hitos clave para la colección de alimentos y el control del estado de ánimo."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "icon": "Heart",
+          "name": "Valor de recuperación de ánimo",
+          "type": "Uso práctico",
+          "description": "Los dos niveles de comida favorita más fuertes de un Mii animan instantáneamente a un Mii triste y también pueden usarse en lugar de medicina para curar un resfriado.",
+          "playerUse": "Una vez que conozcas las mejores comidas de un Mii, guárdalas para emergencias en lugar de dárselas de forma casual."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "icon": "Gift",
+          "name": "Alimentos especiales",
+          "type": "Artículos premium",
+          "description": "Los alimentos especiales siempre provocan una respuesta muy positiva y otorgan la mayor cantidad de dinero y felicidad. Nunca aparecen en la lista de comida favorita de un Mii y nunca pueden convertirse en Ultra favorito o Lo peor del mundo.",
+          "playerUse": "Úsalos cuando quieras un beneficio garantizado en lugar de arriesgarte con preferencias ocultas."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "Comida basura",
+          "type": "Nota de colección",
+          "description": "La comida basura siempre cuesta $0.20 y es seguro que no gustará. No se puede comprar en el Mercado de alimentos. Las comidas basura de Tomodachi Life son: Comida quemada, Pan mohoso, Cáscara de plátano y Leche cortada.",
+          "playerUse": "Trátalos como curiosidades de colección, no como comida práctica. Solo son útiles para completar listas de artículos o buscar datos de reacciones."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Descubre tu primer Ultra favorito",
+        "Encuentra una reacción de Súper ultra favorito",
+        "Completa una categoría de alimentos en la colección",
+        "Guarda el alimento favorito de un Mii para animarlo en emergencias"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
+    "tomodachiLifeGiftsGuide": {
+      "title": "Guía de regalos de Tomodachi Life",
       "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "intro": "En Tomodachi Life, los regalos por subir de nivel son diferentes de los regalos consumibles normales. Un Mii puede tener hasta 8 regalos por subir de nivel a la vez, y las versiones no japonesas incluyen 28 opciones en total. Algunos regalos crean escenas en los apartamentos, otros impulsan actividades grupales, variedad al aire libre o la recuperación tras un conflicto.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "icon": "Gift",
+          "name": "Cómo funciona el sistema de regalos",
+          "description": "Cada subida de nivel puede otorgar un regalo. Un solo Mii puede tener hasta 8 regalos; añadir un noveno significa reemplazar uno existente. Los Miis suelen probar un regalo recién asignado justo después de que sales de su apartamento."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "icon": "Home",
+          "name": "Mejores regalos para escenas recurrentes en el apartamento",
+          "description": "El Set de maquillaje, la Laptop, el Espejo y el Set de estudio crean escenas frecuentes a solas en el interior. La Laptop puede atraer hasta 3 visitantes y a veces parece fallar. El Set de maquillaje cambia temporalmente la apariencia de los ojos de un Mii."
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "icon": "Users",
+          "name": "Mejores regalos para momentos grupales",
+          "description": "El CD reúne hasta 4 Miis y solo el dueño necesita tenerlo. El Wii U atrae hasta 4 con reacciones distintas de victoria y derrota. Los cupones de Alquiler de gato y Alquiler de perro traen mascotas que atraen visitantes al apartamento."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "icon": "Gamepad2",
+          "name": "Mejores regalos para variedad al aire libre",
+          "description": "La Guitarra toca diferentes melodías en el apartamento o en la fuente. La Caña de pescar envía a un Mii en un bote de remos. El Detector de metales encuentra monedas o basura en la playa. El Balón de fútbol, la Patineta y el Bate de béisbol añaden actividad al mapa."
+        },
+        {
+          "icon": "Shield",
+          "name": "Mejor regalo para recuperarse de peleas",
+          "description": "El Saco de boxeo es el único regalo de nivel que los Miis enojados pueden usar después de una pelea. Aparece con más frecuencia cuando un Mii está molesto, lo que lo convierte en la opción más práctica para islas con muchas rivalidades o peleas grandes frecuentes."
+        },
+        {
+          "icon": "Star",
+          "name": "Estrategia fácil de regalos",
+          "description": "Elige el CD, Wii U o el Cupón de alquiler de gato para islas sociales. Elige el Set de maquillaje, el Espejo o la Laptop para apartamentos con mucha personalidad. Mantén al menos un Saco de boxeo en rotación para una recuperación de conflictos más fluida."
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "Dale a un Mii su primer regalo por subir de nivel",
+        "Desbloquea la Torre de observación con una recompensa de regalo",
+        "Acumula 8 regalos para un solo Mii",
+        "Usa un Saco de boxeo para calmar a un Mii enojado por una pelea"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
+    "tomodachiLifeClothingAndHats": {
+      "title": "Guía de ropa y sombreros de Tomodachi Life",
       "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "intro": "Tomodachi Life separa los atuendos completos de los accesorios para la cabeza. La ropa se compra en la Tienda de ropa y los sombreros en la Tienda de sombreros, con rotaciones diarias, inventario de temporada y acceso permanente al catálogo una vez adquiridos. La ropa suma un total de 428 tipos de artículos y 3,341 colores; los sombreros suman 157 artículos y 1,111 colores.",
       "priorities": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "icon": "ClipboardCheck",
+          "name": "Desbloqueo de la Tienda de ropa",
+          "priority": "Inicio del juego",
+          "description": "Se abre con 1 residente hombre + 1 mujer y 5 problemas resueltos. Las Ofertas del día se actualizan con hasta 5 atuendos aleatorios cada día. La ropa de temporada rota cada 3 meses. Los artículos adquiridos permanecen disponibles permanentemente."
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "icon": "Package",
+          "name": "Desbloqueo de la Tienda de sombreros",
+          "priority": "Inicio del juego",
+          "description": "Se abre con 2 residentes hombres + 2 mujeres y 10 problemas resueltos. Muestra 3 sombreros diferentes diariamente en las Ofertas del día. Los sombreros comprados permanecen disponibles para siempre en la sección de artículos en existencia. Los sombreros de temporada también rotan cada 3 meses."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "icon": "Keyboard",
+          "name": "Categorías de ropa",
+          "priority": "Colección",
+          "description": "428 artículos en total: Masculino (75), Femenino (109), Unisex (69), Ropa formal (69), Disfraces (87). Una vez que se adquiere un atuendo o color, permanece disponible permanentemente en el catálogo."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "icon": "Eye",
+          "name": "Categorías de sombreros",
+          "priority": "Colección",
+          "description": "157 artículos en total: Sombreros regulares (69), Sombreros de disfraz (32), Accesorios para el cabello (56). Los sombreros y los atuendos son capas separadas; un sombrero puede combinarse con muchas mezclas de atuendos."
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
+          "icon": "Heart",
+          "name": "Reacciones a la ropa y sombreros",
+          "priority": "Sistema de retroalimentación",
+          "description": "Le encanta: El Mii gira en el aire. Le gusta mucho: Salta. Le gusta: Manos en las caderas. No le gusta mucho: Inclina la cabeza. No le gusta nada: Mira hacia otro lado. A diferencia de la comida, no se aplican reacciones de súper favorito o lo peor del mundo."
         },
         {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "icon": "Download",
+          "name": "Ropa de importación e inventario de temporada",
+          "priority": "Avanzado",
+          "description": "Los desbloqueos de estilos raros provienen de eventos especiales, viajes espaciales y Ropa de importación a través de StreetPass. Los barcos de viajeros que llegan pueden traer atuendos y sombreros exclusivos de otras islas a tu catálogo."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
+    "tomodachiLifeInteriorsGuide": {
+      "title": "Tomodachi Life Interiors Guide",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "intro": "Tomodachi Life includes 102 interior designs in the main release. The Interiors shop unlocks once you have at least $200 in pocket money, and six level-up-only interiors cannot be purchased normally: Family, Modern Asian, Natural Wood, Plant, Polka Dot, and Tiled.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Level-Up Only Interiors",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "Family",
+              "description": "An ordinary family-style room. Exclusive to level-up rewards. Cannot be purchased from the normal Interiors shop."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Modern Asian",
+              "description": "A clean, stylish room built around a shoes-off, carefully kept look. Exclusive to level-up rewards."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
+              "title": "Natural Wood",
+              "description": "A soothing wood-focused room, warm and timeless. Works well for relaxed or nature-themed islands."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Plant",
+              "description": "A bright plant-heavy room built around greenery and an airy atmosphere. Good for cheerful, easygoing Miis."
+            },
+            {
+              "title": "Polka Dot",
+              "description": "A lively room with bright polka-dot energy. Great for comedy islands and bold room variety."
+            },
+            {
+              "title": "Tiled",
+              "description": "A tile-focused room with a distinctive clean pattern and strong visual identity. Exclusive to level-up rewards."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Shop-Bought Highlights",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "Fairy-tale Castle ($500)",
+              "description": "A magical, high-concept room that turns an apartment into a fantasy castle scene. One of the most visually dramatic interiors."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
-        },
-        {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "How to Unlock the Interiors Shop",
+              "description": "The Interiors Shop unlocks once you have at least $200 in pocket money across any two Miis."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
+    "tomodachiLifeTravelersAndStreetPass": {
+      "title": "Tomodachi Life Travelers and StreetPass Guide",
       "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "intro": "Travelers are special Miis that move between islands through StreetPass. The Port handles departures and arrivals, while the Campground is where incoming travelers stay for the night.",
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "How do I create my own traveler in Tomodachi Life?",
+          "answer": "Two married Miis must have a baby. Once that child grows up on day six, choose to send them away to travel instead of making them a resident. StreetPass must be enabled on both the system and for Tomodachi Life."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "How do the Port and Campground unlock in Tomodachi Life?",
+          "answer": "The Port unlocks after at least 1 StreetPass or after sending someone to travel. The Campground unlocks when you send or receive a traveler. The Campground can hold up to 10 tents at once."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "What happens after a Tomodachi Life StreetPass tag?",
+          "answer": "Each StreetPass can send 1 traveler from your Port queue. If the other island also has a traveler waiting, 1 can arrive on your island. The Port can report up to 10 arriving boats at a time and the dock holds up to 50 travelers total."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "How do I find and help a newly arrived Tomodachi Life traveler?",
+          "answer": "New travelers may appear at the fountain, park, observation tower, beach, café, or amusement park. Accept their request to camp. At 4:00 PM they retire to the Campground and set up a tent."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "What problems can Tomodachi Life campground travelers have?",
+          "answer": "Dirty travelers need a bath set. Homesick travelers need a music box or head pat. Hungry travelers need food or drinks. Stomach bugs need stomach medicine. Hot head needs cold medicine. Solved problems can earn special food for 1 to 5 Play Coins."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "What rewards do Tomodachi Life travelers leave behind?",
+          "answer": "Well-helped travelers may leave a letter and a treasure gift. Possible gifts include tissues, copper coin, silver coin, and gold coin. Arriving boats can also bring another island's Import Wear exclusive outfits and hats."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
+    "tomodachiLifeImportWear": {
+      "title": "Tomodachi Life Import Wear Guide",
+      "subtitle": "Track how Import Wear opens, how export clothing is chosen, and how StreetPass and SpotPass shaped the rare clothing loop.",
+      "displayType": "table",
+      "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions, which is why it matters most for completionists.",
+      "tableHeaders": [
+        "Topic",
+        "Details",
+        "Player Takeaway"
+      ],
+      "items": [
+        {
+          "topic": "Unlock Trigger",
+          "details": "Import Wear opens when you first receive clothing through StreetPass or SpotPass, or when you first choose your island's export clothing.",
+          "playerTakeaway": "You usually enter the import loop as soon as you start using StreetPass or finish the export setup tied to the Hats shop."
+        },
+        {
+          "topic": "What the Shop Sells",
+          "details": "Import Wear stocks imported clothing and hats brought in from other islands through StreetPass and from official SpotPass distribution.",
+          "playerTakeaway": "This is the shop to watch if you want outfits and headwear that do not come from the normal shop rotation."
+        },
+        {
+          "topic": "Export Wear Choice",
+          "details": "After the Hats shop opens, the export quiz offers three clothing options. You may retake the quiz one time, but once one export item is chosen, it cannot be changed.",
+          "playerTakeaway": "Your island only gets one permanent export outfit choice per save, so completion-focused players should decide carefully before locking it in."
+        },
+        {
+          "topic": "How Imported Stock Stays",
+          "details": "Your chosen export outfit travels to other islands through StreetPass and stays in their Import Wear catalog forever. Imported items you receive are added as permanent shop stock once obtained.",
+          "playerTakeaway": "Even if you do not buy an imported item immediately, getting it into the shop catalog is the important part."
+        },
+        {
+          "topic": "SpotPass Special Imports",
+          "details": "24 SpotPass items were documented historically, originally rotating on half-month intervals. When the same item returned the following year, remaining colors were added.",
+          "playerTakeaway": "Full SpotPass-era completion originally required long-term play across repeated distribution windows."
+        },
+        {
+          "topic": "Current Completion Notes",
+          "details": "SpotPass ended on April 8, 2024. The Schoolgirl Uniform is the remaining SpotPass-era item still referenced in community documentation. Final regional import outfits for Japan, Korea, and PAL regions were all intended for female Miis.",
+          "playerTakeaway": "Modern completion runs rely on what is already stocked on a save file and on StreetPass-traded imports from other players."
+        }
+      ]
+    },
+    "tomodachiLifeConcertHall": {
+      "title": "Tomodachi Life Concert Hall Songs",
+      "subtitle": "Learn every song style, how lyric editing works, and how solo and group performances are built.",
       "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+      "intro": "The Concert Hall turns leveled-up Miis into performers. Once a Mii learns a song genre, you can rewrite lyrics, change outfits, build groups, and turn ordinary islanders into full comedy acts or parody bands.",
+      "items": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "heading": "Song Types and Default Songs",
+          "type": "International Version",
+          "icon": "Music",
+          "summary": "International versions have a larger song set than the Japanese release.",
+          "points": [
+            "8 song types in NTSC, PAL, and Korean versions: Metal, Pop, Rock & Roll, Rap, Ballad, Opera, Techno, and Musical.",
+            "6 song types in the Japanese version: Metal, Pop, Rock & Roll, Rap, Opera, and Enka.",
+            "Default songs: Dragon's Fire (Metal), Loving Things (Pop), Real Loud Bark (Rock & Roll), Livin' the Dream (Rap), Maybe, Baby (Ballad), The Heart's Descent (Opera), Operation Robodachi (Techno), and Reach for the Stars (Musical)."
+          ]
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "heading": "What You Can Edit in a Performance",
+          "type": "Creative Tools",
+          "icon": "Pencil",
+          "summary": "Concert Hall customization goes beyond simply pressing play.",
+          "points": [
+            "You can change a song's lyrics and title.",
+            "You can change the singer's outfit before the performance.",
+            "You can add extra Miis as background dancers.",
+            "This makes Concert Hall work both as a music feature and as a joke-making tool for custom island stories."
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "heading": "How Group Performances Work",
+          "type": "Multi-Mii Feature",
+          "icon": "Users",
+          "summary": "Groups unlock once multiple Miis know the same song.",
+          "points": [
+            "Groups can contain 2 to 7 Miis.",
+            "Every Mii in the group must know the same song before that song can be performed together.",
+            "The order in which Miis are placed affects their roles in the performance.",
+            "Songs like Metal and Rock & Roll use one main vocalist with the others as instrumentalists; songs like Pop and Musical have all members sing.",
+            "The game allows up to 50 groups and 50 saved group songs."
+          ]
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "heading": "Why Concert Hall Is Memorable",
+          "type": "Fan Favorite",
+          "icon": "Star",
+          "summary": "Nintendo itself spotlighted custom Concert Hall performances.",
+          "points": [
+            "Nintendo UK ran a 2015 Friendship Fiesta Concert Hall Contest built around player-made Tomodachi Life songs.",
+            "The official feature highlighted how custom lyrics and bizarre performance energy made Concert Hall one of the game's most shareable systems.",
+            "For creative players, Concert Hall is a strong mix of music utility and fan-favorite island storytelling."
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+    "tomodachiLifeVoiceCatchphrases": {
+      "title": "Guía de voces y frases de Tomodachi Life",
+      "subtitle": "Ajusta cómo suenan los Miis, cómo se pronuncian sus nombres y qué dicen cuando están felices, tristes, enojados, preocupados o simplemente siendo ellos mismos.",
+      "displayType": "accordion",
+      "intro": "Tomodachi Life crea la ilusión de personalidad mediante síntesis de voz, globos de texto y frases escritas por el jugador. Los ajustes de voz de un Mii, los datos de pronunciación del nombre, su frase característica y sus líneas emocionales trabajan en conjunto para que el diálogo en el departamento se sienta personal.",
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "type": "Configuración de voz",
+          "title": "Controles de voz y voces predefinidas",
+          "icon": "Volume2",
+          "summary": "Cada Mii puede usar una voz predefinida, una voz aleatoria o una voz totalmente personalizada.",
+          "points": [
+            "6 voces predefinidas: niño, niña, hombre adulto, mujer adulta, anciano y anciana.",
+            "Las voces personalizadas usan 6 controles: Tono, Velocidad, Calidad, Timbre, Acento y Entonación.",
+            "El tono controla qué tan aguda o grave suena la voz; la velocidad controla qué tan rápido habla el Mii.",
+            "La calidad controla qué tan clara suena la voz; el timbre afecta qué tan aguda es la voz al inicio de una oración.",
+            "El acento afecta qué tan grave es la voz al final de una oración; la entonación cambia el contorno de la frase."
+          ]
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "type": "Ajuste de nombre",
+          "title": "Sistema de pronunciación de nombres",
+          "icon": "AlignLeft",
+          "summary": "Tomodachi Life separa los nombres escritos de la pronunciación hablada.",
+          "points": [
+            "El nombre y el apellido permiten hasta 15 caracteres escritos; el apodo permite hasta 10.",
+            "La pronunciación se puede ingresar por separado del nombre visible.",
+            "Los campos de pronunciación permiten hasta 30 caracteres para el nombre y apellido, y 20 para el apodo.",
+            "Esta función de entrada de pronunciación no está presente en la versión japonesa.",
+            "Este sistema permite a los jugadores corregir ortografías inusuales o nombres de broma sin cambiar el nombre que se muestra."
+          ]
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "type": "Tipos de frases",
+          "title": "Cinco espacios para frases de ánimo cotidiano",
+          "icon": "MessageSquare",
+          "summary": "Los Miis tienen cinco espacios principales para frases vinculados al estado de ánimo diario y a estados de problemas.",
+          "points": [
+            "Los cinco tipos de frases son: Frase característica, Frase de alegría, Frase de tristeza, Frase de enojo y Frase de preocupación.",
+            "La frase característica se otorga como recompensa al subir de nivel.",
+            "Las cuatro frases emocionales se otorgan cuando un Mii tiene un estado de problema relacionado.",
+            "En Tomodachi Life, una vez que se han otorgado esas frases emocionales, se pueden editar más tarde mientras el Mii esté despierto.",
+            "En las versiones internacionales, cada tipo de frase tiene 8 animaciones acompañantes, y cualquier animación se puede asignar a cualquier tipo de frase."
+          ]
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "type": "Sistema de diálogo",
+          "title": "Globos de texto en el departamento y diálogos aleatorios",
+          "icon": "MessageCircle",
+          "summary": "El globo de texto al entrar al departamento es donde reside gran parte de la personalidad del juego.",
+          "points": [
+            "Cuando entras al departamento de un Mii, este puede decir su frase característica, una línea aleatoria o una frase de ánimo relacionada con estar enfermo, preocupado, triste, feliz o enojado.",
+            "Si el Mii no tiene problemas activos, verás un globo de texto normal con puntos suspensivos.",
+            "Al tocar ese globo, el Mii dirá una línea de diálogo aleatoria.",
+            "Después de tocar el globo de texto, aparecerá uno nuevo cada hora."
+          ]
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
+    "tomodachiLifeUnlockGuide": {
+      "title": "Guía de desbloqueo de Tomodachi Life",
+      "subtitle": "Sigue el camino más rápido y directo para abrir tiendas, sistemas sociales, viviendas familiares y ubicaciones de StreetPass.",
       "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "intro": "Tomodachi Life desbloquea su isla por capas. El tamaño de la población, los problemas resueltos, el dinero ahorrado, los regalos por subir de nivel, los eventos románticos, el matrimonio y la actividad de StreetPass impulsan el progreso de la isla.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Comienza con lo básico",
+          "description": "Tu isla comienza con ubicaciones cotidianas principales ya abiertas. La Fuente está vinculada al flujo del tutorial inicial.",
+          "unlocks": [
+            "Departamentos Mii",
+            "Playa",
+            "Ayuntamiento",
+            "Tienda de comida",
+            "Fuente (tutorial)"
+          ]
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Haz crecer la isla y resuelve los primeros problemas",
+          "description": "La primera expansión significativa ocurre al añadir Miis tanto hombres como mujeres y al completar las primeras peticiones en los departamentos.",
+          "unlocks": [
+            "Tienda de ropa: 1 hombre + 1 mujer + 5 problemas resueltos",
+            "Tienda de sombreros: 2 hombres + 2 mujeres + 10 problemas",
+            "Noticias Mii: 7 residentes con al menos 3 hombres + 3 mujeres"
+          ]
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Usa dinero, niveles y tesoros",
+          "description": "Esta fase desbloquea edificios de apoyo fundamentales para interiores, música, clasificaciones, pruebas de compatibilidad y venta de objetos de valor.",
+          "unlocks": [
+            "Tienda de interiores: ahorra más de $200",
+            "Sala de conciertos: dale una canción a un Mii que haya subido de nivel",
+            "Torre de observación: dale un regalo a un Mii que haya subido de nivel",
+            "Tablón de clasificaciones: 5+ Miis + 15 problemas",
+            "Probador de compatibilidad: 2 hombres + 2 mujeres + 30 problemas",
+            "Casa de empeños: obtén 5 tesoros diferentes"
+          ]
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Alcanza el hito de población de mitad de juego",
+          "description": "Una isla más grande abre más herramientas de gestión y contenido.",
+          "unlocks": [
+            "Estudio fotográfico: 10+ residentes + 50 problemas resueltos",
+            "Nintendo 3DS Image Share: toma una foto del departamento de un Mii"
+          ]
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Impulsa el romance",
+          "description": "Una vez que comienzan los eventos de confesión, se abren varias áreas de ocio al mismo tiempo.",
+          "unlocks": [
+            "Parque: haz que un residente se declare",
+            "Parque de diversiones: haz que un residente se declare",
+            "Cafetería: haz que un Mii se declare a otro Mii"
+          ]
+        },
+        {
+          "title": "Completa la capa de familia y viajes",
+          "description": "El matrimonio y la actividad de StreetPass abren los sistemas de familia y viajeros de la etapa final del juego.",
+          "unlocks": [
+            "Casas Mii: celebra la boda de un residente",
+            "Puerto: activa StreetPass + visita primero la tienda de sombreros",
+            "Tienda de importación: StreetPass, SpotPass o activación de cuestionario de exportación",
+            "Campamento: envía a un viajero o recibe a un viajero que llegue"
+          ]
         }
       ]
     }
   },
   "faq": {
     "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Tomodachi Life",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es Tomodachi Life: Living the Dream?",
+        "answer": "Tomodachi Life: Living the Dream es la próxima secuela para Nintendo Switch del clásico de 3DS. Se lanza el 16 de abril de 2026, admite hasta 2 jugadores e incluye un Demo descargable gratuito disponible ahora."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Hay un Demo de Tomodachi Life disponible?",
+        "answer": "Sí. Un Demo gratuito de Tomodachi Life: Living the Dream está disponible para descargar en Nintendo Switch ahora mismo. El Demo te permite comenzar a construir tu isla antes del lanzamiento del juego completo."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Cuántos idiomas admite Tomodachi Life?",
+        "answer": "Tomodachi Life: Living the Dream admite 10 idiomas: japonés, inglés, francés, alemán, italiano, español, coreano, neerlandés, chino simplificado y chino tradicional."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Cómo funcionan las personalidades Mii en Tomodachi Life?",
+        "answer": "Durante la creación de un Mii, cuatro controles deslizantes sitúan a cada residente en uno de los 16 tipos de personalidad agrupados como: Tranquilo, Extrovertido, Independiente y Confiado. Las personalidades afectan la química social, el estilo de los diálogos y los resultados románticos."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Cómo obtengo QR Codes para Tomodachi Life?",
+        "answer": "Puedes encontrar Mii QR Codes en el archivo oficial de MiiWiki, la página comunitaria de Crystal Dreams y los paquetes seleccionados de Nintendo Life. Escanéalos en el Mii Maker y luego impórtalos mediante la opción Nuevo Mii del Ayuntamiento."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Cuál es el mejor consejo para principiantes en Tomodachi Life?",
+        "answer": "Prioriza resolver las peticiones de problemas con burbujas negras tan pronto como aparezcan. Cada problema resuelto desbloquea nuevos edificios, expande tu isla y crea más eventos sociales entre los residentes."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para explorar Tomodachi Life?",
+    "description": "¡Únete a la comunidad de Tomodachi Life en Reddit para obtener Mii QR Codes, consejos y debates!",
+    "joinCommunity": "Unirse a la comunidad de Reddit",
+    "joinGame": "Reserva en Nintendo"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Tomodachi Life Wiki",
+    "description": "Tu centro de recursos completo para guías de Tomodachi Life: Living the Dream, personalidades Mii, QR Codes, relaciones y consejos sobre la vida en la isla.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Comunidad de Reddit",
+    "twitter": "Foro de GameFAQs",
+    "steamCommunity": "Nintendo eShop",
+    "steamStore": "Sitio oficial de Nintendo",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Tomodachi Life Wiki. No afiliado con Nintendo ni HAL Laboratory.",
     "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
+    "release": {
+      "title": "Lanzamiento de Tomodachi Life",
+      "description": "Todo sobre la fecha de lanzamiento de Tomodachi Life: Living the Dream, bonos de reserva, precio y disponibilidad de copias físicas. Mantente al día con las últimas noticias de lanzamiento.",
+      "metaTitle": "Fecha de lanzamiento y guía de reserva de Tomodachi Life",
+      "metaDescription": "Guía completa sobre la fecha de lanzamiento de Tomodachi Life: Living the Dream, bonos de reserva, precio y detalles de la copia física. Obtén las últimas noticias del lanzamiento.",
+      "categoryLabel": "NOTICIAS DE LANZAMIENTO",
+      "whatIs": "¿Qué es Tomodachi Life: Living the Dream?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream es la muy esperada secuela del Tomodachi Life original para Nintendo 3DS. Trae la encantadora simulación de vida Mii a Nintendo Switch con nuevas funciones, contenido y experiencias sociales.",
+      "why": "¿Por qué seguir las noticias de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Asegura tu copia",
+        "step1Description": "Sabe exactamente cuándo y dónde reservar para garantizar tu copia física o digital",
+        "step2Title": "Reclama bonos de reserva",
+        "step2Description": "Descubre qué bonos exclusivos y DLC vienen con las compras anticipadas",
+        "step3Title": "Planifica tu día de lanzamiento",
+        "step3Description": "Mantente informado sobre las fechas de lanzamiento, lanzamientos regionales y tamaños de descarga"
+      },
+      "featured": "Noticias destacadas de lanzamiento",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "demo": {
+      "title": "Demo de Tomodachi Life",
+      "description": "Guías completas para el Demo de Tomodachi Life: Living the Dream, incluyendo cómo descargarlo, qué contenido está disponible y cómo reiniciarlo para un nuevo comienzo.",
+      "metaTitle": "Guía del Demo de Tomodachi Life - Descarga y reinicio",
+      "metaDescription": "Todo sobre el Demo de Tomodachi Life: Living the Dream. Aprende cómo descargarlo, qué funciones están disponibles y cómo reiniciar el Demo para una nueva partida.",
+      "categoryLabel": "GUÍAS DEL DEMO",
+      "whatIs": "¿Qué es el Demo de Tomodachi Life?",
+      "whatIsDescription": "El Demo de Tomodachi Life: Living the Dream es una versión de prueba gratuita disponible en la Nintendo eShop. Permite a los jugadores experimentar funciones clave de la vida en la isla, interacciones Mii y la jugabilidad principal antes del lanzamiento completo.",
+      "why": "¿Por qué jugar el Demo?",
+      "whySteps": {
+        "step1Title": "Experimenta antes de comprar",
+        "step1Description": "Prueba la jugabilidad principal de la isla Mii sin compromiso",
+        "step2Title": "Domina lo básico",
+        "step2Description": "Aprende los controles, la rutina diaria y las mecánicas clave antes del lanzamiento",
+        "step3Title": "Reinicia para jugar más",
+        "step3Description": "Descubre cómo reiniciar el Demo y explóralo varias veces"
+      },
+      "featured": "Guías destacadas del Demo",
+      "all": "Todos los artículos del Demo"
+    },
+    "switch": {
+      "title": "Tomodachi Life Switch",
+      "description": "Todos los detalles sobre Tomodachi Life en Nintendo Switch, incluyendo las funciones de juego de Living the Dream, contenido exclusivo de Switch y cómo se compara con la versión original de 3DS.",
+      "metaTitle": "Tomodachi Life Switch - Funciones y guía de Living the Dream",
+      "metaDescription": "Guía completa de Tomodachi Life: Living the Dream en Nintendo Switch. Descubre nuevas funciones, cambios en la jugabilidad y qué hace especial a la versión de Switch.",
+      "categoryLabel": "VERSIÓN DE SWITCH",
+      "whatIs": "¿Qué es Tomodachi Life en Switch?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream trae la querida simulación de vida en la isla Mii a Nintendo Switch. La versión de Switch introduce funciones en línea, personalización ampliada y nuevas mecánicas sociales que no se encontraban en el título original de 3DS.",
+      "why": "¿Por qué jugar en Switch?",
+      "whySteps": {
+        "step1Title": "Funciones de plataforma moderna",
+        "step1Description": "Disfruta de gráficos mejorados, conectividad en línea y contenido exclusivo de Switch",
+        "step2Title": "Comparte con amigos",
+        "step2Description": "Visita las islas de otros jugadores y comparte Mii QR Codes globalmente",
+        "step3Title": "Jugabilidad ampliada",
+        "step3Description": "Experimenta nuevos eventos, artículos e interacciones exclusivas de la versión de Switch"
+      },
+      "featured": "Guías destacadas de Switch",
+      "all": "Todos los artículos de Switch"
+    },
+    "personality": {
+      "title": "Personalidad de Tomodachi Life",
+      "description": "Guías completas de todos los tipos de personalidad de Tomodachi Life, la tabla de personalidades, la compatibilidad entre Miis y cómo los rasgos de personalidad afectan las relaciones en la isla.",
+      "metaTitle": "Guía de personalidad de Tomodachi Life - Todos los tipos y tabla",
+      "metaDescription": "Domina las personalidades de Tomodachi Life con nuestra guía completa que cubre todos los tipos de personalidad, la tabla de personalidades, la compatibilidad y cómo los rasgos definen el comportamiento de los Mii.",
+      "categoryLabel": "GUÍA DE PERSONALIDAD",
+      "whatIs": "¿Qué son las personalidades de Tomodachi Life?",
+      "whatIsDescription": "Tomodachi Life utiliza un sistema de personalidad con múltiples tipos distintos que definen cómo interactúan los Mii, forman amistades y se enamoran. Cada tipo de personalidad influye en los diálogos, pasatiempos y la compatibilidad con otros Mii.",
+      "why": "¿Por qué aprender sobre las personalidades de Tomodachi Life?",
+      "whySteps": {
+        "step1Title": "Entabla amistades compatibles",
+        "step1Description": "Entiende qué tipos de personalidad conectan mejor para fomentar las amistades",
+        "step2Title": "Despierta el romance",
+        "step2Description": "Combina personalidades compatibles para aumentar las posibilidades de que se formen parejas Mii",
+        "step3Title": "Personaliza tu isla",
+        "step3Description": "Elige combinaciones de personalidad que creen las interacciones más entretenidas"
+      },
+      "featured": "Guías de personalidad destacadas",
+      "all": "Todos los artículos sobre personalidad"
+    },
+    "mii": {
+      "title": "Mii de Tomodachi Life",
+      "description": "Todo sobre los Mii de Tomodachi Life, incluyendo QR Codes, cuántos Miis puedes tener, opciones de pintura facial y consejos para crear a los residentes perfectos para tu isla.",
+      "metaTitle": "Guía de Mii de Tomodachi Life - QR Codes, pintura facial y más",
+      "metaDescription": "Guía completa de Mii de Tomodachi Life que cubre QR Codes, límites de Mii, personalización de pintura facial y consejos para crear el mejor elenco de la isla.",
+      "categoryLabel": "GUÍAS DE MII",
+      "whatIs": "¿Qué son los Mii de Tomodachi Life?",
+      "whatIsDescription": "Los Mii son los personajes personalizables en el corazón de Tomodachi Life. Puedes crearlos, importarlos mediante QR Codes y personalizarlos con rostros, personalidades y voces únicas. Cada Mii vive en tu isla y genera eventos e historias únicas.",
+      "why": "¿Por qué dominar a los Mii de Tomodachi Life?",
+      "whySteps": {
+        "step1Title": "Crea el elenco de tus sueños",
+        "step1Description": "Importa a tus personajes favoritos usando QR Codes o créalos desde cero",
+        "step2Title": "Maximiza los eventos de la isla",
+        "step2Description": "La mezcla adecuada de Miis crea relaciones e historias más interesantes",
+        "step3Title": "Personaliza cada detalle",
+        "step3Description": "Personaliza la pintura facial, las voces y las apariencias para que cada Mii sea único"
+      },
+      "featured": "Guías de Mii destacadas",
+      "all": "Todos los artículos sobre Mii"
+    },
+    "mod": {
+      "title": "Mod de Tomodachi Life",
+      "description": "Guías de mods de Tomodachi Life, editores de guardado, configuración de emuladores e información de ROMs. Explora opciones de personalización y formas de ampliar tu experiencia en Tomodachi Life.",
+      "metaTitle": "Guía de mods, editor de guardado y emuladores de Tomodachi Life",
+      "metaDescription": "Guía completa de mods de Tomodachi Life, editores de guardado, configuración de emuladores y detalles de ROMs. Personaliza tu juego y explora toda la comunidad de modding.",
+      "categoryLabel": "MODS Y HERRAMIENTAS",
+      "whatIs": "¿Qué son los mods de Tomodachi Life?",
+      "whatIsDescription": "Los mods y editores de guardado de Tomodachi Life permiten a los jugadores personalizar el juego más allá de sus opciones estándar. Desde reemplazos de texturas hasta herramientas de edición de guardado y configuraciones de emuladores, la comunidad de modding ha creado numerosas formas de mejorar y personalizar la experiencia.",
+      "why": "¿Por qué usar mods de Tomodachi Life?",
+      "whySteps": {
+        "step1Title": "Desbloquea nuevas posibilidades",
+        "step1Description": "Accede a contenido y personalizaciones que no están disponibles en el juego base",
+        "step2Title": "Juega en cualquier plataforma",
+        "step2Description": "Usa emuladores para disfrutar de Tomodachi Life en PC u otros dispositivos",
+        "step3Title": "Edita tu partida guardada",
+        "step3Description": "Modifica los datos de la isla, las estadísticas de los Mii y los recursos con herramientas de edición de guardado"
+      },
+      "featured": "Guías de mods destacadas",
+      "all": "Todos los artículos sobre mods"
+    },
+    "guide": {
+      "title": "Guía de Tomodachi Life",
+      "description": "Guías completas de Tomodachi Life que cubren cómo conseguir dinero rápidamente, hacer que los Miis se enamoren, conseguir tinte para el cabello, elegir nombres para la isla y dominar cada aspecto de la vida en la isla.",
+      "metaTitle": "Guía de Tomodachi Life - Consejos, dinero, romance y más",
+      "metaDescription": "Domina Tomodachi Life con nuestras guías completas sobre cómo ganar dinero, mecánicas de romance, ubicación de objetos, nombres para la isla y los mejores consejos de juego.",
       "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+      "whatIs": "¿Qué son las guías de Tomodachi Life?",
+      "whatIsDescription": "Las guías de Tomodachi Life cubren todos los aspectos del juego, desde ganar dinero y entablar romances hasta encontrar objetos raros y crear el nombre perfecto para la isla. Estas guías ayudan a los jugadores a aprovechar al máximo su experiencia en Tomodachi Life.",
+      "why": "¿Por qué usar las guías de Tomodachi Life?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Domina la economía",
+        "step1Description": "Aprende estrategias comprobadas para ganar dinero rápidamente y comprar artículos premium",
+        "step2Title": "Crea romances perfectos",
+        "step2Description": "Entiende las mecánicas detrás de las relaciones y el matrimonio de los Mii",
+        "step3Title": "Encuentra todos los objetos",
+        "step3Description": "Localiza objetos raros como tinte para el cabello y regalos especiales para mantener felices a tus Miis"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
-    },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
-      "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
-    },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
-      "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
-    },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
-      "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
-    },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
-      "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
-    },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
-      "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Guías de juego destacadas",
+      "all": "Todos los artículos de guías"
     }
   }
 }

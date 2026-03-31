@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "description": "Das Tomodachi Life Wiki umfasst Living the Dream, Veröffentlichungsdatum, Demo, Trailer, Mii-Erstellung, Inselleben, Beziehungen, Läden, Gegenstände und tägliche Ereignisse.",
+      "keywords": "Tomodachi Life, Living the Dream, Tomodachi Life Demo, Trailer, Mii, Inselleben, Nintendo Switch",
+      "ogTitle": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "ogDescription": "Das Tomodachi Life Wiki umfasst Living the Dream, Veröffentlichungsdatum, Demo, Trailer, Mii-Erstellung, Inselleben, Beziehungen, Läden, Gegenstände und tägliche Ereignisse.",
+      "twitterTitle": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "twitterDescription": "Das Tomodachi Life Wiki umfasst Living the Dream, Demo, Mii-Erstellung, Inselleben, Beziehungen und tägliche Ereignisse für Nintendo Switch."
     }
   },
   "nav": {
@@ -17,772 +17,916 @@
     "personality": "Persönlichkeit",
     "mii": "Mii",
     "mod": "Mod",
-    "guide": "Leitfaden"
+    "guide": "Guide"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Nintendo vorbestellen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Skurriler Mii-Lebenssimulator",
+    "title": "Tomodachi Life Wiki",
+    "description": "Baue eine Insel voller Mii-Charaktere auf, beobachte, wie sich Freundschaften und Romanzen entwickeln, passe Häuser und Outfits an und bleibe auf dem Laufenden mit Tomodachi Life: Living the Dream News, Demo und Guides.",
+    "getFreeCodesCTA": "Demo holen",
+    "playOnSteamCTA": "Auf Nintendo vorbestellen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "16. April 2026",
+        "label": "Veröffentlichungsdatum"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "Nintendo Switch",
+        "label": "Plattform"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "Jetzt verfügbar",
+        "label": "Demo"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "10",
+        "label": "Unterstützte Sprachen"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Tomodachi Life: Living the Dream",
+    "description": "Baue eine Insel voller Mii-Charaktere auf, beobachte, wie sich Freundschaften und Romanzen entwickeln, erkunde die Systeme des Insellebens und bereite dich auf den Nintendo Switch Release am 16. April 2026 vor."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Tomodachi Life",
+    "titleHighlight": "Guide-Zentrum",
+    "subtitle": "Alles, was du brauchst, um deine Insel aufzubauen, deine Miis zu verstehen und das gesamte Tomodachi Life zu erleben",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "Users",
+        "title": "Tomodachi Life Persönlichkeits-Guide",
+        "description": "16 Persönlichkeitstypen, Schieberegler-Quiz und soziale Chemie"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
+        "icon": "Keyboard",
+        "title": "Tomodachi Life QR Codes",
+        "description": "Importiere Miis aus Archiven, kuratierten Paketen und Community-Quellen"
       },
       {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
+        "icon": "BookOpen",
+        "title": "Tomodachi Life Einsteiger-Guide",
+        "description": "Erste Bewohner, Problemlösungsschleife und frühe Freischaltungen"
       },
       {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
+        "icon": "Heart",
+        "title": "Tomodachi Life Kompatibilitäts-Guide",
+        "description": "Kompatibilitätstester, Freundschafts- und Romanzen-Prognosen"
       },
       {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
+        "icon": "MessageCircle",
+        "title": "Tomodachi Life Beziehungs-Guide",
+        "description": "Statusstufen, beziehungsfördernde Aktionen und Trennungsprävention"
       },
       {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Home",
+        "title": "Tomodachi Life Heirats-Guide",
+        "description": "Ablauf des Heiratsantrags, Minispiel-Tipps und das Leben in den Mii-Häusern"
       },
       {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "icon": "Sparkles",
+        "title": "Tomodachi Life Baby-Guide",
+        "description": "Baby-Wünsche, sechstägiger Wachstumszyklus und Auszugsentscheidungen"
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "Package",
+        "title": "Tomodachi Life Essen-Guide",
+        "description": "Lebensmittelmarkt-Rotation, Reaktionsstufen und Grundlagen der Sammlung"
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "Gift",
+        "title": "Tomodachi Life Geschenke-Guide",
+        "description": "Level-Up-Geschenke für Apartments, Gruppenmomente und Erholung nach Streitigkeiten"
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "Download",
+        "title": "Tomodachi Life Kleidung- und Hüte-Guide",
+        "description": "428 Kleidungsstücke, 157 Hüte und Reaktionssystem"
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
+        "icon": "Eye",
+        "title": "Tomodachi Life Inneneinrichtungs-Guide",
+        "description": "102 Designs, einschließlich 6 exklusiver Räume, die nur durch Level-Ups verfügbar sind"
       },
       {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "icon": "ArrowRight",
+        "title": "Tomodachi Life Reisende- und StreetPass-Guide",
+        "description": "Hafen, Campingplatz, StreetPass-Tags und Belohnungen für Reisende"
       },
       {
         "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "title": "Tomodachi Life Importwaren-Guide",
+        "description": "Importladen, Export-Quiz und SpotPass-Sammlungshinweise"
+      },
+      {
+        "icon": "Music",
+        "title": "Tomodachi Life Konzerthalle-Lieder",
+        "description": "8 Liedtypen, Bearbeiten von Songtexten und Einrichtung von Gruppenauftritten"
+      },
+      {
+        "icon": "Settings",
+        "title": "Tomodachi Life Stimmen- und Schlagwort-Guide",
+        "description": "Stimmen-Schieberegler, Namensaussprache und Schlagworttypen"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Tomodachi Life Freischaltungs-Guide",
+        "description": "Vollständige Fortschrittskarte vom Tutorial bis zu den Mii-Häusern"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "tomodachiLifePersonalityGuide": {
+      "title": "Tomodachi Life Personality Guide",
+      "displayType": "steps",
+      "intro": "Tomodachi Life uses four editable traits during Mii creation to place each resident into one of 16 personalities. Grouped into Easygoing, Outgoing, Independent, and Confident, personalities affect social chemistry, dialogue flavor, and key social outcomes on your island.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "title": "How the personality quiz works",
+          "description": "The personality chart is built from Movement, Speech, Expressiveness, and Attitude. The Overall row is cosmetic and does not change the final personality result. Tomodachi Life keeps the same 16 personality types used in Tomodachi Collection."
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "title": "Easygoing personalities",
+          "description": "Types: Softie, Optimist, Buddy, Dreamer. Group tone: relaxed, open-minded, empathetic. Softie is emotional and highly empathetic. Optimist stays upbeat. Buddy puts friends first. Dreamer is idealistic and romantic."
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
+          "title": "Outgoing personalities",
+          "description": "Types: Trendsetter, Entertainer, Charmer, Leader. Group tone: social, charming, energetic. Trendsetter is stylish and socially adaptable. Entertainer loves attention. Charmer gets along with almost anyone. Leader is assertive and tends to take charge."
         },
         {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
+          "title": "Independent personalities",
+          "description": "Types: Free Spirit, Artist, Lone Wolf, Thinker. Group tone: self-sufficient, individual, introspective. Free Spirit follows personal values. Artist is quiet and creative. Lone Wolf keeps emotions private. Thinker is reflective and analytical."
         },
         {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "title": "Confident personalities",
+          "description": "Types: Designer, Adventurer, Brainiac, Go-Getter. Group tone: organized, motivated, focused. Designer is polished and goal-oriented. Adventurer seeks new challenges. Brainiac is highly intelligent. Go-Getter pushes ahead with confidence."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
+        "Miis with similar personalities tend to like each other more.",
+        "A personality profile becomes viewable once your island has at least one resident with that personality.",
+        "Personalities affect dialogue flavor, social chemistry, and some romance reactions.",
+        "You can check a Mii's personality group in their profile at any time."
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
+    "tomodachiLifeQRCodes": {
+      "title": "Tomodachi Life QR Codes",
+      "displayType": "cards",
+      "intro": "QR codes let you add established characters, community creations, and ready-made Miis without rebuilding them by hand. The best QR resources combine large Mii archives with clear import instructions and curated packs you can scan immediately.",
+      "cards": [
         {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
+          "name": "Official Mii Archive on MiiWiki",
+          "description": "MiiWiki's QR code category is an official-created Mii archive with over 1,015 total QR files, including Aerith, Aonuma, Barret, and many more. Best for broad discovery when you want a large back catalog."
         },
         {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
+          "name": "Nintendo Life Team Pack",
+          "description": "Nintendo Life published a ready-to-scan staff pack for Tomodachi Life, generated inside the game itself. Carries over clothing, room décor, catchphrases, personality traits, voice, and original-island information."
         },
         {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
+          "name": "Crystal Dreams QR Collection",
+          "description": "Crystal Dreams keeps a long-running Tomodachi Life QR page that works well as a community browse source. Especially useful when you want fan-made picks instead of a strict official archive."
         },
         {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
+          "name": "QR Import Flow",
+          "description": "In Mii Maker: open QR Code/Image Options, tap Scan QR Code, align the code, then save the Mii. In Tomodachi Life: go to Town Hall, choose New Mii, then transfer the saved Mii from Mii Maker."
         }
       ],
-      "priority": [
+      "milestones": [
+        "Scan your first Mii QR code",
+        "Import a Nintendo character",
+        "Try a community-made Mii pack"
+      ]
+    },
+    "tomodachiLifeBeginnerGuide": {
+      "title": "Tomodachi Life Beginner Guide",
+      "displayType": "itemCards",
+      "intro": "Tomodachi Life feels random at first, but the early game has a readable loop: add residents, solve problem bubbles, unlock facilities, level up Miis, and let relationships snowball into bigger events.",
+      "items": [
         {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
+          "name": "Start with a balanced resident pool",
+          "type": "Step 1",
+          "description": "Create your first Miis and keep expanding early. Aim for at least 1 male and 1 female Mii quickly. Many early buildings require a gender mix, so a balanced cast speeds up progress."
         },
         {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "name": "Solve black-bubble problems first",
+          "type": "Step 2",
+          "description": "Problem bubbles are the main progression engine. At 5 solved problems with 1 male + 1 female Mii, the Clothing Store opens. At 10 problems with 2 male + 2 female, the Hat Store opens."
         },
         {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "name": "Use money and shops to stabilize",
+          "type": "Step 3",
+          "description": "Shops give you more ways to raise happiness, solve requests, and shape each resident. Save money early so the Interiors Store opens after two Miis save $200 or more."
+        },
+        {
+          "name": "Level up Miis as soon as possible",
+          "type": "Step 4",
+          "description": "Every level-up unlocks rewards: songs open the Concert Hall, gifts open the Observation Tower. Each reward deepens your island's sandbox and creates new social events."
+        },
+        {
+          "name": "Push into island-wide systems",
+          "type": "Step 5",
+          "description": "At 5 Miis and 15 problems: Rankings Board opens. At 7 Miis with 3+ of each gender: Mii News opens. At 2+2 Miis and 30 problems: Compatibility Tester unlocks."
+        },
+        {
+          "name": "Let friendships turn into romance",
+          "type": "Step 6",
+          "description": "A love confession unlocks the Park and Café. A wedding unlocks Mii Homes. Keep solving relationship problems to create more chances for confessions, dates, and marriages."
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "tomodachiLifeCompatibilityGuide": {
+      "title": "Tomodachi Life Compatibility Guide",
+      "displayType": "solutionCards",
+      "intro": "Compatibility in Tomodachi Life is part forecast tool and part relationship planner. It gives you a fast way to see who is likely to mesh well, which pairs qualify for romance checks, and what status ladder a relationship can climb.",
+      "solutions": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Compatibility Tester",
+          "role": "Unlock Requirement",
+          "description": "Unlocks when you have 2 male Miis, 2 female Miis, and 30 solved problems. This is the first real tool for planning friendships and romance instead of waiting blindly."
         },
         {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "name": "Birthday Requirement",
+          "role": "Mandatory Input",
+          "description": "Both Miis need full birthdays saved in their profile. Without full birthdays, compatibility cannot be tested. Set them early for residents you care about."
         },
         {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Friendship Forecast",
+          "role": "Same-Gender Pairs",
+          "description": "Used for same-gender pairs, family pairs, or different age group opposite-gender pairs. Shows the next week's Work/Study, Chats, and Leisure outlook."
         },
         {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Romance Forecast",
+          "role": "Opposite-Gender Pairs",
+          "description": "Used for opposite-gender pairs in the same age group. Adds the Love forecast alongside other weekly categories. Best for choosing which pairings to push toward confessions and marriage."
         }
+      ],
+      "managementTips": [
+        "Forecast scale runs from full sun (best) to full storm (worst).",
+        "Miis with similar personalities tend to like each other more.",
+        "Travel tickets can raise a relationship by one or two levels automatically.",
+        "A rejected confession can drop both sides by as many as three levels.",
+        "Check compatibility before pushing romance — failed confessions are costly."
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
+    "tomodachiLifeRelationshipGuide": {
+      "title": "Tomodachi Life Beziehungs-Guide",
+      "displayType": "cards",
+      "intro": "Tomodachi Life basiert auf verborgener sozialer Dynamik. Jede Freundschaft, Romanze und Familienbindung befindet sich auf einer sichtbaren Statusleiter, und diese Leitern beeinflussen direkt, ob Miis beste Freunde werden, anfangen auszugehen, einen Antrag machen, streiten oder sich trennen. Der schnellste Weg, das Insel-Drama zu bewältigen, besteht darin, zu lernen, welche Statuswerte wichtig sind, welche Aktionen sie erhöhen und welche Fehler sie zum Einsturz bringen.",
+      "cards": [
+        {
+          "icon": "Users",
+          "name": "Beziehungskategorien",
+          "description": "Das Spiel verfolgt sieben Hauptkategorien: Ehepartner, Familie, Geschwister, Schatz, Bester Freund, Freunde und Ex-Schatz/Ex-Ehepartner. Jede Kategorie verwendet ihre eigene Wortwahl für die Beziehungsstärke, wobei stärkere Bindungen im grünen Bereich und schwächere Bindungen im lila Bereich liegen."
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Freundschaftsleiter",
+          "description": "Für Freunde, Familie und Geschwister reicht die Leiter von der stärksten zur schwächsten Stufe: Bester Kumpel, Guter Kumpel, Toller Kumpel, Netter Kumpel, Kommen gut klar, Kommen einigermaßen klar, Kommen nicht gut klar. Wenn ein Paar auf die unterste Stufe rutscht, werden Streitereien gefährlicher."
+        },
+        {
+          "icon": "Heart",
+          "name": "Romantik- und Heiratssignale",
+          "description": "Starke Schatz-Statuswerte sind: Wollen wir heiraten!, Super verliebt, Total verliebt, Sehr verliebt. Starke Ehepartner-Statuswerte sind: Seelenverwandte, Superglücklich, Total glücklich, Sehr glücklich. Dies sind die Statusbegriffe, auf die man achten sollte, bevor man ein Geständnis oder einen Antrag erwartet."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Wege zur Verbesserung einer Beziehung",
+          "description": "Die sichersten Wege, Bindungen zu verbessern, sind positiver Beziehungsrat, Dates und Reisegutscheine. Wenn ein Mii fragt, was du von einer Beziehung hältst, erhöht die Antwort, dass sie toll zusammenpassen, den Status. Ein Urlaub durch einen Reisegutschein erhöht das Level des Paares automatisch um ein oder zwei Stufen."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "Wie Beziehungen zerbrechen",
+          "description": "Streitigkeiten, gescheiterte Versöhnungen und abgelehnte Geständnisse können Bindungen schnell beschädigen. Wenn ein Gespräch schlecht verläuft, kann es in einen Streit ausarten, und wenn ein Kampf nicht gelöst wird, kann das Paar wieder zu Bekannten werden. Ein abgelehntes Geständnis kann beide Seiten um bis zu drei Stufen herabstufen."
+        },
+        {
+          "icon": "Shield",
+          "name": "Trennungsrisiko verwalten",
+          "description": "Wenn ein Schatz um eine Trennung bittet und du ihm sagst, er solle versuchen, es zu klären, setzt eine erfolgreiche Versöhnung eine negative Dating-Beziehung auf ihr Standardlevel zurück. Diese Erholungsregel gilt für Schätze mit negativem Status, nicht für Ehepartner, die um die Scheidung bitten."
+        }
+      ],
+      "highlights": [
+        "Sage besorgten Miis, dass sie toll zusammenpassen",
+        "Nutze Reisegutscheine, um das Bindungslevel zu erhöhen",
+        "Löse Streitigkeiten, bevor sie in Trennungen eskalieren",
+        "Abgelehnte Geständnisse lassen den Status beider Seiten um bis zu drei Stufen sinken"
+      ]
+    },
+    "tomodachiLifeMarriageGuide": {
+      "title": "Tomodachi Life Heirats-Guide",
+      "displayType": "steps",
+      "intro": "Die Heirat in Tomodachi Life ist keine zufällige Zwischensequenz, auf die man einfach wartet. Zuerst muss ein Paar lange genug stabil bleiben, um eine Heiratsantrag-Anfrage auszulösen. Dann musst du bei einem timing-basierten Heiratsantrag-Minispiel helfen. Sobald der Antrag erfolgreich ist, zieht das Paar in die Mii-Häuser, schaltet das Eheleben frei und kann schließlich nach einem Baby fragen.",
       "steps": [
         {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "name": "Das Paar lange genug stabil halten",
+          "type": "Schritt 1",
+          "description": "Eine Heiratsanfrage erscheint normalerweise, nachdem das Paar einige Zeit zusammen war und beide Miis eine gute Beziehung zueinander pflegen.",
+          "facts": [
+            "Der Zeitpunkt für einen Antrag kann von Monaten bis hin zu, sehr selten, unter einer Stunde reichen.",
+            "In sehr seltenen Fällen kann eine Heiratsanfrage erscheinen, selbst wenn das Paar noch auf dem Standard-Dating-Level ist."
+          ]
         },
         {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "name": "Die Heiratsantrag-Anfrage annehmen",
+          "type": "Schritt 2",
+          "description": "Wenn ein Schatz ein Liebesproblem hat und sagt, dass er einen Antrag machen möchte, entscheide dich zu helfen, anstatt es aufzuschieben.",
+          "facts": [
+            "Die Antwort „Nicht jetzt“ führt nicht sofort zum Scheitern der Beziehung, aber die Anfrage kann verschwinden, wenn du zu lange wartest.",
+            "Der Mii, der den Antrag plant, fragt direkt, ob er den Antrag machen soll."
+          ]
         },
         {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "name": "Das Setting für den Antrag wählen",
+          "type": "Schritt 3",
+          "description": "Bevor das Minispiel beginnt, wählst du aus, wo der Antrag stattfindet und ob der Antragsteller seine Kleidung wechseln soll.",
+          "facts": [
+            "Die vier Orte für den Antrag sind: Feuerwerk, Bahnhof, Freizeitpark und Edles Restaurant.",
+            "Jeder Ort hat seine eigenen Unterbrechungen, die den Timing-Fluss stören können."
+          ]
         },
         {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
+          "name": "Das Heiratsantrag-Minispiel gewinnen",
+          "type": "Schritt 4",
+          "description": "Tippe während des Antrags nur dann auf den Herz-Button, wenn der Partner gerade an den Antragsteller denkt.",
+          "facts": [
+            "Du musst das Timing viermal richtig treffen.",
+            "Wenn du drei Fehler machst, scheitert der Antrag.",
+            "Gedankenblasen können schnell wechseln, daher ist präzises Timing wichtiger als häufiges Tippen."
+          ]
+        },
+        {
+          "name": "Mit Kinder-Paaren richtig umgehen",
+          "type": "Schritt 5",
+          "description": "Wenn das Paar aus Kindern besteht, können sie die Hochzeit nicht vollziehen, es sei denn, du verwendest ein Altersspray.",
+          "facts": [
+            "Nach einem erfolgreichen Antrag erhält ein Kinder-Paar ein Altersspray als Geschenk.",
+            "Wenn du dich weigerst, es zu benutzen, wird die Hochzeit abgesagt."
+          ]
+        },
+        {
+          "name": "Die Hochzeit und den Umzug nach der Heirat beobachten",
+          "type": "Schritt 6",
+          "description": "Ein erfolgreicher Antrag führt zur Hochzeit, dann zu den Flitterwochen und schließlich zum Einzug in die Mii-Häuser.",
+          "facts": [
+            "Nach der Heirat verbringt das Paar seine Flitterwochen in einem zufälligen Land.",
+            "Sie kehren mit einem Souvenir zurück und lassen sich in einem neu gebauten Haus nieder.",
+            "Sie können dazwischen wechseln, ob sie in ihrem Haus oder in ihren Apartments angezeigt werden."
+          ]
+        },
+        {
+          "name": "Ergebnisse des Ehelebens freischalten",
+          "type": "Schritt 7",
+          "description": "Die Ehe eröffnet die langfristige Familienebene des Spiels, macht die Beziehung aber nicht dauerhaft.",
+          "facts": [
+            "Ein verheiratetes Paar kann später nach einem Baby fragen, wenn die Baby-Einstellung aktiviert ist.",
+            "Eine Scheidung ist auch nach der Heirat noch möglich."
+          ]
         }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "tomodachiLifeBabyGuide": {
+      "title": "Tomodachi Life Baby-Guide",
+      "displayType": "steps",
+      "intro": "Babys erscheinen erst, wenn ein Paar bereits verheiratet ist und in den Mii-Häusern lebt. Sobald diese Bedingung erfüllt ist, kontrolliert der Spieler, ob Geburten erlaubt sind, ob eine spezifische Anfrage angenommen wird, wie das Baby angepasst wird, wie das Kind aufgezogen wird und ob es auf der Insel bleibt oder als Reisender aufbricht.",
+      "steps": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "name": "Babygeburten einschalten und die Ehe positiv halten",
+          "type": "Schritt 1",
+          "description": "Babys können nur entstehen, wenn Babygeburten im Rathaus aktiviert sind und das Ehepaar eine positive Beziehung hat.",
+          "facts": [
+            "Die Anfrage erscheint als Liebesproblem eines Mitglieds des Ehepaars.",
+            "Ein Paar muss bereits in den Mii-Häusern leben, bevor es ein Kind bekommen kann."
+          ]
+        },
+        {
+          "name": "Die Baby-Anfrage annehmen",
+          "type": "Schritt 2",
+          "description": "Wenn ein Ehepartner sagt, dass er darüber nachgedacht hat, ein Baby zu bekommen, kannst du zustimmen oder ablehnen.",
+          "facts": [
+            "Bei Zustimmung trifft das Baby etwa ein bis zwei Tage später ein.",
+            "Ein Ehepaar kann mehrere Kinder haben, kann aber immer nur ein Kind aktiv zu Hause aufziehen.",
+            "Wenn du die Babygeburten vor der Entbindung deaktivierst, wird die ausstehende Geburt abgebrochen."
+          ]
+        },
+        {
+          "name": "Das Neugeborene anpassen",
+          "type": "Schritt 3",
+          "description": "Bei der Geburt stellt die Mutter eine kurze Reihe von Fragen, die über die ersten Profileinstellungen des Babys entscheiden.",
+          "facts": [
+            "Du kannst Junge, Mädchen wählen oder das Geschlecht dem Zufall überlassen.",
+            "Das Standardaussehen des Babys ist eine Mischung aus den Merkmalen von Mutter und Vater.",
+            "Du kannst den vorgeschlagenen Namen akzeptieren, nach einem anderen fragen oder einen eigenen eingeben.",
+            "Die Persönlichkeit des Babys kann wie die des Vaters, der Mutter oder zufällig eingestellt werden."
+          ]
+        },
+        {
+          "name": "Dem sechstägigen Wachstumszyklus folgen",
+          "type": "Schritt 4",
+          "description": "Kinder wachsen in sichtbaren täglichen Phasen und sind am sechsten Tag bereit, das Haus zu verlassen.",
+          "facts": [
+            "Tag 1: Neugeborenes im Arm, in der Wiege oder im Kinderwagen bei Ausflügen.",
+            "Tag 2: Das Krabbeln beginnt.",
+            "Tag 3: Die Haare beginnen zu wachsen und das Baby kann kurz stehen.",
+            "Tag 4: Das Kleinkindstadium beginnt und Gehversuche starten.",
+            "Tag 5: Das Kind geht, rennt und spricht mit einer höheren Stimme.",
+            "Tag 6: Das Kind ist voll ausgewachsen und bereit auszuziehen."
+          ]
+        },
+        {
+          "name": "Die richtigen Babysitting-Aktionen je nach Alter nutzen",
+          "type": "Schritt 5",
+          "description": "Das Babysitting ändert sich je nach aktuellem Stadium des Kindes.",
+          "facts": [
+            "Tag 1 nutzt rhythmisches Wiegen mit dem 3DS-System.",
+            "Tag 2 bis 3 nutzen Kopf tätscheln, am Bauch kitzeln und Kuckuck-Spiele.",
+            "Tag 4 bis 5 nutzen kreisende Bewegungen mit dem Touchpen, um das Kind im Garten hochzuheben und zu drehen.",
+            "Eltern rufen nur während der ersten drei Tage um Hilfe bei einem weinenden Baby, und sie rufen nicht nach 20:00 Uhr an."
+          ]
+        },
+        {
+          "name": "Am sechsten Tag zwischen Bewohner oder Reisendem wählen",
+          "type": "Schritt 6",
+          "description": "Sobald das Kind erwachsen ist, rufen dich die Eltern sofort an, um über den weiteren Lebensweg zu entscheiden.",
+          "facts": [
+            "Wenn das Kind zum Bewohner gemacht wird, zieht es in ein eigenes Apartment auf der Insel.",
+            "Wird das Kind weggeschickt, wird es zum Reisenden, der am Hafen auf StreetPass-Boote wartet.",
+            "In beiden Fällen erhältst du eine letzte Chance, das Profil des Kindes zu bearbeiten, bevor es das Haus verlässt."
+          ]
+        },
+        {
+          "name": "Familienbeschränkungen und Aufzeichnungen kennen",
+          "type": "Schritt 7",
+          "description": "Das Kindersystem ändert vorübergehend, was das Spiel dich mit der Familie machen lässt.",
+          "facts": [
+            "Sobald das Baby geboren ist, kann kein Elternteil gelöscht werden, bis das Kind erwachsen ist und auszieht.",
+            "Verheiratete Miis streiten oder scheiden sich nicht, während sie aktiv ein Kind zu Hause aufziehen.",
+            "Das Familienalbum wird unter Kinder-Infos im Rathaus gespeichert, das bis zu 50 Alben enthalten kann."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeFoodGuide": {
+      "title": "Tomodachi Life Essensratgeber",
+      "displayType": "table",
+      "intro": "Essen ist eines der am häufigsten genutzten Systeme in Tomodachi Life. Es lässt Miis im Level aufsteigen, sättigt den Hunger, enthüllt Lieblingsspeisen und verhasste Gerichte, heilt bestimmte Probleme und unterstützt Sammlungsziele über die Liste im Rathaus. Der klügste Weg zum Einkaufen besteht darin, zuerst die Rotation des Supermarkts zu verstehen und dann zu lernen, welche Kategorien und Reaktionsstufen sich lohnen.",
+      "items": [
+        {
+          "icon": "BookOpen",
+          "name": "Supermarkt-Grundlagen",
+          "type": "Tägliche Routine",
+          "description": "Der Supermarkt ist der erste Laden, der im Spiel freigeschaltet wird. Er öffnet, nachdem der erste Mii nach Essen fragt, und sein Sortiment wechselt täglich.",
+          "playerUse": "Schau jeden Tag früh vorbei, da neue Einkäufe dein dauerhaftes Sortiment zum Nachkaufen erweitern."
+        },
+        {
+          "icon": "Star",
+          "name": "Tagesangebote",
+          "type": "Entdeckungswerkzeug",
+          "description": "Jeden Tag bietet der Laden 5 Tagesangebote an, die zufällig aus Lebensmitteln ausgewählt werden, die du noch nicht gekauft hast. Einmal gekauft, werden sie der regulären Vorratsliste hinzugefügt.",
+          "playerUse": "Dies ist der einfachste Weg, deinen Katalog zu erweitern, ohne auf zufällige Geschenke warten zu müssen."
+        },
+        {
+          "icon": "Package",
+          "name": "Lebensmittelkategorien",
+          "type": "Sammlungsdaten",
+          "description": "Hauptgerichte: insgesamt 43, sättigen am meisten. Beilagen: insgesamt 83, sättigen weniger als Hauptgerichte. Nachtische: insgesamt 81. Getränke: insgesamt 24, sättigen am wenigsten.",
+          "playerUse": "Nutze Hauptgerichte bei großem Hunger und hebe dir Getränke oder leichtere Speisen für den kleinen Hunger auf."
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Reaktionsstufen",
+          "type": "Schlüsselmechanik",
+          "description": "Das absolute Lieblingsessen katapultiert den Mii in den Weltraum. Das Lieblingsessen löst eine Tanzsequenz aus. Das ungeliebte Essen verursacht einen starken Abfall der Zufriedenheit. Das absolut ungeliebte Essen leert die Zufriedenheitsleiste komplett.",
+          "playerUse": "Diese vier Reaktionen sind die wichtigsten Meilensteine für das Sammeln von Essen und die Steuerung der Stimmung."
+        },
+        {
+          "icon": "Heart",
+          "name": "Wert der Stimmungsaufhellung",
+          "type": "Praktischer Nutzen",
+          "description": "Die zwei stärksten Lieblingsessen-Stufen eines Miis heitern einen traurigen Mii sofort auf und können auch anstelle von Erkältungsmedizin verwendet werden, um eine Erkältung zu heilen.",
+          "playerUse": "Sobald du die besten Speisen eines Miis kennst, behalte sie für Notfälle in Reserve, anstatt sie beiläufig zu verfüttern."
+        },
+        {
+          "icon": "Gift",
+          "name": "Spezialitäten",
+          "type": "Premium-Gegenstände",
+          "description": "Spezialitäten lösen immer eine sehr positive Reaktion aus und bringen am meisten Geld und Zufriedenheit. Sie erscheinen nie in der Lieblingsessen-Liste eines Miis und können niemals zum absoluten Lieblingsessen oder absolut ungeliebten Essen werden.",
+          "playerUse": "Nutze diese, wenn du einen garantierten Vorteil willst, anstatt auf versteckte Vorlieben zu wetten."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "Abfall-Essen",
+          "type": "Sammlungshinweis",
+          "description": "Abfall-Essen kostet immer 0,20 € und wird garantiert nicht gemocht. Es kann nicht im Supermarkt gekauft werden. Die Abfall-Speisen in Tomodachi Life sind: Misslungenes Gericht, Schimmeliges Brot, Bananenschale und Verdorbene Milch.",
+          "playerUse": "Betrachte diese als Kuriositäten für die Sammlung, nicht als praktisches Essen. Sie sind nur nützlich, um Item-Listen zu vervollständigen oder Reaktionsdaten zu sammeln."
+        }
+      ],
+      "unlockMilestones": [
+        "Entdecke dein erstes Lieblingsessen",
+        "Finde eine Reaktion für ein absolutes Lieblingsessen",
+        "Vervollständige eine Lebensmittelkategorie in der Sammlung",
+        "Lagere das absolute Lieblingsessen eines Miis als Notfall-Aufheiterung"
+      ]
+    },
+    "tomodachiLifeGiftsGuide": {
+      "title": "Tomodachi Life Geschenkeratgeber",
+      "displayType": "mixedCards",
+      "intro": "In Tomodachi Life unterscheiden sich Level-Up-Geschenke von normalen Verbrauchsgegenständen. Ein Mii kann bis zu 8 Level-Up-Geschenke gleichzeitig besitzen, und die europäischen Versionen enthalten insgesamt 28 Optionen. Einige Geschenke erzeugen Apartmentszenen, andere fördern Gruppenaktivitäten, Abwechslung im Freien oder die Versöhnung nach Streitigkeiten.",
+      "sections": [
+        {
+          "icon": "Gift",
+          "name": "Wie das Geschenksystem funktioniert",
+          "description": "Jeder Levelaufstieg kann ein Geschenk einbringen. Ein einzelner Mii kann bis zu 8 Geschenke halten; das Hinzufügen eines neunten bedeutet, ein vorhandenes Geschenk zu ersetzen. Miis probieren ein neu zugewiesenes Geschenk meist direkt aus, nachdem du ihr Apartment verlassen hast."
+        },
+        {
+          "icon": "Home",
+          "name": "Beste Geschenke für wiederkehrende Apartmentszenen",
+          "description": "Schminkset, Laptop, Spiegel und Lernset erzeugen häufige Einzelszenen in Innenräumen. Der Laptop kann bis zu 3 Besucher anlocken und scheint manchmal abzustürzen. Das Schminkset verändert vorübergehend das Aussehen der Augen eines Miis."
+        },
+        {
+          "icon": "Users",
+          "name": "Beste Geschenke für Gruppenmomente",
+          "description": "Die CD versammelt bis zu 4 Miis, und nur der Besitzer benötigt sie. Die Wii U lockt bis zu 4 Miis mit unterschiedlichen Gewinn- und Verlustreaktionen an. Mietkatzen- und Miethunde-Gutscheine bringen Haustiere, die Besucher in das Apartment locken."
+        },
+        {
+          "icon": "Gamepad2",
+          "name": "Beste Geschenke für Abwechslung im Freien",
+          "description": "Die Gitarre spielt verschiedene Melodien im Apartment oder am Brunnen. Die Angel schickt einen Mii mit einem Ruderboot hinaus. Der Metalldetektor findet Münzen oder Müll am Strand. Fußball, Skateboard und Baseballschläger sorgen für Aktivität auf der Karte."
+        },
+        {
+          "icon": "Shield",
+          "name": "Bestes Geschenk zur Versöhnung nach Streit",
+          "description": "Der Boxsack ist das einzige Level-Up-Geschenk, das wütende Miis nach einem Streit benutzen können. Er erscheint häufiger, wenn ein Mii verärgert ist, was ihn zur praktischsten Wahl für Inseln mit vielen Rivalitäten oder häufigen großen Streitigkeiten macht."
+        },
+        {
+          "icon": "Star",
+          "name": "Einfache Geschenkstrategie",
+          "description": "Wähle CD, Wii U oder Mietkatzen-Gutschein für soziale Inseln. Wähle Schminkset, Spiegel oder Laptop für Apartments mit Fokus auf Persönlichkeit. Behalte mindestens einen Boxsack in der Rotation für eine reibungslosere Konfliktbewältigung."
+        }
+      ],
+      "growthMilestones": [
+        "Gib einem Mii sein erstes Level-Up-Geschenk",
+        "Schalte den Aussichtsturm mit einer Geschenkbelohnung frei",
+        "Sammle 8 Geschenke für einen Mii",
+        "Benutze einen Boxsack, um einen streitlustigen Mii zu beruhigen"
+      ]
+    },
+    "tomodachiLifeClothingAndHats": {
+      "title": "Tomodachi Life Kleidungs- und Hüte-Ratgeber",
+      "displayType": "priorityCards",
+      "intro": "Tomodachi Life trennt komplette Outfits von Kopfbedeckungen. Kleidung wird im Kleidungsladen und Hüte im Hutladen gekauft, mit täglichen Rotationen, saisonalem Vorrat und permanentem Katalogzugriff nach dem Erwerb. Kleidung umfasst insgesamt 428 Artikeltypen und 3.341 Farben; Hüte umfassen insgesamt 157 Artikel und 1.111 Farben.",
+      "priorities": [
+        {
+          "icon": "ClipboardCheck",
+          "name": "Freischaltung des Kleidungsladens",
+          "priority": "Frühes Spiel",
+          "description": "Öffnet mit 1 männlichen + 1 weiblichen Bewohner und 5 gelösten Problemen. Die Tagesangebote werden jeden Tag mit bis zu 5 zufälligen Outfits aktualisiert. Saisonale Kleidung wechselt alle 3 Monate. Erworbene Artikel bleiben dauerhaft verfügbar."
+        },
+        {
+          "icon": "Package",
+          "name": "Freischaltung des Hutladens",
+          "priority": "Frühes Spiel",
+          "description": "Öffnet mit 2 männlichen + 2 weiblichen Bewohnern und 10 gelösten Problemen. Zeigt täglich 3 verschiedene Hüte in den Tagesangeboten. Gekaufte Hüte bleiben unter der Vorratsliste für immer verfügbar. Saisonale Hüte wechseln ebenfalls alle 3 Monate."
+        },
+        {
+          "icon": "Keyboard",
+          "name": "Kleidungskategorien",
+          "priority": "Sammlung",
+          "description": "Insgesamt 428 Artikel: Maskulin (75), Feminin (109), Unisex (69), Abendmode (69), Kostüme (87). Sobald ein Outfit oder eine Farbe erworben wurde, bleibt sie dauerhaft im Katalog verfügbar."
+        },
+        {
+          "icon": "Eye",
+          "name": "Hutkategorien",
+          "priority": "Sammlung",
+          "description": "Insgesamt 157 Artikel: Reguläre Hüte (69), Kostümhüte (32), Haarschmuck (56). Hüte und Outfits sind separate Ebenen – ein Hut kann mit vielen Outfit-Kombinationen kombiniert werden."
+        },
+        {
+          "icon": "Heart",
+          "name": "Reaktionen auf Kleidung und Hüte",
+          "priority": "Feedback-System",
+          "description": "Liebt es: Mii wirbelt in der Luft. Mag es sehr: springt. Mag es: Hände in die Hüften. Mag es nicht besonders: neigt den Kopf. Mag es überhaupt nicht: schaut weg. Im Gegensatz zum Essen gibt es hier keine Reaktionen für absolutes Lieblingsessen oder absolut ungeliebtes Essen."
+        },
+        {
+          "icon": "Download",
+          "name": "Importwaren und saisonaler Vorrat",
+          "priority": "Fortgeschritten",
+          "description": "Seltene Stil-Freischaltungen stammen von speziellen Events, Weltraumreisen und Importwaren via StreetPass. Ankommende Boote von Reisenden können exklusive Outfits und Hüte von anderen Inseln in deinen Katalog bringen."
+        }
+      ]
+    },
+    "tomodachiLifeInteriorsGuide": {
+      "title": "Tomodachi Life Interiors Guide",
+      "displayType": "achievementGrid",
+      "intro": "Tomodachi Life includes 102 interior designs in the main release. The Interiors shop unlocks once you have at least $200 in pocket money, and six level-up-only interiors cannot be purchased normally: Family, Modern Asian, Natural Wood, Plant, Polka Dot, and Tiled.",
+      "groups": [
+        {
+          "name": "Level-Up Only Interiors",
+          "achievements": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "title": "Family",
+              "description": "An ordinary family-style room. Exclusive to level-up rewards. Cannot be purchased from the normal Interiors shop."
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "title": "Modern Asian",
+              "description": "A clean, stylish room built around a shoes-off, carefully kept look. Exclusive to level-up rewards."
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "title": "Natural Wood",
+              "description": "A soothing wood-focused room, warm and timeless. Works well for relaxed or nature-themed islands."
+            },
+            {
+              "title": "Plant",
+              "description": "A bright plant-heavy room built around greenery and an airy atmosphere. Good for cheerful, easygoing Miis."
+            },
+            {
+              "title": "Polka Dot",
+              "description": "A lively room with bright polka-dot energy. Great for comedy islands and bold room variety."
+            },
+            {
+              "title": "Tiled",
+              "description": "A tile-focused room with a distinctive clean pattern and strong visual identity. Exclusive to level-up rewards."
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
-          ]
-        },
-        {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+          "name": "Shop-Bought Highlights",
+          "achievements": [
+            {
+              "title": "Fairy-tale Castle ($500)",
+              "description": "A magical, high-concept room that turns an apartment into a fantasy castle scene. One of the most visually dramatic interiors."
+            },
+            {
+              "title": "How to Unlock the Interiors Shop",
+              "description": "The Interiors Shop unlocks once you have at least $200 in pocket money across any two Miis."
+            }
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+    "tomodachiLifeTravelersAndStreetPass": {
+      "title": "Tomodachi Life Travelers and StreetPass Guide",
+      "displayType": "accordion",
+      "intro": "Travelers are special Miis that move between islands through StreetPass. The Port handles departures and arrivals, while the Campground is where incoming travelers stay for the night.",
+      "faqs": [
+        {
+          "question": "How do I create my own traveler in Tomodachi Life?",
+          "answer": "Two married Miis must have a baby. Once that child grows up on day six, choose to send them away to travel instead of making them a resident. StreetPass must be enabled on both the system and for Tomodachi Life."
+        },
+        {
+          "question": "How do the Port and Campground unlock in Tomodachi Life?",
+          "answer": "The Port unlocks after at least 1 StreetPass or after sending someone to travel. The Campground unlocks when you send or receive a traveler. The Campground can hold up to 10 tents at once."
+        },
+        {
+          "question": "What happens after a Tomodachi Life StreetPass tag?",
+          "answer": "Each StreetPass can send 1 traveler from your Port queue. If the other island also has a traveler waiting, 1 can arrive on your island. The Port can report up to 10 arriving boats at a time and the dock holds up to 50 travelers total."
+        },
+        {
+          "question": "How do I find and help a newly arrived Tomodachi Life traveler?",
+          "answer": "New travelers may appear at the fountain, park, observation tower, beach, café, or amusement park. Accept their request to camp. At 4:00 PM they retire to the Campground and set up a tent."
+        },
+        {
+          "question": "What problems can Tomodachi Life campground travelers have?",
+          "answer": "Dirty travelers need a bath set. Homesick travelers need a music box or head pat. Hungry travelers need food or drinks. Stomach bugs need stomach medicine. Hot head needs cold medicine. Solved problems can earn special food for 1 to 5 Play Coins."
+        },
+        {
+          "question": "What rewards do Tomodachi Life travelers leave behind?",
+          "answer": "Well-helped travelers may leave a letter and a treasure gift. Possible gifts include tissues, copper coin, silver coin, and gold coin. Arriving boats can also bring another island's Import Wear exclusive outfits and hats."
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "tomodachiLifeImportWear": {
+      "title": "Tomodachi Life Import Wear Guide",
+      "subtitle": "Track how Import Wear opens, how export clothing is chosen, and how StreetPass and SpotPass shaped the rare clothing loop.",
+      "displayType": "table",
+      "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions, which is why it matters most for completionists.",
+      "tableHeaders": [
+        "Topic",
+        "Details",
+        "Player Takeaway"
+      ],
+      "items": [
+        {
+          "topic": "Unlock Trigger",
+          "details": "Import Wear opens when you first receive clothing through StreetPass or SpotPass, or when you first choose your island's export clothing.",
+          "playerTakeaway": "You usually enter the import loop as soon as you start using StreetPass or finish the export setup tied to the Hats shop."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "topic": "What the Shop Sells",
+          "details": "Import Wear stocks imported clothing and hats brought in from other islands through StreetPass and from official SpotPass distribution.",
+          "playerTakeaway": "This is the shop to watch if you want outfits and headwear that do not come from the normal shop rotation."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "topic": "Export Wear Choice",
+          "details": "After the Hats shop opens, the export quiz offers three clothing options. You may retake the quiz one time, but once one export item is chosen, it cannot be changed.",
+          "playerTakeaway": "Your island only gets one permanent export outfit choice per save, so completion-focused players should decide carefully before locking it in."
+        },
+        {
+          "topic": "How Imported Stock Stays",
+          "details": "Your chosen export outfit travels to other islands through StreetPass and stays in their Import Wear catalog forever. Imported items you receive are added as permanent shop stock once obtained.",
+          "playerTakeaway": "Even if you do not buy an imported item immediately, getting it into the shop catalog is the important part."
+        },
+        {
+          "topic": "SpotPass Special Imports",
+          "details": "24 SpotPass items were documented historically, originally rotating on half-month intervals. When the same item returned the following year, remaining colors were added.",
+          "playerTakeaway": "Full SpotPass-era completion originally required long-term play across repeated distribution windows."
+        },
+        {
+          "topic": "Current Completion Notes",
+          "details": "SpotPass ended on April 8, 2024. The Schoolgirl Uniform is the remaining SpotPass-era item still referenced in community documentation. Final regional import outfits for Japan, Korea, and PAL regions were all intended for female Miis.",
+          "playerTakeaway": "Modern completion runs rely on what is already stocked on a save file and on StreetPass-traded imports from other players."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "tomodachiLifeConcertHall": {
+      "title": "Tomodachi Life Concert Hall Songs",
+      "subtitle": "Learn every song style, how lyric editing works, and how solo and group performances are built.",
+      "displayType": "accordion",
+      "intro": "The Concert Hall turns leveled-up Miis into performers. Once a Mii learns a song genre, you can rewrite lyrics, change outfits, build groups, and turn ordinary islanders into full comedy acts or parody bands.",
+      "items": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "heading": "Song Types and Default Songs",
+          "type": "International Version",
+          "icon": "Music",
+          "summary": "International versions have a larger song set than the Japanese release.",
+          "points": [
+            "8 song types in NTSC, PAL, and Korean versions: Metal, Pop, Rock & Roll, Rap, Ballad, Opera, Techno, and Musical.",
+            "6 song types in the Japanese version: Metal, Pop, Rock & Roll, Rap, Opera, and Enka.",
+            "Default songs: Dragon's Fire (Metal), Loving Things (Pop), Real Loud Bark (Rock & Roll), Livin' the Dream (Rap), Maybe, Baby (Ballad), The Heart's Descent (Opera), Operation Robodachi (Techno), and Reach for the Stars (Musical)."
+          ]
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "heading": "What You Can Edit in a Performance",
+          "type": "Creative Tools",
+          "icon": "Pencil",
+          "summary": "Concert Hall customization goes beyond simply pressing play.",
+          "points": [
+            "You can change a song's lyrics and title.",
+            "You can change the singer's outfit before the performance.",
+            "You can add extra Miis as background dancers.",
+            "This makes Concert Hall work both as a music feature and as a joke-making tool for custom island stories."
+          ]
+        },
+        {
+          "heading": "How Group Performances Work",
+          "type": "Multi-Mii Feature",
+          "icon": "Users",
+          "summary": "Groups unlock once multiple Miis know the same song.",
+          "points": [
+            "Groups can contain 2 to 7 Miis.",
+            "Every Mii in the group must know the same song before that song can be performed together.",
+            "The order in which Miis are placed affects their roles in the performance.",
+            "Songs like Metal and Rock & Roll use one main vocalist with the others as instrumentalists; songs like Pop and Musical have all members sing.",
+            "The game allows up to 50 groups and 50 saved group songs."
+          ]
+        },
+        {
+          "heading": "Why Concert Hall Is Memorable",
+          "type": "Fan Favorite",
+          "icon": "Star",
+          "summary": "Nintendo itself spotlighted custom Concert Hall performances.",
+          "points": [
+            "Nintendo UK ran a 2015 Friendship Fiesta Concert Hall Contest built around player-made Tomodachi Life songs.",
+            "The official feature highlighted how custom lyrics and bizarre performance energy made Concert Hall one of the game's most shareable systems.",
+            "For creative players, Concert Hall is a strong mix of music utility and fan-favorite island storytelling."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeVoiceCatchphrases": {
+      "title": "Tomodachi Life Voice and Catchphrases Guide",
+      "subtitle": "Tune how Miis sound, how names are pronounced, and what they say when happy, sad, angry, worried, or just being themselves.",
+      "displayType": "accordion",
+      "intro": "Tomodachi Life sells the illusion of personality through text-to-speech, speech bubbles, and player-written phrases. A Mii's voice settings, spoken name data, catchphrase, and emotional lines all work together to make apartment dialogue feel personal.",
+      "items": [
+        {
+          "type": "Voice Setup",
+          "title": "Voice Sliders and Preset Voices",
+          "icon": "Volume2",
+          "summary": "Every Mii can use a preset, a random voice, or a fully customized voice.",
+          "points": [
+            "6 preset voices: male child, female child, male adult, female adult, elderly male, and elderly female.",
+            "Custom voices use 6 sliders: Pitch, Speed, Quality, Tone, Accent, and Intonation.",
+            "Pitch controls how high or low the voice sounds; Speed controls how quickly the Mii talks.",
+            "Quality controls how clear the speech sounds; Tone affects how high-pitched the voice is at the start of a sentence.",
+            "Accent affects how low-pitched the voice is at the end of a sentence; Intonation changes the sentence contour."
+          ]
+        },
+        {
+          "type": "Name Tuning",
+          "title": "Name Pronunciation System",
+          "icon": "AlignLeft",
+          "summary": "Tomodachi Life separates written names from spoken pronunciation.",
+          "points": [
+            "First name and last name allow up to 15 written characters; nickname allows up to 10.",
+            "Pronunciation can be entered separately from the visible name.",
+            "Pronunciation fields allow up to 30 characters for first and last name, and 20 for nickname.",
+            "This pronunciation entry feature is absent in the Japanese version.",
+            "This system lets players fix unusual spellings or joke names without changing the displayed name."
+          ]
+        },
+        {
+          "type": "Phrase Types",
+          "title": "Five Phrase Slots for Everyday Mood",
+          "icon": "MessageSquare",
+          "summary": "Miis have five major phrase slots tied to everyday mood and problem states.",
+          "points": [
+            "The five phrase types are: Catchphrase, Happy phrase, Sad phrase, Angry phrase, and Worried phrase.",
+            "A catchphrase is given as a level-up reward.",
+            "The four emotional phrases are given when a Mii has a related problem state.",
+            "In Tomodachi Life, once those emotional phrases have been given, they can be edited later while the Mii is awake.",
+            "In international versions, each phrase type has 8 accompanying animations, and any animation can be assigned to any phrase type."
+          ]
+        },
+        {
+          "type": "Dialogue System",
+          "title": "Apartment Speech Bubbles and Random Dialogue",
+          "icon": "MessageCircle",
+          "summary": "The apartment entrance bubble is where a lot of the game's personality lands.",
+          "points": [
+            "When you enter a Mii's apartment, they may say their catchphrase, a random line, or a mood line tied to being sick, worried, sad, happy, or angry.",
+            "If the Mii has no active problem, you will see a normal speech bubble with an ellipsis.",
+            "Tapping that bubble makes the Mii say a random dialogue line.",
+            "After tapping the speech bubble, a new one appears every hour."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeUnlockGuide": {
+      "title": "Tomodachi Life Unlock Guide",
+      "subtitle": "Follow the fastest clean path to open stores, social systems, family housing, and StreetPass locations.",
+      "displayType": "steps",
+      "intro": "Tomodachi Life unlocks its island in layers. Population size, solved problems, money saved, level-up gifts, romance events, marriage, and StreetPass activity all push the island forward.",
+      "steps": [
+        {
+          "title": "Start with the Built-In Basics",
+          "description": "Your island begins with core everyday locations already open. The Fountain is tied to the opening tutorial flow.",
+          "unlocks": [
+            "Mii Apartments",
+            "Beach",
+            "Town Hall",
+            "Food Mart",
+            "Fountain (tutorial)"
+          ]
+        },
+        {
+          "title": "Grow the Island and Solve Early Problems",
+          "description": "The first meaningful expansion comes from adding both male and female Miis and clearing early apartment requests.",
+          "unlocks": [
+            "Clothing Store: 1M + 1F islander + 5 solved problems",
+            "Hat Store: 2M + 2F + 10 problems",
+            "Mii News: 7 islanders with at least 3M + 3F"
+          ]
+        },
+        {
+          "title": "Use Money, Level-Ups, and Treasures",
+          "description": "This phase unlocks core support buildings for interiors, music, rankings, compatibility checks, and selling valuables.",
+          "unlocks": [
+            "Interiors Store: save over $200",
+            "Concert Hall: give a song to a leveled Mii",
+            "Observation Tower: give a gift to a leveled Mii",
+            "Rankings Board: 5+ Miis + 15 problems",
+            "Compatibility Tester: 2M + 2F + 30 problems",
+            "Pawn Shop: obtain 5 different treasures"
+          ]
+        },
+        {
+          "title": "Hit the Midgame Population Milestone",
+          "description": "A larger island opens up more management and content tools.",
+          "unlocks": [
+            "Photo Studio: 10+ islanders + 50 solved problems",
+            "Nintendo 3DS Image Share: take a photo of a Mii apartment"
+          ]
+        },
+        {
+          "title": "Push Romance Forward",
+          "description": "Once confession events start happening, several leisure areas open together.",
+          "unlocks": [
+            "Park: have an islander confess love",
+            "Amusement Park: have an islander confess love",
+            "Café: have a Mii confess love for another Mii"
+          ]
+        },
+        {
+          "title": "Finish the Family and Travel Layer",
+          "description": "Marriage and StreetPass activity open the late-game family and traveler systems.",
+          "unlocks": [
+            "Mii Homes: celebrate an islander wedding",
+            "Port: activate StreetPass + visit Hat Store first",
+            "Import Wear: StreetPass, SpotPass, or export quiz trigger",
+            "Campground: send a traveler or host an arriving traveler"
+          ]
         }
       ]
     }
@@ -790,177 +934,197 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was du über Tomodachi Life wissen musst",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Was ist Tomodachi Life: Living the Dream?",
+        "answer": "Tomodachi Life: Living the Dream ist die kommende Nintendo Switch-Fortsetzung des 3DS-Klassikers. Es erscheint am 16. April 2026, unterstützt bis zu 2 Spieler und enthält eine kostenlose herunterladbare Demo, die ab sofort verfügbar ist."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Gibt es eine Tomodachi Life Demo?",
+        "answer": "Ja. Eine kostenlose Demo für Tomodachi Life: Living the Dream kann ab sofort auf Nintendo Switch heruntergeladen werden. Mit der Demo kannst du bereits vor der Veröffentlichung des vollständigen Spiels mit dem Aufbau deiner Insel beginnen."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Wie viele Sprachen unterstützt Tomodachi Life?",
+        "answer": "Tomodachi Life: Living the Dream unterstützt 10 Sprachen: Japanisch, Englisch, Französisch, Deutsch, Italienisch, Spanisch, Koreanisch, Niederländisch, Chinesisch (vereinfacht) und Chinesisch (traditionell)."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wie funktionieren Mii-Persönlichkeiten in Tomodachi Life?",
+        "answer": "Bei der Mii-Erstellung ordnen vier Schieberegler jeden Bewohner einem von 16 Persönlichkeitstypen zu, die in die Gruppen Entspannt, Extravagant, Unabhängig und Selbstbewusst unterteilt sind. Die Persönlichkeiten beeinflussen die soziale Chemie, den Dialogstil und den Ausgang von Romanzen."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Wie erhalte ich QR Codes für Tomodachi Life?",
+        "answer": "Du findest Mii QR Codes im offiziellen Archiv von MiiWiki, auf der Community-Seite von Crystal Dreams und in den kuratierten Paketen von Nintendo Life. Scanne sie im Mii-Maker und importiere sie dann über die Option 'Neuer Mii' im Rathaus."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Was ist der beste Tipp für Anfänger in Tomodachi Life?",
+        "answer": "Priorisiere das Lösen von Problemen mit schwarzen Sprechblasen, sobald sie erscheinen. Jedes gelöste Problem schaltet neue Gebäude frei, erweitert deine Insel und sorgt für mehr soziale Ereignisse zwischen den Bewohnern."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Bereit, Tomodachi Life zu erkunden?",
+    "description": "Tritt der Tomodachi Life-Community auf Reddit bei, um Mii QR Codes, Tipps und Diskussionen zu finden!",
+    "joinCommunity": "Reddit-Community beitreten",
+    "joinGame": "Auf Nintendo vorbestellen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Tomodachi Life Wiki",
+    "description": "Dein umfassendes Ressourcen-Hub für Tomodachi Life: Living the Dream-Guides, Mii-Persönlichkeiten, QR Codes, Beziehungen und Tipps zum Inselleben.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Reddit-Community",
+    "twitter": "GameFAQs-Board",
+    "steamCommunity": "Nintendo eShop",
+    "steamStore": "Offizielle Nintendo-Seite",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Tomodachi Life Wiki. Nicht mit Nintendo oder HAL Laboratory verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "release": {
+      "title": "Tomodachi Life Veröffentlichung",
+      "description": "Alles über das Veröffentlichungsdatum von Tomodachi Life: Living the Dream, Vorbesteller-Boni, Preis und die Verfügbarkeit physischer Kopien. Bleib auf dem Laufenden mit den neuesten Launch-News.",
+      "metaTitle": "Tomodachi Life Veröffentlichungsdatum & Vorbesteller-Guide",
+      "metaDescription": "Vollständiger Guide zum Veröffentlichungsdatum von Tomodachi Life: Living the Dream, Vorbesteller-Boni, Preis und Details zu physischen Kopien. Hol dir die neuesten Release-News.",
+      "categoryLabel": "RELEASE-NEWS",
+      "whatIs": "Was ist Tomodachi Life: Living the Dream?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream ist die mit Spannung erwartete Fortsetzung des ursprünglichen Tomodachi Life für Nintendo 3DS. Es bringt die charmante Mii-Lebenssimulation mit neuen Funktionen, Inhalten und sozialen Erlebnissen auf die Nintendo Switch.",
+      "why": "Warum Release-News verfolgen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Sichere dir dein Exemplar",
+        "step1Description": "Erfahre genau, wann und wo du vorbestellen kannst, um dir deine physische oder digitale Kopie zu sichern",
+        "step2Title": "Vorbesteller-Boni sichern",
+        "step2Description": "Finde heraus, welche exklusiven Boni und DLCs bei frühen Käufen enthalten sind",
+        "step3Title": "Plane deinen Launch-Tag",
+        "step3Description": "Bleib informiert über Veröffentlichungsdaten, regionale Starts und Download-Größen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Hervorgehobene Release-News",
+      "all": "Alle Release-Artikel"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "demo": {
+      "title": "Tomodachi Life Demo",
+      "description": "Vollständige Guides zur Tomodachi Life: Living the Dream Demo, einschließlich Download-Anleitung, verfügbaren Inhalten und wie man sie für einen Neuanfang zurücksetzt.",
+      "metaTitle": "Tomodachi Life Demo Guide - Download & Zurücksetzen",
+      "metaDescription": "Alles über die Tomodachi Life: Living the Dream Demo. Erfahre, wie du sie herunterlädst, welche Funktionen verfügbar sind und wie du die Demo für einen neuen Spieldurchgang zurücksetzt.",
+      "categoryLabel": "DEMO-GUIDES",
+      "whatIs": "Was ist die Tomodachi Life Demo?",
+      "whatIsDescription": "Die Tomodachi Life: Living the Dream Demo ist eine kostenlose Testversion, die im Nintendo eShop verfügbar ist. Sie ermöglicht es Spielern, wichtige Funktionen des Insellebens, Mii-Interaktionen und das Kern-Gameplay vor der vollständigen Veröffentlichung zu erleben.",
+      "why": "Warum die Demo spielen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Vor dem Kauf ausprobieren",
+        "step1Description": "Teste das Kern-Gameplay der Mii-Insel ganz unverbindlich",
+        "step2Title": "Die Grundlagen meistern",
+        "step2Description": "Lerne die Steuerung, den Tagesablauf und die wichtigsten Mechaniken schon vor dem Launch kennen",
+        "step3Title": "Zurücksetzen für mehr Spielzeit",
+        "step3Description": "Entdecke, wie du die Demo zurücksetzt und sie mehrmals erkunden kannst"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Hervorgehobene Demo-Guides",
+      "all": "Alle Demo-Artikel"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "switch": {
+      "title": "Tomodachi Life Switch",
+      "description": "Alle Details zu Tomodachi Life auf Nintendo Switch, einschließlich der Gameplay-Funktionen von Living the Dream, Switch-exklusiven Inhalten und dem Vergleich zur ursprünglichen 3DS-Version.",
+      "metaTitle": "Tomodachi Life Switch - Living the Dream Funktionen & Guide",
+      "metaDescription": "Vollständiger Guide zu Tomodachi Life: Living the Dream auf Nintendo Switch. Entdecke neue Funktionen, Gameplay-Änderungen und was die Switch-Version so besonders macht.",
+      "categoryLabel": "SWITCH-VERSION",
+      "whatIs": "Was ist Tomodachi Life auf Switch?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream bringt die beliebte Mii-Insel-Lebenssimulation auf die Nintendo Switch. Die Switch-Version führt Online-Funktionen, erweiterte Anpassungsmöglichkeiten und neue soziale Mechaniken ein, die im ursprünglichen 3DS-Titel nicht enthalten waren.",
+      "why": "Warum auf Switch spielen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Moderne Plattform-Funktionen",
+        "step1Description": "Genieße verbesserte Grafik, Online-Konnektivität und Switch-exklusive Inhalte",
+        "step2Title": "Mit Freunden teilen",
+        "step2Description": "Besuche die Inseln anderer Spieler und teile Mii QR Codes weltweit",
+        "step3Title": "Erweitertes Gameplay",
+        "step3Description": "Erlebe neue Events, Items und Interaktionen, die exklusiv in der Switch-Version verfügbar sind"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Hervorgehobene Switch-Guides",
+      "all": "Alle Switch-Artikel"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "personality": {
+      "title": "Tomodachi Life Persönlichkeit",
+      "description": "Vollständige Leitfäden zu allen Tomodachi Life Persönlichkeitstypen, dem Persönlichkeitsdiagramm, der Kompatibilität zwischen Miis und wie Persönlichkeitsmerkmale die Beziehungen auf der Insel beeinflussen.",
+      "metaTitle": "Tomodachi Life Persönlichkeits-Guide - Alle Typen & Diagramm",
+      "metaDescription": "Meistern Sie Tomodachi Life Persönlichkeiten mit unserem vollständigen Guide über alle Persönlichkeitstypen, das Persönlichkeitsdiagramm, Kompatibilität und wie Merkmale das Verhalten der Mii beeinflussen.",
+      "categoryLabel": "PERSÖNLICHKEITS-GUIDE",
+      "whatIs": "Was sind Tomodachi Life Persönlichkeiten?",
+      "whatIsDescription": "Tomodachi Life nutzt ein Persönlichkeitssystem mit mehreren verschiedenen Typen, die bestimmen, wie Miis interagieren, Freundschaften schließen und sich verlieben. Jeder Persönlichkeitstyp beeinflusst Dialoge, Hobbys und die Kompatibilität mit anderen Miis.",
+      "why": "Warum sollte man etwas über Tomodachi Life Persönlichkeiten lernen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Kompatible Freundschaften aufbauen",
+        "step1Description": "Verstehen Sie, welche Persönlichkeitstypen am besten harmonieren, um Freundschaften zu fördern",
+        "step2Title": "Romantik entfachen",
+        "step2Description": "Kombinieren Sie kompatible Persönlichkeiten, um die Chance auf Mii-Paare zu erhöhen",
+        "step3Title": "Ihre Insel anpassen",
+        "step3Description": "Wählen Sie Persönlichkeitskombinationen, die die unterhaltsamsten Interaktionen erzeugen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Vorgestellte Persönlichkeits-Guides",
+      "all": "Alle Persönlichkeits-Artikel"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "mii": {
+      "title": "Tomodachi Life Mii",
+      "description": "Alles über Tomodachi Life Miis, einschließlich QR Codes, wie viele Miis man haben kann, Schminkoptionen und Tipps für die Erstellung der perfekten Inselbewohner.",
+      "metaTitle": "Tomodachi Life Mii Guide - QR Codes, Schminke & mehr",
+      "metaDescription": "Vollständiger Tomodachi Life Mii Guide über QR Codes, Mii-Limits, Schmink-Anpassungen und Tipps für den Aufbau der besten Inselbesetzung.",
+      "categoryLabel": "MII GUIDES",
+      "whatIs": "Was sind Tomodachi Life Miis?",
+      "whatIsDescription": "Miis sind die anpassbaren Charaktere im Herzen von Tomodachi Life. Sie können Miis erstellen, via QR Codes importieren und mit einzigartigen Gesichtern, Persönlichkeiten und Stimmen anpassen. Jeder Mii lebt auf Ihrer Insel und sorgt für einzigartige Ereignisse und Geschichten.",
+      "why": "Warum sollte man Tomodachi Life Miis meistern?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Erstellen Sie Ihre Traumbesetzung",
+        "step1Description": "Importieren Sie Ihre Lieblingscharaktere mit QR Codes oder erstellen Sie sie von Grund auf neu",
+        "step2Title": "Insel-Events maximieren",
+        "step2Description": "Die richtige Mischung aus Miis sorgt für interessantere Beziehungen und Handlungsstränge",
+        "step3Title": "Jedes Detail personalisieren",
+        "step3Description": "Passen Sie Schminke, Stimmen und Aussehen an, um jeden Mii einzigartig zu machen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Vorgestellte Mii-Guides",
+      "all": "Alle Mii-Artikel"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "mod": {
+      "title": "Tomodachi Life Mod",
+      "description": "Leitfäden zu Tomodachi Life Mods, Save-Editoren, Emulator-Setup und ROM-Informationen. Entdecken Sie Anpassungsoptionen und Möglichkeiten, Ihr Tomodachi Life Erlebnis zu erweitern.",
+      "metaTitle": "Tomodachi Life Mods, Save-Editor & Emulator-Guide",
+      "metaDescription": "Vollständiger Guide zu Tomodachi Life Mods, Save-Editoren, Emulator-Setup und ROM-Details. Passen Sie Ihr Spiel an und erkunden Sie die gesamte Modding-Community.",
+      "categoryLabel": "MODS & TOOLS",
+      "whatIs": "Was sind Tomodachi Life Mods?",
+      "whatIsDescription": "Tomodachi Life Mods und Save-Editoren ermöglichen es Spielern, das Spiel über die Standardoptionen hinaus anzupassen. Von Textur-Ersetzungen bis hin zu Save-Editing-Tools und Emulator-Setups hat die Modding-Community zahlreiche Wege geschaffen, um das Erlebnis zu verbessern und zu personalisieren.",
+      "why": "Warum sollte man Tomodachi Life Mods verwenden?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Neue Möglichkeiten freischalten",
+        "step1Description": "Greifen Sie auf Inhalte und Anpassungen zu, die im Basisspiel nicht verfügbar sind",
+        "step2Title": "Auf jeder Plattform spielen",
+        "step2Description": "Nutzen Sie Emulatoren, um Tomodachi Life auf dem PC oder anderen Geräten zu genießen",
+        "step3Title": "Ihren Spielstand bearbeiten",
+        "step3Description": "Ändern Sie Inseldaten, Mii-Statistiken und Ressourcen mit Save-Editor-Tools"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Vorgestellte Mod-Guides",
+      "all": "Alle Mod-Artikel"
+    },
+    "guide": {
+      "title": "Tomodachi Life Guide",
+      "description": "Vollständige Tomodachi Life Leitfäden dazu, wie man schnell Geld verdient, Miis dazu bringt, sich zu verlieben, Haarfärbemittel bekommt, Inselnamen wählt und jeden Aspekt des Insellebens meistert.",
+      "metaTitle": "Tomodachi Life Guide - Tipps, Geld, Romantik & mehr",
+      "metaDescription": "Meistern Sie Tomodachi Life mit unseren umfassenden Guides zum Geldverdienen, Romantik-Mechaniken, Fundorten von Gegenständen, Inselbenennung und den besten Gameplay-Tipps.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was sind Tomodachi Life Guides?",
+      "whatIsDescription": "Tomodachi Life Guides decken jeden Aspekt des Spiels ab, vom Geldverdienen und dem Aufbau von Romanzen bis hin zum Finden seltener Gegenstände und dem Erstellen des perfekten Inselnamens. Diese Guides helfen Spielern, das Beste aus ihrem Tomodachi Life Erlebnis herauszuholen.",
+      "why": "Warum sollte man Tomodachi Life Guides verwenden?",
+      "whySteps": {
+        "step1Title": "Die Wirtschaft meistern",
+        "step1Description": "Lernen Sie bewährte Strategien, um schnell Geld zu verdienen und sich Premium-Gegenstände zu leisten",
+        "step2Title": "Perfekte Romanzen erschaffen",
+        "step2Description": "Verstehen Sie die Mechaniken hinter Mii-Beziehungen und Hochzeiten",
+        "step3Title": "Jeden Gegenstand finden",
+        "step3Description": "Finden Sie seltene Gegenstände wie Haarfärbemittel und spezielle Geschenke, um Ihre Miis glücklich zu machen"
+      },
+      "featured": "Vorgestellte Gameplay-Guides",
+      "all": "Alle Guide-Artikel"
     }
   }
 }
