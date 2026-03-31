@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "switch": "Switch",
+    "personality": "Persoonlijkheid",
+    "mii": "Mii",
+    "mod": "Mod",
+    "guide": "Gids"
+  }
+}

@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "release": "Release",
+    "demo": "Demo",
+    "switch": "Switch",
+    "personality": "Persönlichkeit",
+    "mii": "Mii",
+    "mod": "Mod",
+    "guide": "Leitfaden"
   },
   "common": {
     "home": "Startseite",

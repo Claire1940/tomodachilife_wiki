@@ -10,7 +10,15 @@
       "twitterDescription": "Tomodachi Life Wiki covers Living the Dream, demo, Mii creation, island life, relationships, and daily events for Nintendo Switch."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "switch": "Switch",
+    "personality": "Personality",
+    "mii": "Mii",
+    "mod": "Mod",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -703,7 +711,11 @@
       "subtitle": "Track how Import Wear opens, how export clothing is chosen, and how StreetPass and SpotPass shaped the rare clothing loop.",
       "displayType": "table",
       "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions, which is why it matters most for completionists.",
-      "tableHeaders": ["Topic", "Details", "Player Takeaway"],
+      "tableHeaders": [
+        "Topic",
+        "Details",
+        "Player Takeaway"
+      ],
       "items": [
         {
           "topic": "Unlock Trigger",
@@ -860,32 +872,61 @@
         {
           "title": "Start with the Built-In Basics",
           "description": "Your island begins with core everyday locations already open. The Fountain is tied to the opening tutorial flow.",
-          "unlocks": ["Mii Apartments", "Beach", "Town Hall", "Food Mart", "Fountain (tutorial)"]
+          "unlocks": [
+            "Mii Apartments",
+            "Beach",
+            "Town Hall",
+            "Food Mart",
+            "Fountain (tutorial)"
+          ]
         },
         {
           "title": "Grow the Island and Solve Early Problems",
           "description": "The first meaningful expansion comes from adding both male and female Miis and clearing early apartment requests.",
-          "unlocks": ["Clothing Store: 1M + 1F islander + 5 solved problems", "Hat Store: 2M + 2F + 10 problems", "Mii News: 7 islanders with at least 3M + 3F"]
+          "unlocks": [
+            "Clothing Store: 1M + 1F islander + 5 solved problems",
+            "Hat Store: 2M + 2F + 10 problems",
+            "Mii News: 7 islanders with at least 3M + 3F"
+          ]
         },
         {
           "title": "Use Money, Level-Ups, and Treasures",
           "description": "This phase unlocks core support buildings for interiors, music, rankings, compatibility checks, and selling valuables.",
-          "unlocks": ["Interiors Store: save over $200", "Concert Hall: give a song to a leveled Mii", "Observation Tower: give a gift to a leveled Mii", "Rankings Board: 5+ Miis + 15 problems", "Compatibility Tester: 2M + 2F + 30 problems", "Pawn Shop: obtain 5 different treasures"]
+          "unlocks": [
+            "Interiors Store: save over $200",
+            "Concert Hall: give a song to a leveled Mii",
+            "Observation Tower: give a gift to a leveled Mii",
+            "Rankings Board: 5+ Miis + 15 problems",
+            "Compatibility Tester: 2M + 2F + 30 problems",
+            "Pawn Shop: obtain 5 different treasures"
+          ]
         },
         {
           "title": "Hit the Midgame Population Milestone",
           "description": "A larger island opens up more management and content tools.",
-          "unlocks": ["Photo Studio: 10+ islanders + 50 solved problems", "Nintendo 3DS Image Share: take a photo of a Mii apartment"]
+          "unlocks": [
+            "Photo Studio: 10+ islanders + 50 solved problems",
+            "Nintendo 3DS Image Share: take a photo of a Mii apartment"
+          ]
         },
         {
           "title": "Push Romance Forward",
           "description": "Once confession events start happening, several leisure areas open together.",
-          "unlocks": ["Park: have an islander confess love", "Amusement Park: have an islander confess love", "Café: have a Mii confess love for another Mii"]
+          "unlocks": [
+            "Park: have an islander confess love",
+            "Amusement Park: have an islander confess love",
+            "Café: have a Mii confess love for another Mii"
+          ]
         },
         {
           "title": "Finish the Family and Travel Layer",
           "description": "Marriage and StreetPass activity open the late-game family and traveler systems.",
-          "unlocks": ["Mii Homes: celebrate an islander wedding", "Port: activate StreetPass + visit Hat Store first", "Import Wear: StreetPass, SpotPass, or export quiz trigger", "Campground: send a traveler or host an arriving traveler"]
+          "unlocks": [
+            "Mii Homes: celebrate an islander wedding",
+            "Port: activate StreetPass + visit Hat Store first",
+            "Import Wear: StreetPass, SpotPass, or export quiz trigger",
+            "Campground: send a traveler or host an arriving traveler"
+          ]
         }
       ]
     }
@@ -945,165 +986,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginners": {
-      "title": "Tomodachi Life Beginner Guides",
-      "description": "Complete beginner guides for Tomodachi Life covering Mii creation, island setup, shop unlocks, and the core daily loop.",
-      "metaTitle": "Tomodachi Life Beginner Guides - Island Setup & First Steps",
-      "metaDescription": "Tomodachi Life beginner guides covering Mii creation, island setup, solving problems, unlocking shops, and getting through the first week.",
-      "categoryLabel": "BEGINNER GUIDES",
-      "whatIs": "What are Beginner Guides?",
-      "whatIsDescription": "Step-by-step guides for new Tomodachi Life players covering the core loop, early unlocks, problem-solving, and building your first island.",
-      "why": "Why read beginner guides?",
+    "release": {
+      "title": "Tomodachi Life Release",
+      "description": "Everything about Tomodachi Life: Living the Dream release date, preorder bonuses, price, and physical copy availability. Stay updated on the latest launch news.",
+      "metaTitle": "Tomodachi Life Release Date & Preorder Guide",
+      "metaDescription": "Complete guide to Tomodachi Life: Living the Dream release date, preorder bonuses, price, and physical copy details. Get the latest release news.",
+      "categoryLabel": "RELEASE NEWS",
+      "whatIs": "What is Tomodachi Life: Living the Dream?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream is the highly anticipated sequel to the original Tomodachi Life for Nintendo 3DS. It brings the charming Mii life simulation to Nintendo Switch with new features, content, and social experiences.",
+      "why": "Why follow release news?",
       "whySteps": {
-        "step1Title": "Start Your Island Right",
-        "step1Description": "Learn which Miis to add first and how to set up a balanced resident pool",
-        "step2Title": "Unlock Shops Faster",
-        "step2Description": "Understand the problem-solving unlock chain to open stores efficiently",
-        "step3Title": "Build Social Momentum",
-        "step3Description": "Let friendships, romance, and island events snowball naturally"
+        "step1Title": "Secure Your Copy",
+        "step1Description": "Know exactly when and where to preorder to guarantee your physical or digital copy",
+        "step2Title": "Claim Preorder Bonuses",
+        "step2Description": "Find out what exclusive bonuses and DLC come with early purchases",
+        "step3Title": "Plan Your Launch Day",
+        "step3Description": "Stay informed on release dates, regional launches, and download sizes"
       },
-      "featured": "Featured & Essential",
-      "all": "All Beginner Guides"
+      "featured": "Featured Release News",
+      "all": "All Release Articles"
     },
-    "qr-codes": {
-      "title": "Tomodachi Life QR Codes",
-      "description": "Mii QR code collections, import guides, and curated packs for Tomodachi Life including Nintendo characters, celebrities, and fan favorites.",
-      "metaTitle": "Tomodachi Life QR Codes - Import Miis & Collections",
-      "metaDescription": "Find Tomodachi Life QR codes for Nintendo characters, celebrities, and fan-made Miis. Learn how to scan and import them into your island.",
-      "categoryLabel": "QR CODES",
-      "whatIs": "What are QR Codes?",
-      "whatIsDescription": "Mii QR codes let you import pre-made characters into Tomodachi Life through Mii Maker. Collections cover Nintendo staff, celebrities, anime, and original creations.",
-      "why": "Why use QR codes?",
+    "demo": {
+      "title": "Tomodachi Life Demo",
+      "description": "Complete guides to the Tomodachi Life: Living the Dream demo, including how to download it, what content is available, and how to reset it for a fresh start.",
+      "metaTitle": "Tomodachi Life Demo Guide - Download & Reset",
+      "metaDescription": "Everything about the Tomodachi Life: Living the Dream demo. Learn how to download, what features are available, and how to reset the demo for a new playthrough.",
+      "categoryLabel": "DEMO GUIDES",
+      "whatIs": "What is the Tomodachi Life Demo?",
+      "whatIsDescription": "The Tomodachi Life: Living the Dream demo is a free trial version available on the Nintendo eShop. It lets players experience key features of island life, Mii interactions, and core gameplay before the full release.",
+      "why": "Why play the demo?",
       "whySteps": {
-        "step1Title": "Build a Dream Cast",
-        "step1Description": "Import your favorite characters without rebuilding them by hand",
-        "step2Title": "Find Themed Packs",
-        "step2Description": "Browse curated collections by theme, franchise, or community source",
-        "step3Title": "Start a New Island Fast",
-        "step3Description": "Populate a fresh island quickly with personality-ready Miis"
+        "step1Title": "Experience Before Buying",
+        "step1Description": "Try out the core Mii island gameplay with no commitment",
+        "step2Title": "Master the Basics",
+        "step2Description": "Learn controls, the daily routine, and key mechanics ahead of launch",
+        "step3Title": "Reset for More Playtime",
+        "step3Description": "Discover how to reset the demo and explore it multiple times"
       },
-      "featured": "Featured Collections",
-      "all": "All QR Code Guides"
+      "featured": "Featured Demo Guides",
+      "all": "All Demo Articles"
     },
-    "personalities": {
-      "title": "Tomodachi Life Personalities",
-      "description": "Complete guides to all 16 Tomodachi Life personality types, how the quiz works, and how personalities affect island life and social events.",
-      "metaTitle": "Tomodachi Life Personalities - All 16 Types Explained",
-      "metaDescription": "Complete Tomodachi Life personality guide covering all 16 types, the personality quiz sliders, group traits, and how personalities affect friendships and romance.",
+    "switch": {
+      "title": "Tomodachi Life Switch",
+      "description": "All the details about Tomodachi Life on Nintendo Switch, including Living the Dream gameplay features, Switch-exclusive content, and how it compares to the original 3DS version.",
+      "metaTitle": "Tomodachi Life Switch - Living the Dream Features & Guide",
+      "metaDescription": "Complete guide to Tomodachi Life: Living the Dream on Nintendo Switch. Discover new features, gameplay changes, and what makes the Switch version special.",
+      "categoryLabel": "SWITCH VERSION",
+      "whatIs": "What is Tomodachi Life on Switch?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream brings the beloved Mii island life simulation to Nintendo Switch. The Switch version introduces online features, expanded customization, and new social mechanics not found in the original 3DS title.",
+      "why": "Why play on Switch?",
+      "whySteps": {
+        "step1Title": "Modern Platform Features",
+        "step1Description": "Enjoy improved graphics, online connectivity, and Switch-exclusive content",
+        "step2Title": "Share With Friends",
+        "step2Description": "Visit other players' islands and share Mii QR codes globally",
+        "step3Title": "Expanded Gameplay",
+        "step3Description": "Experience new events, items, and interactions exclusive to the Switch version"
+      },
+      "featured": "Featured Switch Guides",
+      "all": "All Switch Articles"
+    },
+    "personality": {
+      "title": "Tomodachi Life Personality",
+      "description": "Complete guides to all Tomodachi Life personality types, the personality chart, compatibility between Miis, and how personality traits affect island relationships.",
+      "metaTitle": "Tomodachi Life Personality Guide - All Types & Chart",
+      "metaDescription": "Master Tomodachi Life personalities with our complete guide covering all personality types, the personality chart, compatibility, and how traits shape Mii behavior.",
       "categoryLabel": "PERSONALITY GUIDE",
-      "whatIs": "What are Personalities?",
-      "whatIsDescription": "Tomodachi Life uses four sliders to assign each Mii one of 16 personality types. Personalities shape dialogue, social chemistry, and key island outcomes.",
-      "why": "Why learn about personalities?",
+      "whatIs": "What are Tomodachi Life Personalities?",
+      "whatIsDescription": "Tomodachi Life uses a personality system with multiple distinct types that shape how Miis interact, form friendships, and fall in love. Each personality type influences dialogue, hobbies, and compatibility with other Miis.",
+      "why": "Why learn about Tomodachi Life personalities?",
       "whySteps": {
-        "step1Title": "Understand Your Miis",
-        "step1Description": "Learn what each personality type looks and acts like on the island",
-        "step2Title": "Plan Social Outcomes",
-        "step2Description": "Use personality compatibility to shape friendships and romances",
-        "step3Title": "Set Up New Miis Better",
-        "step3Description": "Build a diverse island personality mix for more varied events"
+        "step1Title": "Build Compatible Friendships",
+        "step1Description": "Understand which personality types bond best together to encourage friendships",
+        "step2Title": "Spark Romance",
+        "step2Description": "Match compatible personalities to increase the chance of Mii couples forming",
+        "step3Title": "Customize Your Island",
+        "step3Description": "Choose personality combinations that create the most entertaining interactions"
       },
-      "featured": "Featured & Essential",
-      "all": "All Personality Guides"
+      "featured": "Featured Personality Guides",
+      "all": "All Personality Articles"
     },
-    "relationships": {
-      "title": "Tomodachi Life Relationships",
-      "description": "Guides to friendships, romance, marriage, compatibility, and relationship status in Tomodachi Life.",
-      "metaTitle": "Tomodachi Life Relationships - Romance, Marriage & Friendship",
-      "metaDescription": "Complete Tomodachi Life relationship guides covering friendship ladders, romance, compatibility testing, marriage, and how to protect bonds from breakups.",
-      "categoryLabel": "RELATIONSHIPS",
-      "whatIs": "What are Relationship Guides?",
-      "whatIsDescription": "Guides to friendship status ladders, romance progression, compatibility testing, marriage steps, and managing breakups and fights in Tomodachi Life.",
-      "why": "Why read relationship guides?",
+    "mii": {
+      "title": "Tomodachi Life Mii",
+      "description": "Everything about Tomodachi Life Miis, including QR codes, how many Miis you can have, face paint options, and tips for creating the perfect island residents.",
+      "metaTitle": "Tomodachi Life Mii Guide - QR Codes, Face Paint & More",
+      "metaDescription": "Complete Tomodachi Life Mii guide covering QR codes, Mii limits, face paint customization, and tips for building the best island cast.",
+      "categoryLabel": "MII GUIDES",
+      "whatIs": "What are Tomodachi Life Miis?",
+      "whatIsDescription": "Miis are the customizable characters at the heart of Tomodachi Life. You can create, import via QR codes, and customize Miis with unique faces, personalities, and voices. Each Mii lives on your island and generates unique events and stories.",
+      "why": "Why master Tomodachi Life Miis?",
       "whySteps": {
-        "step1Title": "Build Strong Bonds",
-        "step1Description": "Learn the fastest ways to raise friendship and romance status",
-        "step2Title": "Navigate Romance",
-        "step2Description": "Understand the confession, dating, and marriage flow",
-        "step3Title": "Protect Relationships",
-        "step3Description": "Avoid arguments and breakups that can set back your island"
+        "step1Title": "Build Your Dream Cast",
+        "step1Description": "Import your favorite characters using QR codes or create them from scratch",
+        "step2Title": "Maximize Island Events",
+        "step2Description": "The right mix of Miis creates more interesting relationships and storylines",
+        "step3Title": "Personalize Every Detail",
+        "step3Description": "Customize face paint, voices, and appearances to make each Mii unique"
       },
-      "featured": "Featured & Essential",
-      "all": "All Relationship Guides"
+      "featured": "Featured Mii Guides",
+      "all": "All Mii Articles"
     },
-    "locations": {
-      "title": "Tomodachi Life Locations",
-      "description": "Guides to every island location in Tomodachi Life including shops, social areas, and unlock requirements.",
-      "metaTitle": "Tomodachi Life Locations - All Shops & Island Areas",
-      "metaDescription": "Complete guide to all Tomodachi Life island locations, unlock requirements, and what happens at each building and social area.",
-      "categoryLabel": "LOCATIONS",
-      "whatIs": "What are Location Guides?",
-      "whatIsDescription": "Guides to every island building and area in Tomodachi Life, including shops, social hangouts, Mii Homes, and the unlock requirements for each.",
-      "why": "Why read location guides?",
+    "mod": {
+      "title": "Tomodachi Life Mod",
+      "description": "Guides to Tomodachi Life mods, save editors, emulator setup, and ROM information. Explore customization options and ways to extend your Tomodachi Life experience.",
+      "metaTitle": "Tomodachi Life Mods, Save Editor & Emulator Guide",
+      "metaDescription": "Complete guide to Tomodachi Life mods, save editors, emulator setup, and ROM details. Customize your game and explore the full modding community.",
+      "categoryLabel": "MODS & TOOLS",
+      "whatIs": "What are Tomodachi Life Mods?",
+      "whatIsDescription": "Tomodachi Life mods and save editors allow players to customize the game beyond its standard options. From texture replacements to save editing tools and emulator setups, the modding community has created numerous ways to enhance and personalize the experience.",
+      "why": "Why use Tomodachi Life mods?",
       "whySteps": {
-        "step1Title": "Unlock New Areas",
-        "step1Description": "Learn the exact conditions that open each new building",
-        "step2Title": "Use Every Location",
-        "step2Description": "Understand what events and interactions each area supports",
-        "step3Title": "Plan Island Growth",
-        "step3Description": "Build toward late-game areas like Mii Homes and the Port"
+        "step1Title": "Unlock New Possibilities",
+        "step1Description": "Access content and customizations not available in the base game",
+        "step2Title": "Play on Any Platform",
+        "step2Description": "Use emulators to enjoy Tomodachi Life on PC or other devices",
+        "step3Title": "Edit Your Save",
+        "step3Description": "Modify island data, Mii stats, and resources with save editor tools"
       },
-      "featured": "Featured & Essential",
-      "all": "All Location Guides"
+      "featured": "Featured Mod Guides",
+      "all": "All Mod Articles"
     },
-    "food": {
-      "title": "Tomodachi Life Food",
-      "description": "Food guides for Tomodachi Life covering the Food Mart rotation, favorite foods, reaction tiers, and collection basics.",
-      "metaTitle": "Tomodachi Life Food Guide - Favorites, Reactions & Collection",
-      "metaDescription": "Complete Tomodachi Life food guide covering the Food Mart rotation, food reaction tiers, favorite and worst-ever foods, and collection tips.",
-      "categoryLabel": "FOOD GUIDE",
-      "whatIs": "What are Food Guides?",
-      "whatIsDescription": "Food guides cover the daily Food Mart rotation, reaction tiers from All-Time Favorite to Worst Ever, and collection strategies for the Town Hall food list.",
-      "why": "Why read food guides?",
+    "guide": {
+      "title": "Tomodachi Life Guide",
+      "description": "Complete Tomodachi Life guides covering how to get money quickly, make Miis fall in love, get hair dye, choose island names, and master every aspect of island life.",
+      "metaTitle": "Tomodachi Life Guide - Tips, Money, Romance & More",
+      "metaDescription": "Master Tomodachi Life with our comprehensive guides on earning money, romance mechanics, item locations, island naming, and all the best gameplay tips.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Tomodachi Life Guides?",
+      "whatIsDescription": "Tomodachi Life guides cover every aspect of the game, from earning money and building romances to finding rare items and creating the perfect island name. These guides help players get the most out of their Tomodachi Life experience.",
+      "why": "Why use Tomodachi Life guides?",
       "whySteps": {
-        "step1Title": "Manage Mood Effectively",
-        "step1Description": "Know which foods cheer up sad Miis in an emergency",
-        "step2Title": "Discover Reactions",
-        "step2Description": "Track All-Time Favorites and Worst Evers for every Mii",
-        "step3Title": "Complete the Collection",
-        "step3Description": "Use Daily Specials to grow your food catalog systematically"
+        "step1Title": "Master the Economy",
+        "step1Description": "Learn proven strategies to earn money quickly and afford premium items",
+        "step2Title": "Create Perfect Romances",
+        "step2Description": "Understand the mechanics behind Mii relationships and marriage",
+        "step3Title": "Find Every Item",
+        "step3Description": "Locate rare items like hair dye and special gifts to keep your Miis happy"
       },
-      "featured": "Featured & Essential",
-      "all": "All Food Guides"
-    },
-    "interiors": {
-      "title": "Tomodachi Life Interiors",
-      "description": "Guides to all interior designs in Tomodachi Life including shop purchases, level-up exclusives, and apartment customization tips.",
-      "metaTitle": "Tomodachi Life Interiors - All 102 Rooms & Level-Up Exclusives",
-      "metaDescription": "Complete Tomodachi Life interiors guide covering all 102 room designs, the 6 level-up-only exclusives, shop rotation, and apartment styling tips.",
-      "categoryLabel": "INTERIORS",
-      "whatIs": "What are Interior Guides?",
-      "whatIsDescription": "Interior guides cover all room designs available in Tomodachi Life, including the 6 exclusive level-up-only interiors and shop-bought options.",
-      "why": "Why read interior guides?",
-      "whySteps": {
-        "step1Title": "Find Exclusive Rooms",
-        "step1Description": "Learn which 6 interiors only come from level-up rewards",
-        "step2Title": "Style Your Island",
-        "step2Description": "Match interior themes to Mii personalities and island stories",
-        "step3Title": "Plan Shop Purchases",
-        "step3Description": "Prioritize room buys based on availability and visual impact"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Interior Guides"
-    },
-    "dreams": {
-      "title": "Tomodachi Life Dreams",
-      "description": "Guides to sleep dreams, rare dream events, and dream types in Tomodachi Life.",
-      "metaTitle": "Tomodachi Life Dreams - Rare Events & All Dream Types",
-      "metaDescription": "Complete Tomodachi Life dreams guide covering all dream types, rare sleep events, how to trigger specific dreams, and what changes between versions.",
-      "categoryLabel": "DREAMS",
-      "whatIs": "What are Dream Guides?",
-      "whatIsDescription": "Dream guides cover the sleep system in Tomodachi Life, including ordinary dream types, rare dreams, and how dream events vary by version.",
-      "why": "Why read dream guides?",
-      "whySteps": {
-        "step1Title": "Catch Rare Dreams",
-        "step1Description": "Know which dream types are rare and what triggers them",
-        "step2Title": "Understand the Sleep System",
-        "step2Description": "Learn how the sleep and dream schedule works on your island",
-        "step3Title": "Collect Dream Events",
-        "step3Description": "Track all dream categories for a complete island experience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Dream Guides"
+      "featured": "Featured Gameplay Guides",
+      "all": "All Guide Articles"
     }
   }
 }

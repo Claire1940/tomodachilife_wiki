@@ -1,0 +1,129 @@
+export const metadata = {
+  title: "Editor de Guardado de Tomodachi Life: Guía Definitiva de Modding 2026",
+  description: "Aprende a usar un editor de guardado de Tomodachi Life para desbloquear todos los objetos, modificar relaciones y gestionar tu isla. Guía completa de 2026 para modding de 3DS.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Save+Editor",
+  date: "2026-03-30",
+  author: "Equipo de la Wiki de Tomodachi Life"
+}
+
+Tomodachi Life sigue siendo uno de los juegos de simulación social más únicos jamás lanzados para la Nintendo 3DS, pero su progresión a veces puede resultar restrictiva. Ya sea que estés cansado de esperar a que aparezca una prenda de ropa específica en la tienda o que quieras arreglar una relación rota entre dos Miis, usar un **tomodachi life save editor** es la solución más efectiva. En 2026, la comunidad de modding ha perfeccionado estas herramientas para que sean más accesibles que nunca, permitiendo a los jugadores saltarse años de RNG (generación de números aleatorios) para crear su paraíso insular perfecto. Al utilizar un **tomodachi life save editor**, obtienes un control granular sobre cada aspecto de tu archivo de guardado, desde la "Economía del Yo" hasta las preferencias alimentarias específicas de cada habitante de tu isla.
+
+En esta guía completa, te guiaremos a través de todo el proceso de configuración de tu hardware, exportación de tus datos de guardado y uso del software de edición más reciente para personalizar tu experiencia de juego. Aunque el proceso requiere algunas herramientas específicas, seguir estos pasos garantizará que tu isla sea exactamente como deseas sin el esfuerzo habitual.
+
+## Requisitos previos para la edición de guardado en 2026
+
+Antes de poder comenzar a modificar tu isla, necesitas un conjunto específico de herramientas. Debido a que la Nintendo 3DS es un ecosistema cerrado, no puedes simplemente descargar un archivo y esperar que funcione sin una forma de "hablar" con el sistema de archivos de la consola.
+
+Para usar un **tomodachi life save editor**, debes tener una consola 3DS con homebrew. El homebrewing te permite ejecutar aplicaciones personalizadas como gestores de guardado, que son esenciales para extraer el archivo `savedata.arc` que el editor modifica. Además, necesitarás una forma física de mover archivos entre tu 3DS y tu ordenador.
+
+| Requisito | Propósito | Notas |
+| :--- | :--- | :--- |
+| **3DS con Homebrew** | Ejecuta software personalizado | Necesario para acceder a las particiones de guardado ocultas. |
+| **JK Save Manager (JKSM)** | Exporta/Importa partidas | La herramienta más fiable para la gestión de guardados en 3DS. |
+| **Lector de tarjetas SD** | Transferencia de datos | Conecta la tarjeta SD de tu 3DS a tu PC. |
+| **Software Editor de Guardado** | Modifica los datos | Generalmente un archivo `.exe` para PC alojado en GitHub. |
+| **PC (Windows/Mac/Linux)** | Ejecución del editor | Windows es generalmente el más compatible. |
+
+> **⚠️ Advertencia:** Crea siempre una copia de seguridad de tu archivo de guardado original antes de usar cualquier editor. Modificar valores hexadecimales o datos de guardado puede provocar corrupción si se saltan pasos o si los valores se introducen incorrectamente.
+
+## Paso 1: Exportar tus datos de guardado con JKSM
+
+El primer obstáculo es sacar tu archivo de guardado de la 3DS y pasarlo a tu ordenador. El juego almacena sus datos en un formato que no es visible inmediatamente si simplemente conectas tu tarjeta SD a un PC. Debes usar una herramienta como **JK Save Manager (JKSM)** para "extraer" los datos de guardado a un formato legible.
+
+1.  Inicia **JKSM** en tu 3DS con homebrew.
+2.  Navega hasta el menú "Titles" y busca **Tomodachi Life** en tu lista de juegos instalados.
+3.  Selecciona "Save Data" y luego elige "Export Save."
+4.  Crea una nueva carpeta para tu exportación. Es una buena práctica nombrar esta carpeta con la fecha actual (por ejemplo, `2026-03-30`) para llevar un seguimiento de tu progreso.
+5.  Una vez completado el proceso, JKSM habrá creado un archivo llamado `savedata.arc` dentro de la carpeta en tu tarjeta SD.
+
+Este archivo `savedata.arc` es el "cerebro" de tu isla. Contiene todo, desde el color de los calcetines de tus Miis hasta el saldo actual en la cuenta bancaria de tu isla.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/CmAO3cs467c"
+    title="how to use TOMODACHI LIFE SAVE EDITOR! (FOR REAL NINTENDO DS)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Paso 2: Uso del Tomodachi Life Save Editor en PC
+
+Una vez que hayas transferido el archivo `savedata.arc` a tu PC mediante un lector de tarjetas SD, es hora de usar el editor. La mayoría de las versiones modernas del **tomodachi life save editor** están alojadas en GitHub y ofrecen una interfaz gráfica de usuario (GUI) que hace que la edición se sienta como usar una aplicación estándar de Windows.
+
+### Características clave del editor
+
+El editor se divide normalmente en varias pestañas, cada una controlando un aspecto diferente del juego. Entender qué hace cada sección es vital para una gestión eficaz de la isla.
+
+| Pestaña/Sección | Características editables | Uso recomendado |
+| :--- | :--- | :--- |
+| **Mii Editor** | Apariencia, Personalidad, Favoritos | Configura "Súper Favoritos" para subir de nivel a los Miis fácilmente. |
+| **Island Info** | Nombre de la isla, Dinero, Rankings | Maximiza tus fondos a 999,999.99 para compras ilimitadas. |
+| **Items/Collection** | Comida, Ropa, Interiores | Desbloquea 99x de cada objeto, incluido el contenido raro de SpotPass. |
+| **Relationships** | Interés amoroso, Mejores amigos | Convierte instantáneamente a los Miis en "Almas gemelas" o "Cónyuges". |
+| **Shops** | Inventario, Objetos especiales | Haz que toda la ropa de temporada esté disponible todo el año. |
+
+### Modificación de relaciones y preferencias de los Miis
+
+Uno de los usos más populares del **tomodachi life save editor** es manipular la red social de tu isla. En la pestaña "Mii", puedes seleccionar un residente específico y ver sus estadísticas ocultas. Puedes cambiar su medidor de "Saciedad" para que nunca tengan hambre, o modificar su estado de "Relación" con otro Mii. Esto te permite forzar un matrimonio o una amistad que la IA del juego se ha resistido a facilitar.
+
+Además, puedes editar las comidas favoritas y odiadas de un Mii. Al configurar la comida favorita de un Mii como algo común como "Fudge", puedes activar la animación de "Súper Favorito de todos los tiempos" y obtener aumentos masivos de felicidad cuando quieras.
+
+## Paso 3: Desbloqueo de objetos y la "Economía del Yo"
+
+Para muchos jugadores, el objetivo final de Tomodachi Life es coleccionar cada prenda de ropa y cada interior. Dado que Nintendo suspendió los servicios de SpotPass hace años, muchos objetos son técnicamente imposibles de obtener mediante el juego legítimo en 2026.
+
+El editor de guardado te permite:
+*   **Desbloquear toda la ropa:** Obtén cada variante de color de cada atuendo.
+*   **Desbloquear toda la comida:** Llena instantáneamente tu despensa con cada plato del juego.
+*   **Modificar interiores:** Accede a diseños de habitaciones raros o caros sin gastar un céntimo.
+*   **Editar tesorería:** La sección "Economía del Yo" te permite establecer la riqueza total de tu isla, asegurando que nunca tengas que preocuparte por el coste de los regalos de nuevo.
+
+> **💡 Consejo:** Usa la función "Desbloquear todo" con moderación si aún disfrutas de la sensación de progresión. Muchos jugadores prefieren desbloquear solo los objetos exclusivos de "SpotPass" que de otro modo son inalcanzables.
+
+## Paso 4: Restaurar el guardado en tu 3DS
+
+Después de haber realizado los cambios deseados en el **tomodachi life save editor**, debes hacer clic en "Save" dentro de la aplicación para sobrescribir el archivo `savedata.arc` en tu tarjeta SD. Luego, sigue estos pasos para devolver los cambios a tu consola:
+
+1.  Expulsa de forma segura la tarjeta SD de tu PC e insértala de nuevo en tu 3DS.
+2.  Abre **JKSM** otra vez.
+3.  Navega de nuevo a **Tomodachi Life** > "Save Data."
+4.  Resalta la carpeta que creaste anteriormente (la que contiene tu archivo modificado).
+5.  Presiona el botón para "Restore" (normalmente el botón 'Y' o 'A' dependiendo de tu versión).
+6.  Confirma la restauración. Esto sobrescribirá los datos actuales del juego con tu versión editada.
+
+Inicia Tomodachi Life. Si se ha realizado correctamente, deberías ver tus totales de dinero modificados, los objetos desbloqueados o las relaciones actualizadas de inmediato.
+
+## Solución de problemas comunes
+
+Aunque la edición de guardados es generalmente sencilla, puedes encontrar obstáculos ocasionales. La mayoría de los problemas se deben a errores en la ruta del archivo o desajustes de región.
+
+| Problema | Causa potencial | Solución |
+| :--- | :--- | :--- |
+| **El guardado no carga** | Corrupción o región incorrecta | Asegúrate de que el editor esté configurado para la región de tu juego (USA/EUR/JPN). |
+| **JKSM no ve el juego** | Base de datos de títulos no actualizada | Actualiza la lista de títulos en la configuración de JKSM. |
+| **Los cambios no aparecen** | Se saltó el paso de restauración | Asegúrate de pulsar "Restore" en JKSM, no solo "Export." |
+| **El editor no abre** | Falta .NET Framework | Actualiza tus dependencias de Windows para ejecutar el `.exe`. |
+
+Para garantizar los mejores resultados, utiliza siempre una [tarjeta SD oficial de Nintendo](https://www.nintendo.com/) o un reemplazo de alta calidad, ya que las tarjetas SD baratas son propensas a la corrupción de datos durante el proceso de inyección de guardado.
+
+## FAQ
+
+**P: ¿Puedo usar un editor de guardado de Tomodachi Life en un emulador como Citra?**
+
+R: ¡Sí! De hecho, es incluso más fácil en un emulador. Simplemente necesitas localizar la carpeta "C-user" donde Citra almacena los datos de guardado, encontrar el archivo `savedata.arc` y abrirlo directamente con el editor. No necesitas JKSM para este proceso.
+
+**P: ¿Me banearán el Nintendo Network ID por usar un editor de guardado?**
+
+R: Es muy poco probable. Dado que Tomodachi Life es principalmente un juego offline y los servidores de 3DS están en gran parte descontinuados por Nintendo a partir de 2026, no hay una monitorización activa de las modificaciones de guardado. Sin embargo, usa siempre homebrew bajo tu propio riesgo.
+
+**P: ¿Puedo cambiar el tipo de personalidad de un Mii con el editor?**
+
+R: Sí. El editor te permite mover los deslizadores de personalidad (Tranquilo, Extrovertido, etc.) a valores específicos, lo que recalculará y cambiará instantáneamente la categoría de personalidad del Mii.
+
+**P: ¿Cómo obtengo los objetos de SpotPass que ya no se distribuyen?**
+
+R: Dentro del **tomodachi life save editor**, suele haber una pestaña de "Objetos especiales" o "Entrega". Marcar las casillas de estos objetos los añadirá a tu colección como si los hubieras recibido a través del servicio de distribución original de Nintendo.

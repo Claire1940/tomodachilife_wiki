@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "release": "Çıkış",
+    "demo": "Demo",
+    "switch": "Switch",
+    "personality": "Kişilik",
+    "mii": "Mii",
+    "mod": "Mod",
+    "guide": "Rehber"
   },
   "common": {
     "home": "Ana Sayfa",

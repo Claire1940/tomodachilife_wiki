@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "release": "Релиз",
+    "demo": "Демо",
+    "switch": "Switch",
+    "personality": "Личность",
+    "mii": "Mii",
+    "mod": "Мод",
+    "guide": "Руководство"
   },
   "common": {
     "home": "Главная",
