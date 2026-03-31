@@ -638,9 +638,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {t.modules.tomodachiLifeGiftsGuide.sections.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors flex-shrink-0">
+                    <DynamicIcon name={s.icon || 'Gift'} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
                   <h3 className="font-bold">
                     <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeGiftsGuide::sections::${index}`]} locale={locale}>
                       {s.name}
@@ -670,16 +672,18 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.modules.tomodachiLifeClothingAndHats.priorities.map((p: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full border bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]">{p.priority}</span>
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center mb-3 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                  <DynamicIcon name={p.icon || 'Star'} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeClothingAndHats::priorities::${index}`]} locale={locale}>
-                    {p.name}
-                  </LinkedTitle>
-                </h3>
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="font-bold text-sm">
+                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeClothingAndHats::priorities::${index}`]} locale={locale}>
+                      {p.name}
+                    </LinkedTitle>
+                  </h3>
+                  <span className="ml-auto text-xs px-2 py-0.5 rounded-full border bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">{p.priority}</span>
+                </div>
                 <p className="text-muted-foreground text-sm">{p.description}</p>
               </div>
             ))}

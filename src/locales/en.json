@@ -535,73 +535,93 @@
     "tomodachiLifeGiftsGuide": {
       "title": "Tomodachi Life Gifts Guide",
       "displayType": "mixedCards",
-      "intro": "In Tomodachi Life, level-up gifts are different from normal consumable gifts. A Mii can own up to 8 level-up gifts at once. The non-Japanese versions include 28 total options covering solo scenes, group activities, and outdoor variety.",
+      "intro": "In Tomodachi Life, level-up gifts differ from normal consumable gifts. A Mii can own up to 8 level-up gifts at once, and non-Japanese versions include 28 total options. Some gifts create apartment scenes, others drive group activities, outdoor variety, or conflict recovery.",
       "sections": [
         {
-          "name": "Best gifts for apartment scenes",
-          "description": "Beauty Kit, Laptop, Mirror, and Study Kit create frequent solo behavior inside apartments. The Laptop can attract up to 3 visitors and sometimes appears to crash."
+          "icon": "Gift",
+          "name": "How the gift system works",
+          "description": "Every level-up can reward a gift. A single Mii holds up to 8 gifts; adding a ninth means replacing one existing gift. Miis usually try a newly assigned gift right after you leave their apartment."
         },
         {
+          "icon": "Home",
+          "name": "Best gifts for repeat apartment scenes",
+          "description": "Beauty Kit, Laptop, Mirror, and Study Kit create frequent solo scenes indoors. The Laptop can attract up to 3 visitors and sometimes appears to crash. Beauty Kit temporarily changes a Mii's eye appearance."
+        },
+        {
+          "icon": "Users",
           "name": "Best gifts for group moments",
-          "description": "CD (up to 4 Miis), Wii U (up to 4 Miis), Laptop (up to 3), and Rent-a-Cat Coupon all create shared comedy or friendship scenes on the island."
+          "description": "CD gathers up to 4 Miis and only the owner needs it. Wii U draws up to 4 with distinct win and loss reactions. Rent-a-Cat and Rent-a-Dog Coupons bring pets that draw visitors into the apartment."
         },
         {
+          "icon": "Gamepad2",
           "name": "Best gifts for outdoor variety",
-          "description": "Guitar, Fishing Pole, Metal Detector, Soccer Ball, Skateboard, and Baseball Bat add visible activity to outdoor locations and make your island map feel more alive."
+          "description": "Guitar plays different tunes in the apartment or at the fountain. Fishing Pole sends a Mii out on a rowing boat. Metal Detector finds coins or trash on the beach. Soccer Ball, Skateboard, and Baseball Bat add map activity."
         },
         {
+          "icon": "Shield",
           "name": "Best gift for fight recovery",
-          "description": "Punching Bag is the only level-up gift that angry Miis can use after a fight. It appears more often when the Mii is upset and is especially practical for drama-heavy islands."
+          "description": "Punching Bag is the only level-up gift angry Miis can use after a fight. It appears more often when a Mii is upset, making it the most practical pick for islands with many rivalries or frequent big fights."
+        },
+        {
+          "icon": "Star",
+          "name": "Easy gift strategy",
+          "description": "Choose CD, Wii U, or Rent-a-Cat Coupon for social islands. Choose Beauty Kit, Mirror, or Laptop for personality-heavy apartments. Keep at least one Punching Bag in rotation for smoother conflict recovery."
         }
       ],
       "growthMilestones": [
         "Give a Mii their first level-up gift",
-        "Unlock the Concert Hall with a song",
-        "Unlock the Observation Tower with a gift",
-        "Stock 8 gifts for one Mii"
+        "Unlock the Observation Tower with a gift reward",
+        "Stock 8 gifts for one Mii",
+        "Use a Punching Bag to calm a fight-angry Mii"
       ]
     },
     "tomodachiLifeClothingAndHats": {
       "title": "Tomodachi Life Clothing and Hats Guide",
       "displayType": "priorityCards",
-      "intro": "Clothing and hats are the core style systems for shaping how your island looks every day. Clothing totals 428 item types and 3,341 colors, while hats total 157 items and 1,111 colors.",
+      "intro": "Tomodachi Life separates full outfits from headwear. Clothing is purchased in the Clothing Shop and hats in the Hats Shop, with daily rotations, seasonal stock, and permanent catalog access once acquired. Clothing totals 428 item types and 3,341 colors; hats total 157 items and 1,111 colors.",
       "priorities": [
         {
+          "icon": "ClipboardCheck",
           "name": "Clothing Shop Unlock",
           "priority": "Early Game",
-          "description": "Opens with 1 male + 1 female resident and 5 solved problems. Daily Specials refresh with up to 5 random outfits each day. Seasonal clothing rotates every 3 months."
+          "description": "Opens with 1 male + 1 female resident and 5 solved problems. Daily Specials refresh with up to 5 random outfits each day. Seasonal clothing rotates every 3 months. Acquired items stay permanently available."
         },
         {
+          "icon": "Package",
           "name": "Hats Shop Unlock",
           "priority": "Early Game",
-          "description": "Opens with 2 male + 2 female residents and 10 solved problems. Shows 3 different hats daily. Bought hats stay available forever under In Stock."
+          "description": "Opens with 2 male + 2 female residents and 10 solved problems. Shows 3 different hats daily in Daily Specials. Bought hats stay available forever under In Stock. Seasonal hats also rotate every 3 months."
         },
         {
+          "icon": "Keyboard",
           "name": "Clothing Categories",
           "priority": "Collection",
-          "description": "428 items total: Masculine (75), Feminine (109), Unisex (69), Formal Wear (69), Costumes (87). Once an outfit or color is acquired, it becomes permanently available."
+          "description": "428 items total: Masculine (75), Feminine (109), Unisex (69), Formal Wear (69), Costumes (87). Once an outfit or color is acquired it remains permanently available in the catalog."
         },
         {
+          "icon": "Eye",
           "name": "Hat Categories",
           "priority": "Collection",
-          "description": "157 items total: Regular hats (69), Costume hats (32), Hair accessories (56). Hats and outfits are separate layers — one hat can match many outfit combinations."
+          "description": "157 items total: Regular hats (69), Costume hats (32), Hair accessories (56). Hats and outfits are separate layers — one hat can pair with many outfit combinations."
         },
         {
-          "name": "Clothing Reactions",
+          "icon": "Heart",
+          "name": "Clothing and Hat Reactions",
           "priority": "Feedback System",
-          "description": "Loved it: Mii spins in the air. Really likes it: jumps. Likes it: hands on hips. Does not like: tilts head. Does not like at all: looks away in embarrassment."
+          "description": "Loved it: Mii spins in the air. Really likes it: jumps. Likes it: hands on hips. Doesn't like much: tilts head. Doesn't like at all: looks away. Unlike food, no super-favorite or worst-ever reactions apply."
         },
         {
+          "icon": "Download",
           "name": "Import Wear and Seasonal Stock",
           "priority": "Advanced",
-          "description": "Rare style unlocks come from special events, space travel, and Import Wear via StreetPass. Seasonal clothing rotates every 3 months for both shops."
+          "description": "Rare style unlocks come from special events, space travel, and Import Wear via StreetPass. Arriving traveler boats can bring exclusive outfits and hats from other islands into your catalog."
         }
       ]
     },
     "tomodachiLifeInteriorsGuide": {
       "title": "Tomodachi Life Interiors Guide",
       "displayType": "achievementGrid",
-      "intro": "Tomodachi Life includes 102 interior designs in the main release. The Interiors shop unlocks once you have at least $200 in pocket money, and the game includes six level-up-only interiors that do not appear for normal sale.",
+      "intro": "Tomodachi Life includes 102 interior designs in the main release. The Interiors shop unlocks once you have at least $200 in pocket money, and six level-up-only interiors cannot be purchased normally: Family, Modern Asian, Natural Wood, Plant, Polka Dot, and Tiled.",
       "groups": [
         {
           "name": "Level-Up Only Interiors",
