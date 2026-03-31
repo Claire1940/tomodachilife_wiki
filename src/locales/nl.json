@@ -7,5 +7,1124 @@
     "mii": "Mii",
     "mod": "Mod",
     "guide": "Gids"
+  },
+  "seo": {
+    "home": {
+      "title": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "description": "Tomodachi Life Wiki behandelt Living the Dream, de releasedatum, Demo, trailer, Mii-creatie, het eilandleven, relaties, winkels, items en dagelijkse evenementen.",
+      "keywords": "Tomodachi Life, Living the Dream, Tomodachi Life Demo, trailer, Mii, eilandleven, Nintendo Switch",
+      "ogTitle": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "ogDescription": "Tomodachi Life Wiki behandelt Living the Dream, de releasedatum, Demo, trailer, Mii-creatie, het eilandleven, relaties, winkels, items en dagelijkse evenementen.",
+      "twitterTitle": "Tomodachi Life Wiki - Living the Dream, Demo & Trailer",
+      "twitterDescription": "Tomodachi Life Wiki behandelt Living the Dream, Demo, Mii-creatie, het eilandleven, relaties en dagelijkse evenementen voor Nintendo Switch."
+    }
+  },
+  "common": {
+    "home": "Home",
+    "more": "Meer",
+    "playNow": "Pre-order op Nintendo",
+    "switchLanguage": "Taal wijzigen",
+    "switchTheme": "Thema wijzigen",
+    "lightMode": "Lichte modus",
+    "darkMode": "Donkere modus",
+    "notFound": "Pagina niet gevonden",
+    "notFoundDescription": "De pagina die je zoekt bestaat niet.",
+    "backToHome": "Terug naar Home",
+    "relatedArticles": "Gerelateerde artikelen",
+    "readMore": "Lees meer"
+  },
+  "hero": {
+    "badge": "Eigenaardige Mii-levenssimulator",
+    "title": "Tomodachi Life Wiki",
+    "description": "Bouw een eiland vol Mii-personages, zie hoe vriendschappen en romances ontstaan, pas huizen en outfits aan, en blijf op de hoogte van Tomodachi Life: Living the Dream-nieuws, Demo en gidsen.",
+    "getFreeCodesCTA": "Download Demo",
+    "playOnSteamCTA": "Pre-order op Nintendo",
+    "stats": {
+      "stat1": {
+        "value": "16 april 2026",
+        "label": "Releasedatum"
+      },
+      "stat2": {
+        "value": "Nintendo Switch",
+        "label": "Platform"
+      },
+      "stat3": {
+        "value": "Nu beschikbaar",
+        "label": "Demo"
+      },
+      "stat4": {
+        "value": "10",
+        "label": "Ondersteunde talen"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Tomodachi Life: Living the Dream",
+    "description": "Bouw een eiland vol Mii-personages, zie hoe vriendschappen en romances ontstaan, verken de systemen van het eilandleven en bereid je voor op de release voor de Nintendo Switch op 16 april 2026."
+  },
+  "tools": {
+    "title": "Tomodachi Life",
+    "titleHighlight": "Gidsenoverzicht",
+    "subtitle": "Alles wat je nodig hebt om je eiland op te bouwen, je Miis te begrijpen en alles van Tomodachi Life te ervaren",
+    "cards": [
+      {
+        "icon": "Users",
+        "title": "Tomodachi Life Persoonlijkheidsgids",
+        "description": "16 persoonlijkheidstypen, schuifregelaar-quiz en sociale chemie"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Tomodachi Life QR Codes",
+        "description": "Importeer Miis uit archieven, samengestelde pakketten en community-bronnen"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Tomodachi Life Beginnersgids",
+        "description": "Eerste bewoners, probleemoplossende cyclus en vroege ontgrendelingen"
+      },
+      {
+        "icon": "Heart",
+        "title": "Tomodachi Life Compatibiliteitsgids",
+        "description": "Compatibiliteitstester, vriendschaps- en romancevoorspellingen"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Tomodachi Life Relatiegids",
+        "description": "Statusladders, acties om de band te versterken en het voorkomen van relatiebreuken"
+      },
+      {
+        "icon": "Home",
+        "title": "Tomodachi Life Huwelijksgids",
+        "description": "Verloop van het huwelijksaanzoek, minigame-tips en het leven in Mii-woningen"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Tomodachi Life Babygids",
+        "description": "Babyverzoeken, groeicyclus van zes dagen en keuzes bij het uit huis gaan"
+      },
+      {
+        "icon": "Package",
+        "title": "Tomodachi Life Voedselgids",
+        "description": "Food Mart-rotatie, reactieniveaus en de basis van het verzamelen"
+      },
+      {
+        "icon": "Gift",
+        "title": "Tomodachi Life Cadeaugids",
+        "description": "Level-up cadeaus voor appartementen, groepsmomenten en herstel na ruzies"
+      },
+      {
+        "icon": "Download",
+        "title": "Tomodachi Life Kleding- en Hoedengids",
+        "description": "428 kledingstukken, 157 hoeden en het reactiesysteem"
+      },
+      {
+        "icon": "Eye",
+        "title": "Tomodachi Life Interieurgids",
+        "description": "102 ontwerpen inclusief 6 exclusieve kamers die alleen via level-up beschikbaar zijn"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Tomodachi Life Reizigers- en StreetPass-gids",
+        "description": "Haven, kampeerterrein, StreetPass-tags en reizigersbeloningen"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Tomodachi Life Importkleding-gids",
+        "description": "Importwinkel, exportquiz en SpotPass-verzamelnotities"
+      },
+      {
+        "icon": "Music",
+        "title": "Tomodachi Life Concertzaal-liedjes",
+        "description": "8 liedjestypen, songteksten bewerken en groepsoptredens instellen"
+      },
+      {
+        "icon": "Settings",
+        "title": "Tomodachi Life Stem- en Slagzinnengids",
+        "description": "Stemschuifregelaars, uitspraak van namen en soorten slagzinnen"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Tomodachi Life Ontgrendelingsgids",
+        "description": "Volledige voortgangskaart van de tutorial tot Mii-woningen"
+      }
+    ]
+  },
+  "modules": {
+    "tomodachiLifePersonalityGuide": {
+      "title": "Tomodachi Life Personality Guide",
+      "displayType": "steps",
+      "intro": "Tomodachi Life uses four editable traits during Mii creation to place each resident into one of 16 personalities. Grouped into Easygoing, Outgoing, Independent, and Confident, personalities affect social chemistry, dialogue flavor, and key social outcomes on your island.",
+      "steps": [
+        {
+          "title": "How the personality quiz works",
+          "description": "The personality chart is built from Movement, Speech, Expressiveness, and Attitude. The Overall row is cosmetic and does not change the final personality result. Tomodachi Life keeps the same 16 personality types used in Tomodachi Collection."
+        },
+        {
+          "title": "Easygoing personalities",
+          "description": "Types: Softie, Optimist, Buddy, Dreamer. Group tone: relaxed, open-minded, empathetic. Softie is emotional and highly empathetic. Optimist stays upbeat. Buddy puts friends first. Dreamer is idealistic and romantic."
+        },
+        {
+          "title": "Outgoing personalities",
+          "description": "Types: Trendsetter, Entertainer, Charmer, Leader. Group tone: social, charming, energetic. Trendsetter is stylish and socially adaptable. Entertainer loves attention. Charmer gets along with almost anyone. Leader is assertive and tends to take charge."
+        },
+        {
+          "title": "Independent personalities",
+          "description": "Types: Free Spirit, Artist, Lone Wolf, Thinker. Group tone: self-sufficient, individual, introspective. Free Spirit follows personal values. Artist is quiet and creative. Lone Wolf keeps emotions private. Thinker is reflective and analytical."
+        },
+        {
+          "title": "Confident personalities",
+          "description": "Types: Designer, Adventurer, Brainiac, Go-Getter. Group tone: organized, motivated, focused. Designer is polished and goal-oriented. Adventurer seeks new challenges. Brainiac is highly intelligent. Go-Getter pushes ahead with confidence."
+        }
+      ],
+      "quickTips": [
+        "Miis with similar personalities tend to like each other more.",
+        "A personality profile becomes viewable once your island has at least one resident with that personality.",
+        "Personalities affect dialogue flavor, social chemistry, and some romance reactions.",
+        "You can check a Mii's personality group in their profile at any time."
+      ]
+    },
+    "tomodachiLifeQRCodes": {
+      "title": "Tomodachi Life QR Codes",
+      "displayType": "cards",
+      "intro": "QR codes let you add established characters, community creations, and ready-made Miis without rebuilding them by hand. The best QR resources combine large Mii archives with clear import instructions and curated packs you can scan immediately.",
+      "cards": [
+        {
+          "name": "Official Mii Archive on MiiWiki",
+          "description": "MiiWiki's QR code category is an official-created Mii archive with over 1,015 total QR files, including Aerith, Aonuma, Barret, and many more. Best for broad discovery when you want a large back catalog."
+        },
+        {
+          "name": "Nintendo Life Team Pack",
+          "description": "Nintendo Life published a ready-to-scan staff pack for Tomodachi Life, generated inside the game itself. Carries over clothing, room décor, catchphrases, personality traits, voice, and original-island information."
+        },
+        {
+          "name": "Crystal Dreams QR Collection",
+          "description": "Crystal Dreams keeps a long-running Tomodachi Life QR page that works well as a community browse source. Especially useful when you want fan-made picks instead of a strict official archive."
+        },
+        {
+          "name": "QR Import Flow",
+          "description": "In Mii Maker: open QR Code/Image Options, tap Scan QR Code, align the code, then save the Mii. In Tomodachi Life: go to Town Hall, choose New Mii, then transfer the saved Mii from Mii Maker."
+        }
+      ],
+      "milestones": [
+        "Scan your first Mii QR code",
+        "Import a Nintendo character",
+        "Try a community-made Mii pack"
+      ]
+    },
+    "tomodachiLifeBeginnerGuide": {
+      "title": "Tomodachi Life Beginner Guide",
+      "displayType": "itemCards",
+      "intro": "Tomodachi Life feels random at first, but the early game has a readable loop: add residents, solve problem bubbles, unlock facilities, level up Miis, and let relationships snowball into bigger events.",
+      "items": [
+        {
+          "name": "Start with a balanced resident pool",
+          "type": "Step 1",
+          "description": "Create your first Miis and keep expanding early. Aim for at least 1 male and 1 female Mii quickly. Many early buildings require a gender mix, so a balanced cast speeds up progress."
+        },
+        {
+          "name": "Solve black-bubble problems first",
+          "type": "Step 2",
+          "description": "Problem bubbles are the main progression engine. At 5 solved problems with 1 male + 1 female Mii, the Clothing Store opens. At 10 problems with 2 male + 2 female, the Hat Store opens."
+        },
+        {
+          "name": "Use money and shops to stabilize",
+          "type": "Step 3",
+          "description": "Shops give you more ways to raise happiness, solve requests, and shape each resident. Save money early so the Interiors Store opens after two Miis save $200 or more."
+        },
+        {
+          "name": "Level up Miis as soon as possible",
+          "type": "Step 4",
+          "description": "Every level-up unlocks rewards: songs open the Concert Hall, gifts open the Observation Tower. Each reward deepens your island's sandbox and creates new social events."
+        },
+        {
+          "name": "Push into island-wide systems",
+          "type": "Step 5",
+          "description": "At 5 Miis and 15 problems: Rankings Board opens. At 7 Miis with 3+ of each gender: Mii News opens. At 2+2 Miis and 30 problems: Compatibility Tester unlocks."
+        },
+        {
+          "name": "Let friendships turn into romance",
+          "type": "Step 6",
+          "description": "A love confession unlocks the Park and Café. A wedding unlocks Mii Homes. Keep solving relationship problems to create more chances for confessions, dates, and marriages."
+        }
+      ]
+    },
+    "tomodachiLifeCompatibilityGuide": {
+      "title": "Tomodachi Life Compatibility Guide",
+      "displayType": "solutionCards",
+      "intro": "Compatibility in Tomodachi Life is part forecast tool and part relationship planner. It gives you a fast way to see who is likely to mesh well, which pairs qualify for romance checks, and what status ladder a relationship can climb.",
+      "solutions": [
+        {
+          "name": "Compatibility Tester",
+          "role": "Unlock Requirement",
+          "description": "Unlocks when you have 2 male Miis, 2 female Miis, and 30 solved problems. This is the first real tool for planning friendships and romance instead of waiting blindly."
+        },
+        {
+          "name": "Birthday Requirement",
+          "role": "Mandatory Input",
+          "description": "Both Miis need full birthdays saved in their profile. Without full birthdays, compatibility cannot be tested. Set them early for residents you care about."
+        },
+        {
+          "name": "Friendship Forecast",
+          "role": "Same-Gender Pairs",
+          "description": "Used for same-gender pairs, family pairs, or different age group opposite-gender pairs. Shows the next week's Work/Study, Chats, and Leisure outlook."
+        },
+        {
+          "name": "Romance Forecast",
+          "role": "Opposite-Gender Pairs",
+          "description": "Used for opposite-gender pairs in the same age group. Adds the Love forecast alongside other weekly categories. Best for choosing which pairings to push toward confessions and marriage."
+        }
+      ],
+      "managementTips": [
+        "Forecast scale runs from full sun (best) to full storm (worst).",
+        "Miis with similar personalities tend to like each other more.",
+        "Travel tickets can raise a relationship by one or two levels automatically.",
+        "A rejected confession can drop both sides by as many as three levels.",
+        "Check compatibility before pushing romance — failed confessions are costly."
+      ]
+    },
+    "tomodachiLifeRelationshipGuide": {
+      "title": "Tomodachi Life Relationship Guide",
+      "displayType": "cards",
+      "intro": "Tomodachi Life runs on hidden social momentum. Every friendship, romance, and family bond sits on a visible status ladder, and those ladders directly affect whether Miis become best friends, start dating, propose, fight, or break up. The fastest way to manage island drama is to learn which statuses matter, which actions raise them, and which mistakes make them collapse.",
+      "cards": [
+        {
+          "icon": "Users",
+          "name": "Relationship Categories",
+          "description": "The game tracks seven main categories: Spouse, Family, Siblings, Sweetheart, Best Friend, Friends, and Ex-Sweethearts/Ex-Spouses. Each category uses its own wording for relationship strength, and stronger bonds sit toward green while weaker bonds sit toward purple."
+        },
+        {
+          "icon": "MessageCircle",
+          "name": "Friendship Ladder",
+          "description": "For Friends, Family, and Siblings in the NA version, the ladder runs from strongest to weakest: Best bud, Good buddy, Great pal, Good pal, Getting along OK, Kinda getting along, Not getting along. If a pair slides into the bottom, fights become more dangerous."
+        },
+        {
+          "icon": "Heart",
+          "name": "Romance and Marriage Signals",
+          "description": "Strong Sweetheart statuses include Let's get married!, Super in love, Totally in love, Very much in love. Strong Spouse statuses include Soul mate, Super happy, Totally happy, Very happy. These are the status words to check before expecting a confession or proposal."
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Ways to Raise a Relationship",
+          "description": "The safest ways to improve bonds are positive relationship advice, dates, and travel tickets. If a Mii asks what you think of a relationship, saying they are great together raises the status. A travel ticket vacation raises the pair by one or two levels automatically."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "How Relationships Break Down",
+          "description": "Arguments, failed reconciliations, and rejected confessions can damage bonds quickly. If a conversation goes badly it can turn into an argument, and if a fight is not resolved the pair can revert to acquaintances. A rejected confession can drop both sides by as many as three levels."
+        },
+        {
+          "icon": "Shield",
+          "name": "Managing Breakup Risk",
+          "description": "If a sweetheart asks to break up and you tell them to work things out, a successful reconciliation resets a negative dating relationship back to its default level. This recovery rule applies to sweethearts with negative status, not spouses asking for divorce."
+        }
+      ],
+      "highlights": [
+        "Tell worried Miis they are great together",
+        "Use travel tickets to boost bond levels",
+        "Resolve arguments before they escalate into breakups",
+        "Rejected confessions drop both sides by up to three levels"
+      ]
+    },
+    "tomodachiLifeMarriageGuide": {
+      "title": "Tomodachi Life Marriage Guide",
+      "displayType": "steps",
+      "intro": "Marriage in Tomodachi Life is not a random cutscene you simply wait for. First, a dating pair has to stay stable long enough to trigger a proposal request. Then you must help with a timing-based proposal minigame. Once the proposal succeeds, the couple moves into Mii Homes, unlocks married life, and can eventually ask for a baby.",
+      "steps": [
+        {
+          "name": "Keep the couple stable long enough",
+          "type": "Step 1",
+          "description": "A marriage request usually appears after the pair has been together for some time and both Miis keep a good relationship with each other.",
+          "facts": [
+            "Proposal timing can range from months to, very rarely, under an hour.",
+            "Very rarely, a proposal request can appear even when the couple is still at the default dating level."
+          ]
+        },
+        {
+          "name": "Accept the proposal request",
+          "type": "Step 2",
+          "description": "When one sweetheart gets a love problem and says they want to propose, choose to help instead of putting it off.",
+          "facts": [
+            "Saying Not right now does not instantly fail the relationship, but the request can disappear if you wait too long.",
+            "The proposing Mii asks directly whether they should propose."
+          ]
+        },
+        {
+          "name": "Choose the proposal setup",
+          "type": "Step 3",
+          "description": "Before the minigame starts, you choose where the proposal happens and whether the proposer should change clothes.",
+          "facts": [
+            "The four proposal locations are Fireworks show, Train station, Amusement park, and Fancy restaurant.",
+            "Each location has its own interruptions that can break the timing flow."
+          ]
+        },
+        {
+          "name": "Win the proposal minigame",
+          "type": "Step 4",
+          "description": "During the proposal, tap the heart button only when the partner is thinking about the proposer.",
+          "facts": [
+            "You must get the timing right four times.",
+            "If you make three mistakes, the proposal fails.",
+            "Thought bubbles can switch quickly, so fast, clean timing matters more than tapping often."
+          ]
+        },
+        {
+          "name": "Handle child couples correctly",
+          "type": "Step 5",
+          "description": "If the couple are kids, they cannot complete the wedding unless you use an Age-o-matic.",
+          "facts": [
+            "After a successful proposal, a kid couple receives an Age-o-matic as the gift.",
+            "If you refuse to use it, the wedding is called off."
+          ]
+        },
+        {
+          "name": "Watch the wedding and post-marriage move",
+          "type": "Step 6",
+          "description": "A successful proposal leads to the wedding, then a honeymoon, then a move into Mii Homes.",
+          "facts": [
+            "After marriage, the couple spends their honeymoon in a random country.",
+            "They return with a souvenir and settle in a newly built house.",
+            "They can switch between being shown in their house and apartments."
+          ]
+        },
+        {
+          "name": "Unlock married-life outcomes",
+          "type": "Step 7",
+          "description": "Marriage opens the long-term family layer of the game, but it does not make the relationship permanent.",
+          "facts": [
+            "A married couple can later ask for a baby if the baby setting is enabled.",
+            "Divorce is still possible after marriage."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeBabyGuide": {
+      "title": "Tomodachi Life Baby Guide",
+      "displayType": "steps",
+      "intro": "Babies only appear after a couple is already married and living in Mii Homes. Once that condition is met, the player controls whether births are allowed, whether a specific request is accepted, how the baby is customized, how the child is raised, and whether they stay on the island or leave as a traveler.",
+      "steps": [
+        {
+          "name": "Turn baby births on and keep the marriage positive",
+          "type": "Step 1",
+          "description": "Babies can only happen if baby births are enabled in Town Hall and the married couple has a positive relationship.",
+          "facts": [
+            "The request appears as a love problem from one member of the married couple.",
+            "A couple must already be living in Mii Homes before they can have a child."
+          ]
+        },
+        {
+          "name": "Accept the baby request",
+          "type": "Step 2",
+          "description": "When a spouse says they have been thinking about having a baby, you can approve or decline.",
+          "facts": [
+            "If approved, the baby arrives about one to two days later.",
+            "A married couple can have multiple children, but can only actively raise one child at home at a time.",
+            "If you disable baby births before the delivery, the pending birth is cancelled."
+          ]
+        },
+        {
+          "name": "Customize the newborn",
+          "type": "Step 3",
+          "description": "At birth, the mother asks a short series of questions that decide the baby's first profile settings.",
+          "facts": [
+            "You can choose Boy, Girl, or let the gender be random.",
+            "The baby's default appearance is a mix of the mother and father's features.",
+            "You can accept the suggested name, ask for another one, or enter your own.",
+            "The baby's personality can be set like Dad, like Mom, or random."
+          ]
+        },
+        {
+          "name": "Follow the six-day growth cycle",
+          "type": "Step 4",
+          "description": "Children grow in visible daily stages and become ready to leave home on day six.",
+          "facts": [
+            "Day 1: newborn in arms, bassinet, or stroller on outings.",
+            "Day 2: crawling begins.",
+            "Day 3: hair starts growing and the baby can stand briefly.",
+            "Day 4: toddler stage begins and walking practice starts.",
+            "Day 5: the child walks, runs, and speaks in a higher-pitched voice.",
+            "Day 6: the child is fully grown and ready to move out."
+          ]
+        },
+        {
+          "name": "Use the right babysitting actions by age",
+          "type": "Step 5",
+          "description": "Babysitting changes depending on the child's current stage.",
+          "facts": [
+            "Day 1 uses rhythmic rocking with the 3DS system.",
+            "Days 2 to 3 use head pats, belly tickles, and peekaboo.",
+            "Days 4 to 5 use circular stylus motions to lift and spin the child in the backyard.",
+            "Parents only call for crying-baby help during the first three days, and they do not call after 8:00 PM."
+          ]
+        },
+        {
+          "name": "Choose resident or traveler on day six",
+          "type": "Step 6",
+          "description": "Once the child grows up, the parents immediately call you to decide the next life path.",
+          "facts": [
+            "Making the child a resident moves them into their own apartment on the island.",
+            "Sending the child away turns them into a traveler who waits at the port for StreetPass boats.",
+            "In both cases, you get one more chance to edit the child's profile before they leave home."
+          ]
+        },
+        {
+          "name": "Know the family restrictions and records",
+          "type": "Step 7",
+          "description": "The child system temporarily changes what the game lets you do with the family.",
+          "facts": [
+            "Once the baby is born, neither parent can be deleted until the child grows up and moves out.",
+            "Married Miis do not fight or divorce while they are actively raising a child at home.",
+            "The family album is stored under Child Info in Town Hall, which can hold up to 50 albums."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeFoodGuide": {
+      "title": "Tomodachi Life Food Guide",
+      "displayType": "table",
+      "intro": "Food is one of the most repeated systems in Tomodachi Life. It levels Miis, fills hunger, reveals favorite and hated foods, cures certain problems, and supports completion goals through the Town Hall collection list. The smartest way to shop is to understand the Food Mart rotation first, then learn which categories and reaction tiers are worth chasing.",
+      "items": [
+        {
+          "icon": "BookOpen",
+          "name": "Food Mart Basics",
+          "type": "Daily Routine",
+          "description": "The Food Mart is the first shop unlocked in the game. It opens after the first Mii asks for food, and its stock rotates daily.",
+          "playerUse": "Check it every day early, because new purchases permanently expand your buy-again stock."
+        },
+        {
+          "icon": "Star",
+          "name": "Daily Specials",
+          "type": "Discovery Tool",
+          "description": "Each day the shop offers 5 Daily Specials that are randomly selected from foods you have not bought yet. Once purchased, it is added to the regular In Stock list.",
+          "playerUse": "This is the cleanest way to grow your catalog without waiting for random gifts."
+        },
+        {
+          "icon": "Package",
+          "name": "Food Categories",
+          "type": "Collection Data",
+          "description": "Main dishes: 43 total and fill hunger the most. Side dishes: 83 total and fill less than mains. Desserts: 81 total. Beverages: 24 total and fill the least hunger.",
+          "playerUse": "Use mains when hunger is low, and keep drinks or lighter foods for smaller top-ups."
+        },
+        {
+          "icon": "Sparkles",
+          "name": "Reaction Tiers",
+          "type": "Key Mechanic",
+          "description": "Super All-Time Favorite launches the Mii into space. All-Time Favorite triggers a dance sequence. Worst causes a major happiness drop. Worst Ever empties the happiness bar completely.",
+          "playerUse": "These four reactions are the key milestones for food collecting and mood control."
+        },
+        {
+          "icon": "Heart",
+          "name": "Mood Recovery Value",
+          "type": "Practical Use",
+          "description": "A Mii's two strongest favorite-food tiers instantly cheer up a sad Mii and can also be used instead of cold medicine to cure a cold.",
+          "playerUse": "Once you know a Mii's best foods, keep them in reserve for emergencies instead of feeding them casually."
+        },
+        {
+          "icon": "Gift",
+          "name": "Special Foods",
+          "type": "Premium Items",
+          "description": "Special foods always trigger a very positive response and award the largest amount of money and happiness. They never appear in a Mii's favorite-food list and can never become All-Time Favorite or Worst Ever.",
+          "playerUse": "Use these when you want guaranteed upside instead of gambling on hidden preferences."
+        },
+        {
+          "icon": "AlertTriangle",
+          "name": "Trash Food",
+          "type": "Collection Note",
+          "description": "Trash food always costs $0.20 and is guaranteed to be disliked. It cannot be bought from the Food Mart. The Tomodachi Life trash foods are: Ruined meal, Moldy Bread, Banana Peel, and Spoiled Milk.",
+          "playerUse": "Treat these as collection curiosities, not practical food. They are useful only for filling out item lists or chasing reaction data."
+        }
+      ],
+      "unlockMilestones": [
+        "Discover your first All-Time Favorite",
+        "Find a Super All-Time Favorite reaction",
+        "Complete a food category in the collection",
+        "Stock a Mii's top favorite as an emergency cheer-up"
+      ]
+    },
+    "tomodachiLifeGiftsGuide": {
+      "title": "Tomodachi Life Gifts Guide",
+      "displayType": "mixedCards",
+      "intro": "In Tomodachi Life, level-up gifts differ from normal consumable gifts. A Mii can own up to 8 level-up gifts at once, and non-Japanese versions include 28 total options. Some gifts create apartment scenes, others drive group activities, outdoor variety, or conflict recovery.",
+      "sections": [
+        {
+          "icon": "Gift",
+          "name": "How the gift system works",
+          "description": "Every level-up can reward a gift. A single Mii holds up to 8 gifts; adding a ninth means replacing one existing gift. Miis usually try a newly assigned gift right after you leave their apartment."
+        },
+        {
+          "icon": "Home",
+          "name": "Best gifts for repeat apartment scenes",
+          "description": "Beauty Kit, Laptop, Mirror, and Study Kit create frequent solo scenes indoors. The Laptop can attract up to 3 visitors and sometimes appears to crash. Beauty Kit temporarily changes a Mii's eye appearance."
+        },
+        {
+          "icon": "Users",
+          "name": "Best gifts for group moments",
+          "description": "CD gathers up to 4 Miis and only the owner needs it. Wii U draws up to 4 with distinct win and loss reactions. Rent-a-Cat and Rent-a-Dog Coupons bring pets that draw visitors into the apartment."
+        },
+        {
+          "icon": "Gamepad2",
+          "name": "Best gifts for outdoor variety",
+          "description": "Guitar plays different tunes in the apartment or at the fountain. Fishing Pole sends a Mii out on a rowing boat. Metal Detector finds coins or trash on the beach. Soccer Ball, Skateboard, and Baseball Bat add map activity."
+        },
+        {
+          "icon": "Shield",
+          "name": "Best gift for fight recovery",
+          "description": "Punching Bag is the only level-up gift angry Miis can use after a fight. It appears more often when a Mii is upset, making it the most practical pick for islands with many rivalries or frequent big fights."
+        },
+        {
+          "icon": "Star",
+          "name": "Easy gift strategy",
+          "description": "Choose CD, Wii U, or Rent-a-Cat Coupon for social islands. Choose Beauty Kit, Mirror, or Laptop for personality-heavy apartments. Keep at least one Punching Bag in rotation for smoother conflict recovery."
+        }
+      ],
+      "growthMilestones": [
+        "Give a Mii their first level-up gift",
+        "Unlock the Observation Tower with a gift reward",
+        "Stock 8 gifts for one Mii",
+        "Use a Punching Bag to calm a fight-angry Mii"
+      ]
+    },
+    "tomodachiLifeClothingAndHats": {
+      "title": "Tomodachi Life Clothing and Hats Guide",
+      "displayType": "priorityCards",
+      "intro": "Tomodachi Life separates full outfits from headwear. Clothing is purchased in the Clothing Shop and hats in the Hats Shop, with daily rotations, seasonal stock, and permanent catalog access once acquired. Clothing totals 428 item types and 3,341 colors; hats total 157 items and 1,111 colors.",
+      "priorities": [
+        {
+          "icon": "ClipboardCheck",
+          "name": "Clothing Shop Unlock",
+          "priority": "Early Game",
+          "description": "Opens with 1 male + 1 female resident and 5 solved problems. Daily Specials refresh with up to 5 random outfits each day. Seasonal clothing rotates every 3 months. Acquired items stay permanently available."
+        },
+        {
+          "icon": "Package",
+          "name": "Hats Shop Unlock",
+          "priority": "Early Game",
+          "description": "Opens with 2 male + 2 female residents and 10 solved problems. Shows 3 different hats daily in Daily Specials. Bought hats stay available forever under In Stock. Seasonal hats also rotate every 3 months."
+        },
+        {
+          "icon": "Keyboard",
+          "name": "Clothing Categories",
+          "priority": "Collection",
+          "description": "428 items total: Masculine (75), Feminine (109), Unisex (69), Formal Wear (69), Costumes (87). Once an outfit or color is acquired it remains permanently available in the catalog."
+        },
+        {
+          "icon": "Eye",
+          "name": "Hat Categories",
+          "priority": "Collection",
+          "description": "157 items total: Regular hats (69), Costume hats (32), Hair accessories (56). Hats and outfits are separate layers — one hat can pair with many outfit combinations."
+        },
+        {
+          "icon": "Heart",
+          "name": "Clothing and Hat Reactions",
+          "priority": "Feedback System",
+          "description": "Loved it: Mii spins in the air. Really likes it: jumps. Likes it: hands on hips. Doesn't like much: tilts head. Doesn't like at all: looks away. Unlike food, no super-favorite or worst-ever reactions apply."
+        },
+        {
+          "icon": "Download",
+          "name": "Import Wear and Seasonal Stock",
+          "priority": "Advanced",
+          "description": "Rare style unlocks come from special events, space travel, and Import Wear via StreetPass. Arriving traveler boats can bring exclusive outfits and hats from other islands into your catalog."
+        }
+      ]
+    },
+    "tomodachiLifeInteriorsGuide": {
+      "title": "Tomodachi Life Interiors Guide",
+      "displayType": "achievementGrid",
+      "intro": "Tomodachi Life includes 102 interior designs in the main release. The Interiors shop unlocks once you have at least $200 in pocket money, and six level-up-only interiors cannot be purchased normally: Family, Modern Asian, Natural Wood, Plant, Polka Dot, and Tiled.",
+      "groups": [
+        {
+          "name": "Level-Up Only Interiors",
+          "achievements": [
+            {
+              "title": "Family",
+              "description": "An ordinary family-style room. Exclusive to level-up rewards. Cannot be purchased from the normal Interiors shop."
+            },
+            {
+              "title": "Modern Asian",
+              "description": "A clean, stylish room built around a shoes-off, carefully kept look. Exclusive to level-up rewards."
+            },
+            {
+              "title": "Natural Wood",
+              "description": "A soothing wood-focused room, warm and timeless. Works well for relaxed or nature-themed islands."
+            },
+            {
+              "title": "Plant",
+              "description": "A bright plant-heavy room built around greenery and an airy atmosphere. Good for cheerful, easygoing Miis."
+            },
+            {
+              "title": "Polka Dot",
+              "description": "A lively room with bright polka-dot energy. Great for comedy islands and bold room variety."
+            },
+            {
+              "title": "Tiled",
+              "description": "A tile-focused room with a distinctive clean pattern and strong visual identity. Exclusive to level-up rewards."
+            }
+          ]
+        },
+        {
+          "name": "Shop-Bought Highlights",
+          "achievements": [
+            {
+              "title": "Fairy-tale Castle ($500)",
+              "description": "A magical, high-concept room that turns an apartment into a fantasy castle scene. One of the most visually dramatic interiors."
+            },
+            {
+              "title": "How to Unlock the Interiors Shop",
+              "description": "The Interiors Shop unlocks once you have at least $200 in pocket money across any two Miis."
+            }
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeTravelersAndStreetPass": {
+      "title": "Tomodachi Life Travelers and StreetPass Guide",
+      "displayType": "accordion",
+      "intro": "Travelers are special Miis that move between islands through StreetPass. The Port handles departures and arrivals, while the Campground is where incoming travelers stay for the night.",
+      "faqs": [
+        {
+          "question": "How do I create my own traveler in Tomodachi Life?",
+          "answer": "Two married Miis must have a baby. Once that child grows up on day six, choose to send them away to travel instead of making them a resident. StreetPass must be enabled on both the system and for Tomodachi Life."
+        },
+        {
+          "question": "How do the Port and Campground unlock in Tomodachi Life?",
+          "answer": "The Port unlocks after at least 1 StreetPass or after sending someone to travel. The Campground unlocks when you send or receive a traveler. The Campground can hold up to 10 tents at once."
+        },
+        {
+          "question": "What happens after a Tomodachi Life StreetPass tag?",
+          "answer": "Each StreetPass can send 1 traveler from your Port queue. If the other island also has a traveler waiting, 1 can arrive on your island. The Port can report up to 10 arriving boats at a time and the dock holds up to 50 travelers total."
+        },
+        {
+          "question": "How do I find and help a newly arrived Tomodachi Life traveler?",
+          "answer": "New travelers may appear at the fountain, park, observation tower, beach, café, or amusement park. Accept their request to camp. At 4:00 PM they retire to the Campground and set up a tent."
+        },
+        {
+          "question": "What problems can Tomodachi Life campground travelers have?",
+          "answer": "Dirty travelers need a bath set. Homesick travelers need a music box or head pat. Hungry travelers need food or drinks. Stomach bugs need stomach medicine. Hot head needs cold medicine. Solved problems can earn special food for 1 to 5 Play Coins."
+        },
+        {
+          "question": "What rewards do Tomodachi Life travelers leave behind?",
+          "answer": "Well-helped travelers may leave a letter and a treasure gift. Possible gifts include tissues, copper coin, silver coin, and gold coin. Arriving boats can also bring another island's Import Wear exclusive outfits and hats."
+        }
+      ]
+    },
+    "tomodachiLifeImportWear": {
+      "title": "Tomodachi Life Import Wear Guide",
+      "subtitle": "Track how Import Wear opens, how export clothing is chosen, and how StreetPass and SpotPass shaped the rare clothing loop.",
+      "displayType": "table",
+      "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions, which is why it matters most for completionists.",
+      "tableHeaders": [
+        "Topic",
+        "Details",
+        "Player Takeaway"
+      ],
+      "items": [
+        {
+          "topic": "Unlock Trigger",
+          "details": "Import Wear opens when you first receive clothing through StreetPass or SpotPass, or when you first choose your island's export clothing.",
+          "playerTakeaway": "You usually enter the import loop as soon as you start using StreetPass or finish the export setup tied to the Hats shop."
+        },
+        {
+          "topic": "What the Shop Sells",
+          "details": "Import Wear stocks imported clothing and hats brought in from other islands through StreetPass and from official SpotPass distribution.",
+          "playerTakeaway": "This is the shop to watch if you want outfits and headwear that do not come from the normal shop rotation."
+        },
+        {
+          "topic": "Export Wear Choice",
+          "details": "After the Hats shop opens, the export quiz offers three clothing options. You may retake the quiz one time, but once one export item is chosen, it cannot be changed.",
+          "playerTakeaway": "Your island only gets one permanent export outfit choice per save, so completion-focused players should decide carefully before locking it in."
+        },
+        {
+          "topic": "How Imported Stock Stays",
+          "details": "Your chosen export outfit travels to other islands through StreetPass and stays in their Import Wear catalog forever. Imported items you receive are added as permanent shop stock once obtained.",
+          "playerTakeaway": "Even if you do not buy an imported item immediately, getting it into the shop catalog is the important part."
+        },
+        {
+          "topic": "SpotPass Special Imports",
+          "details": "24 SpotPass items were documented historically, originally rotating on half-month intervals. When the same item returned the following year, remaining colors were added.",
+          "playerTakeaway": "Full SpotPass-era completion originally required long-term play across repeated distribution windows."
+        },
+        {
+          "topic": "Current Completion Notes",
+          "details": "SpotPass ended on April 8, 2024. The Schoolgirl Uniform is the remaining SpotPass-era item still referenced in community documentation. Final regional import outfits for Japan, Korea, and PAL regions were all intended for female Miis.",
+          "playerTakeaway": "Modern completion runs rely on what is already stocked on a save file and on StreetPass-traded imports from other players."
+        }
+      ]
+    },
+    "tomodachiLifeConcertHall": {
+      "title": "Tomodachi Life Concert Hall Songs",
+      "subtitle": "Learn every song style, how lyric editing works, and how solo and group performances are built.",
+      "displayType": "accordion",
+      "intro": "The Concert Hall turns leveled-up Miis into performers. Once a Mii learns a song genre, you can rewrite lyrics, change outfits, build groups, and turn ordinary islanders into full comedy acts or parody bands.",
+      "items": [
+        {
+          "heading": "Song Types and Default Songs",
+          "type": "International Version",
+          "icon": "Music",
+          "summary": "International versions have a larger song set than the Japanese release.",
+          "points": [
+            "8 song types in NTSC, PAL, and Korean versions: Metal, Pop, Rock & Roll, Rap, Ballad, Opera, Techno, and Musical.",
+            "6 song types in the Japanese version: Metal, Pop, Rock & Roll, Rap, Opera, and Enka.",
+            "Default songs: Dragon's Fire (Metal), Loving Things (Pop), Real Loud Bark (Rock & Roll), Livin' the Dream (Rap), Maybe, Baby (Ballad), The Heart's Descent (Opera), Operation Robodachi (Techno), and Reach for the Stars (Musical)."
+          ]
+        },
+        {
+          "heading": "What You Can Edit in a Performance",
+          "type": "Creative Tools",
+          "icon": "Pencil",
+          "summary": "Concert Hall customization goes beyond simply pressing play.",
+          "points": [
+            "You can change a song's lyrics and title.",
+            "You can change the singer's outfit before the performance.",
+            "You can add extra Miis as background dancers.",
+            "This makes Concert Hall work both as a music feature and as a joke-making tool for custom island stories."
+          ]
+        },
+        {
+          "heading": "How Group Performances Work",
+          "type": "Multi-Mii Feature",
+          "icon": "Users",
+          "summary": "Groups unlock once multiple Miis know the same song.",
+          "points": [
+            "Groups can contain 2 to 7 Miis.",
+            "Every Mii in the group must know the same song before that song can be performed together.",
+            "The order in which Miis are placed affects their roles in the performance.",
+            "Songs like Metal and Rock & Roll use one main vocalist with the others as instrumentalists; songs like Pop and Musical have all members sing.",
+            "The game allows up to 50 groups and 50 saved group songs."
+          ]
+        },
+        {
+          "heading": "Why Concert Hall Is Memorable",
+          "type": "Fan Favorite",
+          "icon": "Star",
+          "summary": "Nintendo itself spotlighted custom Concert Hall performances.",
+          "points": [
+            "Nintendo UK ran a 2015 Friendship Fiesta Concert Hall Contest built around player-made Tomodachi Life songs.",
+            "The official feature highlighted how custom lyrics and bizarre performance energy made Concert Hall one of the game's most shareable systems.",
+            "For creative players, Concert Hall is a strong mix of music utility and fan-favorite island storytelling."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeVoiceCatchphrases": {
+      "title": "Tomodachi Life Voice and Catchphrases Guide",
+      "subtitle": "Tune how Miis sound, how names are pronounced, and what they say when happy, sad, angry, worried, or just being themselves.",
+      "displayType": "accordion",
+      "intro": "Tomodachi Life sells the illusion of personality through text-to-speech, speech bubbles, and player-written phrases. A Mii's voice settings, spoken name data, catchphrase, and emotional lines all work together to make apartment dialogue feel personal.",
+      "items": [
+        {
+          "type": "Voice Setup",
+          "title": "Voice Sliders and Preset Voices",
+          "icon": "Volume2",
+          "summary": "Every Mii can use a preset, a random voice, or a fully customized voice.",
+          "points": [
+            "6 preset voices: male child, female child, male adult, female adult, elderly male, and elderly female.",
+            "Custom voices use 6 sliders: Pitch, Speed, Quality, Tone, Accent, and Intonation.",
+            "Pitch controls how high or low the voice sounds; Speed controls how quickly the Mii talks.",
+            "Quality controls how clear the speech sounds; Tone affects how high-pitched the voice is at the start of a sentence.",
+            "Accent affects how low-pitched the voice is at the end of a sentence; Intonation changes the sentence contour."
+          ]
+        },
+        {
+          "type": "Name Tuning",
+          "title": "Name Pronunciation System",
+          "icon": "AlignLeft",
+          "summary": "Tomodachi Life separates written names from spoken pronunciation.",
+          "points": [
+            "First name and last name allow up to 15 written characters; nickname allows up to 10.",
+            "Pronunciation can be entered separately from the visible name.",
+            "Pronunciation fields allow up to 30 characters for first and last name, and 20 for nickname.",
+            "This pronunciation entry feature is absent in the Japanese version.",
+            "This system lets players fix unusual spellings or joke names without changing the displayed name."
+          ]
+        },
+        {
+          "type": "Phrase Types",
+          "title": "Five Phrase Slots for Everyday Mood",
+          "icon": "MessageSquare",
+          "summary": "Miis have five major phrase slots tied to everyday mood and problem states.",
+          "points": [
+            "The five phrase types are: Catchphrase, Happy phrase, Sad phrase, Angry phrase, and Worried phrase.",
+            "A catchphrase is given as a level-up reward.",
+            "The four emotional phrases are given when a Mii has a related problem state.",
+            "In Tomodachi Life, once those emotional phrases have been given, they can be edited later while the Mii is awake.",
+            "In international versions, each phrase type has 8 accompanying animations, and any animation can be assigned to any phrase type."
+          ]
+        },
+        {
+          "type": "Dialogue System",
+          "title": "Apartment Speech Bubbles and Random Dialogue",
+          "icon": "MessageCircle",
+          "summary": "The apartment entrance bubble is where a lot of the game's personality lands.",
+          "points": [
+            "When you enter a Mii's apartment, they may say their catchphrase, a random line, or a mood line tied to being sick, worried, sad, happy, or angry.",
+            "If the Mii has no active problem, you will see a normal speech bubble with an ellipsis.",
+            "Tapping that bubble makes the Mii say a random dialogue line.",
+            "After tapping the speech bubble, a new one appears every hour."
+          ]
+        }
+      ]
+    },
+    "tomodachiLifeUnlockGuide": {
+      "title": "Tomodachi Life Unlock Guide",
+      "subtitle": "Follow the fastest clean path to open stores, social systems, family housing, and StreetPass locations.",
+      "displayType": "steps",
+      "intro": "Tomodachi Life unlocks its island in layers. Population size, solved problems, money saved, level-up gifts, romance events, marriage, and StreetPass activity all push the island forward.",
+      "steps": [
+        {
+          "title": "Start with the Built-In Basics",
+          "description": "Your island begins with core everyday locations already open. The Fountain is tied to the opening tutorial flow.",
+          "unlocks": [
+            "Mii Apartments",
+            "Beach",
+            "Town Hall",
+            "Food Mart",
+            "Fountain (tutorial)"
+          ]
+        },
+        {
+          "title": "Grow the Island and Solve Early Problems",
+          "description": "The first meaningful expansion comes from adding both male and female Miis and clearing early apartment requests.",
+          "unlocks": [
+            "Clothing Store: 1M + 1F islander + 5 solved problems",
+            "Hat Store: 2M + 2F + 10 problems",
+            "Mii News: 7 islanders with at least 3M + 3F"
+          ]
+        },
+        {
+          "title": "Use Money, Level-Ups, and Treasures",
+          "description": "This phase unlocks core support buildings for interiors, music, rankings, compatibility checks, and selling valuables.",
+          "unlocks": [
+            "Interiors Store: save over $200",
+            "Concert Hall: give a song to a leveled Mii",
+            "Observation Tower: give a gift to a leveled Mii",
+            "Rankings Board: 5+ Miis + 15 problems",
+            "Compatibility Tester: 2M + 2F + 30 problems",
+            "Pawn Shop: obtain 5 different treasures"
+          ]
+        },
+        {
+          "title": "Hit the Midgame Population Milestone",
+          "description": "A larger island opens up more management and content tools.",
+          "unlocks": [
+            "Photo Studio: 10+ islanders + 50 solved problems",
+            "Nintendo 3DS Image Share: take a photo of a Mii apartment"
+          ]
+        },
+        {
+          "title": "Push Romance Forward",
+          "description": "Once confession events start happening, several leisure areas open together.",
+          "unlocks": [
+            "Park: have an islander confess love",
+            "Amusement Park: have an islander confess love",
+            "Café: have a Mii confess love for another Mii"
+          ]
+        },
+        {
+          "title": "Finish the Family and Travel Layer",
+          "description": "Marriage and StreetPass activity open the late-game family and traveler systems.",
+          "unlocks": [
+            "Mii Homes: celebrate an islander wedding",
+            "Port: activate StreetPass + visit Hat Store first",
+            "Import Wear: StreetPass, SpotPass, or export quiz trigger",
+            "Campground: send a traveler or host an arriving traveler"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Everything you need to know about Tomodachi Life",
+    "questions": [
+      {
+        "question": "What is Tomodachi Life: Living the Dream?",
+        "answer": "Tomodachi Life: Living the Dream is the upcoming Nintendo Switch sequel to the 3DS classic. It releases on April 16, 2026, supports up to 2 players, and includes a free downloadable demo available now."
+      },
+      {
+        "question": "Is there a Tomodachi Life demo available?",
+        "answer": "Yes. A free demo for Tomodachi Life: Living the Dream is available to download on Nintendo Switch right now. The demo lets you start building your island before the full game launches."
+      },
+      {
+        "question": "How many languages does Tomodachi Life support?",
+        "answer": "Tomodachi Life: Living the Dream supports 10 languages: Japanese, English, French, German, Italian, Spanish, Korean, Dutch, Chinese Simplified, and Chinese Traditional."
+      },
+      {
+        "question": "How do Mii personalities work in Tomodachi Life?",
+        "answer": "During Mii creation, four sliders place each resident into one of 16 personality types grouped as Easygoing, Outgoing, Independent, and Confident. Personalities affect social chemistry, dialogue flavor, and romance outcomes."
+      },
+      {
+        "question": "How do I get QR codes for Tomodachi Life?",
+        "answer": "You can find Mii QR codes on MiiWiki's official archive, the Crystal Dreams community page, and Nintendo Life's curated packs. Scan them in Mii Maker, then import through Town Hall's New Mii option."
+      },
+      {
+        "question": "What is the best beginner tip for Tomodachi Life?",
+        "answer": "Prioritize solving black-bubble problem requests as soon as they appear. Each solved problem unlocks new buildings, expands your island, and creates more social events between residents."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om Tomodachi Life te ontdekken?",
+    "description": "Word lid van de Tomodachi Life-community op Reddit voor Mii QR codes, tips en discussies!",
+    "joinCommunity": "Word lid van de Reddit-community",
+    "joinGame": "Pre-order op Nintendo"
+  },
+  "footer": {
+    "title": "Tomodachi Life Wiki",
+    "description": "Je complete informatiebron voor Tomodachi Life: Living the Dream-gidsen, Mii-persoonlijkheden, QR codes, relaties en tips voor het eilandleven.",
+    "resources": "Bronnen",
+    "community": "Community",
+    "legal": "Juridisch",
+    "discord": "Reddit-community",
+    "twitter": "GameFAQs-bord",
+    "steamCommunity": "Nintendo eShop",
+    "steamStore": "Officiële Nintendo-site",
+    "about": "Over ons",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Tomodachi Life Wiki. Niet gelieerd aan Nintendo of HAL Laboratory.",
+    "disclaimer": "Onofficiële website door fans gemaakt."
+  },
+  "pages": {
+    "release": {
+      "title": "Tomodachi Life Release",
+      "description": "Alles over de Tomodachi Life: Living the Dream releasedatum, pre-order bonussen, prijs en beschikbaarheid van fysieke exemplaren. Blijf op de hoogte van het laatste nieuws over de lancering.",
+      "metaTitle": "Tomodachi Life Releasedatum & Pre-order Gids",
+      "metaDescription": "Volledige gids voor de Tomodachi Life: Living the Dream releasedatum, pre-order bonussen, prijs en details over fysieke exemplaren. Ontvang het laatste nieuws over de release.",
+      "categoryLabel": "RELEASE NIEUWS",
+      "whatIs": "Wat is Tomodachi Life: Living the Dream?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream is het langverwachte vervolg op de originele Tomodachi Life voor Nintendo 3DS. Het brengt de charmante Mii-levenssimulatie naar de Nintendo Switch met nieuwe functies, content en sociale ervaringen.",
+      "why": "Waarom release nieuws volgen?",
+      "whySteps": {
+        "step1Title": "Stel je exemplaar veilig",
+        "step1Description": "Weet precies wanneer en waar je kunt pre-orderen om je fysieke of digitale exemplaar te garanderen",
+        "step2Title": "Claim pre-order bonussen",
+        "step2Description": "Ontdek welke exclusieve bonussen en DLC je krijgt bij vroege aankopen",
+        "step3Title": "Plan je dag van lancering",
+        "step3Description": "Blijf op de hoogte van releasedata, regionale lanceringen en downloadgroottes"
+      },
+      "featured": "Uitgelicht release nieuws",
+      "all": "Alle release artikelen"
+    },
+    "demo": {
+      "title": "Tomodachi Life Demo",
+      "description": "Volledige gidsen voor de Tomodachi Life: Living the Dream Demo, inclusief hoe je deze downloadt, welke content beschikbaar is en hoe je deze reset voor een nieuwe start.",
+      "metaTitle": "Tomodachi Life Demo Gids - Downloaden & Resetten",
+      "metaDescription": "Alles over de Tomodachi Life: Living the Dream Demo. Leer hoe je deze downloadt, welke functies beschikbaar zijn en hoe je de Demo reset voor een nieuwe speelsessie.",
+      "categoryLabel": "DEMO GIDSEN",
+      "whatIs": "Wat is de Tomodachi Life Demo?",
+      "whatIsDescription": "De Tomodachi Life: Living the Dream Demo is een gratis proefversie die beschikbaar is in de Nintendo eShop. Hiermee kunnen spelers de belangrijkste functies van het eilandleven, Mii-interacties en de kern van de gameplay ervaren vóór de volledige release.",
+      "why": "Waarom de Demo spelen?",
+      "whySteps": {
+        "step1Title": "Ervaar het spel voor aankoop",
+        "step1Description": "Probeer de kern van de Mii-eilandgameplay uit zonder verplichtingen",
+        "step2Title": "Beheers de basis",
+        "step2Description": "Leer de besturing, de dagelijkse routine en de belangrijkste mechanieken kennen vóór de lancering",
+        "step3Title": "Reset voor meer speeltijd",
+        "step3Description": "Ontdek hoe je de Demo reset en deze meerdere keren kunt verkennen"
+      },
+      "featured": "Uitgelichte Demo gidsen",
+      "all": "Alle Demo artikelen"
+    },
+    "switch": {
+      "title": "Tomodachi Life Switch",
+      "description": "Alle details over Tomodachi Life op de Nintendo Switch, inclusief Living the Dream gameplay-functies, Switch-exclusieve content en hoe het zich verhoudt tot de originele 3DS-versie.",
+      "metaTitle": "Tomodachi Life Switch - Living the Dream Functies & Gids",
+      "metaDescription": "Volledige gids voor Tomodachi Life: Living the Dream op de Nintendo Switch. Ontdek nieuwe functies, gameplay-veranderingen en wat de Switch-versie speciaal maakt.",
+      "categoryLabel": "SWITCH-VERSIE",
+      "whatIs": "Wat is Tomodachi Life op de Switch?",
+      "whatIsDescription": "Tomodachi Life: Living the Dream brengt de geliefde Mii-eilandlevenssimulatie naar de Nintendo Switch. De Switch-versie introduceert online functies, uitgebreide aanpassingsmogelijkheden en nieuwe sociale mechanieken die niet in de originele 3DS-titel zaten.",
+      "why": "Waarom op de Switch spelen?",
+      "whySteps": {
+        "step1Title": "Moderne platformfuncties",
+        "step1Description": "Geniet van verbeterde graphics, online connectiviteit en Switch-exclusieve content",
+        "step2Title": "Deel met vrienden",
+        "step2Description": "Bezoek de eilanden van andere spelers en deel Mii QR Codes wereldwijd",
+        "step3Title": "Uitgebreide gameplay",
+        "step3Description": "Ervaar nieuwe evenementen, items en interacties die exclusief zijn voor de Switch-versie"
+      },
+      "featured": "Uitgelichte Switch gidsen",
+      "all": "Alle Switch artikelen"
+    },
+    "personality": {
+      "title": "Tomodachi Life Persoonlijkheid",
+      "description": "Volledige gidsen voor alle Tomodachi Life persoonlijkheidstypen, het persoonlijkheidsschema, compatibiliteit tussen Miis en hoe persoonlijkheidskenmerken de relaties op het eiland beïnvloeden.",
+      "metaTitle": "Tomodachi Life Persoonlijkheidsgids - Alle Typen & Schema",
+      "metaDescription": "Beheers Tomodachi Life persoonlijkheden met onze volledige gids over alle persoonlijkheidstypen, het persoonlijkheidsschema, compatibiliteit en hoe kenmerken het gedrag van Miis vormen.",
+      "categoryLabel": "PERSOONLIJKHEIDSGIDS",
+      "whatIs": "Wat zijn Tomodachi Life persoonlijkheden?",
+      "whatIsDescription": "Tomodachi Life maakt gebruik van een persoonlijkheidssysteem met meerdere verschillende typen die bepalen hoe Miis met elkaar omgaan, vriendschappen sluiten en verliefd worden. Elk persoonlijkheidstype beïnvloedt dialogen, hobby's en compatibiliteit met andere Miis.",
+      "why": "Waarom leren over Tomodachi Life persoonlijkheden?",
+      "whySteps": {
+        "step1Title": "Bouw compatibele vriendschappen",
+        "step1Description": "Begrijp welke persoonlijkheidstypen het beste bij elkaar passen om vriendschappen te stimuleren",
+        "step2Title": "Ontsteek romantiek",
+        "step2Description": "Combineer compatibele persoonlijkheden om de kans op het vormen van Mii-stellen te vergroten",
+        "step3Title": "Pas je eiland aan",
+        "step3Description": "Kies persoonlijkheidscombinaties die zorgen voor de meest vermakelijke interacties"
+      },
+      "featured": "Uitgelichte persoonlijkheidsgidsen",
+      "all": "Alle persoonlijkheidsartikelen"
+    },
+    "mii": {
+      "title": "Tomodachi Life Mii",
+      "description": "Alles over Tomodachi Life Miis, inclusief QR Codes, hoeveel Miis je kunt hebben, schminkopties en tips voor het creëren van de perfecte eilandbewoners.",
+      "metaTitle": "Tomodachi Life Mii Gids - QR Codes, Schmink & Meer",
+      "metaDescription": "Volledige Tomodachi Life Mii gids over QR Codes, Mii-limieten, schminkaanpassingen en tips voor het opbouwen van de beste eilandcast.",
+      "categoryLabel": "MII GIDSEN",
+      "whatIs": "Wat zijn Tomodachi Life Miis?",
+      "whatIsDescription": "Miis zijn de aanpasbare personages die centraal staan in Tomodachi Life. Je kunt Miis maken, importeren via QR Codes en aanpassen met unieke gezichten, persoonlijkheden en stemmen. Elke Mii woont op je eiland en genereert unieke gebeurtenissen en verhalen.",
+      "why": "Waarom Tomodachi Life Miis beheersen?",
+      "whySteps": {
+        "step1Title": "Stel je droomcast samen",
+        "step1Description": "Importeer je favoriete personages met QR Codes of maak ze vanaf nul",
+        "step2Title": "Maximaliseer eilandgebeurtenissen",
+        "step2Description": "De juiste mix van Miis zorgt voor interessantere relaties en verhaallijnen",
+        "step3Title": "Personaliseer elk detail",
+        "step3Description": "Pas schmink, stemmen en uiterlijk aan om elke Mii uniek te maken"
+      },
+      "featured": "Uitgelichte Mii gidsen",
+      "all": "Alle Mii artikelen"
+    },
+    "mod": {
+      "title": "Tomodachi Life Mod",
+      "description": "Gidsen voor Tomodachi Life mods, save-editors, emulator-instellingen en ROM-informatie. Ontdek aanpassingsmogelijkheden en manieren om je Tomodachi Life-ervaring uit te breiden.",
+      "metaTitle": "Tomodachi Life Mods, Save-editor & Emulator Gids",
+      "metaDescription": "Volledige gids voor Tomodachi Life mods, save-editors, emulator-instellingen en ROM-details. Pas je spel aan en verken de volledige modding-community.",
+      "categoryLabel": "MODS & TOOLS",
+      "whatIs": "Wat zijn Tomodachi Life mods?",
+      "whatIsDescription": "Tomodachi Life mods en save-editors stellen spelers in staat om het spel aan te passen buiten de standaardopties. Van textuurvervangingen tot save-editing tools en emulator-instellingen, de modding-community heeft talloze manieren gecreëerd om de ervaring te verbeteren en te personaliseren.",
+      "why": "Waarom Tomodachi Life mods gebruiken?",
+      "whySteps": {
+        "step1Title": "Ontgrendel nieuwe mogelijkheden",
+        "step1Description": "Krijg toegang tot content en aanpassingen die niet beschikbaar zijn in het basisspel",
+        "step2Title": "Speel op elk platform",
+        "step2Description": "Gebruik emulators om van Tomodachi Life te genieten op pc of andere apparaten",
+        "step3Title": "Bewerk je save-bestand",
+        "step3Description": "Wijzig eilandgegevens, Mii-statistieken en middelen met save-editor tools"
+      },
+      "featured": "Uitgelichte mod gidsen",
+      "all": "Alle mod artikelen"
+    },
+    "guide": {
+      "title": "Tomodachi Life Gids",
+      "description": "Volledige Tomodachi Life gidsen over hoe je snel geld verdient, Miis verliefd laat worden, haarverf krijgt, eilandnamen kiest en elk aspect van het eilandleven beheerst.",
+      "metaTitle": "Tomodachi Life Gids - Tips, Geld, Romantiek & Meer",
+      "metaDescription": "Beheers Tomodachi Life met onze uitgebreide gidsen over geld verdienen, romantiek-mechanieken, itemlocaties, eilandnamen en de beste gameplay-tips.",
+      "categoryLabel": "SPELGIDSEN",
+      "whatIs": "Wat zijn Tomodachi Life gidsen?",
+      "whatIsDescription": "Tomodachi Life gidsen behandelen elk aspect van het spel, van het verdienen van geld en het opbouwen van romances tot het vinden van zeldzame items en het creëren van de perfecte eilandnaam. Deze gidsen helpen spelers om het meeste uit hun Tomodachi Life-ervaring te halen.",
+      "why": "Waarom Tomodachi Life gidsen gebruiken?",
+      "whySteps": {
+        "step1Title": "Beheers de economie",
+        "step1Description": "Leer bewezen strategieën om snel geld te verdienen en premium items te betalen",
+        "step2Title": "Creëer perfecte romances",
+        "step2Description": "Begrijp de mechanieken achter Mii-relaties en het huwelijk",
+        "step3Title": "Vind elk item",
+        "step3Description": "Vind zeldzame items zoals haarverf en speciale cadeaus om je Miis gelukkig te houden"
+      },
+      "featured": "Uitgelichte gameplay gidsen",
+      "all": "Alle gids artikelen"
+    }
   }
 }
