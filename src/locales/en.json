@@ -700,113 +700,192 @@
     },
     "tomodachiLifeImportWear": {
       "title": "Tomodachi Life Import Wear Guide",
-      "displayType": "accordion",
-      "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions. It matters most for completionists.",
-      "faqs": [
+      "subtitle": "Track how Import Wear opens, how export clothing is chosen, and how StreetPass and SpotPass shaped the rare clothing loop.",
+      "displayType": "table",
+      "intro": "Import Wear is the island's special import shop. Instead of a simple daily rotation, it preserves imported stock from StreetPass exchanges and historical SpotPass distributions, which is why it matters most for completionists.",
+      "tableHeaders": ["Topic", "Details", "Player Takeaway"],
+      "items": [
         {
-          "question": "How does Tomodachi Life Import Wear unlock?",
-          "answer": "Import Wear opens when you first receive clothing through StreetPass or SpotPass, or when you first choose your island's export clothing via the export quiz after the Hats shop opens."
+          "topic": "Unlock Trigger",
+          "details": "Import Wear opens when you first receive clothing through StreetPass or SpotPass, or when you first choose your island's export clothing.",
+          "playerTakeaway": "You usually enter the import loop as soon as you start using StreetPass or finish the export setup tied to the Hats shop."
         },
         {
-          "question": "What does the Tomodachi Life Import Wear shop sell?",
-          "answer": "Import Wear stocks clothing and hats brought in from other islands through StreetPass and from official SpotPass distribution. These are outfits and headwear that do not come from the normal shop rotation."
+          "topic": "What the Shop Sells",
+          "details": "Import Wear stocks imported clothing and hats brought in from other islands through StreetPass and from official SpotPass distribution.",
+          "playerTakeaway": "This is the shop to watch if you want outfits and headwear that do not come from the normal shop rotation."
         },
         {
-          "question": "How do I choose my export outfit in Tomodachi Life?",
-          "answer": "After the Hats shop opens, the export quiz offers three clothing options. You may retake the quiz one time, but once one export item is chosen, it cannot be changed. Your island only gets one permanent export outfit choice per save."
+          "topic": "Export Wear Choice",
+          "details": "After the Hats shop opens, the export quiz offers three clothing options. You may retake the quiz one time, but once one export item is chosen, it cannot be changed.",
+          "playerTakeaway": "Your island only gets one permanent export outfit choice per save, so completion-focused players should decide carefully before locking it in."
         },
         {
-          "question": "Does Tomodachi Life imported stock stay in the shop permanently?",
-          "answer": "Yes. Your chosen export outfit travels to other islands through StreetPass and stays in their Import Wear catalog forever. Items you receive are likewise added as permanent shop stock once obtained."
+          "topic": "How Imported Stock Stays",
+          "details": "Your chosen export outfit travels to other islands through StreetPass and stays in their Import Wear catalog forever. Imported items you receive are added as permanent shop stock once obtained.",
+          "playerTakeaway": "Even if you do not buy an imported item immediately, getting it into the shop catalog is the important part."
         },
         {
-          "question": "What happened to SpotPass in Tomodachi Life?",
-          "answer": "Community documentation records that SpotPass ended on April 8, 2024, with 24 SpotPass items documented historically. Modern completion runs rely on what is already stocked on a save file and on StreetPass-traded imports."
+          "topic": "SpotPass Special Imports",
+          "details": "24 SpotPass items were documented historically, originally rotating on half-month intervals. When the same item returned the following year, remaining colors were added.",
+          "playerTakeaway": "Full SpotPass-era completion originally required long-term play across repeated distribution windows."
+        },
+        {
+          "topic": "Current Completion Notes",
+          "details": "SpotPass ended on April 8, 2024. The Schoolgirl Uniform is the remaining SpotPass-era item still referenced in community documentation. Final regional import outfits for Japan, Korea, and PAL regions were all intended for female Miis.",
+          "playerTakeaway": "Modern completion runs rely on what is already stocked on a save file and on StreetPass-traded imports from other players."
         }
       ]
     },
     "tomodachiLifeConcertHall": {
       "title": "Tomodachi Life Concert Hall Songs",
-      "displayType": "settingCards",
+      "subtitle": "Learn every song style, how lyric editing works, and how solo and group performances are built.",
+      "displayType": "accordion",
       "intro": "The Concert Hall turns leveled-up Miis into performers. Once a Mii learns a song genre, you can rewrite lyrics, change outfits, build groups, and turn ordinary islanders into full comedy acts or parody bands.",
-      "settings": [
+      "items": [
         {
-          "name": "Song Types",
+          "heading": "Song Types and Default Songs",
           "type": "International Version",
-          "description": "8 song types: Metal, Pop, Rock and Roll, Rap, Ballad, Opera, Techno, and Musical. Default songs include Dragon's Fire (Metal), Loving Things (Pop), Livin' the Dream (Rap), and Reach for the Stars (Musical)."
+          "icon": "Music",
+          "summary": "International versions have a larger song set than the Japanese release.",
+          "points": [
+            "8 song types in NTSC, PAL, and Korean versions: Metal, Pop, Rock & Roll, Rap, Ballad, Opera, Techno, and Musical.",
+            "6 song types in the Japanese version: Metal, Pop, Rock & Roll, Rap, Opera, and Enka.",
+            "Default songs: Dragon's Fire (Metal), Loving Things (Pop), Real Loud Bark (Rock & Roll), Livin' the Dream (Rap), Maybe, Baby (Ballad), The Heart's Descent (Opera), Operation Robodachi (Techno), and Reach for the Stars (Musical)."
+          ]
         },
         {
-          "name": "Performance Customization",
+          "heading": "What You Can Edit in a Performance",
           "type": "Creative Tools",
-          "description": "You can change a song's lyrics and title, change the singer's outfit before the performance, and add extra Miis as background dancers. This makes Concert Hall a comedy tool as well as a music feature."
+          "icon": "Pencil",
+          "summary": "Concert Hall customization goes beyond simply pressing play.",
+          "points": [
+            "You can change a song's lyrics and title.",
+            "You can change the singer's outfit before the performance.",
+            "You can add extra Miis as background dancers.",
+            "This makes Concert Hall work both as a music feature and as a joke-making tool for custom island stories."
+          ]
         },
         {
-          "name": "Group Performances",
+          "heading": "How Group Performances Work",
           "type": "Multi-Mii Feature",
-          "description": "Groups can contain 2 to 7 Miis. Every Mii must know the same song to perform together. Some songs use one vocalist; others have all members sing. Up to 50 groups and 50 saved group songs are allowed."
+          "icon": "Users",
+          "summary": "Groups unlock once multiple Miis know the same song.",
+          "points": [
+            "Groups can contain 2 to 7 Miis.",
+            "Every Mii in the group must know the same song before that song can be performed together.",
+            "The order in which Miis are placed affects their roles in the performance.",
+            "Songs like Metal and Rock & Roll use one main vocalist with the others as instrumentalists; songs like Pop and Musical have all members sing.",
+            "The game allows up to 50 groups and 50 saved group songs."
+          ]
         },
         {
-          "name": "Why Concert Hall is Memorable",
+          "heading": "Why Concert Hall Is Memorable",
           "type": "Fan Favorite",
-          "description": "Nintendo UK ran a 2015 Friendship Fiesta Concert Hall Contest built around player-made Tomodachi Life songs. Custom lyrics and bizarre performance energy made it one of the game's most shareable systems."
+          "icon": "Star",
+          "summary": "Nintendo itself spotlighted custom Concert Hall performances.",
+          "points": [
+            "Nintendo UK ran a 2015 Friendship Fiesta Concert Hall Contest built around player-made Tomodachi Life songs.",
+            "The official feature highlighted how custom lyrics and bizarre performance energy made Concert Hall one of the game's most shareable systems.",
+            "For creative players, Concert Hall is a strong mix of music utility and fan-favorite island storytelling."
+          ]
         }
       ]
     },
     "tomodachiLifeVoiceCatchphrases": {
       "title": "Tomodachi Life Voice and Catchphrases Guide",
-      "displayType": "timeline",
+      "subtitle": "Tune how Miis sound, how names are pronounced, and what they say when happy, sad, angry, worried, or just being themselves.",
+      "displayType": "accordion",
       "intro": "Tomodachi Life sells the illusion of personality through text-to-speech, speech bubbles, and player-written phrases. A Mii's voice settings, spoken name data, catchphrase, and emotional lines all work together to make apartment dialogue feel personal.",
-      "entries": [
+      "items": [
         {
           "type": "Voice Setup",
-          "title": "Voice sliders and preset voices",
-          "description": "6 preset voices: male child, female child, male adult, female adult, elderly male, elderly female. Custom voices use 6 sliders: Pitch, Speed, Quality, Tone, Accent, and Intonation for full personality control."
+          "title": "Voice Sliders and Preset Voices",
+          "icon": "Volume2",
+          "summary": "Every Mii can use a preset, a random voice, or a fully customized voice.",
+          "points": [
+            "6 preset voices: male child, female child, male adult, female adult, elderly male, and elderly female.",
+            "Custom voices use 6 sliders: Pitch, Speed, Quality, Tone, Accent, and Intonation.",
+            "Pitch controls how high or low the voice sounds; Speed controls how quickly the Mii talks.",
+            "Quality controls how clear the speech sounds; Tone affects how high-pitched the voice is at the start of a sentence.",
+            "Accent affects how low-pitched the voice is at the end of a sentence; Intonation changes the sentence contour."
+          ]
         },
         {
           "type": "Name Tuning",
-          "title": "Name pronunciation system",
-          "description": "First and last name allow up to 15 written characters; nickname up to 10. Pronunciation can be entered separately from the visible name with up to 30 characters for first/last and 20 for nickname."
+          "title": "Name Pronunciation System",
+          "icon": "AlignLeft",
+          "summary": "Tomodachi Life separates written names from spoken pronunciation.",
+          "points": [
+            "First name and last name allow up to 15 written characters; nickname allows up to 10.",
+            "Pronunciation can be entered separately from the visible name.",
+            "Pronunciation fields allow up to 30 characters for first and last name, and 20 for nickname.",
+            "This pronunciation entry feature is absent in the Japanese version.",
+            "This system lets players fix unusual spellings or joke names without changing the displayed name."
+          ]
         },
         {
           "type": "Phrase Types",
-          "title": "Five phrase slots for everyday mood",
-          "description": "The five phrase types are Catchphrase, Happy phrase, Sad phrase, Angry phrase, and Worried phrase. A catchphrase is given as a level-up reward. The four emotional phrases are given when a Mii has a related problem state."
+          "title": "Five Phrase Slots for Everyday Mood",
+          "icon": "MessageSquare",
+          "summary": "Miis have five major phrase slots tied to everyday mood and problem states.",
+          "points": [
+            "The five phrase types are: Catchphrase, Happy phrase, Sad phrase, Angry phrase, and Worried phrase.",
+            "A catchphrase is given as a level-up reward.",
+            "The four emotional phrases are given when a Mii has a related problem state.",
+            "In Tomodachi Life, once those emotional phrases have been given, they can be edited later while the Mii is awake.",
+            "In international versions, each phrase type has 8 accompanying animations, and any animation can be assigned to any phrase type."
+          ]
         },
         {
           "type": "Dialogue System",
-          "title": "Apartment speech bubbles",
-          "description": "When you enter a Mii's apartment, they may say their catchphrase, a random line, or a mood line. Tapping the speech bubble triggers a random dialogue line. A new bubble appears every hour."
+          "title": "Apartment Speech Bubbles and Random Dialogue",
+          "icon": "MessageCircle",
+          "summary": "The apartment entrance bubble is where a lot of the game's personality lands.",
+          "points": [
+            "When you enter a Mii's apartment, they may say their catchphrase, a random line, or a mood line tied to being sick, worried, sad, happy, or angry.",
+            "If the Mii has no active problem, you will see a normal speech bubble with an ellipsis.",
+            "Tapping that bubble makes the Mii say a random dialogue line.",
+            "After tapping the speech bubble, a new one appears every hour."
+          ]
         }
       ]
     },
     "tomodachiLifeUnlockGuide": {
       "title": "Tomodachi Life Unlock Guide",
+      "subtitle": "Follow the fastest clean path to open stores, social systems, family housing, and StreetPass locations.",
       "displayType": "steps",
       "intro": "Tomodachi Life unlocks its island in layers. Population size, solved problems, money saved, level-up gifts, romance events, marriage, and StreetPass activity all push the island forward.",
       "steps": [
         {
-          "title": "Start with the built-in basics",
-          "description": "Mii Apartments, Beach, Town Hall, and Food Mart are available from the beginning. The Fountain unlocks through the tutorial sequence."
+          "title": "Start with the Built-In Basics",
+          "description": "Your island begins with core everyday locations already open. The Fountain is tied to the opening tutorial flow.",
+          "unlocks": ["Mii Apartments", "Beach", "Town Hall", "Food Mart", "Fountain (tutorial)"]
         },
         {
-          "title": "Grow the island and solve problems",
-          "description": "Clothing Store: 1 male + 1 female resident + 5 solved problems. Hat Store: 2 male + 2 female + 10 problems. Mii News: 7 islanders with at least 3 of each gender."
+          "title": "Grow the Island and Solve Early Problems",
+          "description": "The first meaningful expansion comes from adding both male and female Miis and clearing early apartment requests.",
+          "unlocks": ["Clothing Store: 1M + 1F islander + 5 solved problems", "Hat Store: 2M + 2F + 10 problems", "Mii News: 7 islanders with at least 3M + 3F"]
         },
         {
-          "title": "Use money and level-ups to expand",
-          "description": "Interiors Store: save over $200. Concert Hall: give a song to a leveled Mii. Observation Tower: give a gift to a leveled Mii. Rankings Board: 5+ Miis + 15 problems. Compatibility Tester: 2+2 Miis + 30 problems."
+          "title": "Use Money, Level-Ups, and Treasures",
+          "description": "This phase unlocks core support buildings for interiors, music, rankings, compatibility checks, and selling valuables.",
+          "unlocks": ["Interiors Store: save over $200", "Concert Hall: give a song to a leveled Mii", "Observation Tower: give a gift to a leveled Mii", "Rankings Board: 5+ Miis + 15 problems", "Compatibility Tester: 2M + 2F + 30 problems", "Pawn Shop: obtain 5 different treasures"]
         },
         {
-          "title": "Hit the midgame population milestone",
-          "description": "Photo Studio: 10+ islanders + 50 solved problems. Pawn Shop: obtain 5 different treasures. These open up key management and content tools for mid-game."
+          "title": "Hit the Midgame Population Milestone",
+          "description": "A larger island opens up more management and content tools.",
+          "unlocks": ["Photo Studio: 10+ islanders + 50 solved problems", "Nintendo 3DS Image Share: take a photo of a Mii apartment"]
         },
         {
-          "title": "Push romance forward",
-          "description": "Park, Amusement Park, and Café all unlock when an islander confesses love. These are among the most memorable social locations and unlock a wave of new events."
+          "title": "Push Romance Forward",
+          "description": "Once confession events start happening, several leisure areas open together.",
+          "unlocks": ["Park: have an islander confess love", "Amusement Park: have an islander confess love", "Café: have a Mii confess love for another Mii"]
         },
         {
-          "title": "Finish the family and travel layer",
-          "description": "Mii Homes: celebrate an islander wedding. Port: activate StreetPass + visit Hat Store. Import Wear: StreetPass or export quiz. Campground: send or receive a traveler."
+          "title": "Finish the Family and Travel Layer",
+          "description": "Marriage and StreetPass activity open the late-game family and traveler systems.",
+          "unlocks": ["Mii Homes: celebrate an islander wedding", "Port: activate StreetPass + visit Hat Store first", "Import Wear: StreetPass, SpotPass, or export quiz trigger", "Campground: send a traveler or host an arriving traveler"]
         }
       ]
     }

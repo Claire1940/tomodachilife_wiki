@@ -30,6 +30,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Heart: LucideIcons.Heart,
   Gift: LucideIcons.Gift,
   Music: LucideIcons.Music,
+  Pencil: LucideIcons.Pencil,
+  Volume2: LucideIcons.Volume2,
+  AlignLeft: LucideIcons.AlignLeft,
+  MessageSquare: LucideIcons.MessageSquare,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

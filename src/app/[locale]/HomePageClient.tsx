@@ -151,6 +151,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const [concertExpanded, setConcertExpanded] = useState<number | null>(null)
+  const [voiceExpanded, setVoiceExpanded] = useState<number | null>(null)
 
   // Scroll reveal animation
   useEffect(() => {
@@ -753,25 +755,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="import-wear" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeImportWear']} locale={locale}>{t.modules.tomodachiLifeImportWear.title}</LinkedTitle></h2>
-            </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeImportWear.intro}</p>
+            <span className="inline-block px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-[hsl(var(--nav-theme-light))]">Collectors</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['tomodachiLifeImportWear']} locale={locale}>{t.modules.tomodachiLifeImportWear.title}</LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.tomodachiLifeImportWear.subtitle}</p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto">{t.modules.tomodachiLifeImportWear.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.tomodachiLifeImportWear.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
+          {/* Desktop Table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-[hsl(var(--nav-theme)/0.08)]">
+                  {t.modules.tomodachiLifeImportWear.tableHeaders.map((h: string, i: number) => (
+                    <th key={i} className={`px-5 py-4 text-left font-semibold text-[hsl(var(--nav-theme-light))] ${i === 0 ? 'w-40' : ''}`}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.tomodachiLifeImportWear.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 ${index % 2 === 0 ? 'bg-white/[0.02]' : ''} hover:bg-[hsl(var(--nav-theme)/0.04)] transition-colors`}>
+                    <td className="px-5 py-4 font-semibold text-foreground align-top">{item.topic}</td>
+                    <td className="px-5 py-4 text-muted-foreground align-top">{item.details}</td>
+                    <td className="px-5 py-4 align-top">
+                      <div className="flex items-start gap-2">
+                        <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">{item.playerTakeaway}</span>
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {/* Mobile Cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.tomodachiLifeImportWear.items.map((item: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl p-5 bg-white/[0.02] hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-3">{item.topic}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{item.details}</p>
+                <div className="flex items-start gap-2 pt-3 border-t border-border">
+                  <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                  <p className="text-sm text-muted-foreground">{item.playerTakeaway}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -782,22 +808,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="concert-hall" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeConcertHall']} locale={locale}>{t.modules.tomodachiLifeConcertHall.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeConcertHall.intro}</p>
+            <span className="inline-block px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-[hsl(var(--nav-theme-light))]">Creative Play</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['tomodachiLifeConcertHall']} locale={locale}>{t.modules.tomodachiLifeConcertHall.title}</LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.tomodachiLifeConcertHall.subtitle}</p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto">{t.modules.tomodachiLifeConcertHall.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.tomodachiLifeConcertHall.settings.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeConcertHall::settings::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
-                </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
+          <div className="scroll-reveal space-y-3">
+            {t.modules.tomodachiLifeConcertHall.items.map((item: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <button
+                  type="button"
+                  onClick={() => setConcertExpanded(concertExpanded === index ? null : index)}
+                  className="w-full flex items-center gap-4 p-5 text-left hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                    <DynamicIcon name={item.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-semibold">
+                        <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeConcertHall::items::${index}`]} locale={locale}>
+                          {item.heading}
+                        </LinkedTitle>
+                      </span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{item.type}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mt-0.5">{item.summary}</p>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 text-muted-foreground transition-transform ${concertExpanded === index ? "rotate-180" : ""}`} />
+                </button>
+                {concertExpanded === index && (
+                  <div className="px-5 pb-5 border-t border-border bg-white/[0.02]">
+                    <ul className="mt-4 space-y-2">
+                      {item.points.map((point: string, pi: number) => (
+                        <li key={pi} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -808,25 +861,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="voice-catchphrases" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeVoiceCatchphrases']} locale={locale}>{t.modules.tomodachiLifeVoiceCatchphrases.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeVoiceCatchphrases.intro}</p>
+            <span className="inline-block px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-[hsl(var(--nav-theme-light))]">Customization</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['tomodachiLifeVoiceCatchphrases']} locale={locale}>{t.modules.tomodachiLifeVoiceCatchphrases.title}</LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.tomodachiLifeVoiceCatchphrases.subtitle}</p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto">{t.modules.tomodachiLifeVoiceCatchphrases.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.tomodachiLifeVoiceCatchphrases.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
+          <div className="scroll-reveal space-y-3">
+            {t.modules.tomodachiLifeVoiceCatchphrases.items.map((item: any, index: number) => (
+              <div key={index} className="border border-border rounded-xl overflow-hidden">
+                <button
+                  type="button"
+                  onClick={() => setVoiceExpanded(voiceExpanded === index ? null : index)}
+                  className="w-full flex items-center gap-4 p-5 text-left hover:bg-white/5 transition-colors"
+                >
+                  <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
+                    <DynamicIcon name={item.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   </div>
-                  <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeVoiceCatchphrases::entries::${index}`]} locale={locale}>
-                      {entry.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
-                </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-semibold">
+                        <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeVoiceCatchphrases::items::${index}`]} locale={locale}>
+                          {item.title}
+                        </LinkedTitle>
+                      </span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{item.type}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mt-0.5">{item.summary}</p>
+                  </div>
+                  <ChevronDown className={`w-5 h-5 flex-shrink-0 text-muted-foreground transition-transform ${voiceExpanded === index ? "rotate-180" : ""}`} />
+                </button>
+                {voiceExpanded === index && (
+                  <div className="px-5 pb-5 border-t border-border bg-white/[0.02]">
+                    <ul className="mt-4 space-y-2">
+                      {item.points.map((point: string, pi: number) => (
+                        <li key={pi} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -837,8 +914,12 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="unlock-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['tomodachiLifeUnlockGuide']} locale={locale}>{t.modules.tomodachiLifeUnlockGuide.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.tomodachiLifeUnlockGuide.intro}</p>
+            <span className="inline-block px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4 text-[hsl(var(--nav-theme-light))]">Progression</span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['tomodachiLifeUnlockGuide']} locale={locale}>{t.modules.tomodachiLifeUnlockGuide.title}</LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.tomodachiLifeUnlockGuide.subtitle}</p>
+            <p className="text-muted-foreground text-sm max-w-3xl mx-auto">{t.modules.tomodachiLifeUnlockGuide.intro}</p>
           </div>
           <div className="scroll-reveal space-y-4 mb-8">
             {t.modules.tomodachiLifeUnlockGuide.steps.map((step: any, index: number) => (
@@ -846,13 +927,23 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
                   <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
                 </div>
-                <div>
+                <div className="flex-1 min-w-0">
                   <h3 className="text-xl font-bold mb-2">
                     <LinkedTitle linkData={moduleLinkMap[`tomodachiLifeUnlockGuide::steps::${index}`]} locale={locale}>
                       {step.title}
                     </LinkedTitle>
                   </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+                  <p className="text-muted-foreground mb-3">{step.description}</p>
+                  {step.unlocks && step.unlocks.length > 0 && (
+                    <div className="flex flex-wrap gap-2">
+                      {step.unlocks.map((unlock: string, ui: number) => (
+                        <span key={ui} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          <Check className="w-3 h-3 flex-shrink-0" />
+                          {unlock}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
