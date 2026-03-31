@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  tomodachiLifePersonalityGuide: { field: 'steps', nameKey: 'title' },
+  tomodachiLifeQRCodes: { field: 'cards', nameKey: 'name' },
+  tomodachiLifeBeginnerGuide: { field: 'items', nameKey: 'name' },
+  tomodachiLifeCompatibilityGuide: { field: 'solutions', nameKey: 'name' },
+  tomodachiLifeRelationshipGuide: { field: 'cards', nameKey: 'name' },
+  tomodachiLifeMarriageGuide: { field: 'regions', nameKey: 'name' },
+  tomodachiLifeBabyGuide: { field: 'creatures', nameKey: 'name' },
+  tomodachiLifeFoodGuide: { field: 'items', nameKey: 'name' },
+  tomodachiLifeGiftsGuide: { field: 'sections', nameKey: 'name' },
+  tomodachiLifeClothingAndHats: { field: 'priorities', nameKey: 'name' },
+  tomodachiLifeInteriorsGuide: { field: 'groups', nameKey: 'name' },
+  tomodachiLifeTravelersAndStreetPass: { field: 'faqs', nameKey: 'question' },
+  tomodachiLifeImportWear: { field: 'faqs', nameKey: 'question' },
+  tomodachiLifeConcertHall: { field: 'settings', nameKey: 'name' },
+  tomodachiLifeVoiceCatchphrases: { field: 'entries', nameKey: 'title' },
+  tomodachiLifeUnlockGuide: { field: 'steps', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  tomodachiLifePersonalityGuide: ['personality', 'traits', 'mii', 'easygoing', 'outgoing'],
+  tomodachiLifeQRCodes: ['qr', 'scan', 'mii maker', 'import', 'codes'],
+  tomodachiLifeBeginnerGuide: ['beginner', 'starter', 'guide', 'island', 'tutorial'],
+  tomodachiLifeCompatibilityGuide: ['compatibility', 'tester', 'forecast', 'romance'],
+  tomodachiLifeRelationshipGuide: ['relationship', 'friendship', 'sweethearts', 'ladder'],
+  tomodachiLifeMarriageGuide: ['marriage', 'proposal', 'wedding', 'spouse'],
+  tomodachiLifeBabyGuide: ['baby', 'child', 'newborn', 'family'],
+  tomodachiLifeFoodGuide: ['food', 'mart', 'favorite', 'hunger', 'reaction'],
+  tomodachiLifeGiftsGuide: ['gifts', 'level-up', 'present', 'apartment'],
+  tomodachiLifeClothingAndHats: ['clothing', 'hats', 'outfit', 'fashion', 'shop'],
+  tomodachiLifeInteriorsGuide: ['interior', 'room', 'decor', 'apartment', 'design'],
+  tomodachiLifeTravelersAndStreetPass: ['traveler', 'streetpass', 'port', 'campground'],
+  tomodachiLifeImportWear: ['import wear', 'spotpass', 'export', 'streetpass clothing'],
+  tomodachiLifeConcertHall: ['concert', 'song', 'music', 'performance', 'hall'],
+  tomodachiLifeVoiceCatchphrases: ['voice', 'catchphrase', 'phrase', 'speech'],
+  tomodachiLifeUnlockGuide: ['unlock', 'progression', 'milestones', 'expand'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['tomodachi', 'life', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Tomodachi Life")
+  const strippedQuery = normalizedQuery.replace(/tomodachi life\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/tomodachi life\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
