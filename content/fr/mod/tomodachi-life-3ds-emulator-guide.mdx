@@ -1,0 +1,112 @@
+export const metadata = {
+  title: "Guide de l'émulateur 3DS Tomodachi Life : Jouez sur PC et mobile en 2026",
+  description: "Découvrez comment configurer Tomodachi Life sur PC, Android et Mac. Ce guide couvre Citra, Azahar et la correction du célèbre bug des visages Mii pour une expérience parfaite.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Emulator+Guide",
+  date: "2026-04-07",
+  author: "Équipe du Wiki Tomodachi"
+}
+
+Tomodachi Life reste l'un des jeux de simulation sociale les plus uniques et les plus charmants jamais sortis, mais depuis que l'ère de la 3DS est révolue, de nombreux joueurs cherchent des moyens modernes de revisiter leur île. La mise en place d'un **guide complet de l'émulateur 3DS Tomodachi Life** est essentielle pour quiconque souhaite découvrir l'humour décalé du jeu et les interactions entre Miis en haute définition. Que vous utilisiez un PC de jeu performant ou un smartphone moderne, ce **guide de l'émulateur 3DS Tomodachi Life** vous accompagnera à travers les exigences techniques, les choix de logiciels et les correctifs essentiels nécessaires pour lancer votre île en 2026.
+
+## Choisir le meilleur émulateur pour Tomodachi Life
+
+En 2026, la scène de l'émulation a considérablement évolué. Alors que Citra a été la référence pendant des années, diverses variantes (forks) et de nouveaux concurrents comme Azahar ont émergé pour offrir une meilleure stabilité et de nouvelles fonctionnalités. Le choix du bon logiciel dépend en grande partie de votre matériel et de votre tolérance pour la configuration technique.
+
+| Émulateur | Plateforme | Avantages | Inconvénients |
+|---|---|---|---|
+| **Citra (Amélioré)** | Windows, Linux, Android | Très compatible ; support communautaire massif ; excellente mise à l'échelle. | Nécessite des fichiers "Mii Data" spécifiques pour que les visages fonctionnent. |
+| **Azahar** | Windows, Mac, Linux | Architecture plus récente ; gère souvent mieux les fichiers chiffrés ; rapide. | L'interface plus récente peut être déroutante pour les débutants. |
+| **RetroArch** | Multi-plateforme | Utilise les cœurs Citra ; permet des shaders avancés et des rétro-succès. | Configuration complexe ; excessif pour un seul jeu. |
+
+> **💡 Conseil :** Si vous utilisez une ancienne machine Windows, recherchez la version **MSYS2** de l'émulateur choisi, car elle offre souvent une meilleure compatibilité avec le matériel ancien que les versions MSVC.
+
+## Guide étape par étape de l'émulateur 3DS Tomodachi Life
+
+Pour commencer votre aventure, vous avez besoin d'un environnement propre. Suivez ces étapes pour vous assurer que vos fichiers sont reconnus par le logiciel.
+
+1.  **Téléchargez l'émulateur :** Visitez le site officiel de Citra ou d'Azahar et téléchargez l'installateur correspondant à votre système d'exploitation.
+2.  **Acquérez votre fichier de jeu :** Vous devez utiliser un fichier Tomodachi Life **décrypté**. Les émulateurs ne peuvent généralement pas lire les fichiers "chiffrés" sans fichiers BIOS/Key externes. Recherchez les extensions `.3ds`, `.cci` ou `.cxi`.
+3.  **Préparation du fichier :** Si votre fichier se termine par `.3ds`, certains utilisateurs réussissent mieux en renommant l'extension en `.cci`. Faites simplement un clic droit, sélectionnez renommer et changez les trois dernières lettres.
+4.  **Configuration du répertoire :** Créez un dossier dédié sur votre disque nommé "Jeux 3DS" et placez votre fichier Tomodachi Life à l'intérieur.
+5.  **Ajout du jeu :** Ouvrez votre émulateur, sélectionnez "Ajouter un nouveau répertoire d'application" et pointez-le vers le dossier que vous venez de créer.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/86QEwmrNrlU"
+    title="Comment jouer à Tomodachi Life sur Citra 2025 - Guide complet"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Corriger le bug du "visage absent" des Mii
+
+Le problème le plus courant rapporté dans chaque **guide de l'émulateur 3DS Tomodachi Life** est le bug des visages Mii manquants. Comme le matériel 3DS d'origine utilise des polices système et des données Mii propriétaires, les émulateurs affichent souvent des Miis avec des visages vides ou des marques "X".
+
+Pour corriger cela, vous devez utiliser un utilitaire appelé `errfix.3dsx`.
+
+| Étape | Action | Pourquoi c'est nécessaire |
+|---|---|---|
+| **1** | Télécharger `errfix.3dsx` | Ce script injecte les données système nécessaires dans la mémoire virtuelle de l'émulateur. |
+| **2** | Placer dans le dossier du jeu | Gardez-le dans le même répertoire que votre ROM Tomodachi Life. |
+| **3** | Lancer Errfix en premier | Lancez le fichier `errfix.3dsx` dans l'émulateur avant de démarrer le jeu proprement dit. |
+| **4** | Redémarrer le jeu | Fermez le correctif et lancez Tomodachi Life. Les visages de vos Mii devraient maintenant apparaître correctement. |
+
+> **Attention :** N'essayez jamais de "réparer" les visages en supprimant votre fichier de sauvegarde. Il s'agit d'un problème de rendu système, et non d'une corruption des données de sauvegarde.
+
+## Optimisation des graphismes et des performances
+
+L'un des avantages d'utiliser un **guide de l'émulateur 3DS Tomodachi Life** est la possibilité de jouer à des résolutions plus élevées que l'écran 240p du matériel d'origine. Cependant, pousser les réglages trop haut peut provoquer des saccades de shaders.
+
+*   **Résolution interne :** Réglez-la sur 3x ou 4x pour une clarté proche du 1080p sur PC. Pour mobile, restez sur 2x.
+*   **Filtrage des textures :** Activez "Bicubic" ou "ScaleForce" pour lisser les bords des modèles 3D.
+*   **Étirement audio (Audio Stretching) :** Si la musique semble grésiller, activez l'étirement audio dans le menu des paramètres pour synchroniser le son avec la fréquence d'images.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/nvTF4RJL9vw"
+    title="Comment obtenir Tomodachi Life sur PC !"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Dépannage des erreurs courantes
+
+Même avec une configuration parfaite, vous pourriez rencontrer des obstacles techniques. La plupart d'entre eux sont liés à la façon dont l'émulateur gère les données en cache ou les ROM chiffrées.
+
+| Problème | Solution potentielle |
+|---|---|
+| **Le jeu plante pendant le chargement des shaders** | Ouvrez le dossier de données de l'émulateur et supprimez le dossier **Shader Cache**. Il se reconstruira en toute sécurité. |
+| **Erreur "Fichier chiffré"** | Vous utilisez un dump brut d'une 3DS. Vous devez utiliser un outil de décryptage ou trouver un fichier `.cci` déjà décrypté. |
+| **Le clavier n'écrit pas en jeu** | Allez dans Émulation > Configurer > Commandes et assurez-vous que votre clavier est mappé aux touches de la 3DS. |
+| **L'île semble floue** | Désactivez le "Filtrage linéaire" dans les paramètres graphiques pour obtenir un rendu plus net et précis au pixel près. |
+
+Pour un support technique plus avancé, la consultation des [forums officiels de la communauté Citra](https://community.citra-emu.org/) peut fournir des journaux spécifiques pour votre configuration matérielle.
+
+## Gérer les fichiers de sauvegarde de votre île
+
+Contrairement à la 3DS originale, qui vous limitait à une seule sauvegarde par cartouche, l'utilisation d'un **guide de l'émulateur 3DS Tomodachi Life** vous permet de gérer plusieurs îles. Il vous suffit de localiser votre dossier "SDMC" dans le répertoire de l'émulateur et de remplacer le dossier `user` pour passer d'un état de sauvegarde à un autre. C'est parfait pour les joueurs qui veulent expérimenter différentes combinaisons de Mii sans perdre leur progression principale.
+
+## FAQ
+
+**Q : Puis-je jouer à Tomodachi Life sur mon iPhone ou iPad en 2026 ?**
+
+R : Oui, bien que cela nécessite le sideloading d'un émulateur comme Folium ou l'utilisation d'une alternative basée sur le web. Les performances sur iOS sont généralement inférieures à celles sur Android ou PC en raison des restrictions de compilation JIT (Just-In-Time).
+
+**Q : Où puis-je trouver les versions américaine ou européenne du jeu ?**
+
+R : Lors de la recherche de fichiers, "Rev 1" fait généralement référence à la version USA, tandis que "Rev 2" signifie souvent la version Europe/Australie. Assurez-vous que la région de votre émulateur est réglée sur "Auto" ou correspond à la région de votre fichier pour éviter les erreurs de texte.
+
+**Q : Est-il possible d'utiliser mes vrais Mii 3DS dans l'émulateur ?**
+
+R : Oui, vous pouvez exporter votre Mii sous forme de code QR depuis votre 3DS et utiliser la webcam de votre PC (ou un fichier image enregistré) pour le scanner dans la version émulée de Tomodachi Life.
+
+**Q : Pourquoi le jeu écrit-il automatiquement "CITRA" dans chaque zone de texte ?**
+
+R : C'est un bug courant dans certaines anciennes versions. Pour le corriger, assurez-vous d'utiliser la dernière version de l'émulateur et d'avoir correctement installé le fichier `errfix.3dsx` pour gérer la saisie de texte au niveau du système.

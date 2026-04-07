@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Tomodachi Life PC : Comment jouer et guide d'émulation 2026",
+  description: "Apprenez à jouer à Tomodachi Life sur PC avec les derniers émulateurs en 2026. Corrigez les bugs de visage des Mii, optimisez les performances et découvrez la nouvelle suite.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Tomodachi+Life+PC+Guide",
+  date: "2026-04-07",
+  author: "Tomodachi Wiki Team"
+}
+
+Jouer à **tomodachi life pc** est devenu une priorité absolue pour les fans de simulation en 2026. Bien que le titre original fût une exclusivité pour la Nintendo 3DS, le désir de découvrir la vie excentrique de l'île sur un écran plus grand reste plus fort que jamais. Pour ceux qui cherchent à lancer **tomodachi life pc**, le paysage a considérablement évolué avec de nouveaux émulateurs comme Azahar occupant le devant de la scène après l'abandon des anciennes plateformes. Que vous souhaitiez revisiter les interactions classiques des Mii ou vous préparer pour la suite prévue en 2026, configurer correctement le jeu est essentiel pour une expérience fluide.
+
+Dans ce guide complet, nous vous accompagnerons à travers les exigences techniques, les conversions de fichiers nécessaires et la manière de corriger le célèbre bug du "visage invisible" qui affecte de nombreuses versions émulées. En suivant ces étapes, vous pourrez transformer votre bureau en une île animée remplie de vos personnages préférés, tout en profitant d'une résolution et de performances améliorées que le matériel d'origine ne pourrait jamais offrir.
+
+## Choisir le meilleur émulateur pour Tomodachi Life
+
+Pour faire tourner le jeu efficacement en 2026, vous avez besoin d'un émulateur 3DS fiable. Bien que plusieurs options existent, la communauté s'est largement tournée vers **Azahar** et **RetroArch** pour leur stabilité et leurs fonctionnalités.
+
+| Émulateur | Plateformes supportées | Idéal pour | Statut |
+|---|---|---|---|
+| **Azahar** | Windows, Linux, Mac, Android | Haute compatibilité, correctifs de bugs spécifiques | **Actif** |
+| **RetroArch** | Multi-plateforme | Utilisateurs voulant une bibliothèque tout-en-un | **Actif** |
+| **Citra (Legacy)** | Windows, Mac | Ancien matériel, bien que plus mis à jour | **Abandonné** |
+
+Azahar est actuellement le choix recommandé pour **tomodachi life pc** car il gère mieux les exigences uniques de rendu des Mii que les émulateurs génériques. Lors du téléchargement d'Azahar, les utilisateurs Windows ont généralement le choix entre les builds **MSYS2** et **MSBC**. Il est généralement conseillé d'essayer la version MSYS2 en premier, car elle offre une meilleure optimisation pour les processeurs modernes.
+
+> **💡 Astuce :** Si votre ordinateur a plus de cinq ans et que la version MSYS2 ne se lance pas, passez à la version MSBC pour un meilleur support du matériel ancien.
+
+## Guide d'installation étape par étape
+
+Configurer **tomodachi life pc** nécessite plus que le simple téléchargement d'un émulateur ; vous devez également vous assurer que vos fichiers de jeu sont au bon format. L'émulateur nécessite des fichiers "décryptés" pour fonctionner.
+
+### 1. Préparation de vos fichiers de jeu
+La plupart des sauvegardes numériques du jeu sont au format `.3ds` ou `.cxi`. Cependant, de nombreux utilisateurs constatent que l'émulateur nécessite spécifiquement une extension `.cci` pour reconnaître correctement le répertoire.
+
+*   Localisez votre fichier de jeu (ex: `TomodachiLife.3ds`).
+*   Faites un clic droit sur le fichier et sélectionnez **Renommer**.
+*   Changez l'extension à la fin de `.3ds` vers `.cci`.
+*   Confirmez le changement lorsque l'avertissement système apparaît.
+
+### 2. Configuration du répertoire
+Une fois vos fichiers prêts, vous devez pointer l'émulateur vers le bon dossier.
+
+| Étape | Action | Détail clé |
+|---|---|---|
+| **Étape 1** | Lancer Azahar | Ouvrez l'exécutable `azahar-emu.org`. |
+| **Étape 2** | Ajouter un répertoire | Double-cliquez sur "Add New Application Directory". |
+| **Étape 3** | Sélectionner le dossier | Choisissez le dossier contenant votre fichier `.cci`. |
+| **Étape 4** | Vérifier | L'icône du jeu devrait maintenant apparaître dans la liste principale. |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/nvTF4RJL9vw"
+    title="Comment installer Tomodachi Life sur PC !"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Correction du bug de visage des Mii (Error Fix)
+
+L'un des problèmes les plus courants lors de l'utilisation de **tomodachi life pc** est le glitch du "visage cassé", où les Mii apparaissent avec des traits manquants ou des marques "X" génériques. Cela est dû au fait que l'émulateur manque de fichiers de police système et de données Mii spécifiques présents sur la console réelle.
+
+Pour corriger cela, vous devez utiliser un utilitaire appelé `errfix.3dsx`.
+
+1.  Téléchargez le fichier `errfix.3dsx` (souvent trouvé sur les fils Reddit de la communauté ou les dépôts GitHub spécialisés).
+2.  Placez le fichier `errfix.3dsx` dans le même dossier que votre fichier de jeu Tomodachi Life.
+3.  Dans votre émulateur, lancez d'abord `errfix.3dsx`. Il apparaîtra comme une application distincte dans votre bibliothèque.
+4.  Laissez le programme exécuter sa routine pour "réparer" les données internes des Mii.
+5.  Fermez l'utilitaire de correction et lancez le jeu principal. Vos Mii devraient maintenant avoir des visages entièrement rendus.
+
+> **⚠️ Attention :** N'utilisez jamais de fichiers "Encrypted" (cryptés) avec des émulateurs modernes comme Azahar. Assurez-vous que vos fichiers sources sont marqués comme "Decrypted" (décryptés), sinon le jeu ne démarrera pas.
+
+## Tomodachi Life: Living the Dream (Suite 2026)
+
+Depuis le début de l'année 2026, la franchise connaît un regain de popularité massif grâce à l'annonce de **Tomodachi Life: Living the Dream**. Cette suite est prévue pour une sortie complète le 16 avril 2026 sur Nintendo Switch et sur le nouveau matériel Switch 2.
+
+Pour les passionnés de PC, cela signifie un changement de stratégie d'émulation. Alors que le jeu original est géré par des émulateurs 3DS, la suite de 2026 nécessitera un logiciel compatible avec la Switch. Une démo est actuellement disponible sur le [Nintendo eShop](https://www.nintendo.com/store/), offrant un "Costume de Hamster" comme récompense exclusive transférable vers le jeu complet.
+
+### Quoi de neuf dans la version 2026 ?
+*   **Personnalisation étendue :** Traits de personnalité plus profonds et apparences de Mii plus diversifiées.
+*   **Nouveaux lieux :** Le déblocage des extensions de l'île est plus dynamique.
+*   **Support Cross-Gen :** Optimisé à la fois pour la Switch originale et la Switch 2 améliorée.
+*   **Liberté Sandbox :** Événements quotidiens et interactions sociales plus imprévisibles.
+
+## Optimisation des performances et dépannage
+
+Même sur un PC puissant, vous pouvez rencontrer des saccades ou des temps de chargement longs. Cela est souvent dû au "Shader Caching" (mise en cache des shaders), où l'émulateur compile les données graphiques à la volée.
+
+| Problème | Solution potentielle |
+|---|---|
+| **Chargement des shaders long** | Supprimez le dossier `shaders` dans le répertoire de votre émulateur pour effacer le cache corrompu. |
+| **Latence d'entrée (Input Lag)** | Changez votre API graphique d'OpenGL à **Vulkan** dans les paramètres de l'émulateur. |
+| **Plantages du jeu** | Assurez-vous d'utiliser un fichier `.cci` ou `.cxi` **décrypté**. |
+| **Texte affichant "CITRA"** | C'est une valeur par défaut codée en dur dans certaines anciennes versions ; mettez à jour vers la dernière build d'Azahar pour corriger cela. |
+
+Si vous subissez des plantages après 20 minutes de jeu, il s'agit probablement d'une fuite de mémoire liée aux shaders accumulés. Effacer manuellement la carte des shaders toutes les quelques sessions peut permettre au jeu de fonctionner de manière fluide sur du matériel de milieu de gamme.
+
+## FAQ
+
+**Q : Puis-je jouer à Tomodachi Life sur PC sans 3DS ?**
+
+R : Oui, vous pouvez utiliser un émulateur comme Azahar ou RetroArch pour jouer au jeu sur votre PC. Vous aurez besoin d'une copie décryptée des fichiers du jeu (souvent au format `.cci` ou `.3ds`) pour commencer.
+
+**Q : Comment corriger les visages des Mii qui ne s'affichent pas sur PC ?**
+
+R : Vous devez télécharger un fichier nommé `errfix.3dsx` et l'exécuter dans votre émulateur. Cet utilitaire installe les fichiers système nécessaires qui permettent à l'émulateur de rendre correctement les traits faciaux des Mii.
+
+**Q : Y a-t-il un Tomodachi Life 2 qui sort en 2026 ?**
+
+R : Oui, une suite intitulée **Tomodachi Life: Living the Dream** est prévue pour le 16 avril 2026. Elle sera disponible sur Nintendo Switch et Switch 2, et une démo jouable est actuellement disponible.
+
+**Q : Puis-je transférer ma sauvegarde de la 3DS vers mon PC ?**
+
+R : Oui, si vous possédez une 3DS avec un firmware personnalisé (homebrew), vous pouvez exporter vos données de sauvegarde à l'aide d'un outil comme Checkpoint et les importer dans le dossier "User" de votre émulateur PC.

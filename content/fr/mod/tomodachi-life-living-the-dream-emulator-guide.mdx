@@ -1,0 +1,106 @@
+export const metadata = {
+  title: "Guide de l'émulateur Tomodachi Life Living the Dream : Jouez sur PC en 2026",
+  description: "Apprenez à configurer et optimiser Tomodachi Life: Living the Dream sur PC. Notre guide de l'émulateur couvre la configuration technique, les solutions pour la démo et les nouvelles fonctionnalités de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Tomodachi+Life+Emulator+Guide",
+  date: "2026-04-07",
+  author: "L'équipe du Wiki Tomodachi Life"
+}
+
+La sortie de *Tomodachi Life: Living the Dream* le 16 avril 2026 a revitalisé la communauté Mii, ramenant l'humour surréaliste et la simulation de vie au premier plan du jeu vidéo chez Nintendo. Bien que le titre soit une expérience phare pour la Nintendo Switch et sa plateforme suivante, de nombreux passionnés recherchent un **guide de l'émulateur Tomodachi Life Living the Dream** complet pour découvrir l'île en haute résolution ou avec des packs de textures personnalisés. Ce **guide de l'émulateur Tomodachi Life Living the Dream** vous accompagnera à travers les étapes essentielles pour configurer votre île sur PC, vous permettant de profiter des nouvelles fonctionnalités comme le système de colocataires et la personnalisation étendue sans limitations matérielles.
+
+Que vous essayiez de tirer le meilleur parti de la démo du 25 mars ou que vous vous prépariez pour le lancement complet, comprendre les exigences techniques est la première étape. L'émulation en 2026 a atteint un haut niveau de stabilité, permettant une recréation quasi parfaite de la vie chaotique des Miis. Dans ce guide, nous aborderons également les solutions découvertes par la communauté pour contourner l'état de "résidence surveillée" de la démo, afin que vos Miis restent actifs et sociables en attendant la version complète.
+
+## Configuration technique requise pour l'émulation
+
+Faire tourner un titre Switch moderne nécessite une configuration PC équilibrée. Contrairement au titre original sur 3DS, *Living the Dream* utilise des moteurs de rendu et de physique plus complexes pour gérer les nouvelles interactions Mii par "glisser-déposer" et les environnements 3D redessinés comme le parc d'attractions "Mi Wheel".
+
+| Composant | Configuration minimale | Recommandée (4K/60FPS) |
+| :--- | :--- | :--- |
+| **CPU** | 6 cœurs (AMD Ryzen 3600 / Intel i5-10400) | 8 cœurs (AMD Ryzen 7700X / Intel i7-13700K) |
+| **GPU** | NVIDIA GTX 1660 / AMD RX 580 | **NVIDIA RTX 3070 / AMD RX 6800 XT** |
+| **RAM** | 8 Go DDR4 | **16 Go DDR5** |
+| **Stockage** | 10 Go (SSD recommandé) | **10 Go SSD NVMe** |
+| **API** | Vulkan 1.3 | **Vulkan 1.3** |
+
+> **💡 Astuce :** Utilisez toujours l'API Vulkan dans les paramètres de votre émulateur. *Tomodachi Life: Living the Dream* utilise des shaders spécifiques pour les visages des Miis qui peuvent provoquer des clignotements sur les anciens backends OpenGL.
+
+## Configuration du guide de l'émulateur Tomodachi Life Living the Dream
+
+Pour commencer, vous aurez besoin d'un émulateur moderne tel que Ryujinx ou les builds Sudachi mis à jour, très répandus en 2026. Assurez-vous que votre firmware et vos clés sont mis à jour vers la version 18.0.0 ou supérieure pour prendre en charge le dernier ID de titre.
+
+1.  **Dopez vos fichiers :** Utilisez une console Switch modifiée pour dumper votre exemplaire légalement acheté de *Tomodachi Life: Living the Dream* ou sa démo.
+2.  **Installez le firmware :** Placez vos fichiers de firmware dans le dossier système de l'émulateur pour assurer la prise en charge de l'applet Mii.
+3.  **Configurez les données Mii :** Contrairement à d'autres jeux, ce titre repose lourdement sur la base de données Mii du système. Utilisez l'outil "Mii Edit" au sein de votre émulateur pour créer votre avatar principal avant de lancer le jeu.
+4.  **Configuration des commandes :** Le nouveau jeu permet de "faire glisser" les Miis. Assurez-vous que votre souris est configurée comme une entrée tactile pour vous permettre de déplacer physiquement les Miis sur l'île lors des interactions.
+
+## Nouvelles fonctionnalités dans Living the Dream 2026
+
+La suite introduit plusieurs mécaniques qui étaient absentes de l'original sur 3DS. Ces fonctionnalités changent considérablement la façon dont vous gérez vos insulaires. L'un des plus grands changements est la transition des appartements individuels vers les "maisons étendues" pouvant accueillir des colocataires.
+
+| Fonctionnalité | Description | Capacité max / Limite |
+| :--- | :--- | :--- |
+| **Colocataires** | Les Miis peuvent désormais partager un espace de vie et interagir en temps réel. | **Jusqu'à 8 Miis par maison** |
+| **Glisser-déposer** | Les joueurs peuvent ramasser manuellement les Miis et les placer près des autres. | **Illimité** |
+| **Quirks** | Traits de personnalité secondaires influençant le comportement quotidien. | **3 Quirks par Mii** |
+| **Animaux** | Animaux dessinés sur mesure ou basés sur des PNG vivant avec les Miis. | **1 animal par Mii** |
+| **Expressions** | Slogans similaires aux villageois d'*Animal Crossing*. | **20 caractères** |
+
+Les bâtiments ont également été entièrement revus. L'épicerie est désormais connue sous le nom de **Fresh Kingdom**, tandis que la boutique d'intérieur a été renommée **TNC Renault**. Les fans du studio photo original trouveront le nouveau **Photo Tommo** beaucoup plus robuste, permettant des poses de groupe qui étaient auparavant impossibles.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/HWjhHwjGEKQ"
+    title="Demo OVER? You Can STILL Do This - Tomodachi Life: Living The Dream"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Contourner la limite "Lobotomii" de la démo
+
+Si vous utilisez ce **guide de l'émulateur Tomodachi Life Living the Dream** pour jouer à la version démo sortie le 25 mars, vous pourriez rencontrer l'état de "résidence surveillée". La communauté a surnommé cela le "Lobotomii" car une fois le tutoriel terminé, les Miis cessent d'errer sur l'île et ne parlent que par des publicités pour le jeu complet.
+
+Le déclencheur de cet état est la boutique de vêtements **Where & Wear**. Dès que vous créez votre troisième Mii, votre premier Mii affichera une "bulle de problème". Cliquer sur cette bulle vous force à ouvrir le magasin de vêtements, ce qui met fin à la partie active de la démo.
+
+### Comment garder la démo active
+*   **La stratégie des deux Miis :** Ne créez simplement jamais de troisième Mii. L'île restera active, et vos deux résidents continueront de se promener et d'interagir indéfiniment.
+*   **L'évitement de la bulle :** Vous pouvez créer le troisième Mii, mais **ne cliquez jamais sur la bulle de problème** du premier Mii. Bien que le premier Mii reste à l'intérieur de sa maison, vous pouvez toujours le faire glisser manuellement dehors pour discuter avec les deux autres.
+*   **Profils multiples :** Sur un émulateur, vous pouvez facilement créer plusieurs "Profils Utilisateurs". Cela vous permet d'avoir jusqu'à huit fichiers de sauvegarde différents, vous permettant de recommencer la démo et d'expérimenter différentes combinaisons de Miis sans perdre votre sauvegarde principale.
+
+> **⚠️ Attention :** Une fois la boutique **Where & Wear** construite, les fonctionnalités sociales de la démo sont définitivement désactivées. Il n'y a aucun moyen de revenir en arrière sans supprimer vos données de sauvegarde ou changer de profil.
+
+## Optimiser l'expérience Mii sur PC
+
+La nature surréaliste du jeu est mieux vécue avec des paramètres de haute fidélité. Dans la version 2026, les Miis ont de vraies oreilles et des structures faciales plus complexes. Pour tirer le meilleur parti de votre **guide de l'émulateur Tomodachi Life Living the Dream**, suivez ces étapes d'optimisation :
+
+### Résolution et textures
+*   **Résolution interne :** Réglez sur 2x (1440p) ou 3x (4K). Les modèles Mii s'adaptent incroyablement bien, révélant des détails dans le système de "maquillage facial" qui sont souvent flous sur l'écran de la console portable.
+*   **Filtrage anisotrope :** Réglez sur 16x pour que les textures des nouveaux bâtiments, comme **Reich Price** et **My Treasures**, restent nettes même à distance.
+
+### Interaction et gameplay
+Dans *Living the Dream*, les interactions sont moins aléatoires que dans la version 3DS. Vous pouvez désormais saisir des sujets spécifiques pour que les Miis en discutent. Si vous jouez sur un émulateur, l'utilisation d'un clavier physique rend ce processus beaucoup plus rapide que le clavier virtuel de la Switch.
+
+Le jeu propose également des butins d'objets bizarres. Par exemple, des joueurs ont rapporté avoir reçu une "corde élastique d'apparence fragile" après une séquence de rêve. Cet objet peut devenir un sujet récurrent de peur ou de fascination dans les conversations des Miis. Regarder ces interactions se dérouler en 60FPS sur un grand écran ajoute une nouvelle couche de comédie à l'absurdité inhérente du jeu.
+
+Pour plus d'informations sur les fonctionnalités confirmées et le lancement prochain du 16 avril, vous pouvez consulter la [page officielle Nintendo Tomodachi Life](https://www.nintendo.com) ou visiter le MiiWiki géré par la communauté.
+
+## FAQ
+
+**Q : Puis-je transférer ma sauvegarde de l'émulateur vers une vraie Nintendo Switch ?**
+
+R : Oui, si vous possédez une Switch modifiée, vous pouvez utiliser des outils homebrew pour exporter les données de sauvegarde de votre PC et les importer sur votre console. C'est particulièrement utile pour transférer votre progression de la démo à 3 Miis vers la version commerciale complète de *Tomodachi Life: Living the Dream*.
+
+**Q : Pourquoi mes Miis sont-ils bloqués à l'intérieur de leurs maisons ?**
+
+R : Vous avez probablement déclenché la fin de la démo en construisant la boutique de vêtements **Where & Wear**. Reportez-vous à la section "Contourner la limite de la démo" de ce **guide de l'émulateur Tomodachi Life Living the Dream** pour apprendre comment éviter cela dans une nouvelle sauvegarde.
+
+**Q : Le maquillage facial est-il disponible dans la version émulateur ?**
+
+R : Le système de maquillage facial est une fonctionnalité centrale de la version 2026, mais il est fortement restreint dans la démo. Bien que vous puissiez voir les options dans l'éditeur Mii, vous ne pouvez pas les appliquer à vos insulaires avant le lancement du jeu complet le 16 avril 2026.
+
+**Q : Combien de Miis puis-je avoir sur mon île ?**
+
+R : Alors que la démo est limitée à 3 Miis, la version complète de *Living the Dream* devrait prendre en charge jusqu'à 100 Miis, correspondant à la limite de la base de données Mii du système Nintendo Switch. Le système de colocataires permet de répartir ces 100 Miis dans diverses maisons partagées.
