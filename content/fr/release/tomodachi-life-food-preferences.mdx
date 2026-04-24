@@ -1,0 +1,106 @@
+export const metadata = {
+  title: "Préférences alimentaires Tomodachi Life : Guide complet des goûts des Miis 2026",
+  description: "Maîtrisez le système complexe des préférences alimentaires de Tomodachi Life. Apprenez comment les attributs, les valeurs de goût et les demandes de faim influencent les repas préférés de vos Miis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Tomodachi+Life+Food+Guide",
+  date: "2026-04-25",
+  author: "Équipe du Wiki Tomodachi Life"
+}
+
+Maîtriser les **préférences alimentaires de Tomodachi Life** est essentiel pour tout administrateur d'île souhaitant garder ses Miis heureux et en bonne santé. Dans l'univers décalé de ce classique de Nintendo, chaque personnage possède un palais unique qui dicte sa réaction face aux centaines d'articles comestibles disponibles à l'Épicerie. Comprendre les **préférences alimentaires de Tomodachi Life** vous permet de maximiser le niveau de bonheur de vos Miis, de gagner plus d'argent pour les améliorations de l'île et de débloquer les animations rares et hilarantes qui font tout le charme du jeu.
+
+Que vous ayez affaire à un Mii qui traite une simple part de pizza comme un mets gastronomique ou à un autre qui trouve le meilleur caviar répugnant, le système derrière ces goûts est bien plus qu'un simple hasard. En plongeant dans les structures de données et les schémas comportementaux de vos insulaires, vous pouvez transformer le processus d'alimentation par tâtonnements en une science précise. Ce guide explore les mécanismes du goût, l'impact des attributs alimentaires et les meilleures stratégies pour découvrir le « Super préféré entre tous » de chaque Mii.
+
+## Le spectre des réactions alimentaires
+
+Lorsque vous nourrissez un Mii, il affiche l'une des huit réactions distinctes. Ces réactions ne sont pas purement cosmétiques ; elles sont directement corrélées à la quantité d'expérience (Bonheur) que le Mii gagne et à la somme d'argent de poche que vous recevez en tant que gardien du sosie. Le suivi de ces réactions est la première étape pour documenter les **préférences alimentaires de Tomodachi Life** pour l'ensemble de votre île.
+
+| Niveau de réaction | Indice visuel | Impact sur le bonheur | Récompense financière |
+| :--- | :--- | :--- | :--- |
+| **Super préféré entre tous** | Danse dans l'espace | Augmentation massive | Très élevée |
+| **Préféré entre tous** | Fond de joie sur un fond coloré | Augmentation importante | Élevée |
+| **Excellent** | Danse enthousiaste | Augmentation modérée | Moyenne |
+| **Bon** | Sourit et hoche la tête | Petite augmentation | Faible |
+| **Normal** | Expression neutre | Augmentation minimale | Très faible |
+| **Pas bon** | Secoue la tête ou grimace | Aucune augmentation | Aucune |
+| **Horrible** | Devient gris et fond | Diminution | Aucune |
+| **Le pire entre tous** | Flotte dans un vide sombre et froid | Diminution significative | Aucune |
+
+> **💡 Conseil :** Gardez toujours quelques aliments appréciés « Normaux » dans votre inventaire. Bien qu'ils n'offrent pas de gains d'XP massifs, ils sont fiables pour remplir l'estomac d'un Mii sans risquer une réaction « Le pire entre tous » lorsque vous manquez de fonds.
+
+## L'algorithme derrière les préférences alimentaires de Tomodachi Life
+
+Pendant des années, les joueurs ont débattu pour savoir si les goûts alimentaires étaient déterminés par un « germe aléatoire » (random seed) généré lors de la création d'un Mii. Cependant, des découvertes récentes de la communauté du modding, spécifiquement de groupes comme Tomodachi Enterprises, suggèrent une approche algorithmique beaucoup plus sophistiquée. Plutôt qu'une simple liste aléatoire, le jeu semble attribuer des « marqueurs d'attributs » spécifiques à chaque aliment.
+
+Chaque Mii possède des poids internes attribués à ces attributs. Si un Mii a une forte préférence pour les marqueurs « Sucré » et « Occidental », il aimera probablement les pancakes et les donuts. À l'inverse, s'il a un poids négatif pour les aliments « Gras », il pourrait mal réagir au poulet frit, même s'il aime généralement la « Viande ».
+
+### Attributs et catégories alimentaires courants
+
+Le jeu suit des dizaines d'attributs pour chaque plat. Ces marqueurs déterminent comment le « calculateur de goût » interne du Mii traite le repas.
+
+| Type de catégorie | Exemples de marqueurs d'attributs |
+| :--- | :--- |
+| **Profil de saveur** | Sucré, Salé, Acide, Épicé |
+| **Température** | Chaud, Froid |
+| **Origine** | Japonais, Chinois, Occidental, Américain, Britannique, Français, Allemand, Finlandais, Coréen |
+| **Groupe alimentaire** | Fruit, Légume, Viande, Poisson, Pain, Riz, Nouilles, Œufs |
+| **Spécialité** | Luxe, Gras, Confiserie, Affreux (ex: Pain moisi) |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/t05RACl5Jsw"
+    title="Le système alimentaire de Tomodachi Life est GÉNIAL !"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Le mystère des valeurs de goût A, B, C et D
+
+Au-delà des attributs visibles comme « Épicé » ou « Légume », l'exploration des données a révélé quatre variables cachées étiquetées comme Valeurs de goût A, B, C et D. Bien que la fonction exacte de ces valeurs reste un sujet d'étude en 2026, elles agissent probablement comme des modificateurs pour garantir que les **préférences alimentaires de Tomodachi Life** ne deviennent pas trop prévisibles.
+
+Par exemple, deux Miis pourraient tous deux avoir une forte préférence pour les « Fruits ». Cependant, si le Mii A a une valeur de goût A élevée et le Mii B une valeur de goût B élevée, ils pourraient toujours être en désaccord sur des fruits spécifiques comme les bananes par rapport aux oranges. Cette sous-couche de l'algorithme explique pourquoi un Mii peut soudainement détester un aliment qui semble pourtant correspondre à toutes ses autres catégories appréciées. Cela ajoute une couche de « personnalité » aux Miis, les faisant paraître comme des individus avec des aversions spécifiques et parfois irrationnelles.
+
+## Stratégies pour découvrir les plats préférés
+
+Trouver le « Super préféré entre tous » d'un Mii est l'un des aspects les plus gratifiants du jeu. Bien qu'une grande partie repose sur l'expérimentation, vous pouvez utiliser des événements spécifiques en jeu pour affiner votre recherche.
+
+1.  **Écoutez les demandes liées à la faim :** Lorsqu'un Mii a faim, il peut demander une catégorie spécifique, comme « quelque chose d'épicé » ou « un dessert ». Si vous lui donnez un aliment correspondant à cette catégorie, la réaction est pondérée plus positivement.
+2.  **Envies spécifiques :** Occasionnellement, un Mii demandera un article précis (ex: « J'ai vraiment envie d'un ragoût de bœuf »). Répondre à ces demandes spécifiques est un moyen très efficace de confirmer une préférence positive, car le jeu déclenche souvent une réaction « Adoré » lors de ces événements.
+3.  **Le filtrage du « Pire de tous » :** Certains articles sont presque universellement détestés. Des objets comme le **Pain moisi**, le **Lait périmé** et les **Peaux de banane** entraîneront des réactions négatives pour la grande majorité des Miis. Utilisez-les pour vider votre inventaire, mais n'en attendez jamais un gain de bonheur.
+4.  **Observez les goûts régionaux :** Si un Mii apprécie plusieurs articles « Japonais » comme les sushis et les ramens, donnez-lui la priorité sur d'autres articles de cette catégorie pour trouver ses favoris de premier rang.
+
+Pour plus d'informations sur les mécanismes officiels du jeu, vous pouvez consulter la [page d'assistance officielle de Nintendo](https://en-americas-support.nintendo.com/) pour les titres hérités de la 3DS.
+
+## Gérer votre inventaire alimentaire
+
+Pour gérer efficacement les **préférences alimentaires de Tomodachi Life**, vous devez maintenir un inventaire diversifié. L'Épicerie met à jour son stock quotidiennement, et certains articles sont saisonniers.
+
+| Saison | Articles saisonniers courants | Focus d'attributs |
+| :--- | :--- | :--- |
+| **Printemps** | Fleurs de cerisier, Pousses de bambou | Légume, Japonais |
+| **Été** | Glace pilée, Pastèque | Froid, Fruit |
+| **Automne** | Châtaignes grillées, Citrouille | Chaud, Légume |
+| **Hiver** | Chocolat chaud, Ragoût | Chaud, Occidental |
+
+> **Attention :** Donner le même article à un Mii plusieurs fois de suite finira par diminuer les gains de bonheur. Même si un Mii adore la « Pizza », la variété est nécessaire pour maintenir une croissance constante.
+
+## FAQ
+
+**Q : Les préférences alimentaires d'un Mii peuvent-elles changer avec le temps ?**
+
+R : Non, les **préférences alimentaires de Tomodachi Life** de base d'un Mii sont fixées lors de sa création et ne changent pas. Cependant, sa réaction à un aliment peut paraître légèrement différente s'il a extrêmement faim ou s'il a spécifiquement demandé ce type de nourriture, ce qui booste temporairement l'animation de réaction.
+
+**Q : Existe-t-il un moyen de réinitialiser le plat préféré d'un Mii ?**
+
+R : Il n'y a aucun mécanisme en jeu pour réinitialiser les préférences. Certains joueurs tentent un « soft reset » (redémarrer le jeu sans sauvegarder) après avoir donné un nouvel article à un Mii pour éviter une réaction « Le pire entre tous », mais cela ne change pas la préférence prédéterminée du Mii pour cet article.
+
+**Q : La personnalité des Miis affecte-t-elle les aliments qu'ils aiment ?**
+
+R : Bien que ce soit une théorie populaire parmi les fans, il n'y a aucune donnée concluante dans le code source du jeu suggérant que les types de personnalité (comme « Calme » ou « Extraverti ») dictent directement les préférences alimentaires. Le système de goût repose principalement sur les marqueurs d'attributs et les valeurs de goût cachées évoquées précédemment.
+
+**Q : Que se passe-t-il quand je trouve un Super préféré entre tous ?**
+
+R : Lorsqu'un Mii mange son Super préféré entre tous, il effectue une danse unique dans l'espace. Cela booste massivement sa barre de niveau et récompense généralement le joueur avec une somme d'argent importante. L'aliment sera également marqué de façon permanente par une icône spéciale dans l'onglet « Collection » de ce Mii.
