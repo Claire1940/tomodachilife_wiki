@@ -1,0 +1,130 @@
+export const metadata = {
+  title: "Living the Dream Save Editor: Sblocca Oggetti e Mii 2026",
+  description: "Scopri come usare il living the dream save editor per bypassare i blocchi della demo, sbloccare tutti gli oggetti e massimizzare le monete in Tomodachi Life: Living the Dream.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Living+the+Dream+Save+Editor+Guide",
+  date: "2026-04-26",
+  author: "Living the Dream Wiki Team"
+}
+
+Il rilascio della demo "Welcome Version" di Tomodachi Life: Living the Dream ha portato il fascino del classico simulatore di Mii a una nuova generazione. Tuttavia, molti giocatori hanno rapidamente raggiunto un limite in cui le restrizioni della demo finiscono per "lobotomizzare" i propri Mii, intrappolandoli nei loro appartamenti una volta completati gli obiettivi iniziali. È qui che il **living the dream save editor** diventa uno strumento essenziale per gli appassionati. Utilizzando questa utility sviluppata dalla community, i giocatori possono bypassare i prompt della versione retail e sbloccare tutto il potenziale degli asset della demo.
+
+Sia che tu voglia dare più libertà ai tuoi isolani o semplicemente desideri sperimentare con la vasta gamma di abbigliamento e cibo nascosti nei file di gioco, padroneggiare il **living the dream save editor** è la chiave. In questa guida completa, ti mostreremo i passaggi esatti per individuare i tuoi dati di salvataggio su Ryujinx o su una console modificata, applicare le patch necessarie e trasformare la tua demo limitata in un'esperienza sandbox completamente funzionale.
+
+## Comprendere il Living the Dream Save Editor
+
+Il **living the dream save editor**, specificamente lo strumento sviluppato dal membro della community creeperyano99, è un'utility basata sul web progettata per modificare il file `player.save` che si trova nella demo di Tomodachi Life: Living the Dream. Nell'esperienza standard della demo, il gioco attiva uno stato di "lockdown" una volta creati tre Mii e aperto il negozio di abbigliamento. Da quel momento in poi, i tuoi Mii smettono di interagire con il mondo e parlano solo del prossimo rilascio della versione completa.
+
+Usando l'editor, puoi impostare lo "Status Lockdown" su disabilitato. Questo semplice cambiamento permette ai tuoi Mii di uscire di casa, interagire tra loro, sviluppare amicizie e presentarti problemi da risolvere, trasformando essenzialmente la demo in una versione funzionale del gioco.
+
+### Caratteristiche Principali del Save Editor
+
+| Funzionalità | Descrizione | Vantaggio |
+|---|---|---|
+| **Disabilita Lockdown** | Rimuove la restrizione di fine demo sul movimento dei Mii. | I Mii possono uscire e interagire. |
+| **Soldi Massimi** | Imposta il tesoro dell'isola al valore massimo (es. 999.999.999). | Potere d'acquisto illimitato nei negozi. |
+| **Sblocca Tutti gli Oggetti** | Garantisce l'accesso a ogni cibo e capo di abbigliamento nei file. | Bypassa i limiti di rotazione giornaliera dei negozi. |
+| **Modifica dello Stato** | Cambia i flag interni per la "Welcome Version". | Abilita il ciclo di gioco completo di "risoluzione dei problemi". |
+
+## Preparazione alla Modifica: Posizione dei File
+
+Prima di poter utilizzare il **living the dream save editor**, devi essere in grado di individuare e fare il backup dei tuoi file di salvataggio. A seconda che tu stia utilizzando l'[emulatore Ryujinx](https://ryujinx.org/) o una console Nintendo Switch fisica con firmware personalizzato, il processo per trovare questi file differisce leggermente.
+
+### Trovare i Dati di Salvataggio su Ryujinx
+
+Per la maggior parte dei giocatori su PC, Ryujinx è il metodo principale per vivere questo progetto. L'emulatore memorizza i dati di salvataggio in una directory nidificata all'interno della cartella AppData del sistema.
+
+1.  Premi `Tasto Windows + R` e digita `%appdata%`.
+2.  Naviga in `Ryujinx` > `bis` (o `bin`) > `user` > `save`.
+3.  Vedrai diverse cartelle con lunghe stringhe numeriche. Dovrai cercarle finché non trovi quella contenente `player.save`.
+4.  **Importante:** Crea sempre una copia di backup del tuo `player.save` prima di procedere con qualsiasi modifica.
+
+### Trovare i Dati di Salvataggio su una Switch Modificata
+
+Se stai giocando su hardware reale, avrai bisogno di un gestore di salvataggi come JKSV o Checkpoint.
+
+*   Esporta i dati di salvataggio per "Tomodachi Life: Living the Dream" utilizzando il tuo gestore preferito.
+*   Collega la tua scheda SD al PC o usa un client FTP per accedere alla cartella esportata.
+*   Cerca il file `player.save` all'interno della directory esportata.
+
+> **Attenzione:** La modifica dei file di salvataggio su una console fisica comporta un piccolo rischio di corruzione dei dati. Assicurati che la console sia in Modalità Aereo o bloccata dai server ufficiali per prevenire problemi di sincronizzazione.
+
+## Guida Passo-Passo all'Uso del Living the Dream Save Editor
+
+Una volta preparato il file `player.save`, il processo di modifica è semplice. Segui questi passaggi per "s-lobotomizzare" i tuoi isolani.
+
+### Passaggio 1: Caricamento del File
+Naviga verso lo strumento web ufficiale **living the dream save editor**. Clicca sul pulsante "Sfoglia" o "Carica" e seleziona il tuo file `player.save`. Lo strumento analizzerà i dati e visualizzerà le statistiche attuali della tua isola, inclusi il saldo corrente e lo stato di lockdown.
+
+### Passaggio 2: Modifica delle Variabili Globali
+L'obiettivo principale per la maggior parte dei giocatori è disabilitare le restrizioni della demo. Individua l'interruttore **Lockdown Status** e assicurati che sia impostato su "Disabled". Se attualmente dice "Enabled", i tuoi Mii sono bloccati; cambiare questo flag è ciò che permette loro di tornare a vagare liberamente.
+
+### Passaggio 3: Regolazioni Finanziarie e degli Oggetti
+Ora puoi impostare i tuoi soldi su un valore elevato. Sebbene lo strumento permetta cifre astronomiche, si consiglia di rimanere entro l'intervallo di 1.000.000 per evitare glitch nell'interfaccia utente. Successivamente, clicca sul pulsante **Unlock Items**. Questo popolerà i tuoi negozi di abbigliamento e cibo con ogni asset attualmente incluso nella build della demo, compresi gli abiti che solitamente sono bloccati dietro le rotazioni giornaliere.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/LaJSJtLrsos"
+    title="UNLOBOTOMIZE Miis and Unlock All Items in Living The Dream Demo"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+### Passaggio 4: Salvataggio e Sostituzione
+Dopo aver apportato le modifiche, clicca sul pulsante "Save" o "Download" nell'editor. Questo genererà una nuova versione del tuo `player.save`. Devi ora prendere questo nuovo file e spostarlo nuovamente nella cartella di salvataggio originale (su Ryujinx o sulla scheda SD della Switch), sovrascrivendo il vecchio file.
+
+| Requisito | Valore/Percorso |
+|---|---|
+| **File Principale** | `player.save` |
+| **File Secondari** | `mii.save`, `map.save` (Non modificarli) |
+| **Percorso Emulatore** | `%appdata%/Ryujinx/bis/user/save/...` |
+| **Autore dello Strumento** | creeperyano99 |
+
+## Sbloccare il Pieno Potenziale: Oggetti e Libertà
+
+Dopo aver utilizzato con successo il **living the dream save editor**, l'esperienza di gioco cambia drasticamente. Nella demo standard, i tuoi Mii sono statici. Una volta applicata la patch, noterai diversi cambiamenti immediati.
+
+### Autonomia dei Mii Ripristinata
+Il cambiamento più significativo è che i Mii inizieranno a manifestare "problemi". Vedrai le familiari icone sopra le loro finestre che indicano che hanno fame, vogliono vestiti nuovi o desiderano interagire con altri isolani. Questo ti permette di guadagnare "Felicità" (anche se il livellamento potrebbe essere ancora limitato nella build della demo) e costruire relazioni tra i tuoi personaggi.
+
+### Accesso al Catalogo Completo
+La funzione "Unlock All Items" è particolarmente potente nel 2026. Poiché la demo resetta il negozio solo due volte al giorno, potrebbero volerci settimane per vedere tutti i contenuti disponibili. L'editor costringe il gioco a riconoscere tutti gli oggetti come "scoperti", permettendoti di acquistare:
+*   Oltre 100 prodotti alimentari unici.
+*   Set completi di costumi, cappelli e accessori per la schiena.
+*   Vari stili di interni per gli appartamenti dei Mii.
+
+> **💡 Suggerimento:** Anche con il massimo dei soldi, alcuni oggetti rari potrebbero ancora risultare "Esauriti" se l'orologio interno del gioco non si è ancora aggiornato. Di solito, salvare e riavviare il gioco risolve il problema.
+
+## Risoluzione dei Problemi Comuni
+
+Sebbene il **living the dream save editor** sia molto affidabile, gli utenti potrebbero incontrare piccoli ostacoli durante il primo tentativo di modding.
+
+### Il File di Salvataggio non si Carica
+Se Ryujinx non si avvia dopo aver sostituito il file, potresti averlo rinominato accidentalmente. Assicurati che il nome del file sia esattamente `player.save` (tutto minuscolo) e che sia posizionato nella corretta sottocartella numerica.
+
+### I Mii Menzionano Ancora la Versione Retail
+Questo accade se il "Lockdown Status" non è stato attivato correttamente o se non hai sovrascritto il file giusto. Esegui nuovamente l'editor e verifica che lo "Status Lockdown" sia impostato su "Disabled" prima di scaricare il nuovo salvataggio.
+
+### Felicità e Livellamento
+Nella "Welcome Version", gli sviluppatori potrebbero aver limitato la barra della felicità. Sebbene il **living the dream save editor** permetta ai Mii di interagire, potrebbero non guadagnare sempre livelli o "Warm Fuzzies" allo stesso modo della versione retail completa. Questo è un limite del motore della demo stessa piuttosto che un difetto dell'editor.
+
+## FAQ
+
+**D: Posso usare il living the dream save editor sulla versione originale per 3DS di Tomodachi Life?**
+
+R: No, questo editor specifico è progettato per il progetto fan e la demo "Living the Dream" per Nintendo Switch/Ryujinx. Per la versione 3DS, avresti bisogno di uno strumento diverso creato specificamente per i file `.sav` di quell'hardware.
+
+**D: È possibile aggiungere più di tre Mii usando questo strumento?**
+
+R: L'attuale versione dell'editor si concentra su statistiche del giocatore, denaro e oggetti. Sebbene disabilitare il lockdown permetta ai tuoi Mii esistenti di muoversi liberamente, la possibilità di aggiungere altri Mii è spesso limitata dal codice interno della demo. Tuttavia, alcuni utenti hanno avuto successo creando i Mii prima che scatti il lockdown.
+
+**D: L'uso del living the dream save editor comporterà il ban del mio account Nintendo?**
+
+R: Se utilizzi un emulatore come Ryujinx, non c'è alcun rischio per il tuo account ufficiale Nintendo. Se utilizzi una Switch modificata, dovresti sempre rimanere offline quando utilizzi dati di salvataggio modificati per evitare il rilevamento da parte dei servizi di telemetria di Nintendo.
+
+**D: L'editor funziona su Mac o Linux?**
+
+R: Sì. Poiché l'editor è uno strumento basato sul web fornito dalla community, funziona in qualsiasi browser moderno indipendentemente dal sistema operativo. Devi solo essere in grado di accedere al tuo file system per caricare e scaricare il file `player.save`.
