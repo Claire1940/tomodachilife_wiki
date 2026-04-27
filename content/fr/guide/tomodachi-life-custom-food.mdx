@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Nourriture personnalisée Tomodachi Life : Guide du système alimentaire avancé 2026",
+  description: "Découvrez le fonctionnement du système de nourriture personnalisée et de préférences de Tomodachi Life. Explorez les attributs cachés, les valeurs gustatives et apprenez à influencer les plats préférés de vos Miis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Tomodachi+Life+Custom+Food",
+  date: "2026-04-27",
+  author: "L'équipe du Wiki Tomodachi Life"
+}
+
+Tomodachi Life reste l'un des simulateurs sociaux les plus uniques jamais sortis, en grande partie grâce à ses systèmes excentriques et profondément stratifiés. L'une des mécaniques les plus complexes du jeu est la façon dont les Miis interagissent avec leurs repas. Alors que de nombreux joueurs cherchent des moyens d'implémenter de la **nourriture personnalisée Tomodachi Life** via des mods ou des astuces de jeu spécifiques, comprendre la logique sous-jacente du système alimentaire est la première étape pour maîtriser les besoins culinaires de votre île. Chaque Mii de votre île possède un palais unique qui détermine s'il effectuera une danse de célébration ou s'il fondra littéralement dans une mare de désespoir après avoir goûté un plat.
+
+Dans ce guide 2026, nous explorerons les structures de données complexes derrière les préférences alimentaires, le rôle des projets communautaires de **nourriture personnalisée Tomodachi Life**, et comment vous pouvez mieux prédire quels articles deviendront le « Super délice » d'un Mii. Que vous soyez un joueur occasionnel ou un moddeur dédié, naviguer dans les algorithmes de goût de ce classique de la 3DS nécessite un mélange d'observation et de stratégie basée sur les données.
+
+## La logique derrière les préférences alimentaires des Miis
+
+Pendant des années, les joueurs ont cru que les préférences alimentaires étaient entièrement aléatoires ou déterminées au moment de l'alimentation. Cependant, des analyses approfondies du code source du jeu par des groupes communautaires comme Tomodachi Enterprises ont révélé une réalité bien plus sophistiquée. Plutôt qu'un simple générateur de nombres aléatoires, le jeu utilise une approche algorithmique pour déterminer l'appréciation en fonction de « marqueurs d'attributs » cachés attachés à chaque aliment.
+
+Lorsque vous offrez à un Mii un élément de **nourriture personnalisée Tomodachi Life** ou un article standard de l'inventaire, le jeu vérifie les attributs de cet article par rapport au profil de préférence interne du Mii. Ce profil n'est pas seulement une liste d'articles aimés ; c'est un ensemble de poids assignés à différentes saveurs, origines et textures.
+
+| Catégorie d'attribut | Exemples de marqueurs | Impact sur la préférence |
+|---|---|---|
+| **Profil de saveur** | Sucré, Salé, Acide, Épicé | Principal moteur de la réaction initiale. |
+| **Température** | Chaud, Froid | Peut l'emporter sur la saveur si un Mii a une préférence « Froid ». |
+| **Origine** | Japonais, Occidental, Chinois, Américain | Influence les Miis en fonction de leur poids « culturel » interne. |
+| **Groupe alimentaire** | Viande, Fruit, Légume, Pain, Riz | Détermine la satisfaction nutritionnelle à long terme. |
+| **Qualité** | Luxe, Horrible, Gras | Les marqueurs « Luxe » élevés donnent généralement de meilleures réactions. |
+
+> **💡 Conseil :** Si un Mii demande spécifiquement un type de nourriture (ex : « Je veux quelque chose d'épicé »), lui donner un article qui correspond à cet attribut entraînera presque toujours une réaction positive, quelle que soit sa préférence permanente pour cet article spécifique.
+
+## Comprendre les « Valeurs de goût » (A, B, C, D)
+
+Au-delà des attributs de base comme « sucré » ou « épicé », le jeu utilise quatre valeurs internes mystérieuses étiquetées A, B, C et D. Ces valeurs agissent comme une couche secondaire de hasard contrôlé. Cela explique pourquoi deux Miis qui apprécient tous deux les aliments « Sucrés » et « Occidentaux » peuvent tout de même avoir des réactions différentes à une part de gâteau.
+
+Ces valeurs représentent probablement :
+1.  **Sensibilité à la texture :** Comment le Mii réagit aux aliments croquants par rapport aux aliments mous.
+2.  **Poids de l'arôme :** Un modificateur caché qui peut augmenter ou abaisser le score de base.
+3.  **Facteur de satiété :** À quel point la nourriture remplit la barre de faim du Mii par rapport à son attrait.
+4.  **Modificateur de complexité :** Une valeur qui détermine si le Mii préfère les ingrédients simples ou les plats complexes.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/t05RACl5Jsw"
+    title="Le système alimentaire de Tomodachi Life est GÉNIAL !"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Modding et nourriture personnalisée Tomodachi Life
+
+Pour ceux qui cherchent à étendre leur jeu au-delà des 200+ articles standards, la communauté du modding a fait des progrès significatifs en 2026. Grâce aux éditeurs de sauvegarde et au piratage de textures, les joueurs peuvent désormais introduire de la **nourriture personnalisée Tomodachi Life** dans leurs fichiers de sauvegarde. Ce processus implique plus que le simple changement d'une icône ; il nécessite l'attribution des bons marqueurs d'attributs pour que les Miis sachent comment réagir au nouvel article.
+
+Si vous êtes intéressé par le côté technique de l'île, des groupes comme Tomodachi Enterprises ont documenté la structure des données de sauvegarde pour la nourriture. Chaque article occupe un emplacement d'ID spécifique, et en écrasant des articles sous-utilisés (comme le « Pain rassis » ou la « Peau de banane »), les moddeurs peuvent insérer des ressources personnalisées de haute qualité.
+
+### Comment les attributs de nourriture personnalisée sont assignés
+Lors de la création d'un article personnalisé, les moddeurs doivent activer des marqueurs booléens (vrai/faux) spécifiques. Si vous créez un « Bubble Tea personnalisé », vous définiriez les éléments suivants :
+*   **Sucré :** Vrai
+*   **Froid :** Vrai
+*   **Confiserie :** Vrai
+*   **Boisson :** Vrai
+
+Si ces marqueurs ne sont pas définis correctement, le Mii pourrait réagir au Bubble Tea comme s'il s'agissait d'un bol de ramen chaud, entraînant des animations brisant l'immersion.
+
+## Gérer le régime de votre Mii pour un bonheur maximum
+
+Pour garder vos insulaires heureux et les faire monter de niveau rapidement, vous devriez vous concentrer sur la découverte de leurs « Super délices » et « Grands délices ». Ceux-ci offrent des bonus d'expérience massifs et des animations uniques.
+
+| Niveau de réaction | Gain d'expérience | Animation |
+|---|---|---|
+| **Super délice** | Boost énorme | Fusée s'envolant dans l'espace ou danse disco. |
+| **Grand délice** | Boost important | Danse joyeuse avec musique. |
+| **Bon / Très bon** | Modéré | Sourire et hochement de tête. |
+| **Pas fan** | Faible | Secoue la tête ou a l'air déçu. |
+| **Pire plat au monde** | Zéro (Négatif) | Fond dans une mare grise. |
+
+Trouver ces favoris est souvent un processus d'élimination. Cependant, vous pouvez restreindre les possibilités en observant leurs réactions à des catégories plus larges. Si un Mii déteste la « Glace », il est statistiquement moins susceptible d'apprécier le « Yaourt glacé » ou d'autres articles avec les marqueurs « Froid » et « Sucré ».
+
+> **⚠️ Avertissement :** Soyez prudent lorsque vous donnez aux Miis des aliments marqués « Horrible » comme le lait périmé ou le pain rassis. Bien que cela n'endommage pas définitivement votre relation, cela n'apporte aucune expérience et peut rendre le Mii malheureux pendant une courte durée.
+
+## Stratégies d'alimentation avancées
+
+En 2026, les joueurs vétérans utilisent une méthode de « Test par catégorie » pour cartographier les préférences d'une île. Au lieu de donner aux Miis des articles au hasard, essayez de leur donner un article représentatif de chaque catégorie majeure (ex : un épicé, un sucré, un salé).
+
+1.  **Commencez par les bases :** Donnez-leur du pain, du riz et de l'eau pour établir une base de référence.
+2.  **Testez les extrêmes :** Utilisez du piment Habanero ou des glaçons pour voir comment ils gèrent les marqueurs extrêmes de température/piment.
+3.  **Identifiez les biais culturels :** Donnez-leur un burger occidental par rapport à un sushi japonais.
+4.  **Documentez les résultats :** Tenez un tableur ou utilisez un suivi en jeu pour noter quels attributs déclenchent les meilleures réactions.
+
+Pour plus d'informations sur la liste officielle des articles, vous pouvez consulter la [base de données du support Nintendo](https://en-americas-support.nintendo.com/) pour les manuels de jeux anciens et les descriptions d'articles.
+
+## FAQ
+
+**Q : Puis-je réellement cuisiner de la nourriture personnalisée Tomodachi Life dans le jeu ?**
+
+R : Dans la version non modifiée du jeu, vous ne pouvez pas « cuisiner » ou combiner des ingrédients pour créer de nouveaux articles. Vous ne pouvez obtenir de la nourriture que via l'Épicerie, les dons ou les marchés du matin. Pour obtenir des articles véritablement personnalisés, vous devez utiliser des logiciels homebrew et des mods développés par la communauté.
+
+**Q : Pourquoi mon Mii a-t-il changé d'avis sur un aliment qu'il aimait auparavant ?**
+
+R : Bien que les préférences permanentes (comme les Super délices) ne changent pas, la réaction immédiate d'un Mii peut être influencée par son niveau de faim. Si un Mii « meurt de faim », il peut montrer une réaction plus positive à un aliment qu'il trouve habituellement médiocre. Cependant, son classement officiel dans le menu « Collection » restera cohérent avec sa véritable préférence.
+
+**Q : La personnalité du Mii affecte-t-elle son plat préféré ?**
+
+R : Il n'y a aucune preuve définitive dans le code source que les types de personnalité (comme « Calme » ou « Extraverti ») verrouillent directement certaines préférences alimentaires. Cependant, certains types de personnalité peuvent demander de la nourriture plus fréquemment, vous donnant plus d'opportunités de découvrir leurs préférences de **nourriture personnalisée Tomodachi Life** via des requêtes.
+
+**Q : Comment obtenir des aliments plus rares ?**
+
+R : Les articles rares comme les « Truffes » ou le « Caviar » apparaissent généralement à l'Épicerie avec un faible taux d'apparition. Vous pouvez également les obtenir en gagnant des mini-jeux contre les Miis ou en consultant la section « Aliments spéciaux » si vous vous êtes connecté avec d'autres joueurs via StreetPass (bien que cela soit rare en 2026).

@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Tomodachi Life Custom Food: Geavanceerde Gids voor het Voedselsysteem 2026",
+  description: "Leer hoe het systeem voor aangepast voedsel en voorkeuren in Tomodachi Life werkt. Ontdek verborgen attributen, smaakwaarden en hoe je de favoriete gerechten van je Mii kunt beïnvloeden.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Tomodachi+Life+Custom+Food",
+  date: "2026-04-27",
+  author: "Tomodachi Life Wiki Team"
+}
+
+Tomodachi Life blijft een van de meest unieke sociale simulators die ooit zijn uitgebracht, grotendeels dankzij de excentrieke en diepgaande systemen. Een van de meest complexe mechanismen in het spel is de manier waarop Miis omgaan met hun maaltijden. Hoewel veel spelers zoeken naar manieren om **tomodachi life custom food** te implementeren via mods of specifieke gameplay-trucs, is het begrijpen van de onderliggende logica van het voedselsysteem de eerste stap naar het beheersen van de culinaire behoeften van je eiland. Elke Mii op je eiland bezit een uniek palet dat bepaalt of ze een vreugdedansje maken of letterlijk wegsmelten in een plasje wanhoop na het proeven van een gerecht.
+
+In deze gids voor 2026 verkennen we de ingewikkelde datastructuren achter voedselvoorkeuren, de rol van door de community gedreven **tomodachi life custom food** projecten, and hoe je beter kunt voorspellen welke items het "Super-lievelingsgerecht" van een Mii zullen worden. Of je nu een recreatieve speler bent of een toegewijde modder, het navigeren door de smaakalgoritmen van deze 3DS-klassieker vereist een mix van observatie en datagestuurde strategie.
+
+## De logica achter Mii-voedselvoorkeuren
+
+Jarenlang geloofden spelers dat voedselvoorkeuren volledig willekeurig waren of werden bepaald op het moment van voeren. Echter, diepgaand onderzoek in de broncode van het spel door communitygroepen zoals Tomodachi Enterprises heeft een veel geavanceerdere realiteit onthuld. In plaats van een eenvoudige willekeurige getallengenerator, gebruikt het spel een algoritmische benadering om de aantrekkelijkheid te bepalen op basis van verborgen "attribuut-vlaggen" die aan elk voedselitem zijn gekoppeld.
+
+Wanneer je een Mii een stuk **tomodachi life custom food** of een standaard item uit de inventaris aanbiedt, controleert het spel de attributen van dat item tegen het interne voorkeursprofiel van de Mii. Dit profiel is niet zomaar een lijst met geliefde items; het is een set gewichten die is toegekend aan verschillende smaken, herkomsten en texturen.
+
+| Attribuut-categorie | Voorbeelden van vlaggen | Impact op voorkeur |
+|---|---|---|
+| **Smaakprofiel** | Zoet, Zout, Zuur, Pittig | Belangrijkste factor voor de eerste reactie. |
+| **Temperatuur** | Warm, Koud | Kan de smaak overschrijven als een Mii een voorkeur heeft voor "Koud". |
+| **Oorsprong** | Japans, Westers, Chinees, Amerikaans | Beïnvloedt Miis op basis van hun interne "culturele" weging. |
+| **Voedselgroep** | Vlees, Fruit, Groente, Brood, Rijst | Bepaalt de voedingswaarde op lange termijn. |
+| **Kwaliteit** | Luxe, Vreselijk, Vettig | Hogere "Luxe"-vlaggen leveren over het algemeen betere reacties op. |
+
+> **💡 Tip:** Als een Mii specifiek om een bepaald soort voedsel vraagt (bijv. "Ik heb trek in iets pittigs"), zal het geven van een item dat overeenkomt met dat attribuut bijna altijd resulteren in een positieve reactie, ongeacht hun permanente voorkeur voor dat specifieke item.
+
+## De "Smaakwaarden" begrijpen (A, B, C, D)
+
+Naast de basisattributen zoals "zoet" of "pittig", maakt het spel gebruik van vier mysterieuze interne waarden genaamd A, B, C en D. Deze waarden fungeren als een secundaire laag van gecontroleerde willekeur. Dit verklaart waarom twee Miis die beiden van "zoet" en "westers" eten houden, toch verschillend kunnen reageren op een stukje taart.
+
+Deze waarden vertegenwoordigen waarschijnlijk:
+1.  **Textuurgevoeligheid:** Hoe de Mii reageert op knapperig versus zacht voedsel.
+2.  **Aroma-gewicht:** Een verborgen factor die de basisscore kan verhogen of verlagen.
+3.  **Verzadigingsfactor:** Hoezeer het voedsel de hongerbar van de Mii vult in verhouding tot de lekkerheid.
+4.  **Complexiteitsmodificator:** Een waarde die bepaalt of de Mii de voorkeur geeft aan eenvoudige ingrediënten of complexe gerechten.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/t05RACl5Jsw"
+    title="Tomodachi Life's Food System is GENIUS!"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Modding en Tomodachi Life Custom Food
+
+Voor degenen die hun spel willen uitbreiden buiten de standaard 200+ items, heeft de modding-community in 2026 grote stappen gezet. Via save-editors en texture-hacking kunnen spelers nu **tomodachi life custom food** in hun savebestanden introduceren. Dit proces omvat meer dan alleen het veranderen van een icoontje; het vereist het toewijzen van de juiste attribuut-vlaggen zodat de Miis weten hoe ze op het nieuwe item moeten reageren.
+
+Als je geïnteresseerd bent in de technische kant van het eiland: groepen zoals Tomodachi Enterprises hebben de save-datastructuur voor voedsel gedocumenteerd. Elk item neemt een specifieke ID-slot in, en door onderbenutte items (zoals het "Beschimmeld brood" of de "Bananenschil") te overschrijven, kunnen modders aangepaste assets van hoge kwaliteit invoegen.
+
+### Hoe attributen voor aangepast voedsel worden toegewezen
+Bij het maken van een aangepast item moeten modders specifieke booleaanse (waar/onwaar) vlaggen inschakelen. Als je een "Aangepaste Bubble Tea" maakt, stel je het volgende in:
+*   **Zoet (Sweet):** Waar
+*   **Koud (Cold):** Waar
+*   **Snoepgoed (Confectionary):** Waar
+*   **Drinken (Drink):** Waar
+
+Als deze vlaggen niet correct zijn ingesteld, kan de Mii op de Bubble Tea reageren alsof het een hete kom ramen is, wat leidt tot animaties die de immersie verbreken.
+
+## Het dieet van je Mii beheren voor maximaal geluk
+
+Om je eilandbewoners tevreden te houden en ze snel in level te laten stijgen, moet je je concentreren op het ontdekken van hun "Super-lievelingsgerecht" en "Lievelingsgerecht". Deze zorgen voor enorme ervaringsboosts en unieke animaties.
+
+| Reactieniveau | Ervaringsboost | Animatie |
+|---|---|---|
+| **Super-lievelingsgerecht** | Enorme boost | Raket de ruimte in of discodans. |
+| **Lievelingsgerecht** | Grote boost | Blij dansen met muziek. |
+| **Lekker/Goed** | Gemiddeld | Glimlachen en knikken. |
+| **Niet zo lekker** | Laag | Hoofd schudden of teleurgesteld kijken. |
+| **Vreselijk** | Nul (Negatief) | Wegsmelten in een grijze plas. |
+
+Het vinden van deze favorieten is vaak een kwestie van eliminatie. Je kunt het echter verfijnen door hun reacties op bredere categorieën te observeren. Als een Mii een hekel heeft aan "IJs", is de kans statistisch kleiner dat ze zullen genieten van "Bevroren yoghurt" of andere items met de vlaggen "Koud" and "Zoet".
+
+> **⚠️ Waarschuwing:** Wees voorzichtig met het voeren van voedsel met de vlag "Vreselijk", zoals bedorven melk of beschimmeld brood. Hoewel het je relatie niet permanent beschadigt, levert het nul ervaring op en kan het de Mii voor korte tijd ongelukkig maken.
+
+## Geavanceerde voederstrategieën
+
+In 2026 gebruiken ervaren spelers een methode van "Categorisch testen" om de voorkeuren van een eiland in kaart te brengen. In plaats van Miis willekeurige items te geven, probeer je ze één representatief item uit elke hoofdcategorie te geven (bijv. één pittig, één zoet, één zout).
+
+1.  **Begin met basisvoedsel:** Geef ze brood, rijst en water om een referentiepunt vast te stellen.
+2.  **Test extremen:** Gebruik Habanero of ijsblokjes om te zien hoe ze omgaan met extreme temperatuur/pittigheid.
+3.  **Identificeer culturele voorkeur:** Geef ze een westerse burger versus een Japanse sushi-rol.
+4.  **Documenteer resultaten:** Houd een spreadsheet bij of gebruik een in-game tracker om te noteren welke attributen de beste reacties oproepen.
+
+Voor meer informatie over de officiële itemlijst kun je de [Nintendo Support Database](https://en-americas-support.nintendo.com/) raadplegen voor handleidingen van oude games en itembeschrijvingen.
+
+## FAQ
+
+**V: Kan ik echt zelf aangepast voedsel koken in het spel?**
+
+A: In de ongemodde versie van het spel kun je geen ingrediënten "koken" of combineren om nieuwe items te maken. Je kunt voedsel alleen verkrijgen via de voedselwinkel, donaties of de ochtendmarkt. Om echt aangepaste items te krijgen, moet je homebrew-software en mods gebruiken die door de community zijn ontwikkeld.
+
+**V: Waarom veranderde mijn Mii van gedachten over voedsel dat hij eerst lekker vond?**
+
+A: Hoewel permanente voorkeuren (zoals lievelingsgerechten) niet veranderen, kan de onmiddellijke reactie van een Mii worden beïnvloed door hun hongerniveau. Als een Mii "honger lijdt", kunnen ze een positievere reactie tonen op voedsel dat ze normaal gesproken matig vinden. Hun officiële rangschikking in het menu "Collectie" blijft echter consistent met hun ware voorkeur.
+
+**V: Heeft de persoonlijkheid van de Mii invloed op hun lievelingseten?**
+
+A: Er is geen definitief bewijs in de broncode dat persoonlijkheidstypes (zoals "Gemakkelijk" of "Extravert") direct bepaalde voedselvoorkeuren vastleggen. Bepaalde persoonlijkheidstypes kunnen echter vaker om voedsel vragen, waardoor je meer kansen krijgt om hun voorkeuren voor **tomodachi life custom food** te ontdekken via verzoekjes.
+
+**V: Hoe kom ik aan meer zeldzame voedselitems?**
+
+A: Zeldzame items zoals "Truffels" of "Kaviaar" verschijnen meestal met een lage frequentie in de voedselwinkel. Je kunt ze ook verkrijgen door minigames van Miis te winnen of door de sectie "Speciaal voedsel" te controleren als je via StreetPass met andere spelers verbonden bent (hoewel dit in 2026 zeldzaam is).

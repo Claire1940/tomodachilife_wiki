@@ -1,0 +1,134 @@
+export const metadata = {
+  title: "Émulateur Tomodachi Life Living the Dream : Guide d'installation complet 2026",
+  description: "Apprenez à configurer l'émulateur pour Tomodachi Life Living the Dream sur PC. Obtenez les meilleurs réglages Ryujinx, des conseils pour TomoTexture et des corrections graphiques pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Tomodachi+Life+Emulator+Guide",
+  date: "2026-04-28",
+  author: "Tomodachi Life Wiki Team"
+}
+
+Tomodachi Life reste l'un des jeux de simulation sociale les plus uniques jamais sortis, et l'extension créée par des fans "Living the Dream" a insufflé une nouvelle vie à l'expérience pour les joueurs modernes. Pour profiter de cette version améliorée sur PC, comprendre la configuration de l'**émulateur de clés Tomodachi Life Living the Dream** est essentiel pour une expérience stable. La mise en place de l'environnement de l'**émulateur Tomodachi Life Living the Dream** nécessite des fichiers spécifiques, notamment des clés système et un firmware, pour garantir que le logiciel communique correctement avec votre matériel. Dans ce guide, nous vous accompagnerons tout au long du processus d'optimisation de votre émulateur, de gestion des textures et de résolution des bugs graphiques courants qui peuvent survenir pendant le jeu.
+
+## Comprendre l'extension Living the Dream
+
+La version "Living the Dream" de Tomodachi Life n'est pas qu'un simple portage ; elle représente une refonte significative du titre original de la 3DS, souvent jouée via des émulateurs Switch haut de gamme comme Ryujinx pour profiter de résolutions plus élevées et de capacités de modding. Cette version inclut des ensembles d'objets étendus, de nouvelles interactions Mii et des événements de vie améliorés qui étaient auparavant limités par les contraintes matérielles d'origine.
+
+Pour faire fonctionner cela efficacement, votre émulateur doit être "déverrouillé" à l'aide de fichiers système spécifiques. Ces fichiers permettent à l'émulateur de décrypter les données du jeu et d'exécuter les modifications spécialisées de "Living the Dream". Sans une configuration appropriée, vous pourriez rencontrer des écrans noirs ou des erreurs "Missing Key" (Clé manquante) au démarrage.
+
+## Configuration système requise pour 2026
+
+Avant de plonger dans la configuration logicielle, assurez-vous que votre matériel est capable de gérer les textures upscalées et les éléments modifiés inclus dans cette version.
+
+| Composant | Configuration minimale | Recommandée (pour la 4K) |
+|---|---|---|
+| **Processeur (CPU)** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel i7-12700K / AMD Ryzen 7 7800X3D |
+| **Carte graphique (GPU)** | NVIDIA GTX 1060 / AMD RX 580 | NVIDIA RTX 3070 / AMD RX 6800 XT |
+| **RAM** | 8 Go DDR4 | 16 Go DDR4/DDR5 |
+| **Stockage** | 5 Go d'espace disponible | SSD (NVMe de préférence) |
+| **Système d'exploitation** | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+
+> **Avertissement :** L'exécution d'émulateurs sur des graphiques intégrés (comme Intel UHD) peut entraîner un scintillement important des textures ou des bugs d'"herbe grise". Un GPU dédié est fortement recommandé.
+
+## Guide d'installation étape par étape
+
+Suivez ces étapes pour configurer et lancer votre environnement **émulateur Tomodachi Life Living the Dream**. Nous nous concentrerons sur la plateforme Ryujinx car elle offre actuellement la meilleure compatibilité pour les fichiers de mod "Living the Dream".
+
+### 1. Installation des clés système et du firmware
+Lorsque vous ouvrez votre émulateur pour la première fois, vous verrez probablement une notification indiquant que les "Prod Keys" sont manquantes. C'est l'étape la plus critique de la configuration.
+
+1.  Ouvrez votre émulateur et accédez au menu **File** (Fichier).
+2.  Sélectionnez **Open Ryujinx Folder** (Ouvrir le dossier Ryujinx) et localisez le répertoire `system`.
+3.  Placez vos fichiers `prod.keys` et `title.keys` dans ce dossier.
+4.  Allez dans **Tools** (Outils) > **Install Firmware** (Installer le firmware) et sélectionnez votre fichier ZIP ou XCI de firmware.
+5.  Redémarrez l'émulateur pour appliquer les changements.
+
+### 2. Ajout du répertoire du jeu
+Vos fichiers de jeu et les éléments du mod "Living the Dream" doivent être organisés pour que l'émulateur puisse les scanner automatiquement.
+
+| Nom du dossier | Type de contenu | Objectif |
+|---|---|---|
+| **Games** | Fichiers .XCI ou .NSP | Les données de base du jeu Tomodachi Life. |
+| **Mods** | Dossiers LayeredFS | Contient les remplacements d'éléments de "Living the Dream". |
+| **Things** | Clés et Firmware | Fichiers système essentiels pour le décryptage. |
+
+### 3. Configuration du moteur graphique (Backend)
+L'un des problèmes les plus courants rencontrés par les joueurs est le bug de l'"herbe grise", où l'environnement de l'île perd toute couleur. Cela est presque toujours causé par l'utilisation de la mauvaise API graphique.
+
+*   Accédez à **Options** > **Settings** (Paramètres) > **Graphics** (Graphismes).
+*   Changez le **Graphics Backend** pour **Vulkan**.
+*   Activez le **Shader Cache** pour réduire les saccades pendant les animations des Mii.
+*   Réglez la **Resolution Scale** sur 2x ou 3x pour un rendu net et moderne.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/rWaiLnBbbig"
+    title="Comment jouer à Tomodachi Life: Living the Dream sur Windows | Guide de configuration Ryujinx + TomoTexture"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Utiliser TomoTexture pour la personnalisation
+
+Une fonctionnalité phare de l'expérience Living the Dream est la possibilité d'utiliser **TomoTexture**. Cet outil externe vous permet de remplacer les textures du jeu (telles que la nourriture, les vêtements et les maquillages de Mii) par des images personnalisées en haute résolution.
+
+### Comment lier TomoTexture à votre sauvegarde
+1.  Lancez le jeu au moins une fois et créez un fichier de sauvegarde.
+2.  Dans votre émulateur, faites un clic droit sur Tomodachi Life et sélectionnez **Open User Save Directory** (Ouvrir le répertoire de sauvegarde utilisateur).
+3.  Copiez le chemin du dossier (généralement une suite de chiffres).
+4.  Ouvrez l'application TomoTexture et collez le chemin dans le champ du répertoire.
+5.  Cliquez sur **Refresh** (Actualiser) pour voir vos éléments actuels en jeu.
+
+> **Conseil :** Créez toujours une sauvegarde de votre fichier de sauvegarde avant d'utiliser TomoTexture. Le programme crée généralement un dossier `UGC Backups` automatiquement, mais les sauvegardes manuelles sont plus sûres pour les îles à long terme.
+
+## Optimisation des paramètres de jeu
+
+Pour garantir que l'**émulateur Tomodachi Life Living the Dream** fonctionne de manière fluide sans planter lors d'événements majeurs (comme les mariages ou les naissances de Mii), vous devriez ajuster les paramètres système suivants dans l'émulateur :
+
+| Paramètre | Valeur recommandée | Impact |
+|---|---|---|
+| **Memory Manager Mode** | Host unchecked (Hôte décoché) | Améliore la stabilité sur la plupart des CPU. |
+| **Audio Backend** | SDL2 | Réduit le décalage audio pendant les chansons. |
+| **Anisotropic Filtering** | 16x | Rend les textures plus nettes sous certains angles. |
+| **Aspect Ratio** | 16:9 | S'adapte aux moniteurs modernes sans étirement. |
+
+Pour plus d'informations sur les pratiques d'émulation légales et les mises à jour officielles, visitez le [site officiel de Ryujinx](https://ryujinx.org/) pour rester informé des dernières versions.
+
+## Résolution des erreurs courantes
+
+### Clés Prod manquantes
+Si l'émulateur ne parvient pas à lancer le jeu, vérifiez que votre fichier `prod.keys` est mis à jour vers la version correspondant à votre firmware. Si vous utilisez le Firmware 17.0.0, vos clés doivent également provenir de la version 17.0.0.
+
+### Scintillement des textures
+Cela est souvent causé par un conflit entre le mod "Living the Dream" et le multiplicateur de résolution de l'émulateur. Si vous constatez des scintillements, essayez de remettre l'échelle de résolution sur "Native" pour voir si le problème persiste. De plus, assurez-vous que la **Vsync** est activée pour éviter les déchirements d'écran pendant les segments d'actualités rapides.
+
+### Distorsions de la voix des Mii
+Tomodachi Life utilise un moteur de synthèse vocale spécialisé. Si les voix semblent robotiques ou "bruitées", allez dans les paramètres audio de l'émulateur et assurez-vous que la sortie est réglée sur un taux d'échantillonnage standard de 48 kHz.
+
+## Conseils avancés pour "Living the Dream"
+
+Le mod Living the Dream introduit des mécaniques sociales complexes, telles que des chances plus élevées pour les Miis d'avoir des enfants et des traits de personnalité étendus. Pour les gérer efficacement :
+
+1.  **Utilisez F11 pour le plein écran :** Si vous remarquez une barre blanche en haut de votre fenêtre, appuyer deux fois sur F11 réinitialise généralement la vue et supprime les artefacts de l'interface utilisateur.
+2.  **Surveillez la taille des sauvegardes :** À mesure que vous ajoutez des textures personnalisées via TomoTexture, votre fichier de sauvegarde augmentera. Assurez-vous que votre disque principal dispose d'au moins 1 Go d'espace libre dédié aux données de sauvegarde.
+3.  **Vérifiez les mises à jour :** Le projet Living the Dream est fréquemment mis à jour par la communauté. Vérifiez toujours si une nouvelle version du pack de textures est disponible pour éviter les problèmes de compatibilité avec les nouvelles versions de l'émulateur.
+
+## FAQ
+
+**Q : Où puis-je trouver les fichiers de l'émulateur Tomodachi Life Living the Dream ?**
+
+R : L'émulateur lui-même (Ryujinx) est disponible sur son site officiel. Les "clés" et le "firmware" doivent être extraits de votre propre matériel pour rester dans les directives légales. Les fichiers du mod "Living the Dream" se trouvent généralement sur des serveurs Discord communautaires ou des forums de modding spécialisés.
+
+**Q : Pourquoi mon herbe est-elle grise ou mes Miis invisibles ?**
+
+R : C'est un problème classique de moteur graphique. Allez dans les paramètres de votre émulateur et passez d'OpenGL à Vulkan. Vulkan est nettement plus performant pour gérer les shaders personnalisés utilisés dans l'extension Living the Dream.
+
+**Q : Puis-je transférer ma sauvegarde 3DS vers la configuration de l'émulateur Living the Dream ?**
+
+R : Oui, vous pouvez utiliser un outil comme Checkpoint sur une 3DS modifiée pour exporter votre sauvegarde, puis l'importer dans le répertoire de sauvegarde de l'émulateur. Cependant, certains objets moddés de Living the Dream peuvent ne pas apparaître correctement tant que vous n'avez pas actualisé les textures.
+
+**Q : Est-ce que TomoTexture fonctionne avec la version originale du jeu ?**
+
+R : Oui, TomoTexture est compatible avec le jeu de base, mais il est plus efficace lorsqu'il est utilisé avec l'extension Living the Dream, qui offre une plus grande variété d'emplacements pour les textures et objets personnalisés.
