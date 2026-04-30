@@ -1,0 +1,193 @@
+export const metadata = {
+  title: "tlmodding living the life save editor: Veilige gids voor karakteroverdracht 2026",
+  description: "Leer hoe je de workflow van tlmodding living the life save editor gebruikt om personages tussen Terraria en tModLoader te verplaatsen, versiefouten op te lossen en je savegegevens in 2026 te beschermen.",
+  category: "Handleiding",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=tModLoader+Save+Editor+Guide",
+  date: "2026-05-01",
+  author: "Tlmodding Wiki-team"
+}
+
+Als je probeert een Terraria-personage naar een gemodde setup te verplaatsen en steeds tegen versieproblemen aanloopt, is deze gids voor jou. De aanpak met **tlmodding living the life save editor** draait om één ding: je personage veilig behouden terwijl je het savebestand aanpast aan de omgeving waarin je daadwerkelijk wilt spelen. In 2026 lopen spelers nog steeds tegen dezelfde frustrerende problemen aan—lege personages, waarschuwingen over een “latere versie” en niet-overeenkomende inventarissen. Het goede nieuws is dat de workflow van **tlmodding living the life save editor** eenvoudig is als je het in de juiste volgorde doet: back-up maken, converteren, verifiëren en pas daarna je modprofiel starten. Volg de onderstaande stappen om risico te verminderen en snel te herstellen als er iets misgaat.
+
+## Waarom spelers een save editor gebruiken voor Terraria en tModLoader
+
+Een save editor is het nuttigst wanneer je basisversie van Terraria en je gemodde runtime niet synchroon lopen. Die mismatch kan ervoor zorgen dat je `.plr`-bestand niet laadt in tModLoader of leeg verschijnt.
+
+De meeste spelers gebruiken dit proces om drie redenen:
+
+1. **Versiecompatibiliteit** tussen vanilla Terraria en gemodde builds  
+2. **Continuïteit van personage** zodat je progressie, loadouts en cosmetica behoudt  
+3. **Herstel en reparatie** wanneer een profiel kapot lijkt na migratie  
+
+De methode van **tlmodding living the life save editor** is vooral praktisch voor karakteroverdracht, omdat die prioriteit geeft aan een schone kopie van het spelersbestand voordat er wijzigingen worden gemaakt.
+
+| Veelvoorkomend probleem | Hoe het eruitziet | Waarschijnlijke oorzaak | Beste eerste actie |
+|---|---|---|---|
+| Fout “latere versie” | Personage laadt niet in gemodde client | Save gemaakt in nieuwere build | **Converteer de versie van save-metadata** |
+| Leeg personage | Naam verschijnt, uitrusting/voortgang ontbreekt | Mismatch bij bestandsparsing | **Zet terug vanaf back-up, converteer opnieuw** |
+| Ontbrekende inventaris | Items weg na overdracht | Beschadigde kopie of verkeerd bestand verplaatst | **Kopieer alleen de juiste `.plr`-bron** |
+| Personage staat niet in lijst | Speler verschijnt niet in menu | Verkeerde doelmap | **Plaats bestand in tModLoader `Players`** |
+
+> **⚠️ Waarschuwing:** Bewerk niet je enige kopie van een personage. Maak minstens twee back-ups vóór elke conversie.
+
+Voor officiële platforminformatie en compatibiliteitsupdates, bekijk de [tModLoader Steam-pagina](https://store.steampowered.com/app/1281930/tModLoader/).
+
+## tlmodding living the life save editor-instelling in 2026
+
+Voordat je je save aanraakt, organiseer je mappen en back-ups zodat terugdraaien direct mogelijk is.
+
+### Stap 1) Zoek je spelersbestanden
+
+Op Windows staat het standaardpad meestal onder:
+- `Documents\My Games\Terraria\Players` (vanilla)
+- `Documents\My Games\Terraria\tModLoader\Players` (gemod)
+
+Je hebt het `.plr`-bestand nodig van het personage dat je migreert.
+
+### Stap 2) Maak een back-upset
+
+Maak:
+- **Originele back-up** (nooit aangeraakt)
+- **Werkkopie** (het bestand dat je bewerkt/converteert)
+- **Rollback-kopie** (voor het geval de werkkopie faalt)
+
+### Stap 3) Controleer de doelruntime
+
+Bevestig welke tModLoader-branch en modpackversie je start. Hier beginnen veel mislukte overdrachten.
+
+| Pre-flight-checklist | Verplicht? | Snelle test |
+|---|---|---|
+| Bron `.plr` bevestigd | **Ja** | Open map en controleer bestandsnaam/datum |
+| Originele back-up gekopieerd | **Ja** | Back-up in aparte map/schijf |
+| Doelversie tModLoader bekend | **Ja** | Controleer launcher/buildnotities |
+| Modpack één keer geladen | Aanbevolen | Start client één keer vóór importeren |
+| Cloudsynchronisatie gepauzeerd | Aanbevolen | Uitschakelen tot overdracht slaagt |
+
+> **💡 Tip:** Geef back-ups een datum in de naam, zoals `Mage_Main_2026-05-01_original.plr`, om later verwarring te voorkomen.
+
+## Stapsgewijze overdrachtsworkflow (veilige methode)
+
+Dit is de exacte volgorde die ik aanbeveel voor de workflow van **tlmodding living the life save editor**.
+
+1. **Kopieer de bron-`.plr`** uit vanilla `Players`.
+2. **Plak in een tijdelijke werkmap** (nog niet direct in de gemodde map).
+3. **Open je save editor/conversietool** en laad het gekopieerde spelersbestand.
+4. **Pas versiecompatibiliteit aan** zodat die overeenkomt met je gemodde doelomgeving.
+5. **Sla op en exporteer** de geconverteerde `.plr`.
+6. **Verplaats het geëxporteerde bestand** naar `tModLoader\Players`.
+7. **Start tModLoader** en test het personage eerst in singleplayer.
+8. **Controleer inventaris, health/mana, spawnpunt en accessoires.**
+9. **Ga pas naar server of start modwereld** na lokale validatie.
+
+| Workflowfase | Doel | Risiconiveau | Validatie |
+|---|---|---|---|
+| Back-up maken | Originele data behouden | Laag | Bevestig dat duplicaat bestaat |
+| Converteren/bewerken | Compatibele versie laten overeenkomen | Gemiddeld | Geëxporteerd bestand opent in tool |
+| Importeren naar tModLoader | Personage zichtbaar maken | Gemiddeld | Personage verschijnt in menu |
+| In-game rooktest | Echte integriteit bevestigen | Hoog | Stats en inventaris intact |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/8l34_prIGQk"
+    title="HOW TO TRANSFER TERRARIA CHARACTER TO TMODLOADER / CALAMITY MOD 1.4.4.9"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+De video hierboven laat hetzelfde kernprincipe zien: converteer het spelersbestand naar een compatibele versie voordat je het in de gemodde spelersmap plaatst.
+
+## Het probleem “latere versie” en leeg personage oplossen
+
+Dit zijn de twee meest voorkomende fouten na migratie. In de meeste gevallen zijn de personagegegevens niet weg—ze zijn alleen onleesbaar in de huidige runtime.
+
+### Praktische volgorde voor probleemoplossing
+
+1. Sluit de gameclient.
+2. Verwijder het falende bestand uit de actieve `Players`.
+3. Herstel je rollback-kopie.
+4. Voer de conversie opnieuw uit met de juiste doelversie.
+5. Importeer opnieuw en test offline.
+
+| Symptoom | Snelle diagnose | Oplossing |
+|---|---|---|
+| “Created on later version” | Save-header is te nieuw | Opnieuw converteren naar doelruntime |
+| Personage laadt maar is leeg | Parsing op velden mislukt | Conversie opnieuw proberen vanaf onaangeraakte back-up |
+| Game crasht bij personageselectie | Bestandsbeschadiging of modconflict | Controleer mods en test opnieuw met minder mods |
+| Personage werkt offline, faalt op server | Server-modmismatch | Laat server-modlijst en loaderversie overeenkomen |
+
+> **⚠️ Waarschuwing:** Als je herhaaldelijk hetzelfde geconverteerde bestand bewerkt, neemt het risico op corruptie toe. Start elke poging vanuit de originele back-up, niet vanuit de vorige mislukte export.
+
+Als je het proces van **tlmodding living the life save editor** op deze manier gebruikt, blijft je herstelpad schoon en voorspelbaar.
+
+## Wat je wel en niet moet bewerken
+
+Veel spelers behandelen save editors als cheatmenu’s. Dat kan werken voor privétests, maar voor stabiel langetermijnspel is selectief bewerken beter.
+
+### Over het algemeen veiligere bewerkingen
+- Cosmetische slots en vanity-aanpassingen
+- Kleine inventarisopschoning
+- Correcties in personagemetadata voor compatibiliteit
+
+### Bewerkingen met hoger risico
+- Grote sprongen in stats (health/mana boven verwachte progressie)
+- Complexe injecties van mod-items
+- Questflags en wereldafhankelijke progressie-toggles
+
+| Type bewerking | Impact op stabiliteit | Aanbevolen gebruik |
+|---|---|---|
+| Cosmetische wijzigingen | **Laag risico** | Veilig voor de meeste profielen |
+| Inventaris herschikken | **Laag tot gemiddeld** | Prima als items legitiem zijn |
+| Conversie van versieveld | **Gemiddeld** | Nodig voor migratie |
+| Progressieflags | **Hoog** | Alleen gebruiken als je afhankelijkheden begrijpt |
+| Bulkimport van mod-items | **Hoog** | Eerst testen in sandboxprofiel |
+
+Voor de meeste spelers is de beste strategie met **tlmodding living the life save editor** conservatief: doe het minimum dat nodig is voor compatibiliteit en laat de rest onaangeroerd.
+
+## Back-up- en rollbackroutine die je kunt hergebruiken
+
+Als je vaak overdraagt (nieuwe modpacks, multiplayerservers, seizoenswerelden), bouw dan een herhaalbare save-pipeline.
+
+### Aanbevolen mapstructuur
+
+- `Terraria_Save_Archive/Originals`
+- `Terraria_Save_Archive/Working`
+- `Terraria_Save_Archive/Exports`
+- `Terraria_Save_Archive/Rollback`
+
+### Sjabloon voor naamconventie
+
+`[CharacterName]_[ProfileType]_[YYYY-MM-DD]_[stage].plr`
+
+Voorbeelden:
+- `Ranger_Main_2026-05-01_original.plr`
+- `Ranger_Calamity_2026-05-01_export.plr`
+
+| Routinstap | Frequentie | Waarom dit belangrijk is |
+|---|---|---|
+| Snapshot van originele `.plr` | Bij elke overdracht | Garandeert schoon herstel |
+| Export met datumstempel | Bij elke conversie | Voorkomt per ongeluk overschrijven |
+| Offline validatierun | Bij elke import | Vangt problemen vóór serverjoin |
+| Succesvolle versie archiveren | Wekelijks of bij grote wijzigingen | Bouwt geschiedenis van bekende goede versies op |
+
+De aanpak van **tlmodding living the life save editor** werkt het best in combinatie met gedisciplineerde archivering. De meeste “onherstelbare” problemen zijn in werkelijkheid gewoon ontbrekende back-ups.
+
+## FAQ
+
+**Q: Is tlmodding living the life save editor alleen voor Calamity-overdrachten?**
+
+A: Nee. Het is nuttig voor veel Terraria-naar-tModLoader-migraties waarbij versieverschillen laadproblemen voor personages veroorzaken. Calamity is slechts een veelvoorkomend scenario.
+
+**Q: Kan ik een ban krijgen voor het gebruik van een save editor?**
+
+A: Dat hangt af van serverregels. Privégebruik in singleplayer is meestal flexibel, maar multiplayergemeenschappen kunnen bewerkte personages of geïmporteerde items beperken. Lees eerst het serverbeleid.
+
+**Q: Waarom verschijnt mijn personage wel maar ontbreekt uitrusting na conversie?**
+
+A: Meestal is het verkeerde bronbestand gekopieerd, was de conversiedoelversie onjuist of zijn modafhankelijkheden veranderd. Herstel de back-up, converteer één keer opnieuw en controleer modversies.
+
+**Q: Wat is de veiligste manier om een resultaat van tlmodding living the life save editor te testen?**
+
+A: Importeer het geconverteerde bestand, start tModLoader in singleplayer en controleer stats/inventaris voordat je een server joint. Houd je originele en rollbackbestanden onaangeraakt totdat het testen volledig klaar is.

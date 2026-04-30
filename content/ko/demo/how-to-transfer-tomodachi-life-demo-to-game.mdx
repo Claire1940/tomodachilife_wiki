@@ -1,0 +1,193 @@
+export const metadata = {
+  title: "how to transfer tomodachi life demo to game: 쉬운 Mii 가져오기 가이드 2026",
+  description: "2026년 기준의 명확한 단계별 진행 방식, 문제 해결, 안전한 모범 사례를 통해 Miitopia 데모의 Mii를 Tomodachi Life로 옮기는 방법을 알아보세요.",
+  category: "튜토리얼",
+  image: "https://placehold.co/800x400/334155/fff?text=Tomodachi+Life+Mii+Transfer",
+  date: "2026-05-01",
+  author: "Tomodachi Life 위키 팀"
+}
+
+**how to transfer tomodachi life demo to game**를 찾고 있다면, 아마도 캐릭터를 처음부터 하나하나 수작업으로 만드는 느린 과정을 건너뛰고 싶은 것일 겁니다. 좋은 소식이 있습니다. 2026년에는 Nintendo의 Mii 생태계를 통해 호환 가능한 Mii를 가져온 뒤, Tomodachi Life 안에서 다듬을 수 있는 실용적인 워크플로가 있습니다. 이 가이드는 **how to transfer tomodachi life demo to game**를 쉬운 단계로 설명하며, 무엇이 잘 되고 무엇이 실패하는지, 그리고 페이스 페인트를 많이 쓴 디자인에서 자주 생기는 실수를 피하는 방법까지 다룹니다. 또한 가장 빠른 설정 경로, 크리에이터 키를 가장 안전하게 테스트하는 방법, 플레이 중 열어두고 볼 수 있는 문제 해결 체크리스트도 확인할 수 있습니다. 순서대로 따라오면, 훨씬 더 빠르게 알아볼 수 있는 캐릭터들로 섬을 채울 수 있을 것입니다.
+
+## 2026년 기준 “전송(transfer)”의 실제 의미
+
+시작하기 전에 용어를 먼저 정리하면 이해가 쉽습니다. 대부분의 플레이어 대화에서 **how to transfer tomodachi life demo to game**는 실제로 다음을 뜻합니다.
+
+1. **Miitopia 데모**에서 크리에이터/액세스 키로 Mii를 받는다.
+2. 받은 Mii를 **Nintendo Switch 시스템 Mii 목록**에 저장한다.
+3. Tomodachi Life(또는 호환되는 Tomodachi Life 프로젝트/빌드)에서 시스템 Mii를 기반으로 주민을 만든다.
+
+즉, 한 풀게임의 세이브 데이터를 다른 게임으로 옮기는 것이 아닙니다. 호환 도구 전반에서 재사용 가능한 **Mii 캐릭터 데이터**를 옮기는 것입니다.
+
+| 용어 | 의미 | 중요한 이유 |
+|---|---|---|
+| **Miitopia demo** | 공유된 Mii를 받는 데 사용하는 무료 버전 | 가져오기 브리지 역할 |
+| **Access key / creator key** | 크리에이터의 Mii 라이브러리에 연결된 코드 | 다운로드 가능한 캐릭터의 출처 |
+| **System Mii** | 콘솔 프로필 저장소에 저장된 Mii | Tomodachi 가져오기 단계에 필수 |
+| **Face paint / makeup assets** | Miitopia의 고급 시각 레이어 | 부분 전송 또는 전송 실패의 흔한 원인 |
+
+> **⚠️ 경고:** Miitopia의 페이스 페인트/메이크업 레이어에 크게 의존하는 복잡한 Mii는 Tomodachi Life에서 생성할 때 정확하게 변환되지 않을 수 있습니다.
+
+## 시작 전 요구 사항 체크리스트
+
+목표가 오류를 최소화한 **how to transfer tomodachi life demo to game**라면, 먼저 아래 항목들을 준비하세요.
+
+| 요구 사항 | 필요 여부 | 참고 |
+|---|---|---|
+| Switch에 연결된 Nintendo 계정 | **예** | 대부분 지역에서 온라인 접속에 필요 |
+| Miitopia 데모 설치 | **예** | 이 방법에는 풀게임이 필요 없음 |
+| 인터넷 연결 | **예** | 액세스 키를 통한 Mii 수신에 필요 |
+| 동작하는 크리에이터/액세스 키 | **예** | 일부 키는 만료되거나 비활성화됨 |
+| Tomodachi Life 가져오기 옵션 | **예** | “시스템의 Mii에서 생성” 유형 옵션 필요 |
+
+### 성공률을 높이는 모범 사례
+
+- **커스텀 페인트가 적은** Mii를 우선 선택하세요.
+- “페이스 페인트 없음(no face paint)” 버전을 제공하는 크리에이터를 찾으세요.
+- 먼저 소량(3~5개)만 가져온 뒤 게임 내 테스트를 하세요.
+- 테스트 Mii 이름을 바꿔 어떤 키에서 왔는지 추적 가능하게 하세요.
+
+> **💡 팁:** Miitopia에서는 멋져 보이는데 Tomodachi에서 실패한다면, 기본 얼굴 파츠만 사용한 같은 캐릭터의 단순 버전을 찾아보세요.
+
+## 단계별 가이드: how to transfer tomodachi life demo to game
+
+이 방법은 2026년에 대부분의 플레이어가 사용하는 핵심 절차입니다.
+
+### 1단계) Miitopia 데모를 열고 Mii 받기
+
+Miitopia 데모 메뉴에서:
+
+1. **Mii characters**로 이동합니다.
+2. **X**를 누릅니다.
+3. **Add Mii characters**를 선택합니다.
+4. **Receive**를 선택합니다.
+5. **Access key**를 선택합니다.
+6. 유효한 크리에이터 키를 입력합니다.
+
+크리에이터 목록을 둘러보고 원하는 Mii를 받으세요.
+
+### 2단계) 선택한 Mii를 Switch 시스템에 저장하기
+
+Mii를 받은 후:
+
+1. 해당 Mii의 옵션을 엽니다.
+2. **Copy/Save to Nintendo Switch system**을 선택합니다(문구는 다를 수 있음).
+3. 복사 작업을 확인합니다.
+
+옮길 예정인 모든 Mii에 이 과정을 반복하세요.
+
+### 3단계) Tomodachi를 열고 시스템 Mii에서 생성하기
+
+Tomodachi에서:
+
+1. **Add a Mii**(또는 이에 해당하는 주민 생성 옵션)를 선택합니다.
+2. **Create based on a Mii on your system**을 선택합니다.
+3. 가져온 Mii를 고릅니다.
+4. 필요에 따라 세부 사항(이름, 목소리, 성격 등)을 편집합니다.
+5. 주민으로 저장합니다.
+
+### 4단계) 시각적 정확도 확인하기
+
+헤어, 눈썹, 입, 얼굴 정렬을 확인하세요. 디자인이 어색해 보이면 보통 수동 편집으로 충분히 수정할 수 있습니다.
+
+| 단계 | 작업 | 예상 결과 |
+|---|---|---|
+| Miitopia에서 받기 | 액세스 키 입력 후 다운로드 | Mii가 데모 목록에 표시됨 |
+| 시스템으로 복사 | Mii를 Switch 프로필 목록에 저장 | 데모 밖에서도 Mii 사용 가능 |
+| Tomodachi에서 가져오기 | 시스템 Mii로 주민 생성 | 캐릭터가 섬 주민이 됨 |
+| 최종 다듬기 | 작은 얼굴 디테일 편집 | 원본 디자인과 더 유사해짐 |
+
+## 일부 Mii가 깔끔하게 가져와지지 않는 이유
+
+플레이어가 **how to transfer tomodachi life demo to game**를 물을 때 가장 큰 혼란은 가져오기 실패 또는 불완전한 가져오기입니다. 보통 이는 사용자 실수가 아니라 호환성 한계입니다.
+
+Miitopia는 많은 가져오기 경로에서 쓰이는 표준 Mii 형식보다 더 많은 시각 레이어를 지원합니다. 크리에이터가 정교한 페인트 도형으로 캐릭터를 만들면, Tomodachi는 기본 Mii만 읽고 레이어 의존 디테일은 무시할 수 있습니다.
+
+### 흔한 실패 패턴
+
+- 가져온 Mii가 원본 대비 “비어 보임”.
+- 아이콘 미리보기는 정상인데, 게임 내 주민은 단순화되어 보임.
+- 커스텀 오버레이가 빠져 눈/얼굴 비율이 달라짐.
+
+### 실패율을 줄이는 방법
+
+1. **no face paint** 항목을 검색하세요.
+2. “전송 안전(transfer-safe)” Mii로 알려진 크리에이터를 고르세요.
+3. 메이크업 아트에 대부분 의존한 초고스타일 밈 템플릿은 피하세요.
+4. 대체용으로 “백업” 크리에이터 키 목록 하나를 유지하세요.
+
+> **⚠️ 경고:** Mii가 메이크업 블록으로 거의 전부 그려진 경우, 완벽한 원클릭 해결책이 없을 수 있습니다. Tomodachi 편집기에서 일부를 수동 재현해야 할 수 있습니다.
+
+## 섬 전체 주민을 빠르게 구성하는 워크플로
+
+20~50명의 주민을 빠르게 채우고 싶다면, 한 명씩 실험하기보다 파이프라인처럼 처리하세요.
+
+| 단계 | 목표 | 목표 시간 |
+|---|---|---|
+| 소스 단계 | 전송 안전 Mii 30~40개 찾기 | 20~30분 |
+| 가져오기 단계 | 수신 + 시스템 복사 | 15~25분 |
+| Tomodachi 단계 | 시스템 Mii로 주민 생성 | 30~60분 |
+| 품질 점검 | 이름, 목소리, 성격 수정 | 20~40분 |
+
+### 권장 배치 전략
+
+- **배치 A(테스트):** 한 키에서 Mii 5개  
+- **배치 B(확장):** 추가 키 2개에서 Mii 10개  
+- **배치 C(정리):** 실패한 가져오기를 더 단순한 대체본으로 교체  
+
+이렇게 하면 나중에 Tomodachi에서 깨지는 대규모 다운로드 세트에 시간을 낭비하지 않을 수 있습니다.
+
+### 공식 플랫폼 정보를 확인하는 곳
+
+계정 및 플랫폼 안내는 Nintendo 공식 자료를 확인하세요:  
+[Official Nintendo support and game resources](https://www.nintendo.com/)
+
+## 임베드된 따라하기 영상
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/b6FoIOsEA7M"
+    title="How To Import and Share Miis to Tomodachi Life: Living the Dream!! | EASY Method"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## 문제 해결: 시간을 아끼는 빠른 수정법
+
+**how to transfer tomodachi life demo to game** 시도가 실패한다면, 아래의 짧은 진단 순서를 사용하세요.
+
+1. **키 확인:** 크리에이터 키가 아직 활성 상태인가요?
+2. **네트워크 확인:** 다운로드가 완전히 끝났나요?
+3. **시스템 저장 확인:** Mii를 시스템 저장소로 복사했나요?
+4. **가져오기 경로 확인:** Tomodachi에서 “시스템 Mii에서 생성”을 선택했나요?
+5. **복잡도 확인:** 원본 Mii가 페이스 페인트 비중이 큰가요?
+
+| 문제 | 가능성 높은 원인 | 해결 방법 |
+|---|---|---|
+| Tomodachi 목록에서 Mii가 보이지 않음 | 시스템에 복사되지 않음 | Miitopia를 다시 열어 재복사 |
+| Mii는 보이지만 외형이 이상함 | 지원되지 않는 메이크업 레이어 | no-face-paint 변형 사용 |
+| 액세스 키에 아무것도 안 뜸 | 키 만료/비활성 | 다른 활성 크리에이터 키 시도 |
+| 일부 Mii만 가져와짐 | 크리에이터 세트 내 호환성 혼합 | 필터링하여 단순한 것만 유지 |
+
+> **💡 팁:** 메모 앱에 크리에이터 키별로 “성공 / 부분성공 / 실패”를 기록해 두세요. 두 번째 가져오기 세션이 훨씬 빨라집니다.
+
+## FAQ
+
+**Q: Miitopia를 구매하지 않아도 how to transfer tomodachi life demo to game가 가능한가요?**
+
+A: 대부분의 경우 가능합니다. Miitopia 데모만으로도 호환 Mii를 받고 시스템 Mii 목록으로 복사할 수 있으며, 이 단계가 핵심 브리지입니다.
+
+**Q: 왜 일부 가져온 캐릭터는 디테일이 사라지나요?**
+
+A: 많은 커스텀 캐릭터가 Miitopia 전용 페이스 페인트/메이크업 레이어에 의존합니다. Tomodachi 가져오기 경로는 보통 기본 Mii 데이터를 우선하므로, 고급 시각 오버레이가 넘어오지 않을 수 있습니다.
+
+**Q: 가져오기에 가장 안전한 Mii 유형은 무엇인가요?**
+
+A: 기본 Mii 파츠(헤어, 눈, 눈썹, 코, 입)를 사용하고 페이스 페인트가 거의 없거나 전혀 없는 단순 디자인이 더 깔끔하게 전송되는 경향이 있습니다.
+
+**Q: 전송 후 가져온 Mii를 수정할 수 있나요?**
+
+A: 네. 시스템 Mii로 주민을 만든 뒤에는 Tomodachi에서 핵심 세부 설정을 보통 수정할 수 있어, 외형 유사도·목소리 스타일·성격 설정을 개선할 수 있습니다.

@@ -1,0 +1,193 @@
+export const metadata = {
+  title: "tlmodding living the life save editor : guide de transfert de personnage en toute sécurité 2026",
+  description: "Apprenez à utiliser le workflow tlmodding living the life save editor pour déplacer des personnages entre Terraria et tModLoader, corriger les erreurs de version et protéger vos données de sauvegarde en 2026.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=tModLoader+Save+Editor+Guide",
+  date: "2026-05-01",
+  author: "Équipe Wiki Tlmodding"
+}
+
+Si vous essayez de déplacer un personnage Terraria vers une configuration moddée et que vous tombez sans cesse sur des problèmes de version, ce guide est fait pour vous. L’approche **tlmodding living the life save editor** vise une seule chose : préserver votre personnage en toute sécurité tout en adaptant le fichier de sauvegarde à l’environnement dans lequel vous voulez réellement jouer. En 2026, les joueurs rencontrent encore les mêmes problèmes frustrants — personnages vides, avertissements « version ultérieure » et inventaires incohérents. La bonne nouvelle, c’est que le workflow **tlmodding living the life save editor** est simple lorsque vous suivez le bon ordre : sauvegarder, convertir, vérifier, puis seulement lancer votre profil moddé. Suivez les étapes ci-dessous pour réduire les risques et récupérer rapidement si quelque chose se passe mal.
+
+## Pourquoi les joueurs utilisent un éditeur de sauvegarde pour Terraria et tModLoader
+
+Un éditeur de sauvegarde est particulièrement utile lorsque votre version de base de Terraria et votre environnement moddé ne sont pas synchronisés. Ce décalage peut empêcher votre fichier `.plr` de se charger dans tModLoader ou le faire apparaître vide.
+
+La plupart des joueurs utilisent ce processus pour trois raisons :
+
+1. **Compatibilité de version** entre Terraria vanilla et les builds moddées  
+2. **Continuité du personnage** afin de conserver la progression, les équipements et les cosmétiques  
+3. **Récupération et réparation** lorsqu’un profil semble cassé après migration  
+
+La méthode **tlmodding living the life save editor** est particulièrement pratique pour le transfert de personnage, car elle donne la priorité à une copie propre du fichier joueur avant toute modification.
+
+| Problème courant | À quoi ça ressemble | Cause probable | Meilleure première action |
+|---|---|---|---|
+| Erreur de version ultérieure | Le personnage ne se charge pas dans le client moddé | Sauvegarde créée sur une build plus récente | **Convertir la version des métadonnées de sauvegarde** |
+| Personnage vide | Le nom apparaît, mais équipement/progression manquants | Incompatibilité d’analyse du fichier | **Restaurer depuis la sauvegarde, reconvertir** |
+| Inventaire manquant | Objets disparus après transfert | Copie corrompue ou mauvais fichier déplacé | **Copier uniquement la bonne source `.plr`** |
+| Personnage non listé | Le joueur n’apparaît pas dans le menu | Mauvais dossier de destination | **Placer le fichier dans `Players` de tModLoader** |
+
+> **⚠️ Avertissement :** N’éditez pas votre seule copie d’un personnage. Créez au moins deux sauvegardes avant toute conversion.
+
+Pour les informations officielles de la plateforme et les mises à jour de compatibilité, consultez la [page Steam de tModLoader](https://store.steampowered.com/app/1281930/tModLoader/).
+
+## Configuration de tlmodding living the life save editor en 2026
+
+Avant de toucher à votre sauvegarde, organisez vos dossiers et vos backups pour que le retour en arrière soit instantané.
+
+### Étape 1) Localiser vos fichiers joueur
+
+Sous Windows, le chemin par défaut se trouve généralement dans :
+- `Documents\My Games\Terraria\Players` (vanilla)
+- `Documents\My Games\Terraria\tModLoader\Players` (moddé)
+
+Vous cherchez le fichier `.plr` du personnage que vous migrez.
+
+### Étape 2) Créer un ensemble de sauvegardes
+
+Créez :
+- **Sauvegarde originale** (jamais modifiée)
+- **Copie de travail** (le fichier que vous éditez/convertissez)
+- **Copie de restauration** (au cas où la copie de travail échoue)
+
+### Étape 3) Vérifier l’environnement cible
+
+Confirmez quelle branche tModLoader et quelle version de modpack vous lancez. C’est ici que commencent de nombreux transferts ratés.
+
+| Checklist pré-vol | Obligatoire ? | Test rapide |
+|---|---|---|
+| Source `.plr` confirmée | **Oui** | Ouvrir le dossier et vérifier nom/date du fichier |
+| Sauvegarde originale copiée | **Oui** | Backup dans un dossier/disque séparé |
+| Version cible de tModLoader connue | **Oui** | Vérifier le launcher/les notes de build |
+| Modpack chargé une fois | Recommandé | Démarrer le client une fois avant import |
+| Synchronisation cloud en pause | Recommandé | Désactiver jusqu’à réussite du transfert |
+
+> **💡 Astuce :** Nommez les sauvegardes avec des dates, par exemple `Mage_Main_2026-05-01_original.plr`, pour éviter toute confusion plus tard.
+
+## Workflow de transfert étape par étape (méthode sûre)
+
+Voici la séquence exacte que je recommande pour le workflow **tlmodding living the life save editor**.
+
+1. **Copiez le `.plr` source** depuis `Players` vanilla.
+2. **Collez-le dans un espace de travail temporaire** (pas encore directement dans le dossier moddé).
+3. **Ouvrez votre outil d’édition/conversion de sauvegarde** et chargez le fichier joueur copié.
+4. **Ajustez la compatibilité de version** pour correspondre à votre environnement moddé cible.
+5. **Enregistrez et exportez** le `.plr` converti.
+6. **Déplacez le fichier exporté** vers `tModLoader\Players`.
+7. **Lancez tModLoader** et testez d’abord le personnage en solo.
+8. **Validez l’inventaire, la vie/mana, le point d’apparition et les accessoires.**
+9. **Rejoignez un serveur ou démarrez un monde moddé** seulement après validation locale.
+
+| Étape du workflow | Objectif | Niveau de risque | Validation |
+|---|---|---|---|
+| Création des sauvegardes | Préserver les données originales | Faible | Confirmer qu’un doublon existe |
+| Conversion/édition | Correspondre à une version compatible | Moyen | Le fichier exporté s’ouvre dans l’outil |
+| Import dans tModLoader | Rendre le personnage visible | Moyen | Le personnage apparaît dans le menu |
+| Test rapide en jeu | Confirmer l’intégrité réelle | Élevé | Stats et inventaire intacts |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/8l34_prIGQk"
+    title="HOW TO TRANSFER TERRARIA CHARACTER TO TMODLOADER / CALAMITY MOD 1.4.4.9"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+La vidéo ci-dessus montre le même principe fondamental : convertir le fichier joueur vers une version compatible avant de le placer dans le dossier de joueurs moddé.
+
+## Corriger le problème de « version ultérieure » et de personnage vide
+
+Ce sont les deux erreurs les plus fréquentes après migration. Dans la plupart des cas, les données du personnage ne sont pas perdues — elles sont simplement illisibles dans l’environnement actuel.
+
+### Ordre pratique de dépannage
+
+1. Fermez le client du jeu.
+2. Retirez le fichier défaillant du dossier `Players` actif.
+3. Restaurez votre copie de restauration.
+4. Relancez la conversion avec la bonne version cible.
+5. Réimportez et testez hors ligne.
+
+| Symptôme | Diagnostic rapide | Correctif |
+|---|---|---|
+| « Created on later version » | En-tête de sauvegarde trop récent | Reconvertir vers l’environnement cible |
+| Le personnage se charge mais est vide | Échec d’analyse de certains champs | Refaire la conversion depuis une sauvegarde intacte |
+| Crash du jeu à la sélection du personnage | Corruption de fichier ou conflit de mods | Valider les mods, puis retester avec moins de mods |
+| Le personnage fonctionne hors ligne, échoue sur serveur | Incompatibilité des mods serveur | Aligner la liste de mods serveur et la version du loader |
+
+> **⚠️ Avertissement :** Si vous éditez à répétition le même fichier converti, le risque de corruption augmente. Commencez chaque tentative depuis la sauvegarde originale, pas depuis l’export précédent qui a échoué.
+
+Utiliser le processus **tlmodding living the life save editor** de cette manière garde votre chemin de récupération propre et prévisible.
+
+## Ce que vous devez et ne devez pas éditer
+
+Beaucoup de joueurs traitent les éditeurs de sauvegarde comme des menus de triche. Ça peut fonctionner pour des tests privés, mais pour une partie stable à long terme, une édition sélective est préférable.
+
+### Modifications généralement plus sûres
+- Emplacements cosmétiques et ajustements d’apparence
+- Nettoyage mineur de l’inventaire
+- Corrections des métadonnées du personnage pour la compatibilité
+
+### Modifications à plus haut risque
+- Gros sauts de statistiques (vie/mana au-delà de la progression attendue)
+- Injections complexes d’objets moddés
+- Drapeaux de quêtes et bascules de progression dépendantes du monde
+
+| Type d’édition | Impact sur la stabilité | Utilisation recommandée |
+|---|---|---|
+| Changements cosmétiques | **Faible risque** | Sûr pour la plupart des profils |
+| Réorganisation de l’inventaire | **Faible à moyen** | Acceptable si les objets sont légitimes |
+| Conversion du champ de version | **Moyen** | Nécessaire pour la migration |
+| Drapeaux de progression | **Élevé** | À utiliser seulement si vous comprenez les dépendances |
+| Import massif d’objets moddés | **Élevé** | Tester d’abord sur un profil sandbox |
+
+Pour la plupart des joueurs, la meilleure stratégie **tlmodding living the life save editor** est conservatrice : faire le minimum nécessaire pour obtenir la compatibilité et laisser le reste intact.
+
+## Routine de sauvegarde et de retour en arrière réutilisable
+
+Si vous effectuez souvent des transferts (nouveaux modpacks, serveurs multijoueur, mondes saisonniers), mettez en place un pipeline de sauvegarde reproductible.
+
+### Structure de dossiers recommandée
+
+- `Terraria_Save_Archive/Originals`
+- `Terraria_Save_Archive/Working`
+- `Terraria_Save_Archive/Exports`
+- `Terraria_Save_Archive/Rollback`
+
+### Modèle de convention de nommage
+
+`[CharacterName]_[ProfileType]_[YYYY-MM-DD]_[stage].plr`
+
+Exemples :
+- `Ranger_Main_2026-05-01_original.plr`
+- `Ranger_Calamity_2026-05-01_export.plr`
+
+| Étape de routine | Fréquence | Pourquoi c’est important |
+|---|---|---|
+| Snapshot du `.plr` original | À chaque transfert | Garantit une récupération propre |
+| Export horodaté | À chaque conversion | Évite les écrasements accidentels |
+| Validation hors ligne | À chaque import | Détecte les problèmes avant de rejoindre un serveur |
+| Archivage des versions réussies | Hebdomadaire ou lors de grands changements | Construit un historique de versions fiables |
+
+L’approche **tlmodding living the life save editor** fonctionne le mieux lorsqu’elle est associée à un archivage rigoureux. La plupart des problèmes « irrécupérables » sont en réalité simplement des sauvegardes manquantes.
+
+## FAQ
+
+**Q: tlmodding living the life save editor est-il uniquement pour les transferts Calamity ?**
+
+A: Non. Il est utile pour de nombreuses migrations Terraria-vers-tModLoader où un décalage de version empêche le chargement correct du joueur. Calamity n’est qu’un cas courant.
+
+**Q: Puis-je être banni pour avoir utilisé un éditeur de sauvegarde ?**
+
+A: Cela dépend des règles du serveur. L’usage privé en solo est généralement flexible, mais les communautés multijoueur peuvent restreindre les personnages édités ou les objets importés. Lisez d’abord les règles du serveur.
+
+**Q: Pourquoi mon personnage apparaît-il mais avec de l’équipement manquant après conversion ?**
+
+A: En général, le mauvais fichier source a été copié, la cible de conversion était incorrecte, ou des dépendances de mods ont changé. Restaurez la sauvegarde, reconvertissez une fois, puis vérifiez les versions des mods.
+
+**Q: Quel est le moyen le plus sûr de tester un résultat tlmodding living the life save editor ?**
+
+A: Importez le fichier converti, lancez tModLoader en solo, puis validez stats/inventaire avant de rejoindre un serveur. Gardez vos fichiers original et de restauration intacts jusqu’à la fin des tests.
