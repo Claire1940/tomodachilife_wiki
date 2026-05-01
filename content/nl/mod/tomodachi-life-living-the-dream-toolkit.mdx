@@ -1,0 +1,169 @@
+export const metadata = {
+  title: "tomodachi life living the dream toolkit: Tutorial voor textuurimport 2026",
+  description: "Leer hoe je de tomodachi life living the dream toolkit gebruikt om aangepaste itemtexturen te importeren, ID’s correct te koppelen en veelvoorkomende fouten in 2026 op te lossen.",
+  category: "Handleiding",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Tomodachi+Toolkit+Tutorial",
+  date: "2026-05-02",
+  author: "Tomodachi Wiki Team"
+}
+
+Als je aangepaste items wilt die ook echt in-game verschijnen, is het beheersen van de **tomodachi life living the dream toolkit** momenteel de meest praktische weg. Veel spelers springen direct naar het bewerken van bestanden, maar een soepelere aanpak is om eerst je save goed voor te bereiden en daarna texturen te importeren met duidelijke naamgeving en correcte ID’s. In deze tutorial leer je een stabiele workflow voor de **tomodachi life living the dream toolkit** met Ryujinx-savegegevens, van in-game setup tot PNG-conversie en de laatste test. Je krijgt ook een probleemoplossingsmatrix, back-upgewoontes en kwaliteitsrichtlijnen zodat je imports er scherp uitzien in plaats van uitgerekt of kapot. Volg deze gids één keer van begin tot eind, en je tweede texture-swap kost nog maar een fractie van de tijd.
+
+## Tomodachi Life Living the Dream Toolkit: Wat je nodig hebt voordat je begint
+
+Voordat je de converter aanraakt, stel je omgeving zo in dat de toolkit de juiste UGC-mappen kan lezen en wijzigingen veilig kan wegschrijven.
+
+| Vereiste | Waarom dit belangrijk is | Aanbevolen setup |
+|---|---|---|
+| **Game-save met UGC-item** | Geeft je een echt doelbestand voor textuurvervanging | Maak eerst een testitem in Workshop |
+| **Toegang tot Ryujinx-savepad** | Toolkit heeft je actieve save-map nodig | `%appdata%/Ryujinx/.../save/.../UGC` |
+| **Living the Dream Toolkit GUI** | Zet je PNG om naar compatibele textuurdata | Gebruik de nieuwste stabiele build in 2026 |
+| **PNG-editor** | Maakt vierkante, schone texturen | Krita, Photoshop, GIMP, Paint.NET |
+| **Archieftool** | Pakt gedownloade toolkitpakketten uit | 7-Zip of ingebouwde extractor |
+
+### Snelle preflight-checklist
+
+1. Maak in-game een **leeg/basis custom item**.
+2. Voeg zichtbare tekst toe (bijvoorbeeld: “Raccoon”).
+3. Koop het item in de winkel.
+4. Geef het aan minstens één eilandbewoner.
+5. Sla op en ga volledig terug naar de titel-/home-status voordat je afsluit.
+
+> **Waarschuwing:** Te vroeg sluiten na het opslaan kan verouderde UGC-data achterlaten, waardoor het lijkt alsof de tomodachi life living the dream toolkit “niet werkt”, zelfs als je instellingen correct zijn.
+
+Voor een officiële gamereferentie, zie de [Nintendo Tomodachi Life page](https://www.nintendo.com/us/store/products/tomodachi-life-3ds/).
+
+## Stap-voor-stap workflow voor textuurimport (2026)
+
+Dit is de schoonste volgorde om de **tomodachi life living the dream toolkit** te gebruiken met minimale gokwerk.
+
+### 1) Bereid het testitem in-game voor
+
+Maak een item met een eenvoudige basis zodat visuele veranderingen duidelijk zijn. Voeg tekst toe op de voorkant van het item. Die tekst is later je herkenningspunt bij het doorzoeken van mappen en entries.
+
+### 2) Commit de save correct
+
+Na het kopen en geven van het item sla je op en wacht je tot de game volledig uit de gameplay is overgegaan. Sluit daarna de emulator.
+
+### 3) Zoek de UGC-save directory
+
+Open Windows-zoeken, typ `%appdata%`, en navigeer naar de Ryujinx-savegegevens tot je de UGC-map bereikt. Kopieer dat pad.
+
+### 4) Open de toolkit en selecteer de save-UGC-map
+
+Start het GUI-uitvoerbare bestand van Living the Dream Toolkit. Gebruik “Open save UGC folder” (of equivalent) en wijs naar je gekopieerde UGC-pad.
+
+### 5) Identificeer het doelitem
+
+Zoek naar de entry met je tekstlabel (bijvoorbeeld: “Raccoon”). Dit bevestigt dat je de juiste save en itemset hebt geselecteerd.
+
+### 6) Importeer PNG en koppel metadata
+
+Gebruik **Browse PNG**, selecteer een **vierkante PNG**, en stel daarna in:
+- **Item Type** (bijvoorbeeld: goods)
+- **Item ID** (bijvoorbeeld: 002)
+
+### 7) Converteer en exporteer
+
+Voer conversie/export uit in de toolkit. Zodra dat klaar is, start je de game opnieuw en test je het aangepaste item in winkel/inventaris/interacties met eilandbewoners.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/d8gQxkRnwpc"
+    title="How to Import Textures into Tomodachi Life: Living The Dream with Living The Dream Toolkit!"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Item Type- en ID-koppeling: vermijd de meest voorkomende fout
+
+De meeste mislukte imports komen door verkeerde type-/ID-koppeling, niet door slechte PNG-bestanden. In de **tomodachi life living the dream toolkit** moeten type en ID exact overeenkomen met de juiste map-entry.
+
+| Veld | Correcte werkwijze | Veelvoorkomende fout | Resultaat |
+|---|---|---|---|
+| **Item Type** | Komt overeen met de categorie in de UGC-entry (bijv. goods) | Categorie uit het hoofd gokken | Textuur wordt op de verkeerde slot toegepast of faalt |
+| **Item ID** | Kopieer de exacte numerieke ID uit de entry | Nabijgelegen ID gebruiken zoals 003 i.p.v. 002 | Geen zichtbare verandering in het doelitem |
+| **Mapselectie** | Selecteer het actieve save-UGC-pad | Oude back-up of verkeerd profiel selecteren | Conversie slaagt, maar game blijft ongewijzigd |
+| **Bestandsnaamlabel** | Gebruik zichtbare in-game tekst voor tracking | Lege/standaardnamen | Moeilijk om het juiste asset te identificeren |
+
+> **Tip:** Behandel je eerste import als een diagnostische test. Gebruik een felle, duidelijke textuur zodat je de vervanging direct kunt bevestigen.
+
+Als je veel custom assets maakt, houd dan een mini-spreadsheet bij met kolommen voor label, type, ID en datum van de laatste succesvolle import. Dit bespaart enorm veel tijd in grotere modsets.
+
+## Standaarden voor textuurontwerp voor betere resultaten
+
+De **tomodachi life living the dream toolkit** verwerkt ook bestanden van lage kwaliteit, maar de uitvoerkwaliteit hangt nog steeds af van je bronafbeelding. Sterke invoerstandaarden laten je custom goods er bewust ontworpen uitzien in plaats van wazig.
+
+| Textuurregel | Aanbeveling | Waarom het helpt |
+|---|---|---|
+| **Aspectratio** | **1:1 vierkante PNG** | Voorkomt uitrekken en slechte UV-uitlijning |
+| **Canvasgrootte** | **512x512 of 1024x1024** | Goede helderheid terwijl het beheersbaar blijft |
+| **Kleurmodus** | **RGB, 8-bit** | Vermindert compatibiliteitsverrassingen |
+| **Transparantie** | Alleen gebruiken als het ontwerp het nodig heeft | Voorkomt onbedoelde gaten/artefacten |
+| **Randpadding** | Houd details weg van de randen | Voorkomt clipping of bleeding |
+| **Bestandsnaamgeving** | `itemlabel_type_id_v1.png` | Snellere rollback en versiebeheer |
+
+### Praktische ontwerptips
+
+- Gebruik iconen met hoog contrast voor kleine items.
+- Vermijd ultradunne tekst tenzij het itemoppervlak groot is.
+- Test eerst met één eilandbewoner en rol het daarna uit naar meer items.
+- Bewaar een versie van je textuur met “neutrale belichting”; sterke ingebakken schaduwen kunnen er in verschillende scènes vreemd uitzien.
+
+## Problemen met de toolkit oplossen: snelle fixes
+
+Wanneer spelers zeggen dat de **tomodachi life living the dream toolkit** kapot is, zit het probleem vaak in save-timing, mapselectie of metadata-mismatch. Gebruik deze tabel voordat je iets opnieuw installeert.
+
+| Probleem | Waarschijnlijke oorzaak | Snelle fix |
+|---|---|---|
+| Itemnaam is veranderd, textuur niet | Verkeerde type-/ID-combinatie | Controleer de UGC-entry opnieuw en exporteer opnieuw |
+| Toolkit laadt geen herkenbare entries | Verkeerd UGC-pad | Kopieer het pad opnieuw vanuit het actieve Ryujinx-profiel |
+| Import lijkt geslaagd, game ongewijzigd | Save was niet volledig gecommit | Herhaal het in-game saveproces en sluit correct af |
+| PNG wil niet laden | Geen PNG of niet-ondersteunde formaatdetails | Exporteer opnieuw als standaard vierkante PNG |
+| Textuur ziet er wazig uit | Bron te klein/gecomprimeerd | Opnieuw doen op 512 of 1024 vierkant |
+| Verkeerd item gewijzigd | Label verkeerd gelezen of dubbele namen | Gebruik unieke labels in je testitems |
+
+> **Waarschuwing:** Bewerk niet meteen tientallen items in batch voordat je één succesvolle loop hebt gevalideerd. Bevestig eerst één volledige import van begin tot eind en schaal daarna op.
+
+## Veilige moddingworkflow en versiebeheer in 2026
+
+Als je de **tomodachi life living the dream toolkit** regelmatig wilt gebruiken, bouw dan een herhaalbare structuur:
+
+1. **Maak back-ups van UGC-mappen** vóór elke sessie.
+2. Houd één “productie”-save en één “test”-save aan.
+3. Versiebeheer je PNG-bestanden (`v1`, `v2`, `v3`) in plaats van te overschrijven.
+4. Verander één variabele tegelijk (nieuwe art **of** nieuwe ID, niet beide).
+5. Houd een eenvoudige changelog bij met datum en item-ID.
+
+Een lichte structuur kan er zo uitzien:
+
+- `/Textures/2026-05-02-tests/`
+- `/Textures/final/`
+- `/UGC-backups/pre-import/`
+- `/UGC-backups/post-import/`
+- `import-log-2026.csv`
+
+Die organisatie helpt je snel te herstellen als een update, emulatorinstellingswijziging of per ongeluk overschrijven voor verwarring zorgt.
+
+Als je doel thematische contentpakketten zijn (food set, pet set, meme set, enz.), test dan visuele consistentie over 5–10 items voordat je iets met vrienden deelt. Gelijke lijndikte, kleurverzadiging en icoonstijl laten pakketten professioneel aanvoelen.
+
+## FAQ
+
+**Q: Is de tomodachi life living the dream toolkit moeilijk voor beginners?**
+
+A: Het is goed te doen als je een strikte volgorde volgt: item maken, correct opslaan, de juiste UGC-map selecteren, type/ID koppelen en dan converteren/exporteren. De meeste beginnersproblemen zijn pad- of ID-fouten, niet de complexiteit van de tool.
+
+**Q: Welk afbeeldingsformaat moet ik gebruiken voor imports?**
+
+A: Gebruik een vierkante PNG in RGB-modus. 512x512 is een sterk startpunt in 2026, terwijl 1024x1024 meer detail kan geven voor grotere oppervlakken.
+
+**Q: Waarom moet ik eerst tekst aan het testitem toevoegen?**
+
+A: Een zichtbaar label helpt je snel de juiste entry in UGC-data te identificeren. Het verkleint de kans dat je het verkeerde item bewerkt bij gebruik van de tomodachi life living the dream toolkit.
+
+**Q: Kan ik meerdere items in één sessie bewerken?**
+
+A: Ja, maar valideer eerst één succesvolle import. Zodra dat bevestigd is, zijn batchbewerkingen veel veiliger als je van elk item het type, de ID en de bestandsnaamversie bijhoudt.
