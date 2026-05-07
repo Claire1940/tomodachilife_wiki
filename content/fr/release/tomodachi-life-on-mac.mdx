@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Tomodachi Life sur Mac : Guide complet d'émulation 2026",
+  description: "Apprenez à configurer et à jouer à Tomodachi Life sur Mac en utilisant les dernières technologies d'émulation. Paramètres optimisés pour les puces M1, M2 et M3 inclus.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+on+Mac",
+  date: "2026-05-08",
+  author: "Équipe Tomodachi Wiki"
+}
+
+Tomodachi Life reste l'un des jeux de simulation de vie les plus charmants et les plus excentriques jamais sortis, captivant le cœur des joueurs par ses interactions Mii insolites et son humour imprévisible. Bien qu'il s'agisse à l'origine d'une exclusivité pour console portable, la demande pour découvrir **Tomodachi Life sur Mac** a considérablement augmenté en 2026, alors que les capacités matérielles ont atteint de nouveaux sommets. Jouer à **Tomodachi Life sur Mac** permet aux utilisateurs de profiter du jeu en haute définition, dépassant de loin la résolution d'origine de la console 3DS. Que vous cherchiez à retrouver vos Miis préférés ou à commencer une toute nouvelle île de zéro, l'écosystème macOS moderne offre plusieurs voies robustes pour faire fonctionner le jeu de manière fluide. Ce guide vous accompagnera à travers les exigences techniques, les configurations logicielles et les optimisations nécessaires pour créer votre paradis numérique sur votre ordinateur de bureau ou portable.
+
+## Configuration requise pour l'émulation sur macOS
+
+Avant de vous lancer dans le processus d'installation, il est crucial de vous assurer que votre matériel peut supporter les exigences de l'émulation 3DS. Si les puces Apple Silicon (M1, M2 et M3) ont grandement facilité l'exécution de **Tomodachi Life sur Mac**, les anciens Macs à processeur Intel peuvent encore nécessiter des configurations spécifiques pour maintenir un taux de rafraîchissement stable.
+
+| Composant | Configuration minimale (Intel) | Recommandé (Apple Silicon) |
+|---|---|---|
+| **Processeur** | Intel Core i5 (8ème gén.) | **Apple M1 ou plus récent** |
+| **Mémoire** | 8 Go de RAM | **16 Go de RAM** |
+| **Graphismes** | Intel UHD 630 intégrée | **GPU 8 cœurs (Interne)** |
+| **Version macOS** | macOS 12 Monterey | **macOS 15 ou 16** |
+| **Stockage** | 2 Go d'espace disponible | **5 Go pour les Mods/Textures** |
+
+> **⚠️ Avertissement :** L'émulation de logiciels 3DS nécessite une ROM décryptée de votre jeu possédé légalement. L'exécution de fichiers cryptés entraînera un écran noir ou une « Erreur de cœur » (Core Error) au lancement.
+
+## Choisir le bon émulateur en 2026
+
+Le paysage de l'émulation a évolué. Alors que le projet Citra original a posé les bases, plusieurs forks et projets indépendants ont pris le relais en 2026 pour offrir une meilleure compatibilité avec macOS Sequoia et les versions ultérieures. Pour jouer à **Tomodachi Life sur Mac**, vous devriez rechercher des émulateurs prenant en charge l'API Metal, le framework graphique propriétaire d'Apple.
+
+1.  **Lime Emulator :** Un fork populaire géré par la communauté qui se concentre sur la stabilité et la mise à l'échelle haute résolution pour macOS.
+2.  **PabloMK7's Citra :** Une branche activement maintenue qui corrige de nombreux bogues de rendu des « visages Mii » spécifiques à Tomodachi Life.
+3.  **RetroArch :** Une interface multi-système qui utilise le cœur Citra, idéale pour les joueurs qui souhaitent une bibliothèque de jeux tout-en-un.
+
+Pour la meilleure expérience avec **Tomodachi Life sur Mac**, nous recommandons d'utiliser une version autonome comme Lime ou les derniers correctifs communautaires de Citra, car ils offrent un contrôle plus précis sur les paramètres du microphone et de la caméra, tous deux essentiels pour certains segments de gameplay.
+
+## Guide d'installation étape par étape
+
+Suivez ces étapes pour mettre votre île en service. Assurez-vous d'avoir vos fichiers système prêts avant de commencer l'installation.
+
+### 1. Installer l'émulateur
+Téléchargez le fichier `.dmg` de l'émulateur choisi. Faites glisser l'application dans votre dossier **Applications**. Lors du premier lancement, macOS peut bloquer l'application car elle provient d'un développeur non identifié. Allez dans **Réglages Système > Confidentialité et sécurité** et cliquez sur « Ouvrir quand même ».
+
+### 2. Configurer les fichiers système (Le correctif Mii)
+Tomodachi Life repose fortement sur la police système de la 3DS et les Miis partagés. Sans ces fichiers, vos personnages peuvent apparaître comme des boîtes génériques ou avoir des traits du visage manquants. Vous devez extraire vos `sysdata` d'une console 3DS physique et les placer dans le dossier « nand » de l'émulateur situé dans `~/Library/Application Support/`.
+
+### 3. Graphismes et résolution
+L'un des meilleurs avantages de jouer sur Mac est l'écran Retina. Vous pouvez augmenter la résolution interne jusqu'à 4x (équivalent 1080p) ou plus.
+
+| Réglage | Valeur pour Macs série M | Impact |
+|---|---|---|
+| **Résolution interne** | **3x ou 4x Native** | Amélioration massive de la clarté visuelle |
+| **Filtre de texture** | **Bicubique** | Bords plus lisses sur les Miis |
+| **Shader matériel** | **Activé** | Réduit les saccades |
+| **Multiplication précise** | **Rapide** | Améliore les FPS sur les anciens Macs |
+
+## Raccourcis clavier optimisés pour Mac
+
+Comme le jeu original utilisait une interface tactile à double écran, mapper ces commandes sur un clavier et une souris nécessite une certaine réflexion. La plupart des joueurs préfèrent utiliser la souris pour simuler le stylet sur l'écran inférieur tout en utilisant le clavier pour les boutons principaux.
+
+| Entrée 3DS | Mapping clavier Mac |
+|---|---|
+| **Pad circulaire** | **W / A / S / D** |
+| **A / B / X / Y** | **J / K / U / I** |
+| **Gâchettes L / R** | **Q / E** |
+| **Start / Select** | **Entrée / Maj** |
+| **Écran tactile** | **Clic gauche de la souris** |
+
+> **💡 Conseil :** Si vous utilisez un MacBook avec un Trackpad, activez le « Toucher pour cliquer » dans les réglages système pour rendre l'interaction avec vos Miis plus naturelle et réactive.
+
+## Améliorer l'expérience avec des mods
+
+Jouer à **Tomodachi Life sur Mac** ouvre la porte à des mods créés par la communauté qui n'ont jamais été possibles sur le matériel d'origine. En 2026, la scène du modding a introduit plusieurs améliorations de « qualité de vie » qui modernisent le jeu.
+
+*   **Packs de textures HD :** Remplacez les textures basse résolution de la 3DS par des ressources haute fidélité pour les meubles et les vêtements.
+*   **Mods de relation :** Ajustez la fréquence des confessions et des ruptures selon votre style de jeu.
+*   **Éditeurs de sauvegarde :** Utilisez des outils externes pour modifier le nom de votre île, votre monnaie, ou même débloquer des objets exclusifs aux régions japonaise et européenne.
+
+Pour les installer, faites un clic droit sur le jeu dans la liste de votre émulateur et sélectionnez « Ouvrir l'emplacement des mods ». Déposez simplement vos dossiers de mods extraits dans ce répertoire et redémarrez l'application. Pour plus d'informations sur l'histoire de la série, consultez le [site officiel de Nintendo](https://www.nintendo.com/) pour les détails historiques.
+
+## Dépannage des problèmes courants
+
+Même avec le meilleur matériel, vous pourriez rencontrer des obstacles techniques lors de l'exécution de **Tomodachi Life sur Mac**. Voici les problèmes les plus fréquents signalés par la communauté en 2026 et comment les résoudre.
+
+**Écran noir au démarrage :**
+Cela est généralement causé par un réglage de région incorrect ou une ROM cryptée. Assurez-vous que la région de votre émulateur est réglée sur « Auto » et que votre fichier de jeu est entièrement décrypté.
+
+**Microphone ne fonctionnant pas :**
+Tomodachi Life nécessite le microphone pour souffler sur des aliments chauds ou jouer à certains mini-jeux. Dans les réglages **Confidentialité et sécurité** de votre Mac, assurez-vous que votre émulateur a la permission d'accéder au « Microphone ». Dans les paramètres de l'émulateur, réglez l'entrée audio sur « Microphone MacBook » ou « Réglage système par défaut ».
+
+**Audio saccadé :**
+Si la musique semble hachée, c'est probablement parce que le réglage « Audio Stretching » est désactivé. L'activer synchronisera l'audio sur le taux de rafraîchissement du jeu, évitant l'effet de voix robotique souvent entendu lors des pics de lag.
+
+## FAQ
+
+**Q : Puis-je transférer ma sauvegarde de ma 3DS vers mon Mac ?**
+
+R : Oui ! En utilisant une 3DS avec un firmware personnalisé (homebrew) et un outil comme Checkpoint, vous pouvez exporter votre fichier `saveData.bin`. Déplacez simplement ce fichier vers le répertoire « sdmc » dans le dossier de l'émulateur de votre Mac pour poursuivre votre progression.
+
+**Q : Est-il possible de jouer à Tomodachi Life sur Mac avec une manette ?**
+
+R : Absolument. macOS prend en charge nativement les manettes PlayStation DualSense, Xbox Series X et Nintendo Switch Pro. Vous pouvez mapper les boutons dans le menu des paramètres « Entrée » de l'émulateur pour une expérience plus proche d'une console.
+
+**Q : La fonction « SpotPass » fonctionne-t-elle sur Mac ?**
+
+R : Bien que les serveurs officiels de Nintendo ne soient plus actifs, certains projets communautaires comme Pretendo visent à restaurer ces fonctionnalités. Cependant, pour la plupart des joueurs, les objets SpotPass doivent être débloqués à l'aide d'éditeurs de sauvegarde ou de packs de mods spécifiques en 2026.
+
+**Q : Pourquoi mes Miis n'ont-ils pas de visage quand je joue à Tomodachi Life sur Mac ?**
+
+R : C'est le problème le plus courant. Il survient parce que l'émulateur ne trouve pas les données Mii au niveau du système. Vous devez importer le fichier `shared_font.bin` et les données de sauvegarde `config` d'un véritable système 3DS pour permettre à l'émulateur d'afficher correctement les traits des Miis.

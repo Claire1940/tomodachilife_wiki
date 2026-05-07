@@ -1,0 +1,104 @@
+export const metadata = {
+  title: "Tomodachi Life Living the Dream PC Ryujinx : Guide d'installation complet 2026",
+  description: "Découvrez comment jouer à Tomodachi Life: Living the Dream sur PC avec l'émulateur Ryujinx. Guide complet sur le firmware, les clés et les paramètres graphiques optimaux pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Tomodachi+Life+PC+Guide",
+  date: "2026-05-08",
+  author: "Équipe Tomodachi Life Wiki"
+}
+
+Réussir une émulation parfaite de **Tomodachi Life Living the Dream PC Ryujinx** est l'objectif ultime pour les fans de cette série de simulation de vie décalée. Alors que nous avançons en 2026, la communauté du modding a atteint de nouveaux sommets, faisant de l'extension « Living the Dream » l'une des expériences les plus recherchées par les passionnés d'émulation Nintendo Switch. Cette version spécifique du jeu offre un contenu étendu, de nouveaux objets et des interactions améliorées qui insufflent une nouvelle vie au gameplay classique basé sur les Miis.
+
+La configuration de **Tomodachi Life Living the Dream PC Ryujinx** nécessite un ensemble spécifique d'outils et d'étapes de configuration pour garantir la stabilité et des visuels de haute fidélité. Contrairement aux titres standards, cette expérience moddée bénéficie considérablement des dernières builds Canary de l'émulateur, qui fournissent les couches de compatibilité spécialisées nécessaires aux fichiers de jeu personnalisés. Dans ce guide complet, nous vous accompagnerons à travers les prérequis essentiels, le processus d'installation et les ajustements d'optimisation nécessaires pour faire fonctionner votre île paradisiaque en résolution 4K avec des performances à 60 FPS.
+
+## Prérequis essentiels pour l'émulation sur PC
+
+Avant de plonger dans la configuration logicielle, vous devez rassembler les fichiers système nécessaires. L'émulation repose sur des fichiers propriétaires spécifiques extraits d'une console physique pour fonctionner correctement. Pour l'ère de l'émulation en 2026, l'utilisation d'un firmware mis à jour est cruciale pour éviter les erreurs « Key Not Found » ou les blocages lors du processus de création de Mii.
+
+| Exigence | Version/Type recommandé | Objectif |
+| :--- | :--- | :--- |
+| **Build de l'émulateur** | **Ryujinx Canary 1.3.26.269** ou ultérieur | Assure la compatibilité avec les mods personnalisés |
+| **Firmware système** | **Version 20.5.0** (format Zip) | Fournit l'environnement OS pour le jeu |
+| **Clés système** | Dernières **Prod.keys** et **Title.keys** | Déchiffre les fichiers de jeu pour la lecture |
+| **Fichiers de jeu** | Format **XCI** ou **NSP** | Les données réelles du jeu Tomodachi Life |
+| **Manette** | Xbox Series X ou DualSense | Meilleur mappage des entrées qu'un clavier |
+
+> **Avertissement :** L'utilisation de la build standard « Mainline » de Ryujinx peut entraîner des plantages au démarrage du mod « Living the Dream ». Assurez-vous toujours d'utiliser la branche **Canary** pour obtenir les meilleurs résultats avec les extensions créées par les fans.
+
+## Guide d'installation étape par étape
+
+Le processus d'installation de **Tomodachi Life Living the Dream PC Ryujinx** est simple s'il est suivi dans le bon ordre. Tout d'abord, téléchargez la version Win-x64 de la build Ryujinx Canary. Extrayez le dossier « publish » dans un emplacement dédié sur votre disque, tel que `C:\Games\Ryujinx`.
+
+1.  **Initialiser l'émulateur** : Lancez `Ryujinx.exe`. Vous verrez probablement une erreur indiquant que les clés sont introuvables. C'est normal pour une nouvelle installation.
+2.  **Installer les clés système** : Allez dans `File` > `Open Ryujinx Folder`. Ouvrez le répertoire `system` et collez-y vos fichiers `prod.keys` et `title.keys`. Redémarrez l'émulateur pour appliquer les changements.
+3.  **Installer le firmware** : Allez dans `Tools` > `Install Firmware`. Sélectionnez « Install a firmware from XCI or ZIP » et localisez votre fichier de firmware version 20.5.0. Confirmez l'installation lorsque vous y êtes invité.
+4.  **Ajouter des répertoires de jeux** : Allez dans `Options` > `Settings`. Sous l'onglet « General », cliquez sur « Add » dans la section Game Directories. Sélectionnez le dossier où sont stockés vos fichiers Tomodachi Life.
+5.  **Appliquer les mises à jour et les DLC** : Si votre version de « Living the Dream » se présente sous la forme d'un fichier de mise à jour, faites un clic droit sur le jeu dans votre liste et sélectionnez « Manage Title Updates » pour pointer vers le bon fichier.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/8bPtK2EafF0"
+    title="Comment jouer à Tomodachi Life: Living The Dream sur PC [Ryujinx]"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Optimisation des paramètres de Tomodachi Life Living the Dream PC Ryujinx
+
+Pour tirer le meilleur parti de votre matériel, vous devez ajuster les paramètres graphiques internes et du CPU. Tomodachi Life n'est pas un jeu exigeant graphiquement, ce qui permet à la plupart des PC modernes d'augmenter considérablement la résolution sans perte de performance.
+
+### Configuration graphique
+
+| Paramètre | Valeur recommandée | Impact |
+| :--- | :--- | :--- |
+| **Moteur graphique** | **Vulkan** | Gain de performance significatif par rapport à OpenGL |
+| **Échelle de résolution** | **2x (1440p/4K)** | Visuels nets sur les moniteurs modernes |
+| **Filtrage anisotrope** | **16x** | Textures plus nettes sous des angles obliques |
+| **Anti-Aliasing** | **SMAA Ultra** | Supprime les bords crénelés sur les modèles Mii |
+| **Rapport d'aspect** | **16:9** | Format large standard |
+
+### Ajustements du CPU et du système
+
+Pour l'expérience la plus fluide, rendez-vous dans l'onglet **CPU** des paramètres. Assurez-vous que « PPTC » (Profiled Persistent Translation Cache) est coché. Cette fonctionnalité permet à l'émulateur de sauvegarder les fonctions traduites, ce qui signifie que le jeu saccadera moins au fur et à mesure que vous y jouerez. Si vous jouez sur un moniteur à taux de rafraîchissement élevé, vous pouvez aller dans l'onglet **System** et activer le « Turbo Mode » en réglant la vitesse sur **200 %**, bien que cela ne soit généralement recommandé que pour passer les cinématiques longues.
+
+> **Astuce :** Si vous rencontrez des saccades de shaders (« Shader Stutter ») durant les premières minutes de jeu, ne vous inquiétez pas. Ryujinx construit un cache des shaders du jeu. Les performances se stabiliseront définitivement une fois le cache rempli.
+
+## Configuration de la manette et des entrées
+
+Tomodachi Life a été conçu à l'origine pour des entrées tactiles et par boutons. Jouer sur PC nécessite de mapper ces commandes sur une manette standard pour plus de confort. La plupart des joueurs préfèrent utiliser une **manette Nintendo Switch Pro** pour une compatibilité native, mais les manettes Xbox et PlayStation fonctionnent parfaitement via les wrappers XInput et DualShock.
+
+1.  Allez dans `Options` > `Settings` > `Input`.
+2.  Assurez-vous que le « Player 1 » est configuré et que votre manette est sélectionnée dans le menu déroulant « Input Device ».
+3.  Réglez le « Controller Type » sur **Pro Controller**.
+4.  Si le jeu nécessite des commandes par mouvement pour certains mini-jeux, assurez-vous que « Enable Motion Controls » est coché (cela fonctionne mieux avec les manettes DS4/DualSense ou Pro).
+
+## Dépannage des problèmes courants
+
+Même avec une configuration parfaite, vous pouvez rencontrer des obstacles mineurs en exécutant **Tomodachi Life Living the Dream PC Ryujinx**. La plupart des problèmes proviennent de fichiers obsolètes ou de mauvais choix de moteur graphique.
+
+*   **Le jeu plante au démarrage** : C'est presque toujours dû à l'utilisation de la build Mainline au lieu de Canary. Téléchargez à nouveau la build Canary et migrez votre dossier `system`.
+*   **Texte manquant ou visages de Mii absents** : Cela indique une installation incomplète du firmware. Réinstallez le firmware 20.5.0 et assurez-vous que toutes les polices système sont incluses.
+*   **Faible FPS sur les ordinateurs portables** : Assurez-vous que Ryujinx utilise votre GPU dédié (Nvidia/AMD) plutôt que la puce graphique intégrée. Vous pouvez forcez cela dans le menu « Paramètres graphiques » de Windows.
+
+Pour plus d'informations sur les dernières mises à jour de l'émulateur, vous pouvez visiter le [site officiel de Ryujinx](https://ryujinx.org/) pour rester au courant des correctifs de compatibilité pour 2026.
+
+## FAQ
+
+**Q : Puis-je transférer mon fichier de sauvegarde 3DS vers la version PC de Tomodachi Life ?**
+
+R : Bien que le mod « Living the Dream » soit conçu pour l'environnement Switch, il existe des outils communautaires pour convertir les formats de sauvegarde. Cependant, en raison du contenu étendu du mod, certains objets pourraient ne pas être transférés correctement. Il est généralement recommandé de commencer une nouvelle île pour profiter pleinement du nouveau contenu.
+
+**Q : Ryujinx prend-il en charge le multijoueur pour Tomodachi Life ?**
+
+R : Ryujinx dispose d'une fonctionnalité « LDN » (Local Area Network) qui permet de simuler le jeu sans fil local. Bien que Tomodachi Life soit principalement un jeu solo, certaines fonctionnalités de type StreetPass sont accessibles si vous êtes connecté au réseau Ryujinx LDN avec d'autres joueurs.
+
+**Q : Quelle est la configuration PC minimale pour jouer à Tomodachi Life Living the Dream PC Ryujinx ?**
+
+R : Vous aurez besoin au minimum d'un processeur Intel Core i5-8400 ou AMD Ryzen 5 2600, de 8 Go de RAM et d'une GTX 1060 ou RX 580. Comme l'émulateur dépend fortement des performances monocœur du processeur, un processeur plus rapide donnera de meilleurs résultats qu'un GPU haut de gamme.
+
+**Q : Est-il sûr d'utiliser « Ignore Missing Services » dans les paramètres ?**
+
+R : Oui, pour Tomodachi Life, cocher « Ignore Missing Services » dans les paramètres système peut aider à contourner certaines erreurs liées aux services Nintendo Switch Online que l'émulateur ne peut pas répliquer, évitant ainsi des plantages inutiles pendant le jeu.
