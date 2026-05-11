@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Utensils, Heart, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tomodachi Life Food: Complete Preference & Feeding Guide 2026",
+  description: "Master the Tomodachi Life food system in 2026. Learn how Mii preferences work, discover all-time favorites, and understand the hidden attribute mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Tomodachi+Life+Food+Guide",
+  date: "2026-05-11",
+  author: "Tomodachi Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Tomodachi Life food** preferences are determined by a combination of hidden attribute flags and algorithmic "taste values."
+- **Hunger Requests** are the only way to guarantee a positive reaction; if a Mii asks for a specific food, they will always enjoy it.
+- **Universal Dislikes** include items like Spoiled Milk, Moldy Bread, and Banana Peels, which almost every Mii will despise.
+- **Happiness Gains** are maximized when you discover a Mii's "All-Time Favorite" or "Super Liked" items.
+- **Attribute Matching** suggests that Miis who dislike one sweet item are likely to dislike others with the "Confectionery" tag.
+</Callout>
+
+Feeding your islanders is one of the most fundamental yet complex activities in the game. The **tomodachi life food** system dictates how your Miis grow, how much money you earn, and how happy your residents remain on their tropical getaway. Every Mii is a unique individual with a palate that can range from a sophisticated love for Truffles to a bizarre obsession with Fried Grasshoppers. Understanding how to navigate these preferences is essential for any player looking to maximize their island's potential in 2026. In this guide, we will break down the hidden mechanics behind food tastes, the various categories of edible items, and the best strategies for uncovering those elusive favorite dishes. Whether you are a veteran player or a newcomer to the 3DS classic, mastering **tomodachi life food** is the fastest way to turn your island into a thriving paradise.
+
+<Section icon={Utensils} title="The Hidden Mechanics of Tomodachi Life Food">
+
+The food system in Tomodachi Life is far more sophisticated than it appears on the surface. While it might seem like every Mii's reaction is purely random, there is a complex algorithmic structure running behind the scenes. Each food item in the game is assigned specific attribute flags that determine how a Mii will perceive it based on their internal "taste profile."
+
+**Video Highlights:**
+- Discover why the food system is considered one of the most "genius" parts of the game's design.
+- Learn about the experiment with Shrek and his fluctuating love for bananas.
+- Understand the difference between random seeds and algorithmic preference loading.
+- See how "Hunger Requests" override standard preference calculations.
+
+<YouTubeEmbed videoId="t05RACl5Jsw" title="Tomodachi Life's Food System is GENIUS!" />
+
+Each food item carries multiple tags that the game checks against a Mii's hidden preferences. If a Mii has a negative modifier for "Spicy" foods, they are statistically more likely to react poorly to Habaneros or Curry. However, the game also uses "Taste Values" (labeled A, B, C, and D in the source code) to add a layer of controlled randomness, ensuring that two Miis with similar profiles don't have identical tastes.
+
+| Attribute Category | Example Items | Common Reaction |
+| :--- | :--- | :--- |
+| **Confectionery** | Cake, Chocolate, Donuts | Generally high likability |
+| **Luxury** | Caviar, Truffles, Lobster | Massive happiness boost if liked |
+| **Awful** | Moldy Bread, Spoiled Milk | Almost universal "Worst Ever" |
+| **Origin: Japanese** | Sushi, Ramen, Yakisoba | Variable based on Mii profile |
+| **Temperature: Cold** | Ice Cream, Shaved Ice | Preferred by "Cold" lovers |
+
+<Callout type="tip" title="Feeding Strategy">
+If a Mii is specifically asking for a type of food (e.g., "I'm hungry" or "I want something sweet"), feeding them an item that matches that description will yield a positive result, even if it isn't their favorite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decoding Mii Food Preferences">
+
+Every Mii has a ranking for every single food item in the game. These rankings are permanent for that specific Mii and cannot be changed by soft-resetting once they have been established. This is because the game doesn't save a massive list of every food; instead, it uses a formula to calculate the reaction the moment you feed them.
+
+<CardGrid cols={3}>
+  <Card title="The Algorithm">
+    Preferences are calculated using **attribute flags** like "Oily," "Sour," or "Western." If a Mii likes one item in a category, they likely enjoy others.
+  </Card>
+  <Card title="Taste Values">
+    Internal values A, B, C, and D act as unique identifiers for each Mii, ensuring their palate remains distinct from their neighbors.
+  </Card>
+  <Card title="Fixed Results">
+    Once a Mii's "seed" is set during creation, their reaction to a specific food like **Bubble Tea** or **Coffee** is set in stone.
+  </Card>
+</CardGrid>
+
+The reaction levels are divided into six distinct tiers. Knowing which tier a food falls into helps you manage your Mii's happiness levels effectively.
+
+| Reaction Tier | Visual Cue | Happiness Impact |
+| :--- | :--- | :--- |
+| **All-Time Favorite** | Mii blasts into outer space | Level Up (Full Bar) |
+| **Super Liked** | Mii dances with joy | Large increase |
+| **Liked** | Mii smiles and nods | Moderate increase |
+| **Disliked** | Mii looks away or sighs | No increase / Slight decrease |
+| **Super Disliked** | Mii melts into a gray puddle | No increase |
+| **Worst Ever** | Mii turns into a shivering ghost | Massive happiness drop |
+
+<Callout type="warning" title="The Coffee Paradox">
+Many players attempt to force their "lookalike" Mii to like their real-life favorite foods (like Coffee). If the Mii's internal algorithm decides they hate it, no amount of restarting will change that result.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="How to Discover All-Time Favorites">
+
+Finding a Mii's "All-Time Favorite" is the holy grail of **tomodachi life food** management. These items provide the single largest boost to the happiness meter and can instantly level up a Mii, providing you with a Silver or Gold Coin.
+
+<Steps>
+  <Step num="1" title="Diversify the Diet">
+    Don't just feed your Miis cheap items like Bread or Water. Regularly buy new stock from the Food Mart to test different attribute flags.
+  </Step>
+  <Step num="2" title="Monitor Requests">
+    When a Mii says "I want to eat something," pay attention to the category. If they ask for "something spicy" and love the Kimchi you give them, try other spicy items next.
+  </Step>
+  <Step num="3" title="Check the Collection">
+    Use the "Food" tab in the Mii's status screen to see what you have already tested. This prevents wasting money on items they already dislike.
+  </Step>
+  <Step num="4" title="Utilize Special Items">
+    Items obtained through Pan-Flutes or travel (like regional specialties) often have higher base likability scores than standard grocery items.
+  </Step>
+</Steps>
+
+| Food Type | Rarity | Best For |
+| :--- | :--- | :--- |
+| **Daily Specials** | Common | Bulk testing preferences |
+| **Import Items** | Rare | High-value happiness boosts |
+| **Frying Pan Dishes** | Crafted | Discovering unique combinations |
+| **Specialty Origins** | Regional | Finding specific cultural tastes |
+
+<Callout type="success" title="Level Up Tip">
+Save "All-Time Favorites" for when a Mii is very close to leveling up or when they are feeling depressed after a breakup. It is the most efficient way to restore their mood.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Food Attributes and Categories">
+
+The modding community, specifically groups like Tomodachi Enterprises, has uncovered that there are dozens of attribute flags attached to every edible item. This explains why a Mii might love "Bread" but hate "Toast"—the flags for "Hot" or "Crunchy" might be the deciding factor.
+
+<Checklist
+  id="food-attributes"
+  title="Common Food Attribute Flags:"
+  items={[
+    "Sweet, Salty, Sour, and Spicy profiles",
+    "Temperature flags (Hot vs Cold)",
+    "Origin flags (Japanese, Chinese, Western, American, British)",
+    "Ingredient tags (Eggs, Meat, Fish, Fruit, Vegetable)",
+    "Texture tags (Oily, Noodle, Bread, Rice)",
+    "Quality tags (Luxury vs Awful)"
+  ]}
+/>
+
+By understanding these flags, you can predict reactions. For example, if a Mii reacts poorly to **Fish**, you should avoid feeding them Sushi, Sashimi, or Grilled Fish, as they all share the "Fish" attribute flag.
+
+| Food Item | Primary Attributes | Secondary Attributes |
+| :--- | :--- | :--- |
+| **Pizza** | Western, Oily, Bread | Cheese, Savory |
+| **Ice Cream** | Cold, Sweet, Confectionery | Dairy |
+| **Licorice** | Sweet, Awful (to some) | Acquired Taste |
+| **Space Food** | Awful, Luxury | Scientific |
+| **Bubble Tea** | Sweet, Cold, Asian | Drink, Trendy |
+
+<Callout type="info" title="Acquired Tastes">
+Certain items like Licorice or Blue Cheese have a lower "Base Likability Score." This means that even if a Mii doesn't have a specific dislike for the attributes, the game is programmed to make these items less popular across the board.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizing Happiness Through Food">
+
+In the long run, your goal with **tomodachi life food** is to fill the "Food Album" and identify the top and bottom preferences for every resident. This not only helps with leveling up but also provides a steady stream of income as you get rewards for each new discovery.
+
+| Strategy | Benefit | Efficiency |
+| :--- | :--- | :--- |
+| **The Buffet Method** | Feed 3-5 different items in one sitting | High |
+| **Request Fulfillment** | Only feed what is asked for | Maximum |
+| **Luxury Spamming** | Feeding only high-cost items | Low (Expensive) |
+| **Attribute Testing** | Systematic testing of categories | Medium |
+
+<Callout type="tip" title="Daily Routine">
+Check the Food Mart every morning. The stock rotates daily, and buying out the entire inventory ensures you always have the right "attribute" on hand when a Mii makes a specific request.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tomodachi Life Food FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I change a Mii's favorite food by deleting and recreating them?",
+    answer: "Technically, yes. If you delete a Mii and recreate them, they will be assigned a new internal 'seed' which will recalculate their preferences. However, you will lose all their progress, levels, and relationships."
+  },
+  {
+    question: "Why does my Mii hate a food that they asked for?",
+    answer: "This is very rare. Usually, if a Mii asks for 'something,' they will at least like it. However, if they ask for a specific item like 'a banana' and they happen to have the 'Worst Ever' flag for it, the request might still result in a negative reaction, though this is an extreme edge case."
+  },
+  {
+    question: "Does the color of the food matter?",
+    answer: "No, there is no evidence in the source code that food color (e.g., 'only green foods') affects preferences. The game relies on attribute flags like 'Fruit' or 'Vegetable' instead."
+  },
+  {
+    question: "What is the best food to give a Mii to make them level up fast?",
+    answer: "The 'All-Time Favorite' is the best, followed by 'Super Liked' items. If you haven't found those yet, Luxury items like Caviar or Truffles provide higher base happiness gains than common items like a Grilled Cheese."
+  }
+]} />
+
+</Section>

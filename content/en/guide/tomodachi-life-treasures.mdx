@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Sparkles, Gift } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tomodachi Life Treasures: Guide to Finding Rare Items 2026",
+  description: "Master the art of finding Tomodachi Life treasures in 2026. Learn how to maximize your daily item collection, gift interactions, and unlock rare island rewards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e88e5/fff?text=Tomodachi+Life+Treasures",
+  date: "2026-05-11",
+  author: "Tomodachi Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Tomodachi Life treasures** are essential collectibles that boost your Mii's happiness and provide unique island flavor.
+- **Daily interaction** is the most reliable way to accumulate treasures throughout your island gameplay.
+- **Leveling up residents** guarantees better quality item rewards compared to random daily finds.
+- **Traveler interactions** via StreetPass are the primary source for rare, international, and exotic items.
+- **Item collection** progress can be tracked via the Town Hall to help you complete your master catalog.
+</Callout>
+
+In the quirky and unpredictable world of Mii island living, collecting Tomodachi Life treasures is one of the most rewarding long-term goals for any player. Whether you are a newcomer starting your first island or a veteran looking to complete your item catalog in 2026, understanding how to source these valuables is key to a thriving community. Treasures are more than just shelf decorations; they represent the social history of your island and the unique bonds formed between your Mii residents. This guide breaks down the mechanics of item discovery, ensuring you never miss a chance to add a rare find to your collection.
+
+<Section icon={Map} title="Sources of Rare Treasures">
+
+Finding treasures in Tomodachi Life requires a mix of daily routine and strategic social management. While some items appear through simple luck, others are tied to specific resident milestones and game systems.
+
+**Video Highlights:**
+- Understanding the daily item spawn cycle.
+- How resident happiness levels influence gift quality.
+- Optimizing your island layout for maximum interaction.
+
+<YouTubeEmbed videoId="_xY0XuGOWJs" title="Tomodachi Life: Living the Dream Overview" />
+
+The island environment acts as a generator for various items. The more active your Mii residents are, the higher the probability of uncovering something special during your daily check-ins.
+
+| Source Type | Frequency | Rarity Level | Primary Reward |
+| :--- | :--- | :--- | :--- |
+| **Daily Check-in** | Once per day | Common | Basic items, snacks |
+| **Level-up Gift** | Varies | Rare | Premium items, decor |
+| **StreetPass** | As encountered | Very Rare | International treasures |
+| **Dream Events** | Random | Unique | Surreal items |
+
+<Callout type="tip" title="Maximizing Yields">
+Always prioritize solving problems for Miis who are close to leveling up. A level-up event is your most consistent source for high-tier treasures that are otherwise difficult to obtain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Treasure Collection Flow">
+
+Collecting items is a structured process. By following a consistent daily route, you can significantly increase your efficiency in hunting down those elusive completionist items.
+
+<Steps>
+  <Step num="1" title="Morning Island Sweep">
+    Check the Mii Apartments for black problem bubbles. These are often indicators that a resident has found an item or wants to share a discovery with you.
+  </Step>
+  <Step num="2" title="Resident Engagement">
+    Interact with residents who have reached a new level. The quality of the gift they provide is directly proportional to their current happiness and relationship status.
+  </Step>
+  <Step num="3" title="Port and Campground">
+    Visit the Port daily. If you have active StreetPass connections, travelers will bring unique treasures from other islands that cannot be found locally.
+  </Step>
+  <Step num="4" title="Catalog Tracking">
+    Regularly check your progress in the Town Hall. This allows you to identify which categories of treasures are still missing from your collection.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Gift} title="Item Tiers and Value">
+
+Not all treasures are created equal. The game categorizes items based on their utility and rarity, which also affects how much money you can make if you choose to sell them at the Pawn Shop.
+
+| Item Tier | Selling Value | Best Usage |
+| :--- | :--- | :--- |
+| **Common** | Low ($5-$20) | Gift to Miis |
+| **Uncommon** | Moderate ($50-$100) | Room decoration |
+| **Rare** | High ($200-$500) | Display in Mii Home |
+| **Exotic/International** | Very High ($1000+) | Collection completion |
+
+<Callout type="warning" title="Pawn Shop Caution">
+While selling treasures provides quick cash, think twice before parting with rare or exotic items. Once sold, these items are removed from your collection stats and may be difficult to re-acquire.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Completing Your Catalog">
+
+For players aiming for 100% completion, the Town Hall is your best friend. It provides a visual representation of your progress and helps you focus your efforts on specific missing categories.
+
+<Checklist
+  id="collection-checklist"
+  title="Collection Strategies:"
+  items={[
+    "Rotate your island residents to trigger different personality-based events",
+    "Keep at least one of every rare item for your personal display",
+    "Encourage marriages to unlock unique home-related treasures",
+    "Utilize the Compatibility Tester to find pairs that trigger rare social events"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I get international treasures?",
+    answer: "International treasures are primarily obtained through StreetPass travelers arriving at your Port. Ensure your 3DS/Switch StreetPass settings are active to receive visitors."
+  },
+  {
+    question: "Do personality types affect treasure finds?",
+    answer: "Yes, certain personality types are more likely to find specific items during events. A diverse island population increases your chances of finding a wider variety of treasures."
+  },
+  {
+    question: "Can I find treasures in dreams?",
+    answer: "Yes, certain dream sequences provide unique items. These are rare events, so pay attention when a Mii mentions having a strange dream."
+  }
+]} />
+
+</Section>
