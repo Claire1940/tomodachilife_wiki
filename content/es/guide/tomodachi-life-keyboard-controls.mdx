@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Keyboard, MousePointer, Settings, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de teclado de Tomodachi Life: Guía de configuración completa 2026",
+  description: "Domina los controles de teclado de Tomodachi Life en emuladores de PC. Aprende las mejores asignaciones de teclas, configuraciones de ratón y consejos de optimización para la experiencia definitiva de 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Tomodachi+Life+Keyboard+Controls+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Tomodachi"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Asignaciones principales**: Usa **WASD** o **JILK** para el movimiento direccional primario y la emulación del stick.
+- **Integración del ratón**: El ratón actúa como el lápiz táctil de la 3DS, esencial para la interacción y los minijuegos.
+- **Atajo de salida**: Pulsa **Control + F9** para salir rápidamente de la aplicación o alternar los modos de pantalla completa.
+- **RMB Writings**: Utiliza archivos de script específicos para habilitar la entrada de texto avanzada y las funciones del ratón.
+- **Optimización**: Asegúrate de que tu emulador esté configurado en **Modo portátil** para la respuesta de control más estable.
+</Callout>
+
+Tomodachi Life sigue siendo uno de los juegos de simulación social más únicos jamás lanzados, y en 2026, jugarlo en PC a través de emuladores como Ryujinx o Citra se ha convertido en la forma preferida para muchos fans. Sin embargo, la transición de una consola portátil de doble pantalla con lápiz táctil a una configuración de PC requiere una sólida comprensión de los **controles de teclado de Tomodachi Life**. Configurar tus entradas correctamente es la diferencia entre una vida isleña sin problemas y un frustrante obstáculo técnico. Ya sea que estés navegando por los apartamentos Mii o participando en un minijuego frenético, tu teclado y ratón deben estar perfectamente sincronizados para imitar el hardware original de la 3DS. En esta guía, exploraremos los esquemas de control más eficientes, incluyendo configuraciones especializadas para la versión "Living the Dream", asegurando que tu experiencia en PC sea tan intuitiva como la original. Dominar los **controles de teclado de Tomodachi Life** te permite concentrarte en las peculiares relaciones y los divertidos escenarios que hacen del juego un clásico.
+
+<Section icon={Sparkles} title="Comprendiendo los fundamentos del control">
+
+Antes de sumergirnos en configuraciones específicas, es vital entender cómo el hardware de PC se traduce a las entradas de la 3DS. A diferencia de los juegos de consola tradicionales, Tomodachi Life depende en gran medida de la entrada táctil. En un PC, tu ratón sirve como el lápiz táctil, mientras que el teclado maneja los botones físicos y el Circle Pad.
+
+**Aspectos destacados del video:**
+- Configuración del script RMB Writings para un control mejorado del ratón.
+- Configuración de JILK y WASD para el movimiento del personaje.
+- Uso del atajo Control + F9 para salidas rápidas.
+- Ajuste de la configuración de visibilidad del ratón dentro del emulador.
+
+<YouTubeEmbed videoId="m9OAmVCtDeo" title="Configuración de teclado y ratón de Ryujinx para Tomodachi Life" />
+
+Para la experiencia más auténtica, los jugadores a menudo eligen entre dos filosofías de control principales: el diseño "Emulador Clásico" y el diseño "Mejorado con scripts". Este último, que a menudo implica archivos "RMB Writings", proporciona una sensación más moderna al automatizar ciertos comportamientos de la pantalla táctil.
+
+| Componente de 3DS | Equivalente en PC | Función principal |
+| :--- | :--- | :--- |
+| **Circle Pad** | WASD / JILK | Mover el cursor y la navegación del personaje |
+| **Pantalla Táctil** | Clic izquierdo del ratón | Interactuar con Miis, alimentarlos y jugar |
+| **Botón A** | Z o Enter | Confirmar selecciones y avanzar texto |
+| **Botón B** | X o Retroceso | Cancelar acciones o cerrar menús |
+| **Botones L/R** | Q / E | Tomar capturas de pantalla y cambiar vistas |
+
+<Callout type="tip" title="Consejo Pro">
+Si estás jugando al mod "Living the Dream", usar las teclas JILK para la emulación del stick derecho proporciona una mayor precisión durante el minijuego "Catch".
+</Callout>
+
+</Section>
+
+<Section icon={Keyboard} title="Mapeo óptimo del teclado para 2026">
+
+El mapeo estándar para los **controles de teclado de Tomodachi Life** se centra en la accesibilidad. La mayoría de los jugadores prefieren tener la mano izquierda en las teclas de movimiento y la mano derecha en el ratón. Esta configuración "Híbrida" refleja cómo operan los juegos modernos de PC.
+
+<CardGrid cols={3}>
+  <Card title="Movimiento (WASD)">
+    - **W**: Mover arriba / Adelante
+    - **A**: Mover izquierda
+    - **S**: Mover abajo / Atrás
+    - **D**: Mover derecha
+  </Card>
+  <Card title="Teclas de acción">
+    - **Espacio**: Interactuar / Confirmar
+    - **Esc**: Menú de pausa
+    - **Shift**: Correr / Avanzar texto rápidamente
+  </Card>
+  <Card title="Stick secundario">
+    - **I**: Arriba
+    - **J**: Izquierda
+    - **K**: Abajo
+    - **L**: Derecha
+  </Card>
+</CardGrid>
+
+Al configurar esto en la configuración de tu emulador (como la ventana de Entrada de Ryujinx), asegúrate de que el "Tipo de controlador" esté configurado en **Pro Controller**. Esto asegura que el emulador reconozca todas las teclas mapeadas sin las limitaciones del recuento de botones original de la 3DS.
+
+| Categoría de tecla | Asignación de tecla | Configuración del emulador |
+| :--- | :--- | :--- |
+| **Botones frontales** | V, B, N, M | A, B, X, Y |
+| **D-Pad** | Teclas de flecha | Arriba, Abajo, Izquierda, Derecha |
+| **Sistema** | F5 | Actualizar/Restablecer |
+| **Especial** | Ctrl + F9 | Salir del juego |
+
+<Callout type="warning" title="Importante">
+Evita asignar el botón "Inicio" a una tecla común como 'H', ya que las pulsaciones accidentales pueden congelar el estado de emulación en algunas versiones de Citra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de configuración paso a paso">
+
+Configurar los **controles de teclado de Tomodachi Life** utilizando el método de script RMB es la forma más fiable de asegurar que tu ratón y teclado funcionen en armonía. Sigue estos pasos para configurar tu entorno para la experiencia "Living the Dream".
+
+<Steps>
+  <Step num="1" title="Descargar y extraer scripts">
+    Localiza la carpeta "RMB Windows" o "RMB Writings". Haz clic derecho en el archivo comprimido y selecciona **Extraer todo** para acceder a los archivos de configuración.
+  </Step>
+  <Step num="2" title="Iniciar la utilidad de control">
+    Abre la carpeta extraída y ejecuta el archivo ejecutable (normalmente llamado `RMB_Writings.exe`). Esta utilidad cierra la brecha entre los movimientos de tu ratón y la entrada táctil del emulador.
+  </Step>
+  <Step num="3" title="Inicializar el juego">
+    Inicia tu emulador y carga Tomodachi Life. Una vez que aparezca la pantalla de título, haz clic en **Iniciar** dentro de la utilidad RMB para sincronizar las entradas.
+  </Step>
+  <Step num="4" title="Configurar los ajustes del juego">
+    Ve a la Configuración de entrada del emulador. Asegúrate de que "Habilitar ratón" esté marcado y establece la sensibilidad del "Stick" al 100% para evitar el retraso durante los movimientos rápidos.
+  </Step>
+  <Step num="5" title="Probar y calibrar">
+    Entra en los Apartamentos Mii e intenta arrastrar la cabeza de un Mii con el ratón. Si el movimiento es inestable, alterna la opción **Ocultar ratón** en la configuración de la utilidad.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito">
+Una vez configurado, puedes usar **Control + F9** en cualquier momento para cerrar de forma segura el juego y la utilidad de script simultáneamente.
+</Callout>
+
+</Section>
+
+<Section icon={MousePointer} title="Dominando las interacciones del ratón y táctiles">
+
+Dado que Tomodachi Life fue diseñado para un lápiz táctil, el ratón es en realidad la parte más importante de tus **controles de teclado de Tomodachi Life**. Muchos jugadores tienen dificultades con el movimiento de "deslizamiento" requerido para actividades como acariciar la cabeza de un Mii o jugar al juego "Cosquillas".
+
+| Acción del ratón | Resultado en el juego | Escenario de uso |
+| :--- | :--- | :--- |
+| **Clic izquierdo** | Toque de lápiz táctil | Seleccionar elementos, hablar con Miis |
+| **Clic izquierdo + Arrastrar** | Deslizamiento de lápiz táctil | Acariciar Miis, lanzar objetos, deslizar menús |
+| **Clic derecho** | Menú contextual | (En algunos scripts) Abre el inventario rápidamente |
+| **Rueda de desplazamiento** | Acercar/Alejar | Ver la isla o los interiores de las habitaciones |
+
+Se recomienda usar un ratón de alta DPI para el minijuego "Catch", donde debes reaccionar instantáneamente a un objeto que cae. Si tu cursor se siente "pesado", verifica si tu emulador está usando **V-Sync**, lo que puede introducir latencia de entrada.
+
+<Callout type="info" title="Nota técnica">
+El script RMB Writings te permite alternar la visibilidad del cursor del ratón. Ocultar el cursor a menudo mejora la inmersión, ya que el icono de la mano en el juego seguirá el movimiento invisible de tu ratón.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación diaria de juego">
+
+Para mantener una experiencia fluida con tus **controles de teclado de Tomodachi Life**, ten en cuenta esta lista de verificación cada vez que inicies una sesión.
+
+<Checklist
+  id="control-maintenance"
+  title="Verificación de control previa al juego:"
+  items={[
+    "Verifica que la utilidad RMB se esté ejecutando en segundo plano",
+    "Comprueba si la distribución del teclado está configurada en 'Pro Controller' en la configuración del emulador",
+    "Asegúrate de que el 'Modo portátil' esté deshabilitado si usas un paquete de texturas de alta resolución",
+    "Prueba las teclas WASD en la vista del Mapa de la Isla",
+    "Confirma que Control + F9 esté asignado para salidas de emergencia"
+  ]}
+/>
+
+| Característica | Configuración recomendada | Beneficio |
+| :--- | :--- | :--- |
+| **Zona muerta del stick** | 0.10 | Evita la deriva accidental |
+| **Backend de entrada** | SDL2 | Mejor compatibilidad para teclados modernos |
+| **Frecuencia de sondeo** | 1000Hz | Reduce el retraso en los minijuegos |
+
+<Callout type="tip" title="Consejo de optimización">
+Si encuentras los controles del teclado demasiado rígidos, considera conectar un controlador compatible con PC. El emulador te permitirá mapear el Circle Pad de la 3DS al Stick analógico de tu controlador para un movimiento más suave de 360 grados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué no funcionan mis controles de teclado en Tomodachi Life?",
+    answer: "Asegúrate de que la ventana del emulador esté 'enfocada' (haz clic en ella). Si estás usando una utilidad de script como RMB Writings, asegúrate de haber hecho clic en 'Iniciar' dentro de la utilidad después de iniciar el juego."
+  },
+  {
+    question: "¿Puedo usar WASD y JILK para el movimiento?",
+    answer: "Sí, la mayoría de las configuraciones modernas para los controles de teclado de Tomodachi Life te permiten mapear ambos conjuntos de teclas al Circle Pad, lo que proporciona flexibilidad para diferentes minijuegos."
+  },
+  {
+    question: "¿Cómo soluciono el problema de que el cursor del ratón esté desalineado con el punto táctil?",
+    answer: "Esto suele ocurrir cuando se cambia el tamaño de la ventana del emulador. Intenta jugar en modo de pantalla completa o restablece la ventana a su resolución nativa de 1x (400x240 para la pantalla superior)."
+  },
+  {
+    question: "¿Cuál es el mejor atajo para salir rápidamente del juego?",
+    answer: "El atajo estándar para muchos scripts y emuladores de Tomodachi Life es Control + F9. Esto cierra la sesión sin colgar el proceso."
+  }
+]} />
+
+<Callout type="info" title="Recordatorio final">
+Guarda siempre tu partida dentro del juego antes de usar atajos como Control + F9 para salir, ya que los emuladores pueden no activar siempre un autoguardado ante un cierre forzado.
+</Callout>
+
+</Section>

@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Utensils, Heart, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tomodachi Life Eten: Complete Voorkeuren & Voedingsgids 2026",
+  description: "Beheers het Tomodachi Life etenssysteem in 2026. Leer hoe Mii-voorkeuren werken, ontdek de allergrootste favorieten en begrijp de verborgen attribuutmechanismen.",
+  category: "Gids",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Tomodachi+Life+Food+Guide",
+  date: "2026-05-11",
+  author: "Tomodachi Wiki Team",
+  keywords: "tomodachi life eten, mii voorkeuren, gids 2026, allergrootste favoriet, mii voeden"
+}
+
+<Callout type="info" title="Snelgids">
+- **Tomodachi Life etensvoorkeuren** worden bepaald door een combinatie van verborgen attribuutvlaggen en algoritmische "smaakwaarden."
+- **Hongerverzoeken** zijn de enige manier om een positieve reactie te garanderen; als een Mii om specifiek eten vraagt, zullen ze er altijd van genieten.
+- **Universele afkeuren** omvatten items zoals Bederfde Melk, Beschimmeld Brood en Bananenschillen, waar bijna elke Mii een hekel aan heeft.
+- **Geluksstijgingen** worden gemaximaliseerd wanneer je de "Allergrootste Favoriet" of "Superlekker" items van een Mii ontdekt.
+- **Attribuutmatching** suggereert dat Miis die één zoet item niet lekker vinden, waarschijnlijk ook andere items met de tag "Zoetwaren" niet lekker vinden.
+</Callout>
+
+Het voeden van je eilandbewoners is een van de meest fundamentele maar complexe activiteiten in het spel. Het **tomodachi life eten** systeem bepaalt hoe je Miis groeien, hoeveel geld je verdient en hoe gelukkig je bewoners blijven tijdens hun tropische uitje. Elke Mii is een uniek individu met een gehemelte dat kan variëren van een verfijnde liefde voor truffels tot een bizarre obsessie met gefrituurde sprinkhanen. Begrijpen hoe je door deze voorkeuren navigeert, is essentieel voor elke speler die het potentieel van zijn eiland in 2026 wil maximaliseren. In deze gids zullen we de verborgen mechanismen achter smaakvoorkeuren, de verschillende categorieën eetbare items en de beste strategieën voor het ontdekken van die ongrijpbare lievelingsgerechten ontleden. Of je nu een ervaren speler bent of een nieuwkomer in deze 3DS-klassieker, het beheersen van **tomodachi life eten** is de snelste manier om van je eiland een bloeiend paradijs te maken.
+
+<Section icon={Utensils} title="De Verborgen Mechanismen van Tomodachi Life Eten">
+
+Het etenssysteem in Tomodachi Life is veel geavanceerder dan het op het eerste gezicht lijkt. Hoewel het lijkt alsof de reactie van elke Mii puur willekeurig is, draait er achter de schermen een complexe algoritmische structuur. Elk voedingsmiddel in het spel krijgt specifieke attribuutvlaggen toegewezen die bepalen hoe een Mii het zal ervaren op basis van hun interne "smaakprofiel."
+
+**Video-hoogtepunten:**
+- Ontdek waarom het etenssysteem wordt beschouwd als een van de meest "geniale" onderdelen van het spelontwerp.
+- Leer over het experiment met Shrek en zijn wisselende liefde voor bananen.
+- Begrijp het verschil tussen "random seeds" en algoritmische voorkeursladingen.
+- Zie hoe "Hongerverzoeken" de standaard voorkeursberekeningen overrulen.
+
+<YouTubeEmbed videoId="t05RACl5Jsw" title="Tomodachi Life's Food System is GENIUS!" />
+
+Elk voedingsmiddel draagt meerdere tags die het spel controleert tegen de verborgen voorkeuren van een Mii. Als een Mii een negatieve factor heeft voor "Pittig" eten, is de kans statistisch groter dat ze slecht reageren op Habanero's of Curry. Het spel gebruikt echter ook "Smaakwaarden" (gelabeld als A, B, C en D in de broncode) om een laag gecontroleerde willekeur toe te voegen, zodat twee Miis met vergelijkbare profielen geen identieke smaken hebben.
+
+| Attribuutcategorie | Voorbeelditems | Veelvoorkomende Reactie |
+| :--- | :--- | :--- |
+| **Zoetwaren** | Taart, Chocolade, Donuts | Over het algemeen zeer geliefd |
+| **Luxe** | Kaviaar, Truffels, Kreeft | Enorme geluksboost indien geliefd |
+| **Vreselijk** | Beschimmeld Brood, Bederfde Melk | Bijna universeel "Ergste Ooit" |
+| **Oorsprong: Japans** | Sushi, Ramen, Yakisoba | Variabel op basis van Mii-profiel |
+| **Temperatuur: Koud** | IJs, Schaafijs | Favoriet bij liefhebbers van "Koud" |
+
+<Callout type="tip" title="Voedingsstrategie">
+Als een Mii specifiek vraagt om een type eten (bijv. "Ik heb honger" of "Ik wil iets zoets"), zal het geven van een item dat aan die beschrijving voldoet een positief resultaat opleveren, zelfs als het niet hun favoriet is.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mii-etensvoorkeuren Ontcijferen">
+
+Elke Mii heeft een rangschikking voor elk afzonderlijk voedingsmiddel in het spel. Deze rangschikkingen zijn permanent voor die specifieke Mii en kunnen niet worden gewijzigd door het spel opnieuw op te starten zodra ze zijn vastgesteld. Dit komt omdat het spel geen enorme lijst van elk voedingsmiddel opslaat; in plaats daarvan gebruikt het een formule om de reactie te berekenen op het moment dat je ze voert.
+
+<CardGrid cols={3}>
+  <Card title="Het Algoritme">
+    Voorkeuren worden berekend met behulp van **attribuutvlaggen** zoals "Vettig", "Zuur" of "Westers". Als een Mii één item in een categorie lekker vindt, genieten ze waarschijnlijk ook van de andere.
+  </Card>
+  <Card title="Smaakwaarden">
+    Interne waarden A, B, C en D fungeren als unieke identificatoren voor elke Mii, waardoor hun gehemelte onderscheidend blijft van dat van hun buren.
+  </Card>
+  <Card title="Vaste Resultaten">
+    Zodra de "seed" van een Mii is ingesteld tijdens de creatie, staat hun reactie op specifiek eten zoals **Bubble Tea** of **Koffie** vast.
+  </Card>
+</CardGrid>
+
+De reactieniveaus zijn onderverdeeld in zes verschillende niveaus. Weten in welk niveau een voedingsmiddel valt, helpt je om het geluksniveau van je Mii effectief te beheren.
+
+| Reactieniveau | Visuele Aanwijzing | Impact op Geluk |
+| :--- | :--- | :--- |
+| **Allergrootste Favoriet** | Mii schiet de ruimte in | Level Up (Volle balk) |
+| **Superlekker** | Mii danst van vreugde | Grote stijging |
+| **Lekker** | Mii glimlacht en knikt | Matige stijging |
+| **Niet Lekker** | Mii kijkt weg of zucht | Geen stijging / Lichte daling |
+| **Helemaal Niet Lekker** | Mii smelt in een grijze plas | Geen stijging |
+| **Ergste Ooit** | Mii verandert in een rillende geest | Enorme geluksdaling |
+
+<Callout type="warning" title="De Koffieparadox">
+Veel spelers proberen hun "lookalike" Mii te dwingen hun echte favoriete eten (zoals Koffie) lekker te vinden. Als het interne algoritme van de Mii besluit dat ze het haten, zal geen enkele hoeveelheid herstarten dat resultaat veranderen.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Hoe je Allergrootste Favorieten Ontdekt">
+
+Het vinden van de "Allergrootste Favoriet" van een Mii is de heilige graal van het **tomodachi life eten** beheer. Deze items geven de grootste boost aan de geluksmeter en kunnen een Mii direct een level laten stijgen, wat je een zilveren of gouden munt oplevert.
+
+<Steps>
+  <Step num="1" title="Diversifieer het Dieet">
+    Geef je Miis niet alleen goedkope items zoals Brood of Water. Koop regelmatig nieuwe voorraad in de supermarkt om verschillende attribuutvlaggen te testen.
+  </Step>
+  <Step num="2" title="Monitor Verzoeken">
+    Wanneer een Mii zegt "Ik wil iets eten," let dan op de categorie. Als ze vragen om "iets pittigs" en ze houden van de Kimchi die je ze geeft, probeer dan de volgende keer andere pittige items.
+  </Step>
+  <Step num="3" title="Controleer de Verzameling">
+    Gebruik het tabblad "Eten" in het statusscherm van de Mii om te zien wat je al hebt getest. Dit voorkomt dat je geld verspilt aan items die ze al niet lekker vinden.
+  </Step>
+  <Step num="4" title="Gebruik Speciale Items">
+    Items verkregen via panfluiten of reizen (zoals regionale specialiteiten) hebben vaak hogere basis-likability scores dan standaard supermarktartikelen.
+  </Step>
+</Steps>
+
+| Soort Eten | Zeldzaamheid | Best Voor |
+| :--- | :--- | :--- |
+| **Dagschotels** | Algemeen | Bulk-testen van voorkeuren |
+| **Importartikelen** | Zeldzaam | Hoogwaardige geluksboosts |
+| **Koekenpan-gerechten** | Zelfgemaakt | Ontdekken van unieke combinaties |
+| **Speciale Oorsprong** | Regionaal | Vinden van specifieke culturele smaken |
+
+<Callout type="success" title="Level Up Tip">
+Bewaar "Allergrootste Favorieten" voor wanneer een Mii bijna een level omhoog gaat of wanneer ze zich somber voelen na een relatiebreuk. Het is de meest efficiënte manier om hun humeur te herstellen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Voedselattributen en Categorieën">
+
+De modding-community heeft ontdekt dat er tientallen attribuutvlaggen zijn gekoppeld aan elk eetbaar item. Dit verklaart waarom een Mii dol kan zijn op "Brood" maar een hekel heeft aan "Toast" — de vlaggen voor "Heet" of "Krokant" kunnen de doorslaggevende factor zijn.
+
+<Checklist
+  id="food-attributes"
+  title="Veelvoorkomende Voedselattribuutvlaggen:"
+  items={[
+    "Zoet, Zout, Zuur en Pittig profielen",
+    "Temperatuurvlaggen (Heet vs Koud)",
+    "Oorsprongsvlaggen (Japans, Chinees, Westers, Amerikaans, Brits)",
+    "Ingrediënt-tags (Eieren, Vlees, Vis, Fruit, Groente)",
+    "Textuur-tags (Vettig, Noedels, Brood, Rijst)",
+    "Kwaliteits-tags (Luxe vs Vreselijk)"
+  ]}
+/>
+
+Door deze vlaggen te begrijpen, kun je reacties voorspellen. Als een Mii bijvoorbeeld slecht reageert op **Vis**, moet je vermijden ze Sushi, Sashimi of Gegrilde Vis te geven, omdat ze allemaal de "Vis" attribuutvlag delen.
+
+| Voedingsmiddel | Primaire Attributen | Secundaire Attributen |
+| :--- | :--- | :--- |
+| **Pizza** | Westers, Vettig, Brood | Kaas, Hartig |
+| **IJs** | Koud, Zoet, Zoetwaren | Zuivel |
+| **Drop** | Zoet, Vreselijk (voor sommigen) | Verworven Smaak |
+| **Ruimtevoedsel** | Vreselijk, Luxe | Wetenschappelijk |
+| **Bubble Tea** | Zoet, Koud, Aziatisch | Drank, Trendy |
+
+<Callout type="info" title="Verworven Smaken">
+Bepaalde items zoals Drop of Blauwe Kaas hebben een lagere "Basis Likability Score." Dit betekent dat zelfs als een Mii geen specifieke afkeer heeft voor de attributen, het spel geprogrammeerd is om deze items over de hele linie minder populair te maken.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Geluk Maximaliseren via Eten">
+
+Op de lange termijn is je doel met **tomodachi life eten** om het "Eten-album" te vullen en de top- en bodemvoorkeuren voor elke bewoner te identificeren. Dit helpt niet alleen bij het levelen, maar zorgt ook voor een gestage stroom inkomsten door de beloningen voor elke nieuwe ontdekking.
+
+| Strategie | Voordeel | Efficiëntie |
+| :--- | :--- | :--- |
+| **De Buffetmethode** | Geef 3-5 verschillende items in één keer | Hoog |
+| **Verzoekvervulling** | Geef alleen waar om gevraagd wordt | Maximaal |
+| **Luxe Spammen** | Alleen dure items geven | Laag (Duur) |
+| **Attribuuttesten** | Systematisch testen van categorieën | Medium |
+
+<Callout type="tip" title="Dagelijkse Routine">
+Check elke ochtend de supermarkt. De voorraad wisselt dagelijks, en door de hele inventaris op te kopen, zorg je ervoor dat je altijd het juiste "attribuut" bij de hand hebt wanneer een Mii een specifiek verzoek doet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tomodachi Life Eten FAQ">
+
+<FAQ items={[
+  {
+    question: "Kan ik het lievelingseten van een Mii veranderen door ze te verwijderen en opnieuw aan te maken?",
+    answer: "Technisch gezien wel. Als je een Mii verwijdert en opnieuw aanmaakt, krijgen ze een nieuwe interne 'seed' die hun voorkeuren opnieuw berekent. Je verliest echter al hun voortgang, levels en relaties."
+  },
+  {
+    question: "Waarom haat mijn Mii eten waar ze zelf om vroegen?",
+    answer: "Dit is zeer zeldzaam. Meestal, als een Mii om 'iets' vraagt, zullen ze het op zijn minst lekker vinden. Als ze echter om een specifiek item vragen zoals 'een banaan' en ze hebben toevallig de 'Ergste Ooit' vlag daarvoor, kan het verzoek nog steeds resulteren in een negatieve reactie, hoewel dit een extreem uitzonderingsgeval is."
+  },
+  {
+    question: "Maakt de kleur van het eten uit?",
+    answer: "Nee, er is geen bewijs in de broncode dat de kleur van het eten (bijv. 'alleen groen eten') de voorkeuren beïnvloedt. Het spel vertrouwt in plaats daarvan op attribuutvlaggen zoals 'Fruit' of 'Groente'."
+  },
+  {
+    question: "Wat is het beste eten om een Mii snel een level omhoog te laten gaan?",
+    answer: "De 'Allergrootste Favoriet' is de beste, gevolgd door 'Superlekker' items. Als je die nog niet hebt gevonden, geven luxe items zoals Kaviaar of Truffels hogere basisgelukswinsten dan gewone items zoals een Tosti."
+  }
+]} />
+
+</Section>

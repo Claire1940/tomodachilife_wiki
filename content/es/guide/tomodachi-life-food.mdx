@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Utensils, Heart, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comida en Tomodachi Life: Guía Completa de Preferencias y Alimentación 2026",
+  description: "Domina el sistema de comida de Tomodachi Life en 2026. Aprende cómo funcionan las preferencias de los Mii, descubre sus favoritos de todos los tiempos y comprende la mecánica de los atributos ocultos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Tomodachi+Life+Food+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Tomodachi"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las preferencias de **comida en Tomodachi Life** se determinan mediante una combinación de indicadores de atributos ocultos y "valores de sabor" algorítmicos.
+- Las **solicitudes de hambre** son la única forma de garantizar una reacción positiva; si un Mii pide una comida específica, siempre la disfrutará.
+- Las **aversiones universales** incluyen artículos como leche estropeada, pan mohoso y cáscaras de plátano, que casi todos los Mii detestarán.
+- Las **ganancias de felicidad** se maximizan cuando descubres los "favoritos de todos los tiempos" o los artículos "supergustados" de un Mii.
+- La **coincidencia de atributos** sugiere que los Miis a quienes no les gusta un dulce probablemente tampoco les gusten otros con la etiqueta "Confitería".
+</Callout>
+
+Alimentar a tus isleños es una de las actividades más fundamentales pero complejas del juego. El sistema de **comida en Tomodachi Life** dicta cómo crecen tus Miis, cuánto dinero ganas y cuán felices permanecen tus residentes en su escapada tropical. Cada Mii es un individuo único con un paladar que puede ir desde un sofisticado amor por las trufas hasta una extraña obsesión por los saltamontes fritos. Comprender cómo navegar estas preferencias es esencial para cualquier jugador que busque maximizar el potencial de su isla en 2026. En esta guía, desglosaremos la mecánica oculta detrás de los gustos alimentarios, las diversas categorías de artículos comestibles y las mejores estrategias para descubrir esos elusivos platos favoritos. Ya seas un jugador veterano o un recién llegado al clásico de 3DS, dominar la **comida en Tomodachi Life** es la forma más rápida de convertir tu isla en un paraíso próspero.
+
+<Section icon={Utensils} title="La mecánica oculta de la comida en Tomodachi Life">
+
+El sistema de comida en Tomodachi Life es mucho más sofisticado de lo que parece a simple vista. Aunque podría parecer que la reacción de cada Mii es puramente aleatoria, hay una compleja estructura algorítmica funcionando detrás de escena. A cada alimento en el juego se le asignan indicadores de atributos específicos que determinan cómo lo percibirá un Mii basándose en su "perfil de sabor" interno.
+
+**Puntos destacados del video:**
+- Descubre por qué el sistema de comida es considerado una de las partes más "ingeniosas" del diseño del juego.
+- Aprende sobre el experimento con Shrek y su fluctuante amor por los plátanos.
+- Comprende la diferencia entre semillas aleatorias y la carga algorítmica de preferencias.
+- Observa cómo las "solicitudes de hambre" anulan los cálculos de preferencias estándar.
+
+<YouTubeEmbed videoId="t05RACl5Jsw" title="¡El sistema de comida de Tomodachi Life es GENIAL!" />
+
+Cada alimento lleva múltiples etiquetas que el juego verifica con las preferencias ocultas de un Mii. Si un Mii tiene un modificador negativo para los alimentos "picantes", es estadísticamente más probable que reaccione mal a los Habaneros o al Curry. Sin embargo, el juego también utiliza "valores de sabor" (etiquetados A, B, C y D en el código fuente) para agregar una capa de aleatoriedad controlada, asegurando que dos Miis con perfiles similares no tengan gustos idénticos.
+
+| Categoría de atributo | Ejemplos de artículos | Reacción común |
+| :--- | :--- | :--- |
+| **Confitería** | Pastel, Chocolate, Donuts | Generalmente alta aceptación |
+| **Lujo** | Caviar, Trufas, Langosta | Enorme aumento de felicidad si gusta |
+| **Horrible** | Pan Mohoso, Leche Estropeada | Casi universalmente "Lo Peor de la Historia" |
+| **Origen: Japonés** | Sushi, Ramen, Yakisoba | Variable según el perfil del Mii |
+| **Temperatura: Frío** | Helado, Nieve Raspada | Preferido por los amantes del "Frío" |
+
+<Callout type="tip" title="Estrategia de Alimentación">
+Si un Mii pide específicamente un tipo de comida (por ejemplo, "Tengo hambre" o "Quiero algo dulce"), alimentarlo con un artículo que coincida con esa descripción producirá un resultado positivo, incluso si no es su favorito.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decodificando las preferencias alimentarias de los Mii">
+
+Cada Mii tiene una clasificación para cada alimento en el juego. Estas clasificaciones son permanentes para ese Mii específico y no se pueden cambiar reiniciando el juego una vez que se han establecido. Esto se debe a que el juego no guarda una lista masiva de cada alimento; en su lugar, utiliza una fórmula para calcular la reacción en el momento en que los alimentas.
+
+<CardGrid cols={3}>
+  <Card title="El Algoritmo">
+    Las preferencias se calculan utilizando **indicadores de atributos** como "Grasoso", "Agrio" u "Occidental". Si a un Mii le gusta un artículo de una categoría, es probable que disfrute de otros.
+  </Card>
+  <Card title="Valores de Sabor">
+    Los valores internos A, B, C y D actúan como identificadores únicos para cada Mii, asegurando que su paladar siga siendo distinto al de sus vecinos.
+  </Card>
+  <Card title="Resultados Fijos">
+    Una vez que se establece la "semilla" de un Mii durante la creación, su reacción a un alimento específico como el **Bubble Tea** o el **Café** queda grabada en piedra.
+  </Card>
+</CardGrid>
+
+Los niveles de reacción se dividen en seis niveles distintos. Saber a qué nivel pertenece un alimento te ayuda a gestionar los niveles de felicidad de tu Mii de forma eficaz.
+
+| Nivel de Reacción | Señal Visual | Impacto en la Felicidad |
+| :--- | :--- | :--- |
+| **Favorito de Todos los Tiempos** | Mii se lanza al espacio | Sube de Nivel (Barra Completa) |
+| **Super Gustado** | Mii baila de alegría | Gran aumento |
+| **Gustado** | Mii sonríe y asiente | Aumento moderado |
+| **Disgustado** | Mii mira hacia otro lado o suspira | Sin aumento / Ligera disminución |
+| **Super Disgustado** | Mii se derrite en un charco gris | Sin aumento |
+| **Lo Peor de la Historia** | Mii se convierte en un fantasma tembloroso | Caída masiva de felicidad |
+
+<Callout type="warning" title="La Paradoja del Café">
+Muchos jugadores intentan obligar a su Mii "parecido" a que le gusten sus comidas favoritas de la vida real (como el Café). Si el algoritmo interno del Mii decide que lo odia, ninguna cantidad de reinicios cambiará ese resultado.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Cómo descubrir los favoritos de todos los tiempos">
+
+Encontrar el "Favorito de Todos los Tiempos" de un Mii es el santo grial de la gestión de la **comida en Tomodachi Life**. Estos artículos proporcionan el mayor impulso al medidor de felicidad y pueden subir de nivel instantáneamente a un Mii, proporcionándote una Moneda de Plata o de Oro.
+
+<Steps>
+  <Step num="1" title="Diversifica la dieta">
+    No alimentes a tus Miis solo con artículos baratos como pan o agua. Compra regularmente nuevos productos en el Food Mart para probar diferentes indicadores de atributos.
+  </Step>
+  <Step num="2" title="Monitorea las solicitudes">
+    Cuando un Mii diga "Quiero comer algo", presta atención a la categoría. Si pide "algo picante" y le encanta el kimchi que le das, prueba otros artículos picantes a continuación.
+  </Step>
+  <Step num="3" title="Revisa la colección">
+    Usa la pestaña "Comida" en la pantalla de estado del Mii para ver lo que ya has probado. Esto evita gastar dinero en artículos que ya no les gustan.
+  </Step>
+  <Step num="4" title="Utiliza artículos especiales">
+    Los artículos obtenidos a través de flautas de pan o viajes (como especialidades regionales) a menudo tienen puntuaciones de agrado base más altas que los artículos de supermercado estándar.
+  </Step>
+</Steps>
+
+| Tipo de Comida | Rareza | Mejor Para |
+| :--- | :--- | :--- |
+| **Especiales Diarios** | Común | Pruebas masivas de preferencias |
+| **Artículos Importados** | Raro | Impulsos de felicidad de alto valor |
+| **Platos de Sartén** | Artesanal | Descubrir combinaciones únicas |
+| **Orígenes Especiales** | Regional | Encontrar gustos culturales específicos |
+
+<Callout type="success" title="Consejo para subir de nivel">
+Guarda los "Favoritos de Todos los Tiempos" para cuando un Mii esté muy cerca de subir de nivel o cuando se sienta deprimido después de una ruptura. Es la forma más eficiente de restaurar su estado de ánimo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Atributos y Categorías de Alimentos">
+
+La comunidad de modding, específicamente grupos como Tomodachi Enterprises, ha descubierto que hay docenas de indicadores de atributos adjuntos a cada artículo comestible. Esto explica por qué un Mii podría amar el "Pan" pero odiar la "Tostada": los indicadores de "Caliente" o "Crujiente" podrían ser el factor decisivo.
+
+<Checklist
+  id="food-attributes"
+  title="Indicadores de atributos de alimentos comunes:"
+  items={[
+    "Perfiles dulce, salado, agrio y picante",
+    "Indicadores de temperatura (Caliente vs Frío)",
+    "Indicadores de origen (Japonés, Chino, Occidental, Americano, Británico)",
+    "Etiquetas de ingredientes (Huevos, Carne, Pescado, Fruta, Verdura)",
+    "Etiquetas de textura (Grasoso, Fideos, Pan, Arroz)",
+    "Etiquetas de calidad (Lujo vs Horrible)"
+  ]}
+/>
+
+Al comprender estos indicadores, puedes predecir las reacciones. Por ejemplo, si un Mii reacciona mal al **Pescado**, debes evitar alimentarlo con Sushi, Sashimi o Pescado a la parrilla, ya que todos comparten el indicador de atributo "Pescado".
+
+| Artículo Alimenticio | Atributos Primarios | Atributos Secundarios |
+| :--- | :--- | :--- |
+| **Pizza** | Occidental, Grasoso, Pan | Queso, Salado |
+| **Helado** | Frío, Dulce, Confitería | Lácteo |
+| **Regaliz** | Dulce, Horrible (para algunos) | Gusto Adquirido |
+| **Comida Espacial** | Horrible, Lujo | Científico |
+| **Bubble Tea** | Dulce, Frío, Asiático | Bebida, De Moda |
+
+<Callout type="info" title="Gustos Adquiridos">
+Ciertos artículos como el regaliz o el queso azul tienen una "puntuación de agrado base" más baja. Esto significa que incluso si un Mii no tiene una aversión específica a los atributos, el juego está programado para hacer que estos artículos sean menos populares en general.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maximizando la Felicidad a través de la Comida">
+
+A largo plazo, tu objetivo con la **comida en Tomodachi Life** es completar el "Álbum de Comida" e identificar las preferencias superiores e inferiores de cada residente. Esto no solo ayuda a subir de nivel, sino que también proporciona un flujo constante de ingresos a medida que obtienes recompensas por cada nuevo descubrimiento.
+
+| Estrategia | Beneficio | Eficiencia |
+| :--- | :--- | :--- |
+| **El Método Buffet** | Alimentar con 3-5 artículos diferentes en una sola sesión | Alta |
+| **Cumplimiento de Solicitudes** | Solo alimentar lo que se pide | Máxima |
+| **Spam de Lujo** | Alimentar solo con artículos de alto costo | Baja (Cara) |
+| **Pruebas de Atributos** | Pruebas sistemáticas de categorías | Media |
+
+<Callout type="tip" title="Rutina Diaria">
+Revisa el Food Mart todas las mañanas. El stock rota diariamente, y comprar todo el inventario asegura que siempre tengas el "atributo" correcto a mano cuando un Mii haga una solicitud específica.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre la Comida en Tomodachi Life">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar la comida favorita de un Mii eliminándolo y recreándolo?",
+    answer: "Técnicamente, sí. Si eliminas un Mii y lo recreas, se le asignará una nueva 'semilla' interna que recalculará sus preferencias. Sin embargo, perderás todo su progreso, niveles y relaciones."
+  },
+  {
+    question: "¿Por qué mi Mii odia una comida que pidió?",
+    answer: "Esto es muy raro. Normalmente, si un Mii pide 'algo', al menos le gustará. Sin embargo, si pide un artículo específico como 'un plátano' y resulta que tiene el indicador de 'Lo Peor de la Historia' para él, la solicitud aún podría resultar en una reacción negativa, aunque este es un caso extremo."
+  },
+  {
+    question: "¿Importa el color de la comida?",
+    answer: "No, no hay evidencia en el código fuente de que el color de la comida (por ejemplo, 'solo comidas verdes') afecte las preferencias. El juego se basa en indicadores de atributos como 'Fruta' o 'Verdura' en su lugar."
+  },
+  {
+    question: "¿Cuál es la mejor comida para darle a un Mii para que suba de nivel rápidamente?",
+    answer: "El 'Favorito de Todos los Tiempos' es el mejor, seguido de los artículos 'Super Gustados'. Si aún no los has encontrado, los artículos de lujo como el caviar o las trufas proporcionan mayores ganancias de felicidad base que los artículos comunes como un sándwich de queso a la parrilla."
+  }
+]} />
+
+</Section>

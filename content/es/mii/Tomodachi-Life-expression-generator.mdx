@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Smile, MessageSquare, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Generador de Expresiones de Tomodachi Life: Domina las Personalidades Mii 2026",
+  description: "Aprende a usar la mecánica del generador de expresiones de Tomodachi Life para crear personalidades Mii, voces y comportamientos sociales únicos en la edición de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/fbbf24/000?text=Expression+Generator+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Tomodachi Life"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecanismo Principal**: El **generador de expresiones de Tomodachi Life** se basa en cuatro deslizadores de personalidad centrales para determinar el comportamiento de los Mii.
+- **Grupos de Personalidad**: Hay **16 tipos de personalidad distintos** categorizados en Tranquilo, Extrovertido, Independiente y Confiado.
+- **Personalización de Voz**: Afecta profundamente cómo los Mii expresan emociones e interactúan durante los eventos de la isla.
+- **Impacto Social**: Las expresiones y la personalidad dictan la **compatibilidad de amistad** y el éxito romántico.
+- **Actualización 2026**: Las nuevas características en *Living the Dream* amplían cómo reaccionan los Mii a los regalos y los interiores.
+</Callout>
+
+En el peculiar mundo de la simulación de islas, el **generador de expresiones de Tomodachi Life** sirve como el motor fundamental que da vida a tus personajes Mii. A diferencia de los simuladores de vida tradicionales donde los rasgos se eligen de una lista, este juego utiliza un sistema matizado de deslizadores y configuraciones vocales para "generar" una identidad única para cada residente. Ya sea que estés recreando a tus amigos de la vida real o a íconos ficticios, comprender cómo funcionan estas mecánicas internas de "expresión" es la clave para una isla vibrante, dramática y entretenida.
+
+A medida que avanzamos hacia 2026 con el lanzamiento de *Tomodachi Life: Living the Dream*, la complejidad de las interacciones de los Mii ha alcanzado nuevas alturas. Los jugadores ya no buscan solo resultados aleatorios; quieren dominar el "generador" para asegurar que sus Mii tengan la química social adecuada. Esta guía desglosa las matemáticas ocultas detrás de los deslizadores de personalidad, el impacto de la sintonización vocal y cómo manipular estas expresiones para desencadenar los mejores eventos de la isla, desde conciertos hilarantes hasta propuestas de matrimonio conmovedoras.
+
+<Section icon={Smile} title="El Motor de Expresión Central: Deslizadores de Personalidad">
+
+En el corazón del **generador de expresiones de Tomodachi Life** se encuentran los cuatro deslizadores principales que se encuentran en el menú de creación de Mii. Estos deslizadores no solo cambian una etiqueta de texto; alteran fundamentalmente las animaciones, la frecuencia del diálogo y las reacciones emocionales de tu Mii. Al ajustar estas cuatro variables, el juego asigna al Mii a uno de los 16 grupos de personalidad.
+
+**Puntos destacados del video:**
+- Descripción general de la nueva interfaz de *Living the Dream*.
+- Cómo la personalidad afecta los diseños de las casas Mii.
+- Demostración de los 16 tipos de personalidad en acción.
+
+<YouTubeEmbed videoId="_xY0XuGOWJs" title="Tomodachi Life: Living the Dream Overview" />
+
+La forma en que configuras estos deslizadores determina si tu Mii será el alma de la fiesta o un observador tranquilo. A continuación, se muestra un desglose de cómo el generador interpreta tus entradas:
+
+| Deslizador | Lado Izquierdo (Bajo) | Lado Derecho (Alto) | Impacto en la Expresión |
+| :--- | :--- | :--- | :--- |
+| **Movimiento** | Lento, deliberado | Rápido, enérgico | Afecta la velocidad al caminar y las animaciones de inactividad |
+| **Habla** | Educado, suave | Directo, expresivo | Cambia el sabor y la frecuencia del diálogo |
+| **Expresividad** | Estoico, plano | Variado, animado | Dicta la intensidad de la reacción facial |
+| **Actitud** | Peculiar, único | Normal, estándar | Influye en cómo el Mii aborda los problemas |
+
+<Callout type="tip" title="Consejo Profesional">
+Si intentas igualar una personalidad específica de la vida real, comienza con el deslizador de "Movimiento". Es la expresión más visible del nivel de energía de un Mii en la isla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Generando los 16 Tipos de Personalidad">
+
+Una vez que se configuran los deslizadores, el **generador de expresiones de Tomodachi Life** clasifica al Mii en una de cuatro categorías principales, cada una con cuatro subtipos específicos. Estos grupos actúan como el "ADN social" de tu isla. Saber a qué grupo pertenece un Mii te permite predecir sus comidas favoritas, su probabilidad de meterse en peleas e incluso su éxito en el minijuego *Tomodachi Quest*.
+
+| Grupo Principal | Subtipos | Tono General de Expresión | Mejor Compatibilidad Social |
+| :--- | :--- | :--- | :--- |
+| **Tranquilo** | Blandengue, Optimista, Amigo, Soñador | Relajado, amable, empático | Tipos Extrovertidos |
+| **Extrovertido** | Creador de Tendencias, Animador, Encantador, Líder | Social, enérgico, audaz | Tipos Tranquilos |
+| **Independiente** | Espíritu Libre, Artista, Lobo Solitario, Pensador | Autosuficiente, privado | Tipos Confiados |
+| **Confiado** | Diseñador, Aventurero, Cerebrito, Emprendedor | Impulsado, enfocado, ambicioso | Tipos Independientes |
+
+<CardGrid cols={2}>
+  <Card title="El Grupo Tranquilo">
+    Los Mii de este grupo son los pacificadores. Rara vez inician discusiones y son los más fáciles de complacer con regalos. Expresan felicidad a través de suaves sonrisas y diálogos de apoyo.
+  </Card>
+  <Card title="El Grupo Extrovertido">
+    Estos Mii son los principales impulsores del drama en la isla. Son más propensos a confesar su amor temprano y a participar en eventos comunitarios como la barbacoa o el Mercado Matutino.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Compatibilidad">
+Dos Mii del grupo "Independiente" pueden tener dificultades para formar lazos profundos al principio. La lógica del generador a menudo favorece que "los opuestos se atraen" para la estabilidad romántica.
+</Callout>
+
+</Section>
+
+<Section icon={MessageSquare} title="Síntesis Vocal y Patrones de Habla">
+
+La "expresión" de un Mii no es solo visual, sino también auditiva. El **generador de expresiones de Tomodachi Life** incluye una sólida herramienta de síntesis de voz que te permite ajustar cómo suena un Mii. En la edición *Living the Dream* de 2026, el rango vocal se ha ampliado para admitir inflexiones más naturales en 10 idiomas diferentes.
+
+<Steps>
+  <Step num="1" title="Ajusta el Tono y la Velocidad">
+    Ajusta los ejes vertical y horizontal para encontrar el tono base. Un tono más alto a menudo se adapta a los Mii "Tranquilos", mientras que los tonos más bajos y lentos se adaptan a los tipos "Pensador" o "Lobo Solitario".
+  </Step>
+  <Step num="2" title="Afina la Calidad">
+    Usa el deslizador de "Calidad" para que la voz suene más robótica o más humana. Esto cambia drásticamente la "expresión" de sus frases pegadizas.
+  </Step>
+  <Step num="3" title="Asigna Frases Pegadizas">
+    Una vez que la voz está configurada, dale a tu Mii una frase pegadiza característica. Esta frase se generará durante hitos de felicidad específicos y subidas de nivel.
+  </Step>
+</Steps>
+
+| Variable de Voz | Rango | Efecto en la Expresión Mii |
+| :--- | :--- | :--- |
+| **Tono** | Grave a Agudo | Determina la "edad" y la "onda" de la voz |
+| **Velocidad** | Lenta a Rápida | Afecta la rapidez con la que habla el Mii durante los eventos |
+| **Entonación** | Plana a Expresiva | Agrega "emoción" al habla sintetizada |
+| **Acento** | Regional | Cambia las reglas de pronunciación según la configuración de idioma |
+
+<Callout type="success" title="Consejo de Éxito">
+Darle a un Mii una configuración de deslizador de "Alta Expresividad" combinada con una configuración de voz de "Tono Alto" resulta en las reacciones más hilarantes y exageradas durante los segmentos de noticias del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Expresiones Sociales: Relaciones y Romance">
+
+La prueba definitiva del **generador de expresiones de Tomodachi Life** es cómo interactúan los Mii entre sí. El juego utiliza una lógica oculta de "Probador de Compatibilidad" que compara grupos de personalidad y fechas de nacimiento para pronosticar cómo evolucionará una relación. Las expresiones de amor, amistad e incluso rivalidad se generan en función de estas estadísticas subyacentes.
+
+<Checklist
+  id="relationship-milestones"
+  title="Expresiones Sociales Clave a Observar:"
+  items={[
+    "La burbuja naranja de 'Amor': Indica que un Mii está listo para confesar sus sentimientos.",
+    "La burbuja oscura de 'Amistad': Muestra que un Mii quiere presentar a otros dos.",
+    "La burbuja azul de 'Tristeza': Ocurre después de una expresión rechazada o una ruptura.",
+    "El minijuego de propuesta de 'Matrimonio': La prueba definitiva de la química Mii."
+  ]}
+/>
+
+| Estado de la Relación | Expresión Visual | Impulso Requerido |
+| :--- | :--- | :--- |
+| **Gran Amigo** | Estado verde, visitas frecuentes | Alta alineación de personalidad |
+| **Amor** | Estado rosa, iconos de corazón | Evento de confesión exitoso |
+| **Alma Gemela** | Estado verde oscuro, casas Mii | Estabilidad post-boda |
+| **Ex-Cónyuge** | Estado morado, evitación | Reconciliación fallida después del divorcio |
+
+<Callout type="info" title="Actualización 2026">
+En *Living the Dream*, los Mii ahora pueden expresar el estado de "Mejor Amigo" (BFF) más claramente con animaciones conjuntas únicas en el Parque de Atracciones y la Cafetería.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desbloqueando Expresiones Avanzadas">
+
+A medida que juegas, puedes expandir el "vocabulario" de las expresiones de tu Mii desbloqueando nuevos objetos e instalaciones. El **generador de expresiones de Tomodachi Life** no es estático; crece a medida que la isla se desarrolla.
+
+1.  **Sala de Conciertos**: Desbloquéala dándole una "Canción" a un Mii después de que suba de nivel. Esto les permite expresarse a través de varios géneros musicales como Rock, Pop u Ópera.
+2.  **Regalos**: Objetos como la Wii U, la Máquina de Coser o la Cámara Desechable desbloquean nuevas animaciones de "expresión" inactiva en el apartamento del Mii.
+3.  **Interiores**: La habitación de un Mii es una expresión estática de su personalidad. Combinar un Mii "Artista" con un interior "Creativo" aumenta su tasa de generación de felicidad.
+
+| Instalación Desbloqueable | Requisito | Beneficio de Expresión |
+| :--- | :--- | :--- |
+| **Torre de Observación** | Dar un regalo a un Mii subido de nivel | Permite expresiones de "Gritar" |
+| **Probador de Compatibilidad** | 2 hombres, 2 mujeres, 30 problemas | Pronostica expresiones sociales |
+| **Noticias Mii** | 7 residentes (género mixto) | Genera informes de eventos en toda la isla |
+| **Parque** | Primera confesión de amor | Desbloquea escenas sociales de "Frisbee" y "Barbacoa" |
+
+<Callout type="tip" title="Consejo de Estrategia">
+Ten siempre un "Boleto de Viaje" en tu inventario. Usarlo en una pareja con un estado de relación bajo es la forma más rápida de "generar" un reinicio de estado positivo y evitar una ruptura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre las Expresiones de Tomodachi Life">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar la personalidad de un Mii después de crearlo?",
+    answer: "Sí. Puedes visitar el Ayuntamiento o seleccionar al Mii en su apartamento para ajustar sus deslizadores. Sin embargo, cambiar su personalidad puede restablecer sus puntuaciones de compatibilidad de relación actuales."
+  },
+  {
+    question: "¿Cómo afecta el generador de expresiones de Tomodachi Life a los bebés?",
+    answer: "Cuando una pareja casada tiene un bebé, la personalidad del niño se genera a partir de una mezcla de los deslizadores de los padres. Puedes elegir heredar los rasgos del padre, de la madre o un conjunto de rasgos completamente aleatorio."
+  },
+  {
+    question: "¿Por qué mi Mii sigue haciendo la cara de 'Peor de la historia'?",
+    answer: "Esta es una expresión específica que se activa al darle su comida 'Peor de la historia'. Cada Mii tiene una preferencia alimentaria única generada al nacer que causa una reacción negativa extrema."
+  },
+  {
+    question: "¿La versión de Switch de 2026 tiene más tipos de personalidad?",
+    answer: "Aunque los 16 grupos de personalidad principales siguen siendo los mismos por razones de compatibilidad, la edición 'Living the Dream' añade cientos de nuevas líneas de diálogo y animaciones para que esos grupos se sientan más distintos."
+  }
+]} />
+
+</Section>

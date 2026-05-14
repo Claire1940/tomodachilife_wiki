@@ -1,0 +1,132 @@
+import { Map, Users, Heart, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life: ¿Cuántos habitantes se pueden tener? Guía de la Isla 2026",
+  description: "Descubre todo sobre la capacidad de habitantes en Tomodachi Life, cómo llenar tu isla y gestionar eficientemente las relaciones Mii.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d9bf0/fff?text=Tomodachi+Life+Population+Guide",
+  date: "2026-05-11",
+  author: "Equipo Wiki de Tomodachi Life"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Tomodachi Life ¿cuántos habitantes se pueden tener?**: Tu isla tiene espacio para hasta **100 personajes Mii**.
+- **Crecimiento de la población**: Los nuevos residentes Mii pueden crearse manualmente o **importarse mediante código QR**.
+- **Dinámica de la isla**: Una mayor población aumenta la probabilidad de **amistades, romances y eventos diarios**.
+- **Importante**: Una vez alcanzado el límite, los residentes deben ser eliminados para hacer espacio a nuevos personajes.
+</Callout>
+
+Gestionar tu isla es el corazón de Tomodachi Life. Si te preguntas, **Tomodachi Life ¿cuántos habitantes se pueden tener?**, no estás solo; muchos jugadores quieren que su isla sea lo más animada posible. La capacidad oficial es de 100 personajes Mii que pueden vivir en los apartamentos Mii. Alcanzar este límite cambia significativamente la experiencia de juego, ya que las interacciones sociales entre los residentes aumentan exponencialmente. En esta guía, aprenderás cómo poblar tu isla de manera óptima, el papel que juega la importación de códigos QR y cómo sacar el máximo provecho de tu isla de 100 Miis para construir una comunidad vibrante que crece con cada nuevo residente.
+
+<Section icon={Users} title="Capacidad de Habitantes y Gestión de Límites">
+
+La capacidad máxima de 100 residentes es un valor fijo en el juego. Una vez que alcanzas este límite, no puedes añadir nuevos Miis sin antes eliminar a un residente existente. Esto requiere una planificación estratégica, especialmente si deseas construir una isla temática (por ejemplo, personajes de anime o celebridades).
+
+<CardGrid cols={2}>
+  <Card title="Límites de Población">
+    - Máximo **100 residentes** por isla.
+    - Los residentes pueden ser eliminados en cualquier momento.
+    - Los Miis eliminados no dejan datos permanentes.
+  </Card>
+  <Card title="Consejos de Crecimiento">
+    - Empieza con una mezcla equilibrada.
+    - Usa códigos QR para un llenado rápido.
+    - Guarda espacio para bebés y viajeros.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Profesional">
+Antes de eliminar a un residente, asegúrate de que no tenga relaciones importantes (cónyuges o mejores amigos), ya que esto puede afectar negativamente el estado de ánimo de tu isla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Importación de Miis y Crecimiento de la Población">
+
+La forma más sencilla de alcanzar el límite de 100 habitantes es importar Miis. Dado que la creación manual lleva mucho tiempo, el uso de códigos QR es un método eficiente para llenar tu isla rápidamente.
+
+<Steps>
+  <Step num="1" title="Abrir Mii Maker">
+    Inicia Mii Maker en tu consola y selecciona el escáner de códigos QR.
+  </Step>
+  <Step num="2" title="Escanear Código QR">
+    Dirige la cámara al código QR deseado para importar el Mii.
+  </Step>
+  <Step num="3" title="Integrar en Tomodachi Life">
+    Ve al ayuntamiento en el juego, selecciona "Nuevo Mii" e importa el personaje guardado.
+  </Step>
+  <Step num="4" title="Personalizar Perfil">
+    Después de la importación, establece la edad, personalidad y relación con otros residentes.
+  </Step>
+</Steps>
+
+| Método | Ventajas | Desventajas |
+| :--- | :--- | :--- |
+| **Creación Manual** | Control total sobre el diseño | Muy lento |
+| **Importación de Código QR** | Extremadamente rápido | Depende de los códigos disponibles |
+| **Tener Bebés** | Combinaciones de personalidad únicas | Tarda 6 días en alcanzar la mayoría de edad |
+
+</Section>
+
+<Section icon={Heart} title="Dinámica Social con 100 Residentes">
+
+Con una alta población, la complejidad de tu isla aumenta. Las relaciones se desarrollan de forma más orgánica, y experimentarás más confesiones, bodas y solicitudes de bebés. La interacción entre 100 residentes crea una vida isleña dinámica y casi impredecible.
+
+<Callout type="warning" title="Gestión de Relaciones">
+Con 100 residentes, puede ser difícil mantener un registro de todas las amistades y relaciones amorosas. Utiliza regularmente la función de prueba de compatibilidad para ver qué Miis se llevan bien.
+</Callout>
+
+| Estado de Relación | Frecuencia con 100 Residentes | Impacto |
+| :--- | :--- | :--- |
+| **Amistad** | Muy alta | Aumenta los eventos diarios |
+| **Romance** | Medio | Lleva a matrimonios |
+| **Conflicto** | Alto | Requiere mediación constante |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa si tengo 100 habitantes?",
+    answer: "Alcanzas la capacidad máxima. No podrás añadir nuevos Miis hasta que hagas espacio eliminando a un residente."
+  },
+  {
+    question: "¿Cuentan los bebés para la población?",
+    answer: "Sí, una vez que un niño es adulto y permanece como residente en la isla, cuenta para el límite de 100 personas."
+  },
+  {
+    question: "¿Puedo transferir residentes?",
+    answer: "Los residentes pueden ser enviados como viajeros a otras islas, pero ya no ocupan un lugar fijo en tu isla mientras están de viaje."
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="Consejos para una Comunidad Isleña Saludable">
+
+Para sacar el máximo provecho de la población de tu isla, no solo debes prestar atención a la cantidad, sino también a la calidad de los residentes. Una buena mezcla de diferentes tipos de personalidad fomenta una dinámica social diversa.
+
+<Checklist
+  id="island-optimization"
+  title="Lista de Verificación de Optimización:"
+  items={[
+    "Interacción regular con los 100 residentes",
+    "Distribución equilibrada de géneros para promover matrimonios",
+    "Diversidad de tipos de personalidad para diálogos variados",
+    "Revisión regular de los niveles de relación",
+    "Uso activo de regalos para mejorar el estado de ánimo"
+  ]}
+/>
+
+<Callout type="success" title="Conclusión">
+Aunque la pregunta "¿Tomodachi Life cuántos habitantes se pueden tener?" se responde con 100, el verdadero encanto reside en guiar a esos 100 individuos para que tu isla se convierta en un lugar vibrante y humorístico.
+</Callout>
+
+</Section>
