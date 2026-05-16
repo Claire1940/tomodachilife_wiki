@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Terminal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "tomodachi life github: 2026년 완벽한 PC 에뮬레이션 가이드",
+  description: "Ryujinx를 사용하여 PC에서 Tomodachi Life: Living the Dream을 설정하는 방법을 알아보세요. tomodachi life github 자료, 에뮬레이터 설정 및 성능 팁을 탐색하세요.",
+  category: "튜토리얼",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+PC+Setup",
+  date: "2026-05-16",
+  author: "토모다치 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **주요 키워드**: 현대 에뮬레이션의 첫 단계는 **tomodachi life github** 리소스에 접근하는 것입니다.
+- **에뮬레이터 선택**: 최신 모드와의 최상의 호환성을 위해 **Ryujinx Canary** 빌드를 사용하세요.
+- **주요 파일**: **Prod Keys**, **Title Keys**, **펌웨어**(v20.5.0 권장)를 직접 제공해야 합니다.
+- **그래픽 API**: 최신 NVIDIA 및 AMD 하드웨어에서 뛰어난 성능을 위해 항상 **Vulkan**을 선택하세요.
+- **모드 지원**: "Living the Dream" 에디션은 기본 게임보다 확장된 경험을 제공합니다.
+</Callout>
+
+Tomodachi Life는 출시된 사회 시뮬레이션 게임 중 가장 독특한 게임 중 하나로 남아 있으며, 2026년에는 커뮤니티가 그 한계를 그 어느 때보다 더 밀어붙였습니다. 많은 플레이어들이 최신 에뮬레이터 빌드, 호환성 레이어, 그리고 "Living the Dream"과 같은 커뮤니티 주도 모드를 찾기 위해 **tomodachi life github** 저장소를 찾고 있습니다. 이 가이드는 PC에서 이 경험을 설정하는 복잡한 과정을 탐색하는 데 도움이 되도록 고안되었습니다. 오랜 팬이든 Mii들이 최고의 삶을 사는 것을 보고 싶은 초보자이든, 기술적 요구 사항을 이해하는 것이 필수적입니다.
+
+Ryujinx와 같은 최신 에뮬레이터의 강력한 기능을 활용하면 향상된 해상도, 안정적인 프레임 속도, 맞춤형 콘텐츠로 이 고전을 경험할 수 있습니다. 초기 파일 획득부터 고급 그래픽 최적화까지 모든 것을 다룰 것입니다. 이 **tomodachi life github** 가이드는 이전 에뮬레이션 시도를 괴롭혔던 일반적인 충돌이나 그래픽 결함 없이 가상 섬이 원활하게 실행되도록 보장합니다. 데스크톱에서 섬을 실행하는 데 필요한 특정 단계를 살펴보겠습니다.
+
+<Section icon={Terminal} title="사전 요구 사항 및 tomodachi life github 리소스">
+
+설치 프로세스를 시작하기 전에 필요한 소프트웨어 구성 요소를 수집해야 합니다. 에뮬레이션 커뮤니티는 이러한 도구를 자주 업데이트하므로, 가장 안정적인 버전을 얻으려면 Ryujinx 및 관련 모드의 **tomodachi life github** 페이지를 확인하는 것이 중요합니다.
+
+**비디오 하이라이트:**
+- 모드 호환성을 위한 올바른 **Ryujinx Canary** 빌드 식별.
+- 키 및 펌웨어 설치를 위한 시스템 폴더 찾기.
+- XCI 및 NSP 파일용 게임 디렉토리 설정.
+- 최적화된 GPU 사용을 위한 Vulkan 백엔드 구성.
+
+<YouTubeEmbed videoId="8bPtK2EafF0" title="PC에서 Tomodachi Life: Living The Dream 플레이 방법 [Ryujinx]" />
+
+| 구성 요소 | 최소 요구 사항 | 권장 |
+| :--- | :--- | :--- |
+| **에뮬레이터** | Ryujinx Canary 1.3.26 | 최신 Canary 빌드 |
+| **펌웨어** | 버전 15.0.0 | 버전 20.5.0 이상 |
+| **그래픽 API** | OpenGL 4.5 | Vulkan |
+| **RAM** | 8 GB | 16 GB |
+| **저장 공간** | 5 GB SSD 공간 | 10 GB SSD 공간 |
+
+<Callout type="warning" title="법적 고지">
+자신의 키, 펌웨어 및 게임 파일을 합법적으로 덤프하려면 게임의 실제 복사본과 해킹된 콘솔을 소유해야 합니다. 승인되지 않은 출처에서 다운로드하는 것은 공식 개발자들에 의해 지원되지 않습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="설치 및 초기 설정">
+
+에뮬레이터를 설정하려면 특히 시스템 파일과 관련하여 정밀함이 필요합니다. 키 또는 펌웨어가 일치하지 않으면 게임이 부팅되지 않거나 "키를 찾을 수 없음" 오류가 표시됩니다. 깨끗한 설치를 위해 다음 단계를 따르세요.
+
+<Steps>
+  <Step num="1" title="Ryujinx Canary 다운로드">
+    공식 사이트 또는 **tomodachi life github** 릴리스 페이지를 방문하여 Ryujinx Canary 빌드를 다운로드하세요. "publish" 폴더를 데스크톱에 추출하고 쉽게 접근할 수 있도록 이름을 변경하세요. 실행 파일을 실행하고 초기 "키를 찾을 수 없음" 경고는 무시하세요.
+  </Step>
+  <Step num="2" title="Prod 및 Title 키 설치">
+    `파일 > Ryujinx 폴더 열기`로 이동하세요. `system` 디렉토리로 이동하세요. 여기에 `prod.keys` 및 `title.keys` 파일을 붙여넣으세요. 변경 사항을 적용하려면 에뮬레이터를 다시 시작하세요. 오류 메시지는 사라져야 합니다.
+  </Step>
+  <Step num="3" title="시스템 펌웨어 플래시">
+    `도구 > 펌웨어 설치`로 이동하세요. "XCI 또는 ZIP에서 설치"를 선택하고 펌웨어 파일(예: v20.5.0)을 선택하세요. 설치를 확인하세요. Ryujinx는 이제 오른쪽 하단 모서리에 시스템 버전을 표시할 것입니다.
+  </Step>
+  <Step num="4" title="게임 디렉토리 매핑">
+    `옵션 > 설정`에서 "게임 디렉토리" 탭으로 이동하세요. "추가"를 클릭하고 Tomodachi Life XCI 또는 NSP 파일이 저장된 폴더를 선택하세요. 해당되는 경우 "업데이트 및 DLC" 폴더에 대해서도 동일하게 수행하세요.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="전문가 팁">
+듀얼 그래픽이 있는 노트북을 사용하는 경우, Windows 디스플레이 설정에서 Ryujinx가 통합 Intel/AMD 그래픽 대신 "고성능" GPU(NVIDIA/AMD)를 사용하도록 설정되어 있는지 확인하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="그래픽 및 CPU 설정 최적화">
+
+Tomodachi Life에서 최고의 시각적 충실도를 얻으려면 그래픽 및 CPU 매개변수를 조정해야 합니다. 기본 게임은 낮은 해상도를 위해 설계되었지만, Ryujinx는 상당한 확장을 허용합니다.
+
+<CardGrid cols={3}>
+  <Card title="Vulkan 백엔드">
+    - **뛰어난 성능**: 끊김 현상 감소.
+    - **셰이더 캐싱**: 초기 로드 시간 단축.
+    - **하드웨어 지원**: 최신 GPU에 최적.
+  </Card>
+  <Card title="해상도 스케일링">
+    - **2배 기본**: 선명한 1440p와 같은 비주얼.
+    - **SMAA Ultra**: 들쭉날쭉한 가장자리를 부드럽게.
+    - **비등방성**: 더 나은 텍스처를 위해 16배.
+  </Card>
+  <Card title="터보 모드">
+    - **200% 속도**: 느린 대화 가속.
+    - **PPTC 활성화**: 안정성에 필수적.
+    - **저전력 모드**: 구형 노트북용.
+  </Card>
+</CardGrid>
+
+| 설정 | 값 | 영향 |
+| :--- | :--- | :--- |
+| **그래픽 백엔드** | Vulkan | 고성능, 적은 지연 |
+| **해상도 스케일** | 2배 (1440p) | 상당한 시각적 업그레이드 |
+| **안티앨리어싱** | SMAA Ultra | 픽셀화된 가장자리 제거 |
+| **VSync** | 활성화됨 | 화면 찢어짐 방지 |
+| **비등방성 필터링** | 16배 | 더 선명한 원거리 텍스처 |
+
+<Callout type="info" title="셰이더 캐시 경고">
+첫 15분 동안 약간의 지연이 발생할 수 있습니다. 이는 에뮬레이터가 셰이더 캐시를 빌드하는 동안 정상적인 현상입니다. 캐시가 채워지면 성능은 완벽하게 부드러워집니다.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="컨트롤러 구성 및 입력">
+
+Tomodachi Life: Living the Dream은 다양한 입력 방법을 지원합니다. 원본 게임은 터치 컨트롤을 사용했지만, 에뮬레이터는 이를 전통적인 컨트롤러 또는 마우스 입력에 효과적으로 매핑합니다.
+
+| 컨트롤러 유형 | 권장 모드 | 최적 |
+| :--- | :--- | :--- |
+| **Xbox 컨트롤러** | Pro 컨트롤러 | 일반 게임 플레이 및 메뉴 |
+| **DualSense (PS5)** | Pro 컨트롤러 | 모션 감지 미니 게임 |
+| **Joy-Con 페어** | Joy-Con 페어 | 정통 스위치와 같은 느낌 |
+| **마우스/키보드** | 핸드헬드 모드 | 터치스크린 에뮬레이션 |
+
+<Callout type="success" title="입력 설정">
+대부분의 최신 컨트롤러는 "즉시" 작동합니다. 입력 설정에서 "새로 고침"을 누르고 장치를 선택한 다음 프로필을 저장하기만 하면 됩니다. 컨트롤러가 지원하는 경우 "럼블" 및 "모션"을 활성화할 수도 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="완벽한 섬을 위한 체크리스트">
+
+**tomodachi life github** 설정이 완료되면 이 체크리스트를 사용하여 "Living the Dream" 에디션에 대한 중요한 최적화를 놓치지 않았는지 확인하세요.
+
+<Checklist
+  id="setup-verification"
+  title="최종 설정 체크리스트:"
+  items={[
+    "Ryujinx Canary 빌드가 1.3.26 이상인지 확인",
+    "펌웨어 20.5.0이 성공적으로 설치되었는지 확인",
+    "그래픽 백엔드를 2배 스케일링으로 Vulkan으로 설정",
+    "더 빠른 부팅 시간을 위해 CPU 설정에서 PPTC 활성화",
+    "컨트롤러 프로필 구성 및 럼블/모션 테스트",
+    "DLC 및 업데이트 폴더를 게임 디렉토리에 추가"
+  ]}
+/>
+
+<Callout type="warning" title="충돌 방지">
+부팅 화면에서 게임이 충돌하면 **Canary** 빌드를 사용하고 있는지 다시 확인하세요. Ryujinx의 표준 빌드에는 "Living the Dream" 모드에 필요한 특정 수정 사항이 없는 경우가 많습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "공식 빌드 대신 tomodachi life github 리소스를 사용해야 하는 이유는 무엇인가요?",
+    answer: "tomodachi life github 커뮤니티는 공식 채널을 통해 제공되지 않는 'Living the Dream'과 같은 특수 빌드 및 모드를 제공합니다. 여기에는 특정 게임 버그에 대한 호환성 수정 사항이 포함되는 경우가 많습니다."
+  },
+  {
+    question: "실제 콘솔의 저장 파일을 에뮬레이터로 전송할 수 있나요?",
+    answer: "예, 홈브루된 콘솔에서 저장 데이터를 내보내 Ryujinx 저장 디렉토리에 배치할 수 있습니다. Ryujinx에서 게임을 마우스 오른쪽 버튼으로 클릭하고 '사용자 저장 디렉토리 열기'를 선택하여 위치를 찾으세요."
+  },
+  {
+    question: "PC에서 게임이 멀티플레이어를 지원하나요?",
+    answer: "에뮬레이터는 LDN(Local Desktop Network)을 통해 로컬 무선 기능을 지원합니다. 친구들과 온라인으로 플레이하기 위한 특정 LDN 빌드는 Ryujinx Discord 또는 github에서 확인할 수 있습니다."
+  },
+  {
+    question: "Mii 얼굴이 사라지면 어떻게 해야 하나요?",
+    answer: "이것은 일반적으로 펌웨어 누락 또는 오래된 그래픽 드라이버로 인해 발생합니다. 최신 펌웨어(v20.5.0)가 설치되어 있고 Vulkan 백엔드를 사용하고 있는지 확인하세요."
+  }
+]} />
+
+<Callout type="tip" title="커뮤니티 지원">
+이 가이드에서 다루지 않는 고유한 오류가 발생하면 Ryujinx Discord 및 **tomodachi life github** 이슈 페이지가 개발자에게 기술 지원을 요청하기에 좋은 곳입니다.
+</Callout>
+
+</Section>

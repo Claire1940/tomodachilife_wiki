@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Terminal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "tomodachi life github: 2026年完全PCエミュレーションガイド",
+  description: "Ryujinxを使用してPCでトモダチライフ：リビング・ザ・ドリームを設定する方法を学びましょう。tomodachi life githubリソース、エミュレータ設定、パフォーマンスのヒントを探ります。",
+  category: "チュートリアル",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+PC+Setup",
+  date: "2026-05-16",
+  author: "トモダチWikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**: 現代のエミュレーションの最初のステップは、**tomodachi life github**リソースへのアクセスです。
+- **エミュレータの選択**: 最新のMODとの互換性を最大限に高めるには、**Ryujinx Canary**ビルドを使用してください。
+- **重要なファイル**: 独自の**Prod Keys**、**Title Keys**、および**Firmware**（v20.5.0推奨）を提供する必要があります。
+- **グラフィックスAPI**: 最新のNVIDIAおよびAMDハードウェアで優れたパフォーマンスを得るには、常に**Vulkan**を選択してください。
+- **MODサポート**: 「リビング・ザ・ドリーム」エディションは、ベースゲームよりも拡張された体験を提供します。
+</Callout>
+
+トモダチライフは、これまでにリリースされたソーシャルシミュレーションゲームの中で最もユニークな作品の一つであり、2026年にはコミュニティがその境界をこれまで以上に押し広げました。多くのプレイヤーは、最新のエミュレータビルド、互換性レイヤー、そして「リビング・ザ・ドリーム」のようなコミュニティ主導のMODを見つけるために、**tomodachi life github**リポジトリに注目しています。このガイドは、PCでこの体験をセットアップする複雑さを乗り越えるのに役立つように設計されています。長年のファンであろうと、Miiが最高の生活を送るのを見たい初心者であろうと、技術的な要件を理解することは不可欠です。
+
+Ryujinxのような最新のエミュレータの力を活用することで、このクラシックを強化された解像度、安定したフレームレート、カスタマイズされたコンテンツで体験できます。初期のファイル取得から高度なグラフィック最適化まで、すべてをカバーします。この**tomodachi life github**ガイドは、以前のエミュレーション試行を悩ませた一般的なクラッシュやグラフィックの不具合なしに、仮想の島がスムーズに動作することを保証します。デスクトップで島を稼働させるために必要な具体的な手順を見ていきましょう。
+
+<Section icon={Terminal} title="前提条件と tomodachi life github リソース">
+
+インストールプロセスを開始する前に、必要なソフトウェアコンポーネントを収集する必要があります。エミュレーションコミュニティはこれらのツールを頻繁に更新するため、Ryujinxおよび関連MODの**tomodachi life github**ページをチェックして、最も安定したバージョンを入手することが不可欠です。
+
+**ビデオのハイライト:**
+- MODの互換性に適した**Ryujinx Canary**ビルドの特定。
+- キーとファームウェアのインストールのためのシステムフォルダの特定。
+- XCIおよびNSPファイル用のゲームディレクトリの設定。
+- 最適化されたGPU使用のためのVulkanバックエンドの構成。
+
+<YouTubeEmbed videoId="8bPtK2EafF0" title="How To Play Tomodachi Life: Living The Dream on PC [Ryujinx]" />
+
+| コンポーネント | 最小要件 | 推奨 |
+| :--- | :--- | :--- |
+| **エミュレータ** | Ryujinx Canary 1.3.26 | 最新のCanaryビルド |
+| **ファームウェア** | バージョン 15.0.0 | バージョン 20.5.0以降 |
+| **グラフィックスAPI** | OpenGL 4.5 | Vulkan |
+| **RAM** | 8 GB | 16 GB |
+| **ストレージ** | 5 GB SSDスペース | 10 GB SSDスペース |
+
+<Callout type="warning" title="法的通知">
+ゲームの物理的なコピーとハッキングされたコンソールを所有している必要があります。これらを不正なソースからダウンロードすることは、公式開発者によってサポートされていません。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="インストールと初期設定">
+
+エミュレータのセットアップには、特にシステムファイルに関して正確さが必要です。キーまたはファームウェアが一致しない場合、ゲームは起動に失敗するか、「Keys not found」エラーが表示されます。クリーンなインストールを確実にするために、以下の手順に従ってください。
+
+<Steps>
+  <Step num="1" title="Ryujinx Canaryをダウンロード">
+    公式サイトまたは**tomodachi life github**のリリースページにアクセスして、Ryujinx Canaryビルドをダウンロードします。「publish」フォルダをデスクトップに抽出し、アクセスしやすいように名前を変更します。実行可能ファイルを実行し、最初の「Keys not found」警告は無視してください。
+  </Step>
+  <Step num="2" title="ProdおよびTitle Keysをインストール">
+    `File > Open Ryujinx Folder`に移動します。`system`ディレクトリに入ります。ここに`prod.keys`と`title.keys`ファイルを貼り付けます。エミュレータを再起動して変更を適用すると、エラーメッセージは消えるはずです。
+  </Step>
+  <Step num="3" title="システムファームウェアをフラッシュ">
+    `Tools > Install Firmware`に移動します。「Install from XCI or ZIP」を選択し、ファームウェアファイル（例：v20.5.0）を選択します。インストールを確認します。Ryujinxは右下隅にシステムバージョンを表示するようになります。
+  </Step>
+  <Step num="4" title="ゲームディレクトリをマッピング">
+    `Options > Settings`で、「Game Directories」タブに移動します。「Add」をクリックし、トモダチライフのXCIまたはNSPファイルが保存されているフォルダを選択します。該当する場合は、「Updates and DLC」フォルダについても同様に行います。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="プロのヒント">
+デュアルグラフィックスを搭載したノートパソコンを使用している場合は、Ryujinxが統合型Intel/AMDグラフィックスではなく、Windowsのディスプレイ設定で「ハイパフォーマンス」GPU（NVIDIA/AMD）を使用するように設定されていることを確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="グラフィックスとCPU設定の最適化">
+
+トモダチライフで最高の視覚忠実度を実現するには、グラフィックスとCPUのパラメータを調整する必要があります。ベースゲームは低解像度向けに設計されていましたが、Ryujinxでは大幅なスケーリングが可能です。
+
+<CardGrid cols={3}>
+  <Card title="Vulkanバックエンド">
+    - **優れたパフォーマンス**: カクつきを軽減。
+    - **シェーダーキャッシュ**: 初回ロード時間を短縮。
+    - **ハードウェアサポート**: 最新のGPUに最適。
+  </Card>
+  <Card title="解像度スケーリング">
+    - **2xネイティブ**: 鮮明な1440pのようなビジュアル。
+    - **SMAA Ultra**: ギザギザのエッジを滑らかに。
+    - **異方性フィルタリング**: テクスチャを改善するために16x。
+  </Card>
+  <Card title="ターボモード">
+    - **200%スピード**: 遅い会話を高速化。
+    - **PPTC有効**: 安定性には不可欠。
+    - **低電力モード**: 古いノートパソコン向け。
+  </Card>
+</CardGrid>
+
+| 設定 | 値 | 影響 |
+| :--- | :--- | :--- |
+| **グラフィックスバックエンド** | Vulkan | 高性能、ラグが少ない |
+| **解像度スケール** | 2倍 (1440p) | 視覚的な大幅なアップグレード |
+| **アンチエイリアシング** | SMAA Ultra | ピクセル化されたエッジを除去 |
+| **VSync** | 有効 | 画面のティアリングを防止 |
+| **異方性フィルタリング** | 16x | 遠景のテクスチャをシャープに |
+
+<Callout type="info" title="シェーダーキャッシュの警告">
+ゲームプレイの最初の15分間は、わずかなラグスパイクが発生する可能性があります。これはエミュレータがシェーダーキャッシュを構築する際に通常発生する現象です。キャッシュが満たされると、パフォーマンスは完全にスムーズになります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="コントローラー設定と入力">
+
+トモダチライフ：リビング・ザ・ドリームは、さまざまな入力方法をサポートしています。元のゲームはタッチコントロールを利用していましたが、エミュレータはこれらを従来のコントローラーまたはマウス入力に効果的にマッピングします。
+
+| コントローラーの種類 | 推奨モード | 最適な用途 |
+| :--- | :--- | :--- |
+| **Xboxコントローラー** | Proコントローラー | 一般的なゲームプレイとメニュー |
+| **DualSense (PS5)** | Proコントローラー | モーションセンサーミニゲーム |
+| **Joy-Conペア** | Joy-Conペア | 本物のSwitchのような感触 |
+| **マウス/キーボード** | ハンドヘルドモード | タッチスクリーンエミュレーション |
+
+<Callout type="success" title="入力設定">
+ほとんどの最新のコントローラーは「すぐに使えます」。入力設定で「更新」を押し、デバイスを選択してプロファイルを保存するだけです。コントローラーがサポートしている場合は、「振動」と「モーション」を有効にすることもできます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="完璧な島のためのチェックリスト">
+
+**tomodachi life github**のセットアップが完了したら、このチェックリストを使用して、「リビング・ザ・ドリーム」エディションの重要な最適化を見落としていないことを確認してください。
+
+<Checklist
+  id="setup-verification"
+  title="最終セットアップチェックリスト:"
+  items={[
+    "Ryujinx Canaryビルドが1.3.26以降であることを確認",
+    "ファームウェア20.5.0が正常にインストールされていることを確認",
+    "グラフィックスバックエンドをVulkanに設定し、2倍スケーリングを使用",
+    "CPU設定でPPTCを有効にして起動時間を短縮",
+    "コントローラープロファイルを構成し、振動/モーションをテスト",
+    "DLCおよび更新フォルダをゲームディレクトリに追加"
+  ]}
+/>
+
+<Callout type="warning" title="クラッシュ防止">
+ゲームが起動画面でクラッシュする場合は、**Canary**ビルドを使用していることを再確認してください。Ryujinxの標準ビルドには、「リビング・ザ・ドリーム」MODに必要な特定の修正が含まれていないことがよくあります。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "公式ビルドではなく、tomodachi life githubリソースを使用すべき理由は何ですか？",
+    answer: "tomodachi life githubコミュニティは、公式チャネルでは利用できない「リビング・ザ・ドリーム」のような特殊なビルドとMODを提供しています。これらには、特定のゲームのバグに対する互換性修正が含まれていることがよくあります。"
+  },
+  {
+    question: "実際のコンソールからエミュレータにセーブファイルを転送できますか？",
+    answer: "はい、改造されたコンソールからセーブデータをエクスポートし、Ryujinxのセーブディレクトリに配置できます。Ryujinxでゲームを右クリックし、「Open User Save Directory」を選択して場所を見つけてください。"
+  },
+  {
+    question: "PCでゲームはマルチプレイヤーをサポートしていますか？",
+    answer: "エミュレータは、LDN（Local Desktop Network）を介したローカルワイヤレス機能をサポートしています。Ryujinx Discordまたはgithubで、友達とオンラインでプレイするための特定のLDNビルドを確認できます。"
+  },
+  {
+    question: "Miiの顔が欠落している場合はどうすればよいですか？",
+    answer: "これは通常、ファームウェアの欠落または古いグラフィックドライバーが原因です。最新のファームウェア（v20.5.0）がインストールされており、Vulkanバックエンドを使用していることを確認してください。"
+  }
+]} />
+
+<Callout type="tip" title="コミュニティサポート">
+このガイドでカバーされていない固有のエラーに遭遇した場合は、Ryujinx Discordと**tomodachi life github**の課題ページは、開発者から技術的な支援を求めるのに最適な場所です。
+</Callout>
+
+</Section>

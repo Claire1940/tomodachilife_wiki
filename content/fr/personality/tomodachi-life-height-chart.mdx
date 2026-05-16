@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tomodachi Life : Tableau des tailles – Guide complet de personnalisation des Mii 2026",
+  description: "Maîtrisez les mécanismes du tableau des tailles de Tomodachi Life. Découvrez comment l'échelle des Mii affecte les soirées pyjama, les animations et la vie insulaire dans ce guide de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Height+Chart",
+  date: "2026-05-16",
+  author: "Équipe Wiki de Tomodachi Life"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Événement Tableau des Tailles**: Une interaction rare se produisant lors des **soirées pyjama des Mii** où les personnages comparent leurs tailles.
+- **Plage de Personnalisation**: Les Mii peuvent être ajustés sur une **échelle de 100 points** dans l'interface Mii Maker.
+- **Impact sur le Gameplay**: Bien que principalement visuelle, la taille influence le **rognage des animations** et les déclencheurs d'événements spécialisés.
+- **Stratégie de Mise à l'Échelle**: Utilisez une mise à l'échelle relative pour créer des **populations insulaires diverses** pour des opportunités de photos plus dynamiques.
+- **Fréquence des Événements**: Les soirées pyjama et les comparaisons de taille sont **déclenchées aléatoirement** en fonction des niveaux d'amitié.
+</Callout>
+
+Tomodachi Life continue de captiver les joueurs en 2026 avec son humour décalé et ses simulations sociales imprévisibles. L'un des aspects les plus fascinants, mais souvent négligés, de la création de personnages est le **tableau des tailles de Tomodachi Life** et la façon dont il dicte la présence physique de vos Mii sur l'île. Que vous recréiez vos amis de la vie réelle ou que vous créiez des légendes fictives, comprendre les nuances du **tableau des tailles de Tomodachi Life** est essentiel pour obtenir l'esthétique parfaite. Ce guide explore en profondeur la mise à l'échelle technique des Mii, l'événement spécifique du "Tableau des Tailles" qui se produit lors des soirées pyjama, et comment ces dimensions physiques affectent tout, de la mode à l'interaction avec les meubles. En maîtrisant ces proportions, vous pouvez vous assurer que votre île semble habitée et visuellement diverse, faisant de chaque capture d'écran un chef-d'œuvre de photographie virtuelle.
+
+<Section icon={Map} title="Comprendre le système de taille des Mii">
+
+La base de tout Mii dans Tomodachi Life est sa stature physique. Contrairement à de nombreux RPG modernes avec des curseurs complexes, Tomodachi Life utilise la logique classique du Mii Maker, qui se traduit par une échelle verticale qui détermine comment un personnage occupe l'espace dans son appartement et lors des événements insulaires.
+
+**Points forts de la vidéo :**
+- Démonstration visuelle du tableau des tailles lors d'une soirée pyjama.
+- Comparaison entre des Mii extrêmement grands et extrêmement petits.
+- Comment l'interface utilisateur du tableau des tailles apparaît dans le contexte de la démo "Living the Dream".
+
+<YouTubeEmbed videoId="aX61tfKlFnI" title="Tomodachi Life: Tableau des tailles pendant une soirée pyjama" />
+
+<Callout type="tip" title="Conseil de pro">
+Lorsque vous créez des Mii, essayez d'éviter de faire en sorte que tout le monde ait une taille "Moyenne". Avoir un mélange de Mii "Mini" et "Géants" rend les événements du tableau des tailles beaucoup plus divertissants à regarder.
+</Callout>
+
+Le jeu ne fournit pas de valeur numérique (comme des centimètres ou des pouces) pour la taille. Au lieu de cela, il utilise un curseur relatif. Dans le tableau ci-dessous, nous décomposons les cinq principales catégories de taille utilisées par la communauté pour organiser les insulaires.
+
+| Catégorie | Position du curseur | Profil visuel | Impact sur l'animation |
+| :--- | :--- | :--- | :--- |
+| **Mini** | 0% - 20% | Extrêmement petit, ressemble souvent à un enfant | Rognage élevé avec de grands meubles |
+| **Petit** | 21% - 40% | Sensiblement plus petit que la moyenne | S'intègre bien dans les pièces à thème "Mignon" |
+| **Moyen** | 41% - 60% | La base standard pour tous les Mii | Optimisé pour toutes les animations standard |
+| **Grand** | 61% - 80% | Dépasse la plupart des autres insulaires | Peut traverser les cadres de porte bas |
+| **Géant** | 81% - 100% | Réglage de hauteur maximal possible | Très dramatique sur les photos de groupe |
+
+</Section>
+
+<Section icon={Sparkles} title="L'événement Soirée Pyjama avec Tableau des Tailles">
+
+L'un des moments les plus charmants de Tomodachi Life est la soirée pyjama. Lors de ces événements, les Mii se rassemblent dans un appartement pour jouer à des jeux, raconter des histoires et, occasionnellement, comparer leurs tailles à l'aide d'un **tableau des tailles de Tomodachi Life** physique dessiné sur le mur. Cet événement est un favori des fans car il met en évidence les différences physiques que vous avez établies dans le Mii Maker.
+
+<CardGrid cols={3}>
+  <Card title="Déclencher l'événement">
+    - Nécessite deux Mii avec une **Amitié Élevée**
+    - Se produit aléatoirement pendant les heures du soir
+    - Un Mii doit inviter l'autre pour une soirée pyjama
+  </Card>
+  <Card title="Éléments Visuels">
+    - Une échelle dessinée à la main apparaît sur le mur
+    - Les Mii se tiennent dos à dos pour la comparaison
+    - Des émoticônes uniques "surpris" ou "fier" se déclenchent
+  </Card>
+  <Card title="Interaction du Joueur">
+    - Les joueurs peuvent regarder l'interaction se dérouler
+    - Prendre des photos pendant la mesure
+    - Influencer l'humeur avec des cadeaux au préalable
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitation de l'événement">
+La comparaison du tableau des tailles est une animation purement sociale. Elle ne modifie pas de façon permanente les statistiques du Mii ou leur niveau de relation plus qu'une interaction réussie standard.
+</Callout>
+
+Pendant la soirée pyjama, le tableau des tailles sert de catalyseur au dialogue. Les Mii peuvent commenter à quel point ils ont "grandi" ou exprimer leur choc face à la taille de leur ami. C'est l'une des rares fois où le jeu reconnaît explicitement le curseur de taille en dehors du menu de création.
+
+| Phase de l'événement | Description | Résultat clé |
+| :--- | :--- | :--- |
+| **Invitation** | Un Mii demande à rester via la bulle de pensée | Augmentation de l'amitié |
+| **Comparaison** | Les Mii se déplacent vers le tableau mural pour la mesure | Gag visuel / Occasion photo |
+| **Réaction** | Les Mii célèbrent ou agissent timidement face aux résultats | Changement d'état émotionnel |
+
+</Section>
+
+<Section icon={Target} title="Comment ajuster la taille de votre Mii">
+
+Si vous trouvez que vos insulaires sont trop uniformes, vous pouvez ajuster leur taille à tout moment. Cela est particulièrement utile si vous souhaitez déclencher des événements de tableau des tailles plus dramatiques lors de futures soirées pyjama.
+
+<Steps>
+  <Step num="1" title="Accéder à la Mairie">
+    Rendez-vous à la **Mairie** sur la carte de votre île et sélectionnez l'option **Paramètres Mii** pour afficher votre liste complète.
+  </Step>
+  <Step num="2" title="Sélectionner l'Insulaire">
+    Choisissez le Mii spécifique que vous souhaitez modifier et sélectionnez le bouton **Modifier** pour entrer dans l'interface de personnalisation.
+  </Step>
+  <Step num="3" title="Modifier l'Apparence Physique">
+    Naviguez jusqu'à l'onglet **Taille et Poids** (généralement représenté par une icône de corps). Déplacez le curseur vertical à la position souhaitée.
+  </Step>
+  <Step num="4" title="Enregistrer et Synchroniser">
+    Confirmez les modifications. Le Mii apparaîtra immédiatement dans sa nouvelle taille dans son appartement et pendant les activités insulaires.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de Style">
+N'oubliez pas que le poids est un curseur distinct. Un Mii "Grand et Mince" aura un aspect très différent d'un Mii "Grand et Fort" lors de l'événement du tableau des tailles.
+</Callout>
+
+Changer la taille peut également résoudre certains problèmes visuels. Par exemple, si le chapeau d'un Mii traverse constamment le plafond d'un intérieur spécifique, réduire sa taille de 10 à 15 % sur l'échelle peut souvent résoudre le "bug" sans gâcher l'apparence du personnage.
+
+</Section>
+
+<Section icon={Shield} title="Implications de la Taille sur le Gameplay">
+
+Bien que Tomodachi Life ne soit pas un jeu compétitif, le **tableau des tailles de Tomodachi Life** a des influences mineures sur la façon dont les Mii interagissent avec le monde. Celles-ci sont principalement esthétiques mais contribuent à la "personnalité" de votre île.
+
+| Caractéristique | Impact de la Taille | Recommandation |
+| :--- | :--- | :--- |
+| **Vêtements** | Les motifs s'adaptent à la taille, mais certains semblent étirés | Utilisez des motifs simples pour les Mii Géants |
+| **Meubles** | Les Mii s'assoient plus haut ou plus bas sur les chaises/lits | La taille moyenne s'adapte mieux aux meubles |
+| **Relations** | Pas d'impact direct sur le succès amoureux | Les écarts de taille donnent des photos de mariage amusantes |
+| **Mini-jeux** | La hitbox visuelle reste constante | Aucun avantage mécanique pour la taille |
+
+<Callout type="info">
+Contrairement à certaines légendes urbaines, la taille n'affecte pas la vitesse de course d'un Mii dans le mini-jeu "Tomodachi Quest". Tous les Mii se déplacent à la même vitesse quelle que soit la longueur de leurs jambes.
+</Callout>
+
+Un domaine où la taille brille vraiment est le **Studio Photo**. Lorsque vous posez plusieurs Mii, les différences de taille créent une sensation plus naturelle de "photo de famille". Si tous les Mii ont la même taille, les compositions peuvent sembler statiques et artificielles. L'utilisation de tout le spectre du tableau des tailles permet une superposition plus créative dans les photos de groupe.
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de personnalisation avancée">
+
+Pour tirer le meilleur parti des mécanismes de taille en 2026, suivez cette liste de contrôle pour vous assurer que vos insulaires sont parfaitement proportionnés pour chaque événement.
+
+<Checklist
+  id="mii-height-checklist"
+  title="Objectifs d'optimisation de la taille :"
+  items={[
+    "Créez au moins un Mii 'Géant' et un Mii 'Mini' pour voir des comparaisons extrêmes",
+    "Vérifiez tous les Mii dans le Studio Photo pour assurer la variété des tailles",
+    "Vérifiez que les Mii grands n'ont pas de rognage excessif dans les petits appartements",
+    "Déclenchez un événement de soirée pyjama pour voir le tableau des tailles mural en action"
+  ]}
+/>
+
+<Callout type="tip" title="Le saviez-vous ?">
+Le tableau des tailles lors de l'événement de soirée pyjama est en fait une référence à la vie familiale traditionnelle japonaise, où les parents marquent souvent la croissance de leurs enfants sur les cadres de porte ou les murs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "La taille peut-elle affecter la personne dont un Mii tombe amoureux ?",
+    answer: "Non, la taille est purement cosmétique dans Tomodachi Life. Les Mii peuvent tomber amoureux et se marier quelle que soit la différence de taille, même si cela peut entraîner des animations humoristiques lors du mariage ou lorsqu'ils s'embrassent."
+  },
+  {
+    question: "Comment puis-je déclencher spécifiquement l'événement de soirée pyjama avec tableau des tailles ?",
+    answer: "Il n'y a aucun moyen de le forcer, mais vous pouvez augmenter les chances en donnant aux Mii des 'Kits de Soirée Pyjama' ou en vous assurant qu'ils ont le statut de 'Grandes Âmes Sœurs' ou 'Meilleurs Amis', ce qui conduit à des invitations à des soirées pyjama plus fréquentes."
+  },
+  {
+    question: "Le tableau des tailles affiche-t-il des mesures réelles comme des pieds ou des mètres ?",
+    answer: "Non, le tableau utilise une échelle stylisée et non numérique. Il est destiné à montrer la taille relative entre les deux Mii participant à l'événement plutôt qu'une mesure absolue."
+  },
+  {
+    question: "Y a-t-il une limite au nombre de Mii grands que je peux avoir ?",
+    answer: "Il n'y a pas de limite. Vous pouvez faire en sorte que les 100 insulaires aient la taille maximale si vous le souhaitez, bien que cela rende l'événement du tableau des tailles très répétitif car tout le monde sera au même niveau."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Terminal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "tomodachi life github: Guida Completa all'Emulazione su PC 2026",
+  description: "Scopri come configurare Tomodachi Life: Living the Dream su PC usando Ryujinx. Esplora le risorse tomodachi life github, le impostazioni dell'emulatore e i consigli sulle prestazioni.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+PC+Setup",
+  date: "2026-05-16",
+  author: "Team Wiki di Tomodachi"
+}
+
+<Callout type="info" title="Guida Rapida">
+- **Parola chiave primaria**: L'accesso alle risorse **tomodachi life github** è il primo passo per l'emulazione moderna.
+- **Scelta dell'Emulatore**: Utilizza la build **Ryujinx Canary** per la migliore compatibilità con le mod recenti.
+- **File Chiave**: Devi fornire le tue **Prod Keys**, **Title Keys** e **Firmware** (v20.5.0 raccomandato).
+- **API Grafica**: Seleziona sempre **Vulkan** per prestazioni superiori su hardware NVIDIA e AMD moderni.
+- **Supporto Mod**: L'edizione "Living the Dream" offre un'esperienza ampliata rispetto al gioco base.
+</Callout>
+
+Tomodachi Life rimane uno dei giochi di simulazione sociale più unici mai rilasciati, e nel 2026, la comunità ha spinto i suoi confini più che mai. Molti giocatori stanno ora cercando nei repository **tomodachi life github** le ultime build dell'emulatore, i livelli di compatibilità e le mod guidate dalla comunità come "Living the Dream". Questa guida è progettata per aiutarti a navigare le complessità della configurazione di questa esperienza sul tuo PC. Che tu sia un fan di lunga data o un nuovo arrivato che vuole vedere i suoi Mii vivere la loro migliore vita, comprendere i requisiti tecnici è essenziale.
+
+Sfruttando la potenza degli emulatori moderni come Ryujinx, puoi vivere questo classico con risoluzioni migliorate, frame rate stabili e contenuti personalizzati. Tratteremo tutto, dall'acquisizione iniziale dei file alle ottimizzazioni grafiche avanzate. Questa guida **tomodachi life github** assicura che la tua isola virtuale funzioni senza intoppi, senza i comuni crash o glitch grafici che affliggevano i precedenti tentativi di emulazione. Immergiamoci nei passaggi specifici necessari per far funzionare la tua isola sul tuo desktop.
+
+<Section icon={Terminal} title="Prerequisiti e Risorse tomodachi life github">
+
+Prima di iniziare il processo di installazione, devi raccogliere i componenti software necessari. La comunità di emulazione aggiorna frequentemente questi strumenti, quindi controllare le pagine **tomodachi life github** per Ryujinx e le mod correlate è vitale per ottenere le versioni più stabili.
+
+**Punti Salienti del Video:**
+- Identificare la build corretta di **Ryujinx Canary** per la compatibilità delle mod.
+- Individuare la cartella di sistema per l'installazione di chiavi e firmware.
+- Impostare le directory di gioco per i file XCI e NSP.
+- Configurare il backend Vulkan per un utilizzo ottimizzato della GPU.
+
+<YouTubeEmbed videoId="8bPtK2EafF0" title="Come Giocare a Tomodachi Life: Living The Dream su PC [Ryujinx]" />
+
+| Componente | Requisito Minimo | Raccomandato |
+| :--- | :--- | :--- |
+| **Emulatore** | Ryujinx Canary 1.3.26 | Ultima Build Canary |
+| **Firmware** | Versione 15.0.0 | Versione 20.5.0 o successiva |
+| **API Grafica** | OpenGL 4.5 | Vulkan |
+| **RAM** | 8 GB | 16 GB |
+| **Archiviazione** | 5 GB di spazio su SSD | 10 GB di spazio su SSD |
+
+<Callout type="warning" title="Avviso Legale">
+È necessario possedere una copia fisica del gioco e una console modificata per scaricare legalmente le proprie chiavi, firmware e file di gioco. Il download da fonti non autorizzate non è supportato dagli sviluppatori ufficiali.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Installazione e Configurazione Iniziale">
+
+La configurazione dell'emulatore richiede precisione, specialmente per quanto riguarda i file di sistema. Se le chiavi o il firmware non corrispondono, il gioco non si avvierà o mostrerà un errore "Keys not found". Segui questi passaggi per garantire un'installazione pulita.
+
+<Steps>
+  <Step num="1" title="Scarica Ryujinx Canary">
+    Visita il sito ufficiale o la pagina dei rilasci **tomodachi life github** per scaricare la build Ryujinx Canary. Estrai la cartella "publish" sul tuo desktop e rinominala per un facile accesso. Esegui l'eseguibile e ignora l'avviso iniziale "Keys not found".
+  </Step>
+  <Step num="2" title="Installa Prod e Title Keys">
+    Naviga su `File > Open Ryujinx Folder`. Vai nella directory `system`. Incolla qui i tuoi file `prod.keys` e `title.keys`. Riavvia l'emulatore per applicare le modifiche; il messaggio di errore dovrebbe scomparire.
+  </Step>
+  <Step num="3" title="Flash del Firmware di Sistema">
+    Vai su `Tools > Install Firmware`. Seleziona "Install from XCI or ZIP" e scegli il tuo file firmware (es. v20.5.0). Conferma l'installazione. Ryujinx mostrerà ora la versione del sistema nell'angolo in basso a destra.
+  </Step>
+  <Step num="4" title="Mappa le Directory di Gioco">
+    In `Options > Settings`, vai alla scheda "Game Directories". Clicca su "Add" e seleziona la cartella dove sono archiviati i tuoi file XCI o NSP di Tomodachi Life. Fai lo stesso per la cartella "Updates and DLC" se applicabile.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consiglio Pro">
+Se stai usando un laptop con doppia scheda grafica, assicurati che Ryujinx sia impostato per utilizzare la tua GPU "High Performance" (NVIDIA/AMD) nelle impostazioni di visualizzazione di Windows, piuttosto che la grafica integrata Intel/AMD.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Ottimizzazione delle Impostazioni Grafiche e della CPU">
+
+Per ottenere la migliore fedeltà visiva in Tomodachi Life, devi modificare i parametri grafici e della CPU. Sebbene il gioco base sia stato progettato per risoluzioni inferiori, Ryujinx consente una scalabilità significativa.
+
+<CardGrid cols={3}>
+  <Card title="Backend Vulkan">
+    - **Prestazioni Superiori**: Riduce gli scatti.
+    - **Caching Shader**: Tempi di caricamento iniziali più rapidi.
+    - **Supporto Hardware**: Il migliore per GPU moderne.
+  </Card>
+  <Card title="Scalatura della Risoluzione">
+    - **2x Native**: Immagini nitide come 1440p.
+    - **SMAA Ultra**: Leviga i bordi frastagliati.
+    - **Anisotropico**: 16x per texture migliori.
+  </Card>
+  <Card title="Modalità Turbo">
+    - **Velocità 200%**: Accelera i dialoghi lenti.
+    - **PPTC Abilitato**: Essenziale per la stabilità.
+    - **Modalità Basso Consumo**: Per laptop più vecchi.
+  </Card>
+</CardGrid>
+
+| Impostazione | Valore | Impatto |
+| :--- | :--- | :--- |
+| **Backend Grafico** | Vulkan | Alte prestazioni, meno lag |
+| **Scala Risoluzione** | 2x (1440p) | Miglioramento visivo significativo |
+| **Anti-Aliasing** | SMAA Ultra | Rimuove i bordi pixelati |
+| **VSync** | Abilitato | Previene il tearing dello schermo |
+| **Filtro Anisotropico** | 16x | Texture distanti più nitide |
+
+<Callout type="info" title="Avviso Cache Shader">
+Aspettatevi piccoli lag spike durante i primi 15 minuti di gioco. Questo è normale in quanto l'emulatore costruisce la cache degli shader. Le prestazioni diventeranno perfettamente fluide una volta che la cache sarà popolata.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurazione del Controller e Input">
+
+Tomodachi Life: Living the Dream supporta vari metodi di input. Mentre il gioco originale utilizzava i controlli touch, l'emulatore li mappa efficacemente a controller tradizionali o input del mouse.
+
+| Tipo di Controller | Modalità Raccomandata | Ideale Per |
+| :--- | :--- | :--- |
+| **Controller Xbox** | Pro Controller | Gameplay generale e menu |
+| **DualSense (PS5)** | Pro Controller | Mini-giochi sensibili al movimento |
+| **Coppia Joy-Con** | Coppia Joy-Con | Sensazione autentica simile a Switch |
+| **Mouse/Tastiera** | Modalità Portatile | Emulazione touch-screen |
+
+<Callout type="success" title="Configurazione Input">
+La maggior parte dei controller moderni funziona "out of the box". Basta premere "Refresh" nelle impostazioni di Input, selezionare il dispositivo e salvare il profilo. Puoi anche abilitare "Rumble" e "Motion" se il tuo controller li supporta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist per un'Isola Perfetta">
+
+Una volta completata la configurazione del tuo **tomodachi life github**, usa questa checklist per assicurarti di non aver perso nessuna ottimizzazione critica per l'edizione "Living the Dream".
+
+<Checklist
+  id="setup-verification"
+  title="Checklist di Configurazione Finale:"
+  items={[
+    "Verifica che la build Ryujinx Canary sia 1.3.26 o successiva",
+    "Conferma che il Firmware 20.5.0 sia installato correttamente",
+    "Imposta il Backend Grafico su Vulkan con Scalatura 2x",
+    "Abilita PPTC nelle impostazioni della CPU per tempi di avvio più rapidi",
+    "Configura i profili del controller e testa rumble/movimento",
+    "Aggiungi le cartelle DLC e Aggiornamenti alla directory del gioco"
+  ]}
+/>
+
+<Callout type="warning" title="Prevenzione dei Crash">
+Se il gioco si blocca nella schermata di avvio, ricontrolla di stare usando la build **Canary**. La build standard di Ryujinx spesso manca delle correzioni specifiche richieste per la mod "Living the Dream".
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Domande Frequenti">
+
+<FAQ items={[
+  {
+    question: "Perché dovrei usare le risorse tomodachi life github invece delle build ufficiali?",
+    answer: "La comunità tomodachi life github fornisce build e mod specializzate come 'Living the Dream' che non sono disponibili tramite i canali ufficiali. Queste spesso includono correzioni di compatibilità per bug specifici del gioco."
+  },
+  {
+    question: "Posso trasferire il mio file di salvataggio da una console reale all'emulatore?",
+    answer: "Sì, puoi esportare i tuoi dati di salvataggio da una console modificata e posizionarli nella directory di salvataggio di Ryujinx. Fai clic destro sul gioco in Ryujinx e seleziona 'Apri Directory di Salvataggio Utente' per trovare la posizione."
+  },
+  {
+    question: "Il gioco supporta il multiplayer su PC?",
+    answer: "L'emulatore supporta le funzionalità wireless locali tramite LDN (Local Desktop Network). Puoi controllare il Discord di Ryujinx o github per build LDN specifiche per giocare con gli amici online."
+  },
+  {
+    question: "Cosa devo fare se mancano le facce dei Mii?",
+    answer: "Questo è solitamente causato da firmware mancante o da un driver grafico obsoleto. Assicurati di aver installato il firmware più recente (v20.5.0) e di utilizzare il backend Vulkan."
+  }
+]} />
+
+<Callout type="tip" title="Supporto della Comunità">
+Se incontri errori unici non coperti in questa guida, il Discord di Ryujinx e la pagina dei problemi di **tomodachi life github** sono ottimi posti per cercare assistenza tecnica dagli sviluppatori.
+</Callout>
+
+</Section>
