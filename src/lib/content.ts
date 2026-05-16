@@ -40,6 +40,13 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+function isValidFrontmatter(frontmatter: unknown): frontmatter is ContentFrontmatter {
+  return !!frontmatter
+    && typeof frontmatter === 'object'
+    && typeof (frontmatter as { title?: unknown }).title === 'string'
+    && typeof (frontmatter as { description?: unknown }).description === 'string'
+}
+
 /**
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug
  */
@@ -89,19 +96,27 @@ export async function getAllContent(
     try {
       // 先尝试当前语言
       const mod = await import(`../../content/${language}/${contentType}/${slug}.mdx`)
-      items.push({
-        slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
-      })
+      if (isValidFrontmatter(mod.metadata)) {
+        items.push({
+          slug,
+          frontmatter: mod.metadata,
+        })
+      } else {
+        console.warn('Skipping content item without metadata:', { language, contentType, slug })
+      }
     } catch {
       // Fallback 到英文
       if (language !== 'en') {
         try {
           const mod = await import(`../../content/en/${contentType}/${slug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
+          if (isValidFrontmatter(mod.metadata)) {
+            items.push({
+              slug,
+              frontmatter: mod.metadata,
+            })
+          } else {
+            console.warn('Skipping fallback content item without metadata:', { contentType, slug })
+          }
         } catch {
           // 跳过无法加载的文件
         }
@@ -111,11 +126,6 @@ export async function getAllContent(
 
   // 按日期排序(最新的在前)
   return items.sort((a, b) => {
-    // 添加 frontmatter 存在性检查(防御性编程)
-    if (!a.frontmatter || !b.frontmatter) {
-      console.warn('Missing frontmatter in content item:', { a: a.slug, b: b.slug })
-      return 0
-    }
     if (!a.frontmatter.date || !b.frontmatter.date) return 0
     return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
   })
