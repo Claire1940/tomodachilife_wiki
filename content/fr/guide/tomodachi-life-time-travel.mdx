@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Voyage dans le temps Tomodachi Life : Guide complet et pénalités 2026",
+  description: "Découvrez les risques du voyage dans le temps dans Tomodachi Life. Apprenez-en davantage sur les pénalités de réinitialisation des magasins, les bugs de jauge de faim et les moyens sûrs de gérer l'horloge de votre jeu en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Tomodachi+Life+Time+Travel+Guide",
+  date: "2026-05-16",
+  author: "Équipe Wiki Tomodachi"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le **voyage dans le temps dans Tomodachi Life** est possible en modifiant l'horloge système, mais il est fortement déconseillé en raison des pénalités intégrées.
+- Les **mises à jour des magasins** seront gelées pendant environ 24 heures (ou plus) après toute modification de l'heure.
+- Les **jauges de faim** ne se réinitialisent pas avec le voyage dans le temps, empêchant les joueurs de "cultiver" le bonheur ou les niveaux.
+- Les **alternatives sûres** incluent le changement de fuseau horaire ou simplement l'attente de la période de pénalité de 24 heures si un changement est nécessaire.
+- **Comparaison** : Contrairement à Animal Crossing, Tomodachi Life punit activement la manipulation du temps pour maintenir l'équilibre du jeu.
+</Callout>
+
+Gérer votre île dans Tomodachi Life demande de la patience et un respect de l'horloge interne du jeu. Alors que de nombreux joueurs cherchent des moyens d'accélérer la progression, le **voyage dans le temps dans Tomodachi Life** reste un sujet controversé au sein de la communauté en raison de sa nature restrictive. Le jeu est conçu pour être joué en temps réel, synchronisant la vie de vos Miis avec votre emploi du temps quotidien réel. Tenter de contourner ce système en ajustant manuellement l'horloge système de votre Nintendo 3DS ou Switch peut entraîner plusieurs conséquences inattendues qui pourraient nuire à votre plaisir de jeu.
+
+Dans ce guide complet, nous allons explorer ce qui se passe exactement lorsque vous tentez le **voyage dans le temps dans Tomodachi Life**, les pénalités spécifiques imposées par les développeurs, et comment vous pouvez gérer le calendrier de votre île sans briser la logique interne du jeu. Que vous essayiez de passer au stock du jour suivant ou simplement de corriger une horloge mal réglée, comprendre ces mécanismes est essentiel pour tout administrateur d'île en 2026.
+
+<Section icon={Clock} title="Comment fonctionne le voyage dans le temps dans Tomodachi Life">
+
+Techniquement, il n'y a pas de bouton "en jeu" pour le **voyage dans le temps dans Tomodachi Life**. Le jeu repose entièrement sur l'horloge système du matériel. Lorsque le jeu démarre, il vérifie l'horodatage actuel par rapport au dernier horodatage enregistré. S'il détecte une divergence – qu'il s'agisse d'un avancement ou d'un recul – il déclenche un drapeau qui initie plusieurs restrictions de gameplay.
+
+**Points forts de la vidéo :**
+- Pourquoi il faut généralement éviter le voyage dans le temps dans ce titre spécifique.
+- La fenêtre de pénalité de 24 heures pour les mises à jour des magasins et les promotions quotidiennes.
+- Comment la jauge de faim interagit (ou ne parvient pas à interagir) avec les changements d'heure.
+- Recommandations pour les joueurs qui travaillent de nuit ou ont des horaires inhabituels.
+
+<YouTubeEmbed videoId="DA8Ai_OIN4s" title="Ne voyagez pas dans le temps dans Tomodachi Life" />
+
+<Callout type="warning" title="Détection du système">
+Le jeu ne vérifie pas seulement si l'heure est différente ; il vérifie si l'*ID système* de l'horloge a été modifié. Même de petits ajustements de quelques minutes peuvent déclencher les pénalités anti-triche si le jeu est en cours d'exécution ou a été récemment sauvegardé.
+</Callout>
+
+| Méthode | Type | Niveau de risque | Effet |
+| :--- | :--- | :--- | :--- |
+| Changement d'horloge système | Manuel | Élevé | Gèle tous les événements quotidiens pendant 24-48 heures |
+| Décalage horaire | Système | Moyen | Peut déclencher des pénalités mais est plus sûr pour les décalages permanents |
+| Heure d'été | Automatique | Faible | Déclenche généralement un gel standard de 24 heures pour les magasins |
+
+</Section>
+
+<Section icon={AlertTriangle} title="Les conséquences de la manipulation du temps">
+
+La principale raison d'éviter le **voyage dans le temps dans Tomodachi Life** est le système de pénalités strict. Les développeurs ont mis en place ces "interdictions douces" pour s'assurer que les joueurs n'exploitent pas le système de stock quotidien pour obtenir rapidement des objets rares ou d'énormes sommes d'argent.
+
+<CardGrid cols={2}>
+  <Card title="Gel des magasins">
+    - Les **promotions quotidiennes** ne seront mises à jour dans aucun magasin.
+    - Affecte **Porter et Où**, le magasin de chapeaux et le magasin d'intérieurs.
+    - Les articles saisonniers peuvent rester bloqués ou indisponibles.
+  </Card>
+  <Card title="Faim et Bonheur">
+    - Les **jauges de faim** ne se vident pas et ne se remplissent pas plus rapidement.
+    - Vous ne pouvez pas nourrir les Miis plusieurs fois en sautant des heures.
+    - Les gains de **chaleur** (bonheur) sont plafonnés par des intervalles en temps réel.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="La règle des 24 heures">
+Si vous devez changer votre horloge, attendez-vous à un minimum de 24 heures de "temps mort" où rien de nouveau ne se produit. Ne changez plus l'horloge pendant cette fenêtre, car cela réinitialiserait le compte à rebours de 24 heures.
+</Callout>
+
+| Fonctionnalité | Comportement normal | Après un voyage dans le temps |
+| :--- | :--- | :--- |
+| **Importation de vêtements** | Mise à jour quotidienne | Gelé pendant 24+ heures |
+| **Stock saisonnier** | Change avec la date | Reste sur le stock de la date précédente |
+| **Dons** | Collectés chaque matin | Peut ne pas apparaître pendant un cycle |
+| **Problèmes de Mii** | Se produisent périodiquement | Fréquence considérablement réduite |
+| **Rénovation T&C** | Promotions hebdomadaires | Bloqué sur la sélection actuelle |
+
+</Section>
+
+<Section icon={Target} title="Pas à pas : Ajuster votre horloge en toute sécurité">
+
+Si l'horloge de votre système est réellement incorrecte (par exemple, après un remplacement de batterie ou un voyage), vous devrez accepter la pénalité. Cependant, suivre ces étapes peut aider à minimiser la perturbation de votre expérience de **voyage dans le temps dans Tomodachi Life**.
+
+<Steps>
+  <Step num="1" title="Sauvegarder et fermer">
+    Sauvegardez complètement votre jeu et retournez au menu d'accueil du système. Assurez-vous que le jeu est entièrement fermé et non simplement suspendu en arrière-plan.
+  </Step>
+  <Step num="2" title="Paramètres système">
+    Accédez à vos paramètres système et ajustez la date et l'heure. Si vous changez de fuseau horaire, il est préférable de modifier le paramètre de fuseau horaire plutôt que l'horloge manuelle.
+  </Step>
+  <Step num="3" title="Redémarrer le jeu">
+    Lancez le jeu. Vous recevrez probablement une notification ou un avis indiquant que les magasins quotidiens n'ont pas été mis à jour. C'est normal.
+  </Step>
+  <Step num="4" title="La période d'attente">
+    Attendez 24 heures complètes sans toucher à nouveau à l'horloge. Après le passage du prochain minuit réel, vos magasins devraient reprendre leur calendrier de mise à jour normal.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ajustement sûr">
+Une fois la période de 24 heures passée, le jeu reprend son fonctionnement normal. Il ne s'agit pas d'une "interdiction" permanente, mais plutôt d'une période de refroidissement temporaire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tomodachi Life vs. Animal Crossing">
+
+De nombreux joueurs venant d'*Animal Crossing: New Horizons* sont habitués au voyage dans le temps comme mécanisme de jeu central. Cependant, Tomodachi Life traite le temps de manière beaucoup plus stricte.
+
+| Fonctionnalité | Animal Crossing | Tomodachi Life |
+| :--- | :--- | :--- |
+| **Pénalités** | Minimales (Navets pourrissent) | Sévères (Gel des magasins/événements) |
+| **Progression** | Peut être accélérée considérablement | Limitée par les interactions en temps réel |
+| **Logique de l'horloge** | Encourage le "saut" de jours | Décourage toute manipulation |
+| **Heure de réinitialisation** | 5h00 du matin | Minuit (00:00) |
+
+<Callout type="info" title="Pourquoi cette différence ?">
+Tomodachi Life repose sur des mécanismes de "construction rapide" et des interactions spontanées avec les Miis. Comme les personnages emménagent presque instantanément et que les bâtiments sont terminés immédiatement, il y a moins de "temps d'attente" à sauter par rapport aux projets de construction de plusieurs jours d'Animal Crossing.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Liste de contrôle quotidienne pour la gestion de l'île">
+
+Au lieu d'utiliser le **voyage dans le temps dans Tomodachi Life**, concentrez-vous sur la maximisation de vos activités quotidiennes. Il existe de nombreuses façons de rester occupé sur votre île sans avoir besoin de sauter le temps.
+
+<Checklist
+  id="daily-routine"
+  title="Tâches quotidiennes essentielles :"
+  items={[
+    "Vérifiez les quatre magasins pour les promotions quotidiennes et les nouveaux stocks",
+    "Récupérez les dons de la Fontaine chaque matin",
+    "Résolvez au moins 5 à 10 problèmes de Mii pour augmenter le niveau de l'île",
+    "Jouez à des mini-jeux pour gagner des trésors et de l'argent de poche supplémentaire",
+    "Vérifiez les événements du marché du matin, de l'après-midi et du soir",
+    "Visitez la Tour d'observation pour d'éventuelles interactions Mii"
+  ]}
+/>
+
+<Callout type="tip" title="Stratégie du lève-tard">
+Si vous ne jouez que la nuit et que vos Miis sont toujours endormis, envisagez de régler définitivement votre horloge 12 heures en avance. Vous subirez la pénalité de 24 heures une fois, mais par la suite, votre "jour" s'alignera sur votre temps libre réel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Le voyage dans le temps va-t-il corrompre mon fichier de sauvegarde Tomodachi Life ?",
+    answer: "Généralement, non. Le voyage dans le temps ne corrompt pas le fichier de sauvegarde, mais il 'casse' les événements programmés pendant une courte période. Vos Miis et votre progression resteront en sécurité."
+  },
+  {
+    question: "Combien de temps dure exactement la pénalité de gel des magasins ?",
+    answer: "Elle dure généralement jusqu'au minuit suivant (00:00) après que 24 heures se soient écoulées depuis le dernier changement d'horloge. Si vous continuez à changer l'horloge, le compte à rebours se réinitialise."
+  },
+  {
+    question: "Puis-je utiliser le voyage dans le temps pour faire se marier un Mii plus rapidement ?",
+    answer: "Non. La progression des relations est basée sur des interactions réussies et des événements aléatoires, et non seulement sur le passage des jours calendaires. Sauter le temps peut en fait réduire le nombre de problèmes que les Miis rencontrent, ralentissant votre progression."
+  },
+  {
+    question: "Changer l'année affecte-t-il le jeu différemment que changer l'heure ?",
+    answer: "Tout changement de date ou d'heure déclenche le même drapeau anti-voyage. Changer l'année à 2026 ou au-delà n'apportera pas d'avantages supplémentaires et entraînera toujours le gel standard des magasins."
+  }
+]} />
+
+</Section>
