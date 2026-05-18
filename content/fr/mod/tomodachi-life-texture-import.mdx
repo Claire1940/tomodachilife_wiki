@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Settings, Box, Image, Puzzle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Importation de textures Tomodachi Life : Guide de modding étape par étape",
+  description: "Débloquez de nouvelles options de personnalisation dans Tomodachi Life: Living The Dream en apprenant à importer des textures personnalisées pour les objets et les Miis.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Tomodachi+Life+Texture+Import",
+  date: "2026-05-18",
+  author: "Équipe Wiki Tomodachi Life"
+}
+
+<Callout type="info" title="Guide rapide">
+- L'**importation de textures Tomodachi Life** peut être réalisée via des outils de modding dédiés comme TomoAIO ou Living the Dream Toolkit.
+- Les textures personnalisées peuvent personnaliser les objets, la nourriture et même les Miis du jeu, améliorant ainsi votre expérience de jeu.
+- Toujours **sauvegarder vos fichiers de sauvegarde** (`Mii.sav`, `Player.sav`) avant de tenter toute modification pour éviter la perte de données.
+- Assurez-vous que vos fichiers d'image personnalisés sont au **format PNG** et nécessitent souvent des dimensions spécifiques (par exemple, carrées) pour des résultats optimaux.
+- Les importations de Mii peuvent varier ; les peintures faciales complexes sur les Miis peuvent ne pas être transférées parfaitement sans ajustements spécifiques.
+</Callout>
+
+<Section icon={Download} title="Comprendre les outils d'importation de textures Tomodachi Life">
+Le modding de *Tomodachi Life: Living The Dream* permet aux joueurs d'injecter un nouveau niveau de créativité dans leur jeu. En important des textures personnalisées, vous pouvez transformer des objets du jeu, créer des aliments uniques ou même donner vie à des Miis personnalisés. Plusieurs outils ont émergé pour faciliter ces processus, rendant l'**importation de textures Tomodachi Life** accessible à un public plus large. Ces outils simplifient ce qui serait autrement un processus manuel complexe, offrant des interfaces pour une gestion facile des textures et l'importation de Miis.
+
+<Callout type="tip">
+Familiarisez-vous avec les exigences spécifiques de chaque outil de modding, car ils peuvent avoir des fonctionnalités et une compatibilité différentes selon les systèmes d'exploitation. Par exemple, certains outils sont conçus pour Windows, tandis que d'autres peuvent prendre en charge macOS ou Linux.
+</Callout>
+
+**Points forts de la vidéo :**
+- Démontre comment ajouter des textures personnalisées à des objets comme des animaux de compagnie dans *Tomodachi Life: Living The Dream*.
+- Explique l'importance de sauvegarder correctement votre jeu avant d'utiliser des outils de modding.
+- Guide les utilisateurs pour télécharger et configurer le Living the Dream Toolkit.
+- Montre comment localiser le dossier UGC du jeu pour la gestion des textures.
+- Détailler le processus de navigation, de sélection et de conversion des images PNG pour une utilisation en jeu, y compris le type d'objet et l'ID.
+
+<YouTubeEmbed videoId="d8gQxkRnwpc" title="Comment importer des textures dans Tomodachi Life: Living The Dream avec Living The Dream Toolkit !" />
+
+Les principaux outils d'importation de textures et de Mii impliquent souvent une interface conviviale qui vous permet de parcourir vos images personnalisées (généralement des fichiers PNG), puis de les convertir ou de les injecter dans les données de sauvegarde du jeu. Cette méthode permet un degré important de personnalisation, des textures d'animaux de compagnie personnalisées aux designs de vêtements uniques.
+
+<Callout type="warning" title="Sécurité des fichiers de sauvegarde">
+Chaque fois que vous modifiez des fichiers de jeu, il y a toujours un léger risque de corruption. Il est fortement recommandé de créer des sauvegardes manuelles de vos fichiers `Mii.sav` et `Player.sav` avant d'utiliser des outils de modding. TomoAIO, par exemple, inclut un système de sauvegarde automatique, mais les sauvegardes personnelles offrent une couche de sécurité supplémentaire.
+</Callout>
+
+### Aperçu des principaux outils de modding
+
+| Nom de l'outil                  | Fonctionnalité principale                         | Compatibilité de la plateforme | Fonctionnalités                                                                 |
+|:--------------------------------|:--------------------------------------------------|:-------------------------------|:--------------------------------------------------------------------------------|
+| **TomoAIO**                     | Importateur de Mii et modding d'images pour objets | Windows                        | Conservation de l'ADN Mii, transfert de peinture faciale personnalisée, gestion de l'île |
+| **Living the Dream Toolkit**    | Importation de textures personnalisées (objets, biens) | Windows                        | Conversion PNG, gestion des dossiers UGC, configuration du type/ID d'objet        |
+| **Universal Texture Editor**    | Importation de textures d'images                 | Windows, macOS, Linux          | Recadrage en mode prévisualisation, actualisation automatique, configuration de la mémoire |
+| **ShareMii**                    | Importation/Exportation de Mii (3DS/Switch)        | Variable                       | Partager des Miis sans peinture faciale, clés d'accès pour les importations Miitopia |
+
+</Section>
+
+<Section icon={Image} title="Importation étape par étape de textures personnalisées pour les objets">
+L'importation de textures personnalisées dans *Tomodachi Life: Living The Dream* vous permet de personnaliser divers objets du jeu, ajoutant une touche unique à la vie de vos insulaires. Ce processus implique généralement un outil de modding pour convertir et injecter vos fichiers d'image choisis dans le répertoire de contenu généré par l'utilisateur (UGC) du jeu.
+
+<Steps>
+  <Step num="1" title="Préparez votre jeu et votre texture">
+    Lancez *Tomodachi Life: Living The Dream* et visitez l'atelier de la Maison Palette. Créez une nouvelle création (par exemple, un animal de compagnie ou un aliment) et ajoutez-y du texte pour une identification facile plus tard. Achetez cet objet dans la boutique et donnez-le à un insulaire. Surtout, **sauvegardez votre jeu**, puis quittez complètement le jeu.
+    <Callout type="tip">
+    Assurez-vous que votre image de texture personnalisée est au **format PNG** et est généralement carrée pour de meilleurs résultats. Les formats non PNG ne fonctionneront pas avec la plupart des outils d'importation de textures.
+    </Callout>
+  </Step>
+  <Step num="2" title="Téléchargez et extrayez l'outil de modding">
+    Téléchargez un outil d'importation de textures comme le Living the Dream Toolkit (disponible sur des plateformes comme GameBanana). S'il s'agit d'un fichier zip, utilisez un outil d'archivage comme 7-Zip pour en extraire le contenu à un emplacement pratique.
+  </Step>
+  <Step num="3" title="Localisez le dossier UGC de votre jeu">
+    Sous Windows, appuyez sur `Touche Windows + R`, tapez `%appdata%`, et appuyez sur Entrée. Naviguez vers `Ryujinx/bis/user/save/0/UGC`. Copiez ce chemin de dossier. C'est là que le contenu généré par l'utilisateur de votre jeu, y compris l'objet que vous venez de créer, est stocké.
+  </Step>
+  <Step num="4" title="Configurez l'outil d'importation de textures">
+    Ouvrez le Living the Dream Toolkit (par exemple, `Living the Dream ToolKit.GUI.exe`). Dans l'outil, localisez l'option "Open Save UGC Folder" et collez le chemin du dossier UGC que vous avez copié à l'étape précédente. Sélectionnez le dossier pour charger vos données de sauvegarde.
+  </Step>
+  <Step num="5" title="Importez et convertissez votre texture">
+    Identifiez l'objet que vous avez créé à l'étape 1 dans l'outil (il devrait être reconnaissable par le texte que vous avez ajouté). Cliquez sur "Browse PNG" et sélectionnez votre image PNG personnalisée. Notez le "Item Type" et "Item ID" affichés par l'outil (par exemple, `goods`, `002`). Assurez-vous qu'ils correspondent à l'objet que vous modifiez. Cliquez sur "Convertir" puis sur "Exporter".
+    <Callout type="info">
+    Le "Type d'objet" et l'"ID d'objet" sont essentiels pour appliquer correctement la texture à l'objet du jeu souhaité. Vérifiez ces détails avant de convertir et d'exporter.
+    </Callout>
+  </Step>
+  <Step num="6" title="Vérifiez en jeu">
+    Redémarrez *Tomodachi Life: Living The Dream*. Allez à votre boutique de trésors, et bien que le nom de l'objet puisse toujours être le par défaut, sa texture devrait maintenant afficher votre image personnalisée. Donnez l'objet à un insulaire pour voir la nouvelle texture en action.
+  </Step>
+</Steps>
+
+### Données de texture d'objet personnalisé
+
+| Type d'objet | Exemple d'ID d'objet | Description                               | Exigence de texture        | Compatibilité de l'outil |
+|:-------------|:---------------------|:------------------------------------------|:----------------------------|:-------------------------|
+| **Biens**    | 002                  | Objets généraux, cadeaux, trésors         | PNG carré (recommandé)      | Living the Dream Toolkit |
+| **Nourriture** | 005                | Aliments personnalisés, plats             | PNG carré (recommandé)      | Living the Dream Toolkit |
+| **Animal**   | 001                  | Textures d'animaux de compagnie personnalisées | PNG carré (recommandé)      | Living the Dream Toolkit |
+| **Vêtements**| 003                  | Motifs de vêtements personnalisés         | Dimensions spécifiques (varie) | TomoAIO                  |
+| **Intérieur de pièce**| 004        | Arrière-plans de pièce personnalisés     | Dimensions spécifiques (varie) | TomoAIO                  |
+
+</Section>
+
+<Section icon={Puzzle} title="Importation de Miis avec des outils de modding">
+Bien que *Tomodachi Life* prenne en charge la création de Mii nativement, des outils dédiés permettent des importations de Mii plus complexes, en particulier pour *Tomodachi Life: Living The Dream*. Ces outils peuvent aider à transférer des Miis avec des caractéristiques faciales, des couleurs et même des peintures faciales personnalisées qui pourraient être difficiles à reproduire manuellement.
+
+<Callout type="success" title="Préservation des Mii">
+Lorsque vous exportez un Mii à l'aide d'outils comme TomoAIO, son ADN, sa voix, sa personnalité, ses pronoms et sa peinture faciale personnalisée sont parfaitement préservés. Cependant, la progression de l'île, les relations et les niveaux sont liés à votre fichier de sauvegarde personnel et ne seront pas transférés.
+</Callout>
+
+### Méthodes d'importation de Mii
+
+| Méthode                 | Description                                                                                                                             | Exigences                                               | Avantages                                                        | Inconvénients                                                            |
+|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|:-----------------------------------------------------------------|:-------------------------------------------------------------------------|
+| **Importateur de Mii TomoAIO**| Permet l'importation/exportation directe de Miis, en préservant des détails comme la peinture faciale.                                | Outil TomoAIO, fichiers Mii `.ltd`                      | Transfert de Mii de haute fidélité, inclut des fonctionnalités complexes | La progression de l'île n'est pas transférée                             |
+| **Méthode de la démo Miitopia**| Utilise la démo *Miitopia* sur Nintendo Switch pour recevoir des Miis via des clés d'accès, puis les importe dans *Tomodachi Life*. | Démo *Miitopia*, clés d'accès actives                     | Génère des Miis directement, bon pour les Miis complexes         | Les Miis avec des peintures faciales complexes peuvent ne pas être importés parfaitement dans *Tomodachi Life* |
+| **TomodachiShare.com**  | Site Web offrant des designs de Mii créés par l'utilisateur avec des instructions détaillées pour une recréation manuelle.              | Création manuelle de Mii en jeu, instructions détaillées | Grande variété de designs de Mii, inspiration pour les créateurs | Nécessite une saisie manuelle, prend du temps, certains designs utilisent des peintures faciales non reproductibles |
+
+<Callout type="info">
+La méthode de la démo *Miitopia* est particulièrement utile pour importer des Miis difficiles à créer à partir de zéro, car elle exploite les clés d'accès d'autres créateurs. Cependant, les Miis avec une peinture faciale étendue dans *Miitopia* peuvent ne pas toujours se traduire parfaitement dans *Tomodachi Life*.
+</Callout>
+
+### Création manuelle de Mii (TomodachiShare.com)
+
+Si vous utilisez un site Web comme TomodachiShare.com pour l'inspiration Mii, vous trouverez souvent des guides détaillés sur la façon de recréer manuellement des Miis. Cela implique d'ajuster soigneusement les cheveux, les yeux, les sourcils, le nez et la bouche selon les spécifications fournies.
+
+<Checklist
+  id="mii-creation-checklist"
+  title="Essentiels de la création manuelle de Mii :"
+  items={[
+    "Vérifier la couleur, le style et la position spécifiques des cheveux",
+    "Ajuster le type, la couleur, la hauteur et la distance des sourcils",
+    "Définir la forme, la couleur et la taille des yeux avec précision",
+    "Configurer le style, la position et la taille du nez et de la bouche",
+    "Faire attention aux détails comme les accessoires et les grilles de peinture faciale"
+  ]}
+/>
+
+Lorsque vous recherchez des Miis sur ces plateformes, envisagez de filtrer par "pas de peinture faciale" si vous voulez assurer une importation ou une recréation manuelle plus fluide, car la peinture faciale personnalisée peut être difficile à reproduire ou à transférer précisément.
+
+</Section>
+
+<Section icon={Settings} title="Dépannage et bonnes pratiques pour le modding">
+S'engager dans l'**importation de textures Tomodachi Life** peut être gratifiant, mais ce n'est pas sans défis. Le respect des meilleures pratiques et la connaissance des solutions aux problèmes courants peuvent garantir une expérience de modding fluide.
+
+### Problèmes courants et solutions
+
+| Problème                                | Cause possible                                      | Solution                                                                |
+|:----------------------------------------|:----------------------------------------------------|:------------------------------------------------------------------------|
+| **Texture n'apparaissant pas en jeu**   | Format de fichier incorrect, ID d'objet erroné, sauvegarde incorrecte | Assurez-vous du format PNG, revérifiez le type/ID d'objet, sauvegardez correctement le jeu avant d'utiliser l'outil |
+| **Le jeu plante après le modding**      | Fichier de sauvegarde corrompu, mod incompatible, utilisation incorrecte de l'outil | Restaurez à partir de la sauvegarde, vérifiez les instructions de l'outil, essayez un autre mod |
+| **La peinture faciale Mii ne se transfère pas** | Limitations de *Tomodachi Life*, incompatibilité de l'outil | Utilisez des Miis avec une peinture faciale moins complexe, ou ajustez manuellement en jeu |
+| **L'antivirus signale l'outil de modding** | Nouveaux fichiers `.exe` compilés indépendamment            | Ajoutez une exception à votre antivirus ou cliquez sur "Plus d'infos" et "Exécuter quand même" (faux positif courant) |
+| **L'outil de modding ne trouve pas le dossier UGC** | Chemin incorrect, jeu non sauvegardé correctement             | Vérifiez le chemin `%appdata%`, assurez-vous que le jeu a été sauvegardé et fermé |
+
+<Callout type="warning" title="Alertes antivirus">
+De nombreux outils de modding nouveaux ou développés indépendamment peuvent être signalés par Windows Defender ou d'autres logiciels antivirus comme un avertissement "SmartScreen". Il s'agit souvent d'un faux positif. Si vous faites confiance à la source, vous pouvez généralement cliquer sur "Plus d'infos" et "Exécuter quand même".
+</Callout>
+
+### Liste de contrôle essentielle du modding
+
+<Checklist
+  id="modding-checklist"
+  title="Avant de modder :"
+  items={[
+    "Sauvegardez les fichiers `Mii.sav` et `Player.sav` de votre jeu.",
+    "Assurez-vous que votre outil de modding est à jour.",
+    "Vérifiez que vos fichiers d'image personnalisés répondent au format requis (par exemple, PNG, dimensions carrées).",
+    "Lisez le README ou les instructions fournies avec l'outil de modding.",
+    "Fermez complètement *Tomodachi Life: Living The Dream* avant d'appliquer des mods."
+  ]}
+/>
+
+En suivant ces directives, vous pouvez minimiser les problèmes potentiels et profiter d'une expérience *Tomodachi Life* plus personnalisée. Les communautés de modding, telles que celles trouvées sur GameBanana ou les serveurs Discord pour des outils spécifiques, peuvent également être des ressources précieuses pour le dépannage et le partage de créations.
+
+</Section>
+
+<Section icon={Target} title="FAQ sur l'importation de textures Tomodachi Life">
+
+<FAQ items={[
+  {
+    question: "Qu'est-ce que l'importation de textures Tomodachi Life ?",
+    answer: "L'importation de textures Tomodachi Life fait référence au processus d'ajout de fichiers d'image personnalisés (textures) à des objets, de la nourriture ou même des Miis dans le jeu *Tomodachi Life: Living The Dream* à l'aide d'outils de modding tiers."
+  },
+  {
+    question: "Y a-t-il des risques à importer des textures dans Tomodachi Life ?",
+    answer: "Oui, il y a toujours un léger risque de corrompre vos fichiers de sauvegarde du jeu lors du modding. Il est crucial de sauvegarder vos fichiers `Mii.sav` et `Player.sav` avant de tenter toute importation de texture. De nombreux outils, comme TomoAIO, offrent des fonctionnalités de sauvegarde automatique."
+  },
+  {
+    question: "Quels types de fichiers image sont pris en charge pour l'importation de textures ?",
+    answer: "La plupart des outils d'importation de textures Tomodachi Life prennent principalement en charge les images au **format PNG**. Il est également souvent recommandé que les images soient de dimension carrée pour un rendu optimal en jeu, bien que des outils spécifiques comme l'Universal Texture Editor puissent offrir des fonctionnalités de recadrage."
+  },
+  {
+    question: "Puis-je importer des Miis avec de la peinture faciale personnalisée à l'aide de ces outils ?",
+    answer: "Bien que des outils comme TomoAIO puissent préserver la peinture faciale personnalisée lors de l'exportation de Miis, le succès de l'importation de Miis avec une peinture faciale très complexe dans *Tomodachi Life* peut varier, en particulier avec des méthodes comme la démo *Miitopia*. Les Miis plus simples ou les Miis sans peinture faciale étendue ont tendance à se transférer plus fiablement."
+  }
+]} />
+
+</Section>
