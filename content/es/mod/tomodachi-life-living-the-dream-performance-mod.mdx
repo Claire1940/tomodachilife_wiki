@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "tomodachi life living the dream performance mod: Guía de configuración de 60 FPS",
+  description: "Desbloquea 60 FPS y optimiza los gráficos en Tomodachi Life: Living the Dream. Sigue nuestra guía para los mejores ajustes de emulador y mods de rendimiento en 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Performance+Mod+Guide",
+  date: "2026-05-26",
+  author: "Equipo de Wiki",
+  keywords: "tomodachi life, living the dream, performance mod, 60 fps, emulador, optimización"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **tomodachi life living the dream performance mod**: Una solución impulsada por la comunidad para desbloquear los 60 FPS y mejorar la fidelidad gráfica.
+- **Advertencia de Hardware**: Aumentar el límite de FPS no es una optimización directa; tu hardware ya debe ser capaz de manejar 30 FPS de manera estable para beneficiarse.
+- **Compatibilidad de Versiones**: La mayoría de los trucos de 60 FPS están diseñados específicamente para la Versión 1.0.0 o 1.0.1 de la expansión Living the Dream (LTD).
+- **Beneficio Principal**: Animaciones de Mii más fluidas y navegación por los menús más receptiva en emuladores de PC y consolas modificadas.
+- **Mejor Opción**: El mod de 60 FPS de Fl4sh_#9174 sigue siendo el estándar de oro para la estabilidad en mayo de 2026.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el panorama de los mods de rendimiento">
+
+El **tomodachi life living the dream performance mod** se ha convertido en una herramienta esencial para los jugadores que buscan elevar su experiencia en la isla más allá de las limitaciones del hardware original. Aunque el juego base fue diseñado para la Nintendo 3DS, la expansión "Living the Dream" empuja los límites, requiriendo a menudo tasas de fotogramas más altas para una sensación verdaderamente moderna. Es importante distinguir entre un "truco" (cheat) que desbloquea la tasa de fotogramas y un "mod" que optimiza los recursos.
+
+**Puntos destacados del video:**
+- **Soporte de 60 FPS**: Demostración de la diferencia entre el juego estándar a 30 FPS y el desbloqueado a 60 FPS.
+- **Configuración del emulador**: Mejores configuraciones para Ryujinx y forks de Yuzu para asegurar un rendimiento constante.
+- **Comparación visual**: Pruebas en paralelo de los movimientos de los Mii y la navegación por la isla.
+- **Capacidad de respuesta del menú**: Cómo la mayor tasa de fotogramas afecta la interfaz de usuario y la velocidad de selección de objetos.
+
+<YouTubeEmbed videoId="ugZde3TBEXw" title="Tomodachi Life: Living the Dream PC 60FPS Mod | RYUJINX/YUZU Emulator Best Settings Performance Test" />
+
+<Callout type="tip" title="Nota del Editor">
+Si tu sistema tiene dificultades para mantener 30 FPS, no uses el mod de 60 FPS. Forzar un límite más alto en hardware poco potente puede provocar cierres del juego o desincronización grave del audio.
+</Callout>
+
+| Versión del Mod | Enfoque Principal | Mejor Plataforma | Fecha de Lanzamiento |
+| :--- | :--- | :--- | :--- |
+| **60 FPS Max v1.0.0** | Desbloqueo de FPS | Yuzu / Ryujinx | Principios de 2026 |
+| **60 FPS v1.0.1 (Fl4sh)** | Estabilidad / Archivo | Switch Modificada | Mayo de 2026 |
+| **Graphics Mod v1.0.0** | LOD / Filtrado | Atmosphere (Switch) | Abril de 2026 |
+| **Eden Nightly Patch** | Compatibilidad | Emulación en PC | 2026 |
+
+</Section>
+
+<Section icon={Sparkles} title="Características clave y variantes de mods">
+
+Al buscar un **tomodachi life living the dream performance mod**, te encontrarás con dos tipos principales de mejoras. El primero es el desbloqueo de la tasa de fotogramas, que cambia la sincronización interna del juego para permitir 60 fotogramas por segundo. El segundo es el mod de optimización gráfica, que ajusta los desplazamientos del Nivel de Detalle (LOD) y el Filtrado Anisotrópico.
+
+<CardGrid cols={3}>
+  <Card title="Truco de 60 FPS">
+    - **Animación Fluida**: Los Miis se mueven con el doble de fluidez.
+    - **Reducción del Lag de Entrada**: Los menús se sienten significativamente más rápidos.
+    - **Compatibilidad**: Funciona en la mayoría de los forks de emuladores.
+  </Card>
+  <Card title="Mod Gráfico">
+    - **Desplazamiento de LOD**: Reduce la aparición repentina de objetos distantes en la isla.
+    - **AF x4**: Texturas más nítidas en superficies anguladas como el suelo.
+    - **Claridad Visual**: Elimina la borrosidad al alejar la cámara.
+  </Card>
+  <Card title="Mejoras de Optimización">
+    - **Estabilidad**: Previene cierres en áreas de alta densidad.
+    - **Gestión de Memoria**: Mejor manejo de texturas personalizadas de Mii.
+    - **Sincronización de Audio**: Parches para la alineación del sonido a 60 FPS.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitaciones de la Plataforma">
+Aunque estos mods funcionan en hardware real, la Nintendo Switch puede tener dificultades para mantener 60 FPS fuera de las casas y los menús. Los emuladores de PC son la forma recomendada de experimentar el rendimiento completo.
+</Callout>
+
+| Ajuste | Impacto del Truco 60 FPS | Impacto del Mod Gráfico | Costo de Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Tasa de Fotogramas** | Aumenta de 30 a 60 | Sin cambios | Alto CPU/GPU |
+| **Calidad de Textura** | Sin cambios | Mejorada (Filtrado) | Bajo GPU |
+| **Distancia de LOD** | Sin cambios | Mayor distancia | Moderado GPU |
+| **Estabilidad del Sistema** | Posibilidad de cierres | Generalmente estable | Bajo |
+
+</Section>
+
+<Section icon={Target} title="Guía de instalación para PC y Consola">
+
+La instalación del **tomodachi life living the dream performance mod** depende de la plataforma elegida. Los usuarios de PC que utilizan Ryujinx o Yuzu tienen un flujo de trabajo diferente al de los usuarios de una Nintendo Switch modificada con Atmosphere. Sigue estos pasos cuidadosamente para asegurar que los archivos se coloquen en los directorios correctos.
+
+<Steps>
+  <Step num="1" title="Descarga la Versión Correcta">
+    Identifica la versión de tu juego (usualmente 1.0.0 o 1.0.1). Descarga el archivo .7z de 60 FPS correspondiente o el .zip del Mod Gráfico de fuentes confiables como GameBanana o GBAtemp.
+  </Step>
+  <Step num="2" title="Configuración del Directorio del Emulador (PC)">
+    Haz clic derecho en el juego en tu emulador. Selecciona "Abrir directorio de mods". Para Yuzu, extrae la carpeta aquí. Para Ryujinx, es posible que necesites crear una subcarpeta `cheats` y un archivo `.txt` con el nombre del Build ID.
+  </Step>
+  <Step num="3" title="Parcheo en Atmosphere (Switch)">
+    Coloca los parches `.ips` en el directorio `sd:/atmosphere/exefs_patches/`. Asegúrate de que el nombre de la carpeta sea descriptivo (ej. `TLLtD-Graphics`) para mantener organizada tu tarjeta SD.
+  </Step>
+  <Step num="4" title="Habilitar y Verificar">
+    Inicia tu emulador o consola. En el menú "Administrar trucos" o "Gestor de mods", asegúrate de que el mod de 60 FPS o el gráfico esté marcado. Reinicia el juego para aplicar los cambios.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificación del Build ID">
+Para los usuarios de Ryujinx, el Build ID específico para el truco de 60 FPS suele ser `56BF85BD53541346`. Asegúrate de que tu archivo de texto coincida exactamente con esto o el truco no se cargará.
+</Callout>
+
+| Emulador | Ubicación del Mod | Formato de Archivo | Método de Activación |
+| :--- | :--- | :--- | :--- |
+| **Ryujinx** | `/sdcard/atmosphere/contents/` | .txt (Truco) | Menú Administrar Trucos |
+| **Yuzu / Forks** | `/load/[TitleID]/` | Carpeta (Mod) | Propiedades > Complementos |
+| **Switch (CFW)** | `/atmosphere/exefs_patches/` | .ips (Parche) | Automático al arrancar |
+
+</Section>
+
+<Section icon={Shield} title="Optimización y resolución de problemas">
+
+El uso de un **tomodachi life living the dream performance mod** a veces puede introducir errores visuales, como texturas del suelo parpadeantes o iconos de Mii borrosos. Estos problemas suelen estar relacionados con la forma en que el emulador maneja el Filtrado Anisotrópico o los desplazamientos de LOD. Si encuentras una "textura de suelo con errores", es probable que sea un conflicto entre el mod gráfico y la configuración del controlador de tu GPU.
+
+| Problema | Causa Potencial | Solución Recomendada |
+| :--- | :--- | :--- |
+| **Suelo Parpadeante** | Incompatibilidad de controladores | Actualizar drivers de GPU / Cambiar a Vulkan |
+| **Iconos de Mii Borrosos** | Mod de desplazamiento de LOD | Desactivar Mod Gráfico / Usar escala x1 |
+| **Desincronización de Audio** | Desincronización por 60 FPS | Usar un parche dedicado de sincronización de audio |
+| **Cierres del Juego** | Alta carga de FPS | Limitar FPS a 45 o volver a 30 |
+
+<Callout type="info" title="Consejo de Rendimiento">
+En Ryujinx, habilitar "Enable Guest Internet Access" no está relacionado con el rendimiento, pero asegurar que el "Graphics Backend" esté configurado en Vulkan puede mejorar significativamente la estabilidad de los mods de 60 FPS en hardware AMD e Intel.
+</Callout>
+
+| Ajuste Gráfico | Valor Recomendado | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Escala de Resolución** | 2x (1440p) | Moderado |
+| **Filtrado Anisotrópico** | 4x o 16x | Bajo |
+| **V-Sync** | Apagado (si usas mod 60 FPS) | Alto |
+| **Caché de Sombreadores** | Habilitar | Alto (Carga inicial) |
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de rendimiento y lista de verificación">
+
+Para lograr los mejores resultados con tu **tomodachi life living the dream performance mod**, debes buscar un equilibrio entre la fidelidad visual y la estabilidad de la tasa de fotogramas. Usa la siguiente lista de verificación para asegurar que tu configuración esté optimizada para los estándares de juego de 2026.
+
+<Checklist
+  id="performance-check"
+  title="Lista de Verificación de Optimización:"
+  items={[
+    "Verificar que la versión del juego coincida con la del mod (1.0.0 vs 1.0.1)",
+    "Configurar el Backend del emulador en Vulkan para una mejor compilación de sombreadores",
+    "Confirmar que el truco de 60 FPS esté activo en el menú 'Administrar trucos'",
+    "Comprobar desincronización de audio durante eventos de canto de los Mii",
+    "Asegurar que el plan de energía de tu PC esté en 'Alto Rendimiento'"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia Pro">
+Si estás jugando en una PC portátil como Steam Deck o ROG Ally, quédate con el mod de estabilidad 1.0.1 en lugar del desbloqueo de 60 FPS para preservar la duración de la batería y mantener unos 30 FPS constantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el tomodachi life living the dream performance mod compatible con el juego base?",
+    answer: "No, estos mods específicos están diseñados para la expansión 'Living the Dream'. Usarlos en la versión original de 3DS de Tomodachi Life hará que el juego no arranque."
+  },
+  {
+    question: "¿Por qué mi juego corre en cámara lenta después de activar los 60 FPS?",
+    answer: "Esto sucede cuando tu hardware no puede mantener los 60 FPS completos. La velocidad del motor del juego está ligada a la tasa de fotogramas; si solo alcanzas 40 FPS, el juego correrá aproximadamente al 66% de velocidad. Debes tener una CPU lo suficientemente potente para mantener los 60 constantes."
+  },
+  {
+    question: "¿Puedo usar el mod gráfico y el mod de 60 FPS al mismo tiempo?",
+    answer: "Sí, afectan partes diferentes del código del juego (parches exefs vs trucos). Sin embargo, la carga combinada puede aumentar la probabilidad de cierres en sistemas de gama baja."
+  },
+  {
+    question: "¿Dónde puedo encontrar el Build ID para mi versión del juego?",
+    answer: "En Ryujinx, haz clic derecho en el juego y selecciona 'Propiedades'. El Build ID aparecerá en la pestaña de información. Esto es esencial para nombrar correctamente tus archivos .txt de trucos."
+  }
+]} />
+
+</Section>
