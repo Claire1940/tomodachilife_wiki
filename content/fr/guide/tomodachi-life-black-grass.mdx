@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Herbe noire dans Tomodachi Life : Comprendre et corriger le bug visuel",
+  description: "Enquêtez et résolvez le bug visuel de l'herbe noire dans Tomodachi Life, en particulier dans les émulateurs comme Eden, avec des solutions pratiques et des conseils de dépannage.",
+  category: "Dépannage",
+  image: "https://placehold.co/800x400/34D399/fff?text=Tomodachi+Life+Black+Grass",
+  date: "2026-05-29",
+  author: "L'équipe Gaming Wiki",
+  keywords: "Tomodachi Life, herbe noire, bug visuel, émulateur Eden, dépannage, AMD GPU"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le bug de **l'herbe noire dans Tomodachi Life** est principalement observé sur des émulateurs comme Eden.
+- Il affecte souvent des **architectures GPU** spécifiques, notamment la série AMD Radeon.
+- Le **dépannage** implique l'ajustement des paramètres graphiques et des versions de l'émulateur.
+- Un correctif potentiel consiste à modifier le **code source de l'émulateur** pour désactiver `depth_clamp_enable`.
+- Le problème a été signalé sur **diverses plateformes**, notamment Linux, Android et Steam Deck.
+</Callout>
+
+<Section icon={Shield} title="Comprendre le bug de l'herbe noire dans Tomodachi Life">
+Le phénomène de "l'herbe noire" dans *Tomodachi Life* est une anomalie visuelle qui affecte principalement les joueurs utilisant des émulateurs, en particulier l'émulateur Eden. Au lieu du feuillage vert vif, l'herbe de l'île apparaît comme une texture noire inquiétante. Ce bug nuit considérablement à l'esthétique charmante du jeu et constitue un problème récurrent pour de nombreux joueurs.
+
+Les rapports indiquent que ce dysfonctionnement graphique n'est pas isolé à une seule version d'émulateur ou à un seul système d'exploitation. Il a été confirmé à la fois dans la "Version de bienvenue Living The Dream" et dans la version commerciale de *Tomodachi Life*, apparaissant sur des plateformes allant de Linux et Android au Steam Deck. La cohérence des rapports suggère un problème de compatibilité ou de rendu sous-jacent plus profond au sein de l'environnement d'émulation plutôt qu'un fichier de jeu corrompu.
+
+<Callout type="warning" title="Spécifique à l'émulateur">
+Ce bug d'herbe noire est presque exclusivement signalé dans des **environnements d'émulateur**. Les joueurs sur le matériel original Nintendo 3DS sont peu susceptibles de rencontrer ce problème. Assurez-vous d'utiliser une copie légitime du jeu avec votre émulateur.
+</Callout>
+
+### Caractéristiques communes du bug
+
+| Caractéristique | Description | Impact sur le gameplay |
+|:---------------|:------------|:-------------------|
+| **Distorsion visuelle** | Les textures de l'herbe apparaissent uniformément noires sur toute l'île. | Perturbation esthétique, brise l'immersion. |
+| **Dépendance à l'émulateur** | Principalement observé dans l'émulateur Eden, sur plusieurs versions. | Limite l'expérience d'émulation optimale. |
+| **Indépendant de la plateforme** | Affecte les utilisateurs de Linux, Android et Steam Deck. | Impact étendu sur différents matériels/OS. |
+| **Problème persistant** | Persiste souvent même après avoir modifié de nombreux paramètres graphiques. | Frustrant pour les utilisateurs cherchant des solutions rapides. |
+
+</Section>
+
+<Section icon={Target} title="Identifier la cause : Facteurs matériels et logiciels">
+Identifier la cause exacte du bug de **l'herbe noire dans Tomodachi Life** peut être complexe, car il semble provenir d'une interaction entre le pipeline de rendu de l'émulateur et des configurations matérielles spécifiques. Les rapports d'utilisateurs mentionnent fréquemment les GPU AMD comme un facteur commun.
+
+### Causes suspectées
+
+<CardGrid cols={2}>
+  <Card title="Compatibilité GPU AMD">
+    De nombreux utilisateurs équipés de **GPU AMD Radeon** (ex : RX 580, RX 7800XT, RX 6700 XT, RX 7600 XT) ont signalé ce bug. Cela suggère une incompatibilité de rendu potentielle ou un problème de pilote spécifique au matériel AMD au sein du backend Vulkan de l'émulateur.
+  </Card>
+  <Card title="Paramètres de rendu de l'émulateur">
+    Le bug persiste même après que les utilisateurs ont ajusté divers **paramètres graphiques** pour une "précision maximale". Cela implique que le problème pourrait être enraciné dans une option de rendu fondamentale ou une fonctionnalité spécifique qui est soit mal implémentée, soit incompatible.
+  </Card>
+  <Card title="Versions Nightly et régressions">
+    Certains utilisateurs ont noté que le bug est apparu ou s'est aggravé dans des **versions nightly** spécifiques de l'émulateur, indiquant que des changements de code récents pourraient avoir introduit des régressions affectant le rendu des textures ou la gestion de la profondeur.
+  </Card>
+  <Card title="Fonctionnalité Depth Clamping">
+    Un coupable technique potentiel identifié par certains utilisateurs avancés est le paramètre `dynamic_features.has_dynamic_state3_depth_clamp_enable` dans le fichier `vk_pipeline_cache.cpp` de l'émulateur. La désactivation de cette fonctionnalité a montré des résultats prometteurs pour les problèmes de scintillement, qui pourraient être liés à l'herbe noire.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Aperçu technique">
+La fonctionnalité `dynamic_state3_depth_clamp_enable` est liée à la façon dont le pipeline graphique gère les valeurs de profondeur, ce qui peut affecter le rendu des objets et des textures distants. Une implémentation incorrecte ou une interaction avec certains GPU pourrait entraîner des artefacts visuels comme l'herbe noire ou le scintillement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Étapes de dépannage pour l'herbe noire">
+Si vous rencontrez le bug de **l'herbe noire dans Tomodachi Life**, plusieurs étapes de dépannage s'offrent à vous. Celles-ci vont de simples ajustements dans l'émulateur à des solutions plus avancées impliquant les builds de l'émulateur.
+
+### Vérifications initiales et solutions de base
+
+<Steps>
+  <Step num="1" title="Mettre à jour l'émulateur vers la dernière version Nightly">
+    Assurez-vous que votre émulateur Eden utilise la **dernière version nightly**. Les développeurs publient souvent des mises à jour qui corrigent des bugs graphiques et améliorent la compatibilité. Consultez le dépôt officiel de l'émulateur ou la page de téléchargement.
+  </Step>
+  <Step num="2" title="Ajuster les paramètres graphiques">
+    Dans les paramètres graphiques de l'émulateur, expérimentez différents **backends de rendu** (si disponibles, ex : Vulkan, OpenGL) et **niveaux de précision**. Parfois, un paramètre moins précis peut contourner un bug, ou un backend spécifique peut mieux fonctionner avec votre GPU.
+  </Step>
+  <Step num="3" title="Mettre à jour les pilotes GPU">
+    Assurez-vous que les pilotes de votre carte graphique sont **à jour**. Des pilotes obsolètes peuvent causer divers problèmes graphiques dans les jeux émulés. Visitez le site Web du fabricant de votre GPU (AMD, NVIDIA, Intel) pour télécharger les derniers pilotes stables.
+  </Step>
+  <Step num="4" title="Vérifier la version du jeu">
+    Vérifiez que votre ROM *Tomodachi Life* n'est **pas corrompue** et qu'elle est compatible avec votre version d'émulateur. Essayez d'obtenir une ROM différente en cas de doute.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Avant d'apporter des modifications importantes, sauvegardez toujours vos paramètres d'émulateur et vos fichiers de sauvegarde. Cela vous permet de revenir à un état fonctionnel si les étapes de dépannage causent d'autres problèmes.
+</Callout>
+
+### Dépannage avancé : Builds de l'émulateur et code source
+
+Pour les utilisateurs à l'aise avec des solutions plus techniques, l'examen de builds spécifiques de l'émulateur ou même la modification du code source peut être nécessaire.
+
+| Catégorie de solution | Description | Considérations |
+|:------------------|:------------|:---------------|
+| **Versions Nightly spécifiques** | Certains utilisateurs ont constaté que les anciennes versions nightly (ex : 23 avril 2026) ne présentaient pas le bug, contrairement aux plus récentes (à partir du 24 avril 2026). | Nécessite de trouver et d'installer des versions plus anciennes spécifiques. Peut manquer d'autres corrections de bugs ou d'améliorations de performances. |
+| **Modification du code source** | Modifier le code source de l'émulateur, spécifiquement en réglant `dynamic_features.has_dynamic_state3_depth_clamp_enable` sur `false` dans `src/video_core/renderer_vulkan/vk_pipeline_cache.cpp`. | Nécessite des connaissances en programmation et la capacité de compiler l'émulateur à partir des sources. Non supporté officiellement. |
+| **Patchs/Forks de la communauté** | Recherchez des patchs ou des forks de l'émulateur créés par la communauté qui traitent spécifiquement de ce problème. | Peut ne pas être maintenu officiellement, à utiliser à vos propres risques. |
+| **Signaler le bug** | Si vous pouvez reproduire le bug de manière cohérente, signalez-le aux développeurs de l'émulateur avec des informations détaillées sur votre système et les étapes de reproduction. | Aide les développeurs à comprendre et à corriger le problème pour les futures versions. |
+
+</Section>
+
+<Section icon={Sparkles} title="Mesures préventives et meilleures pratiques">
+Bien que le bug de **l'herbe noire dans Tomodachi Life** soit principalement un problème technique, l'adoption de certaines pratiques peut vous aider à maintenir une expérience d'émulation plus fluide et potentiellement éviter des problèmes similaires à l'avenir.
+
+### Maintenir un environnement d'émulation stable
+
+<Checklist
+  id="emulation-best-practices"
+  title="Liste de contrôle pour la santé de l'émulateur :"
+  items={[
+    "Mettez régulièrement à jour votre émulateur vers des versions stables ou des versions nightly réputées.",
+    "Gardez votre système d'exploitation et vos pilotes graphiques à jour.",
+    "Évitez d'exécuter plusieurs applications exigeantes simultanément avec l'émulateur.",
+    "Utilisez des ROMs de jeu légitimes et vérifiées pour éviter les problèmes inattendus.",
+    "Rejoignez les forums de la communauté de l'émulateur pour obtenir les dernières informations sur les bugs et les correctifs.",
+  ]}
+/>
+
+<Callout type="success" title="Engagement de la communauté">
+S'engager avec la communauté de l'émulateur est crucial. De nombreux bugs obscurs, comme celui de **l'herbe noire dans Tomodachi Life**, sont souvent discutés et parfois même résolus par des membres de la communauté avant la sortie de patchs officiels.
+</Callout>
+
+### Considérations matérielles
+
+Bien que vous ne puissiez pas changer de GPU juste pour un jeu, comprendre la compatibilité matérielle peut guider vos futures mises à niveau ou aider à gérer vos attentes.
+
+| Aspect matériel | Impact sur l'émulation | Recommandation |
+|:----------------|:--------------------|:---------------|
+| **Fournisseur de GPU** | Les GPU AMD semblent plus enclins à ce bug spécifique dans certains émulateurs. | Consultez les rapports de la communauté pour les problèmes spécifiques aux GPU avant les mises à jour majeures de l'émulateur. |
+| **Performance du CPU** | Un CPU puissant est vital pour les performances globales d'émulation, réduisant d'autres dysfonctionnements potentiels. | Privilégiez une configuration CPU/GPU équilibrée pour une émulation optimale. |
+| **Capacité de RAM** | Une RAM suffisante évite les saccades et les plantages, surtout avec des textures haute résolution. | 8 Go+ de RAM sont généralement recommandés pour une émulation fluide. |
+| **Vitesse de stockage** | Les SSD réduisent considérablement les temps de chargement et peuvent améliorer la réactivité globale. | Installez l'émulateur et les jeux sur un SSD si possible. |
+
+</Section>
+
+<Section icon={Trophy} title="Perspectives d'avenir et correctifs officiels">
+La solution à long terme pour le bug de **l'herbe noire dans Tomodachi Life** réside dans les mises à jour officielles de l'émulateur. Les développeurs sont généralement conscients des problèmes répandus et travaillent à la mise en œuvre de correctifs.
+
+### Développements et correctifs récents
+
+Le rapport de problème référencé sur GitHub ([Issue #431](https://github.com/eden-emulator/Issue-Reports/issues/431)) indique que le problème de l'herbe noire, ainsi que d'autres bugs graphiques liés comme le scintillement des ombres, a été activement discuté et traité. L'une des mises à jour clés mentionne que le problème a été potentiellement corrigé dans une pull request ultérieure, spécifiquement la #3953.
+
+<Callout type="success" title="Résolution confirmée">
+Selon le problème GitHub, l'herbe noire et les problèmes de scintillement associés ont été **corrigés dans la pull request #3953** le 17 mai 2026. Il est conseillé aux utilisateurs de mettre à jour leur émulateur Eden vers une version intégrant ce correctif.
+</Callout>
+
+Cela signifie que si vous rencontrez toujours le bug de l'herbe noire, votre version de l'émulateur est peut-être obsolète ou n'inclut pas encore le correctif nécessaire. Vérifier régulièrement les notes de version officielles ou les journaux de mise à jour de l'émulateur est le meilleur moyen de rester informé de ces correctifs.
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions sur l'herbe noire de Tomodachi Life">
+
+<FAQ items={[
+  {
+    question: "Qu'est-ce qui cause le bug de l'herbe noire dans Tomodachi Life ?",
+    answer: "Le bug de l'herbe noire est principalement un problème de rendu au sein des émulateurs, en particulier Eden, souvent lié à la compatibilité avec les GPU AMD et à des versions spécifiques de l'émulateur. Il semble provenir de la manière dont l'émulateur gère certaines fonctionnalités graphiques comme le serrage de profondeur (depth clamping)."
+  },
+  {
+    question: "Le bug de l'herbe noire est-il présent sur la Nintendo 3DS originale ?",
+    answer: "Non, le bug de l'herbe noire est un problème spécifique à l'émulation et n'est pas observé sur le matériel Nintendo 3DS original. C'est un problème qui découle des défis liés à la réplication précise du pipeline graphique de la 3DS sur différents systèmes."
+  },
+  {
+    question: "Comment puis-je corriger le bug de l'herbe noire dans Tomodachi Life ?",
+    answer: "La solution la plus efficace consiste à mettre à jour votre émulateur vers la dernière version nightly, car le problème a été signalé comme corrigé dans la pull request #3953 en date du 17 mai 2026. Si cela ne fonctionne pas, essayer différents paramètres graphiques ou, pour les utilisateurs avancés, modifier le code source de l'émulateur en désactivant `depth_clamp_enable` peut aider."
+  },
+  {
+    question: "Le bug de l'herbe noire affecte-t-il le gameplay ou les fichiers de sauvegarde ?",
+    answer: "Le bug de l'herbe noire est principalement un dysfonctionnement visuel et n'affecte généralement pas les mécanismes de jeu, la progression ou l'intégrité des fichiers de sauvegarde. Cependant, il peut nuire considérablement à l'expérience visuelle et à l'immersion dans le jeu."
+  }
+]} />
+
+</Section>
