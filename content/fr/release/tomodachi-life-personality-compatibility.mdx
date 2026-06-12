@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Compatibilité des personnalités dans Tomodachi Life : Guide des relations 2026",
+  description: "Maîtrisez la compatibilité des personnalités dans Tomodachi Life. Découvrez comment les 16 types de Mii, les anniversaires et les échelles de relation influencent la vie insulaire et la romance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Personality+Compatibility+Guide",
+  date: "2026-05-26",
+  author: "Équipe Wiki de Tomodachi Life"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Compatibilité des personnalités dans Tomodachi Life** : Le système de base utilise 16 types de personnalité et les anniversaires pour déterminer le succès social.
+- **Groupes de Personnalités** : Les Miis se répartissent en catégories : Facile à vivre, Extraverti, Indépendant ou Confiant.
+- **Testeur de Compatibilité** : Débloquez cette fonctionnalité tôt pour prévoir les résultats d'amitié et de romance.
+- **Échelles de Relation** : Suivez les niveaux de statut, de 'S'entendent plus ou moins' à 'Âme Sœur', pour gérer les drames insulaires.
+- **Vivre le Rêve** : La sortie sur Switch en 2026 maintient ces mécaniques classiques avec des interactions sociales mises à jour.
+</Callout>
+
+<Section icon={Sparkles} title="Les 16 types de personnalité dans Tomodachi Life">
+
+Comprendre la **compatibilité des personnalités dans Tomodachi Life** commence par le tableau des personnalités. Lorsque vous créez un Mii, vous ajustez quatre curseurs : Mouvement, Parole, Expressivité et Attitude. Ces entrées placent votre résident dans l'un des 16 types de personnalité distincts. Ces types ne sont pas seulement cosmétiques ; ils dictent la façon dont les Miis parlent, leurs préférences de pièce, et surtout, la façon dont ils interagissent avec les autres.
+
+<CardGrid cols={2}>
+  <Card title="Groupe Facile à vivre">
+    - **Sensible** : Émotif et très empathique.
+    - **Optimiste** : Toujours joyeux et de bonne humeur.
+    - **Ami** : Fait passer ses amis avant tout.
+    - **Rêveur** : Idéaliste et romantique.
+  </Card>
+  <Card title="Groupe Extraverti">
+    - **Lanceur de tendances** : Élégant et socialement adaptable.
+    - **Animateur** : Adore être le centre de l'attention.
+    - **Charmeur** : Crée naturellement des liens facilement.
+    - **Leader** : Assertif et prend les choses en main.
+  </Card>
+  <Card title="Groupe Indépendant">
+    - **Esprit libre** : Suit ses propres valeurs personnelles.
+    - **Artiste** : Calme, créatif et sérieux.
+    - **Loup solitaire** : Privé et très individualiste.
+    - **Penseur** : Analytique et réfléchi.
+  </Card>
+  <Card title="Groupe Confiant">
+    - **Designer** : Soigné et axé sur les objectifs.
+    - **Aventurier** : Recherche activement de nouveaux défis.
+    - **Cerveau** : Très intelligent et logique.
+    - **Fonctionnaire** : Motivé par l'ambition et la concentration.
+  </Card>
+</CardGrid>
+
+| Groupe | Type de Personnalité | Trait Principal | Comportement Social |
+| :--- | :--- | :--- | :--- |
+| **Facile à vivre** | Sensible | Empathie | Très sensible aux sentiments des autres |
+| **Facile à vivre** | Optimiste | Positivité | Se fâche ou se met en colère rarement |
+| **Extraverti** | Animateur | Humour | Raconte fréquemment des blagues en groupe |
+| **Extraverti** | Leader | Assertivité | Initie souvent des rassemblements sociaux |
+| **Indépendant** | Loup solitaire | Vie privée | Préfère passer du temps dans sa chambre |
+| **Confiant** | Cerveau | Logique | Dialogue sérieux et discours direct |
+
+<Callout type="tip" title="Conseil de Personnalité">
+Les Miis du même groupe (par exemple, deux Miis Extravertis) ont généralement plus de facilité à devenir amis au début, mais des groupes différents peuvent créer des relations à long terme plus dynamiques et intéressantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Débloquer et utiliser le Testeur de Compatibilité">
+
+Pour vraiment maîtriser **친모아 성격 궁합**, vous devez débloquer le Testeur de Compatibilité. Cette installation fournit un pourcentage numérique et une prévision météorologique pour deux Miis de votre île. Bien qu'il ne garantisse pas un résultat spécifique, il montre le potentiel "brut" d'un couple basé sur leurs anniversaires et leurs traits de personnalité.
+
+<Steps>
+  <Step num="1" title="Remplir les conditions de déblocage">
+    Vous devez avoir au moins 2 Miis masculins et 2 Miis féminins vivant sur l'île. De plus, vous devez résoudre au moins 30 problèmes de Mii (bulles noires ou oranges).
+  </Step>
+  <Step num="2" title="Vérifier les anniversaires">
+    Le testeur nécessite les dates de naissance complètes (Mois/Jour/Année) pour les deux Miis. Si l'anniversaire d'un Mii est manquant, la compatibilité ne peut pas être calculée.
+  </Step>
+  <Step num="3" title="Sélectionner le couple">
+    Choisissez deux Miis à tester. Le jeu fournira une prévision d'amitié (même sexe ou groupes d'âge différents) ou une prévision de romance (sexe opposé, même groupe d'âge).
+  </Step>
+  <Step num="4" title="Interpréter les résultats">
+    Les résultats sont affichés sous forme de pourcentage (0% à 100%) et d'une prévision hebdomadaire. Une prévision "Ensoleillé" indique une excellente semaine pour le rapprochement, tandis qu'une prévision "Orageux" suggère des disputes potentielles.
+  </Step>
+</Steps>
+
+| Icône de Prévision | Signification | Impact sur la Compatibilité |
+| :--- | :--- | :--- |
+| **Ensoleillé** | Excellent | Forte chance de confessions réussies |
+| **Nuageux** | Moyen | Relation stable avec une croissance mineure |
+| **Pluvieux** | Faible | Probabilité de malentendus |
+| **Orageux** | Terrible | Risque élevé de grandes disputes ou de ruptures |
+
+<Callout type="warning" title="Limitation du Testeur">
+Le Testeur de Compatibilité est une prévision, pas un destin. Un couple avec 10% de compatibilité peut toujours se marier si vous intervenez avec les bons conseils et cadeaux !
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="L'échelle de statut relationnel">
+
+Dans Tomodachi Life et l'édition *Vivre le Rêve* de 2026, les relations sont suivies par des "étiquettes de statut" spécifiques. Ces étiquettes apparaissent dans le profil du Mii et changent en fonction de leurs interactions quotidiennes. Connaître ces niveaux est essentiel pour prédire quand un Mii pourrait demander en mariage ou quand il risque de mettre fin à une amitié.
+
+| Catégorie | Statut Élevé (Vert) | Statut Moyen (Orange) | Statut Faible (Violet) |
+| :--- | :--- | :--- | :--- |
+| **Amitié** | Meilleur Ami / BFF | Grand Ami / Bon Ami | Ne s'entendent pas |
+| **Romance** | Marions-nous ! | Super Amoureux | Malheureux |
+| **Mariage** | Âme Sœur | Super Heureux | Pas Heureux |
+
+**Niveaux de Statut d'Amitié (Amérique du Nord) :**
+1. **Meilleur Ami** : Le niveau le plus élevé pour les amis standards.
+2. **Bon Compagnon** : Un lien très fort et stable.
+3. **Grand Ami** : Une amitié fiable.
+4. **Bon Ami** : Le statut positif par défaut.
+5. **S'entendent bien** : Territoire neutre.
+6. **S'entendent plus ou moins** : Commencent à s'éloigner.
+7. **Ne s'entendent pas** : Risque élevé que le Mii veuille cesser d'être ami.
+
+<Callout type="success" title="Signal de Romance">
+Si une relation amoureuse atteint 'Marions-nous !' ou 'Super Amoureux', une demande en mariage est susceptible d'apparaître dans les prochaines sessions de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comment améliorer la compatibilité et les liens">
+
+Même si la **친모아 성격 궁합** est faible au départ, vous pouvez manuellement renforcer la relation entre deux Miis. Ceci est vital pour les joueurs qui souhaitent que des personnages spécifiques deviennent des couples ou des meilleurs amis. La version Switch de 2026 introduit des moyens plus interactifs de faciliter ces liens grâce au nouveau système de "Sorties en groupe".
+
+<Checklist
+  id="bond-boosting"
+  title="Boosters de liens actionnables :"
+  items={[
+    "Donnez des tickets de voyage à un Mii pour l'envoyer en vacances avec son partenaire.",
+    "Quand un Mii demande 'Que penses-tu de moi et de [Nom] ?', choisissez toujours 'Excellent match !'",
+    "Encouragez les Miis à s'excuser immédiatement après l'apparition d'une bulle de dispute.",
+    "Donnez aux deux Miis des cadeaux similaires (comme la Wii U ou la Nintendo Switch) pour augmenter les activités partagées.",
+    "Vérifiez le Café ou le Parc à des moments spécifiques pour trouver le couple ensemble."
+  ]}
+/>
+
+| Méthode | Niveau d'Effort | Taux de Réussite | Meilleur Usage pour |
+| :--- | :--- | :--- | :--- |
+| **Ticket de Voyage** | Élevé | Très Élevé | Sauver un mariage en échec |
+| **Conseil Positif** | Faible | Modéré | Croissance incrémentielle de l'amitié |
+| **Cadeaux Partagés** | Moyen | Modéré | Augmenter la fréquence d'interaction |
+| **Aide à l'Excuse** | Moyen | Élevé | Réparer le statut après une grosse dispute |
+
+<Callout type="info" title="Nouveauté 2026">
+Dans *Tomodachi Life: Living the Dream*, vous pouvez désormais suggérer des "lieux de rencontre" spécifiques aux Miis, vous donnant plus de contrôle sur qui passe du temps ensemble au Parc d'Attractions ou sur la nouvelle Place de l'Île.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mariage, Ruptures et Divorce">
+
+L'objectif ultime de **친모아 성격 궁합** pour beaucoup est le mariage et la fondation d'une famille. Une fois mariés, les couples emménagent dans les Maisons Mii. Cependant, le jeu reste une simulation, ce qui signifie que les relations nécessitent toujours un entretien. Si le statut de mariage tombe dans la zone violette 'Pas Heureux', le couple peut demander le divorce, ce qui les retire des Maisons Mii et les renvoie aux Appartements.
+
+**Le chemin vers les Maisons Mii :**
+1. **Confession** : Un Mii demande à l'autre d'être son amoureux(se).
+2. **Rencontre** : Le couple passe du temps ensemble, augmentant son statut amoureux.
+3. **Demande en mariage** : Un Mii demande votre aide pour faire sa proposition via un mini-jeu de timing.
+4. **Mariage** : Une cérémonie est organisée, et le couple part en lune de miel.
+5. **Maisons Mii** : Le couple emménage dans une maison permanente sur l'île.
+
+<Callout type="warning" title="Avertissement de divorce">
+Un divorce est permanent dans Tomodachi Life. Bien que les Miis puissent techniquement se fréquenter à nouveau plus tard, leur histoire en tant qu''Ex-Conjoint' rend la compatibilité beaucoup plus difficile à reconstruire.
+</Callout>
+
+| Événement | Exigence | Résultat |
+| :--- | :--- | :--- |
+| **Demande en mariage** | Statut amoureux élevé | Mariage et déblocage de Maison Mii |
+| **Demande de bébé** | Marié + Statut positif | Un enfant arrive en 1-2 jours |
+| **Rupture** | Statut amoureux faible | Les Miis deviennent 'Ex-Amoureux' |
+| **Divorce** | Statut de mariage faible | Les Miis retournent aux Appartements |
+
+</Section>
+
+<Section icon={Map} title="FAQ : Questions Fréquemment Posées">
+
+<FAQ items={[
+  {
+    question: "Puis-je changer la personnalité d'un Mii après sa création ?",
+    answer: "Oui, vous pouvez modifier la personnalité d'un Mii à tout moment en allant à la Mairie, en sélectionnant le Mii et en choisissant 'Modifier'. Le fait de modifier les curseurs mettra immédiatement à jour son type de personnalité et pourra légèrement altérer sa 친모아 성격 궁합 actuelle avec les autres habitants de l'île."
+  },
+  {
+    question: "La version Switch de 2026 a-t-elle des règles de compatibilité différentes ?",
+    answer: "La logique de base des anniversaires et des personnalités reste la même que celle de la version 3DS. Cependant, Tomodachi Life: Living the Dream ajoute plus d'événements sociaux et d'objets qui peuvent influencer la rapidité avec laquelle ces relations se développent."
+  },
+  {
+    question: "Quelle est la meilleure personnalité pour un Mii ?",
+    answer: "Il n'y a pas de 'meilleure' personnalité. Cependant, les types 'Facile à vivre' et 'Extraverti' ont tendance à avoir des interactions sociales plus fréquentes, ce qui les rend plus faciles à gérer pour les débutants qui veulent une île animée."
+  },
+  {
+    question: "Comment empêcher deux Miis de se disputer ?",
+    answer: "Lorsqu'un Mii a une bulle rouge 'en colère', appuyez dessus et dites-lui de se calmer. S'il est toujours en colère, vous devrez peut-être lui donner un ensemble de bain ou sa nourriture préférée pour réduire son niveau de stress avant qu'il ne puisse s'excuser auprès de l'autre Mii."
+  }
+]} />
+
+<Callout type="tip" title="Conseil Final">
+La beauté de Tomodachi Life réside dans le chaos ! N'ayez pas peur de laisser des Miis à faible compatibilité interagir. Certains des moments les plus drôles de l'île proviennent des couples les plus improbables.
+</Callout>
+
+</Section>
