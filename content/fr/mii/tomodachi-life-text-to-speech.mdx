@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Text to Speech : Guide de personnalisation de la voix",
+  description: "Apprenez à reproduire et à personnaliser la voix de synthèse vocale emblématique de Tomodachi Life. Explorez les paramètres de voix, les préréglages et les outils de génération.",
+  category: "Tutoriel",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Life+TTS+Guide",
+  date: "2026-06-28",
+  author: "Équipe du Wiki de tomodachi life living the dream release date"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La synthèse vocale de Tomodachi Life** permet aux joueurs de créer des voix synthétisées hautement personnalisées pour leurs habitants virtuels.
+- **Six paramètres de base** régissent la façon dont chaque Mii s'exprime, notamment la hauteur, la vitesse, la qualité, le ton, l'accent et l'intonation.
+- **L'orthographe phonétique** est le moyen le plus efficace de corriger les erreurs de prononciation du moteur de synthèse.
+- **Les générateurs en ligne** vous permettent de recréer ces voix emblématiques en dehors de la console Nintendo 3DS.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre le moteur de synthèse vocale de Tomodachi Life">
+
+Le charme unique du jeu de simulation de vie décalé de Nintendo repose en grande partie sur sa synthèse vocale. Le moteur de **synthèse vocale de Tomodachi Life** s'appuie sur une bibliothèque spécialisée de synthèse vocale (TTS) en temps réel intégrée directement au logiciel. Contrairement aux jeux classiques qui utilisent des fichiers vocaux préenregistrés pour les personnages, ce moteur traduit dynamiquement le texte saisi en audio, permettant aux Miis de prononcer n'importe quel nom, phrase ou parole de chanson personnalisée écrite par le joueur. Ce système crée un style vocal robotique mais expressif qui est devenu une marque de fabrique de la franchise.
+
+Comprendre comment ce moteur traite le texte est essentiel pour les créateurs qui souhaitent reproduire ce son. Le logiciel décompose le texte en unités phonétiques de base appelées phonemes. Il applique ensuite un traitement numérique du signal pour modifier la hauteur, la vitesse et la résonance de ces phonèmes en fonction des paramètres personnalisés définis dans l'éditeur de Mii. Comme le moteur a été conçu pour le matériel limité de la Nintendo 3DS, il possède une texture numérique basse fidélité caractéristique que les synthétiseurs modernes tentent souvent d'émuler.
+
+| Fonctionnalité | Moteur 3DS natif | Émulateur Web moderne |
+|---|---|---|
+| Plateforme | Console Nintendo 3DS | Navigateur Web |
+| Traitement | Synthèse locale en temps réel | Cloud ou JS côté client |
+| Personnalisation | Interface de curseurs en jeu | Saisie de paramètres numériques |
+| Exportation audio | Nécessite une carte de capture | Téléchargement direct MP3 ou WAV |
+| Langues prises en charge | Verrouillé par région (US/EU/JP) | Préréglages multilingues |
+
+<Callout type="tip" title="Conseil de prononciation">
+Pour obtenir les meilleurs résultats lors de l'écriture de dialogues personnalisés, décomposez les mots complexes en parties phonétiques plus simples. Le moteur TTS lit le texte littéralement, donc écrire un mot comme « laughter » sous la forme « laff-ter » peut donner un résultat beaucoup plus naturel.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Paramètres vocaux de base et personnalisation">
+
+La personnalisation des voix des Miis nécessite d'ajuster plusieurs curseurs individuels. Le jeu propose six paramètres principaux pour façonner l'identité vocale de vos habitants. Comprendre l'interaction de ces curseurs est essentiel pour créer des personnalités distinctes qui correspondent à l'apparence physique de vos Miis.
+
+<CardGrid cols={3}>
+  <Card title="Hauteur et Vitesse">
+    - **La hauteur** contrôle la fréquence fondamentale de la voix.
+    - **La vitesse** détermine la rapidité avec laquelle le Mii prononce les syllabes.
+    - L'association d'une hauteur élevée et d'une vitesse rapide crée des voix enfantines et énergiques.
+  </Card>
+  <Card title="Ton et Qualité">
+    - **Le ton** ajuste la résonance métallique de la sortie vocale.
+    - **La qualité** contrôle la clarté et le souffle du son.
+    - Des valeurs de qualité inférieures produisent une texture plus robotique et synthétisée.
+  </Card>
+  <Card title="Accent et Intonation">
+    - **L'accent** définit le dialecte régional et la prononciation des voyelles.
+    - **L'intonation** contrôle la variation de hauteur pendant les phrases.
+    - Une intonation élevée ajoute des tons montants et descendants dramatiques au discours.
+  </Card>
+</CardGrid>
+
+Pour affiner ces paramètres, les créateurs utilisent des valeurs numériques spécifiques qui correspondent aux positions des curseurs en jeu. Le tableau ci-dessous détaille les plages et les effets spécifiques de ces paramètres.
+
+| Paramètre | Plage du curseur | Effet limite inférieure | Effet limite supérieure |
+|---|---|---|---|
+| **Hauteur** | 1 à 8 | Ton grave, masculin, lourd en basses | Ton aigu, grinçant, strident |
+| **Vitesse** | 1 à 8 | Prononciation lente et étirée | Débit rapide, bavardage effréné |
+| **Qualité** | 1 à 8 | Son numérique brut et très déformé | Sortie vocale claire et fluide |
+| **Ton** | 1 à 8 | Résonance creuse, métallique, robotique | Ton chaud, naturel, organique |
+| **Accent** | 1 à 8 | Formes de voyelles plates et neutres | Fortes inflexions régionales |
+| **Intonation** | 1 à 8 | Débit monotone, plat, sans émotion | Variations de hauteur très expressives et mélodiques |
+
+<Callout type="info" title="Gestion des préréglages">
+Les préréglages sont un excellent point de départ. Vous pouvez enregistrer vos configurations personnalisées sous forme de nouveaux préréglages pour les appliquer rapidement à d'autres personnages partageant des traits similaires.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment générer la synthèse vocale de Tomodachi Life en ligne">
+
+Comme le jeu original est limité à la plateforme Nintendo 3DS, les créateurs recherchent souvent des outils externes pour générer ces voix pour des vidéos, des animations ou des projets de fans. Les outils d'émulation en ligne recréent fidèlement les paramètres de synthèse sans nécessiter le matériel de la console.
+
+<Steps>
+  <Step num="1" title="Sélectionner un générateur TTS compatible">
+    Trouvez un émulateur en ligne dédié qui reproduit le moteur de synthèse vocale de la Nintendo 3DS. Ces outils hébergent les polices sonores et les algorithmes de traitement nécessaires pour imiter le profil audio unique du jeu.
+  </Step>
+  <Step num="2" title="Saisir votre texte personnalisé">
+    Saisissez le dialogue souhaité dans le champ de texte. Gardez des phrases relativement courtes pour éviter que le synthétiseur ne manque de mémoire ou ne crée des pauses artificielles.
+  </Step>
+  <Step num="3" title="Ajuster les curseurs des paramètres vocaux">
+    Configurez les curseurs de hauteur, de vitesse, de qualité, de ton, d'accent et d'intonation. Faites correspondre les valeurs à l'archétype de Mii spécifique que vous souhaitez recréer.
+  </Step>
+  <Step num="4" title="Générer et télécharger l'audio">
+    Cliquez sur le bouton de génération pour traiter le texte. Écoutez l'aperçu du fichier audio pour vérifier les erreurs de prononciation, puis téléchargez le rendu final au format WAV ou MP3.
+  </Step>
+</Steps>
+
+L'utilisation de ces outils en ligne vous évite d'avoir besoin d'une console physique et d'une carte de capture, ce qui simplifie le processus de création de contenu.
+
+<Callout type="warning" title="Limites de l'émulation">
+Les générateurs en ligne sont des projets communautaires. Certains schémas d'intonation avancés et accents régionaux de la cartouche de jeu physique d'origine peuvent ne pas être parfaitement traduits par les outils sur navigateur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Préréglages vocaux avancés et archétypes">
+
+La recréation d'archétypes de personnages spécifiques nécessite des coordonnées de curseur précises. Que vous souhaitiez concevoir un personnage d'enfant à la voix aiguë, un assistant robotique au ton grave ou une voix d'adulte réaliste, le respect de ces paramètres garantit la cohérence de votre projet.
+
+| Archétype | Hauteur | Vitesse | Qualité | Ton | Accent | Intonation |
+|---|---|---|---|---|---|---|
+| **Jeune enfant** | 7 | 6 | 5 | 6 | 4 | 7 |
+| **Assistant robotique** | 3 | 4 | 1 | 1 | 1 | 1 |
+| **Habitant âgé** | 2 | 2 | 4 | 5 | 3 | 3 |
+| **Héros énergique** | 5 | 7 | 6 | 6 | 5 | 8 |
+| **Narrateur monotone** | 4 | 4 | 5 | 4 | 2 | 1 |
+
+Pour vous assurer que vos voix personnalisées semblent naturelles au sein de ces archétypes, suivez un processus structuré de contrôle de la qualité.
+
+<Checklist
+  id="voice-quality-checklist"
+  title="Liste de contrôle pour la génération de voix :"
+  items={[
+    "Vérifier que l'orthographe phonétique est utilisée pour les noms complexes",
+    "Ajuster l'intonation pour éviter les pauses gênantes au milieu des phrases",
+    "Vérifier que le paramètre de vitesse permet un rythme de lecture fluide",
+    "S'assurer que le paramètre de qualité correspond à l'esthétique rétro souhaitée",
+    "Tester le rendu vocal avec de la ponctuation telle que des virgules et des points"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de production">
+Lors de l'exportation d'audio pour un logiciel de montage vidéo, enregistrez les fichiers au format WAV 16 bits. Cela préserve les artefacts robotiques à haute fréquence caractéristiques du matériel 3DS d'origine.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+La gestion de la synthèse vocale peut parfois entraîner des problèmes de prononciation inattendus ou des coupures audio. Vous trouverez ci-dessous un guide pour résoudre les problèmes courants liés à l'utilisation du synthétiseur vocal.
+
+<FAQ items={[
+  {
+    question: "Pourquoi le Mii prononce-t-il mal le nom de mon personnage ?",
+    answer: "Le moteur de synthèse vocale lit les mots littéralement selon les règles phonétiques standards. Si un nom s'écrit de manière unique, vous devez l'écrire phonétiquement dans la zone de saisie de texte pour forcer la prononciation correcte."
+  },
+  {
+    question: "Puis-je utiliser le moteur de synthèse vocale de Tomodachi Life pour des projets commerciaux ?",
+    answer: "La technologie de synthèse vocale d'origine appartient à Nintendo et à ses partenaires sous licence. Bien que les générateurs communautaires conviennent pour les projets de fans et les vidéos, l'utilisation des actifs vocaux propriétaires exacts à des fins commerciales comporte des risques de droits d'auteur."
+  },
+  {
+    question: "Comment ajouter des pauses ou des respirations dans le discours ?",
+    answer: "Vous pouvez introduire des pauses naturelles en utilisant la ponctuation. Les virgules créent des pauses courtes, tandis que les points, les points d'interrogation et les points d'exclamation créent des pauses plus longues et modifient l'intonation du mot précédent."
+  },
+  {
+    question: "Quelle est la différence entre les paramètres Ton et Qualité ?",
+    answer: "Le ton contrôle la résonance et la texture métallique de la voix, la rendant plus organique ou robotique. La qualité affecte la clarté et la résolution du fichier audio synthétisé lui-même."
+  }
+]} />
+
+<Callout type="tip" title="Note finale">
+Testez toujours vos répliques de dialogue par segments courts. De grands blocs de texte peuvent aplatir l'intonation du moteur, ce qui donne un rendu vocal moins expressif.
+</Callout>
+
+</Section>
