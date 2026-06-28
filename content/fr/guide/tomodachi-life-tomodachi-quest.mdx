@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest : Guide RPG & Classement des Classes",
+  description: "Maîtrisez Tomodachi Quest dans Tomodachi Life. Découvrez les classes de Mii, les groupes de personnalité, les stratégies de combat et les récompenses de boss dans ce guide RPG 8-bits.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "L'équipe du Wiki de tomodachi life living the dream release date"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Jeu de base** : Le mini-jeu **tomodachi life tomodachi quest** est un RPG 8-bits situé au Parc d'attractions.
+- **Détermination des classes** : Vos Miis se voient attribuer des rôles en fonction de leur groupe de personnalité.
+- **Déroulement des combats** : Enchaînez jusqu'à quatre combats en naviguant sur un chemin divisé à 50/50 pour atteindre le boss final.
+- **Mécaniques de boss** : Chaque boss possède un montant fixe de 2 800 PV et laisse tomber l'objet physique qu'il représente une fois vaincu.
+- **Stratégie de victoire** : Privilégiez les soins du Prêtre et les sorts du Mage pour survivre aux attaques de feu infligeant de lourds dégâts.
+</Callout>
+
+<Section icon={Map} title="Une introduction au RPG du Parc d'attractions">
+
+Le mini-jeu **tomodachi life tomodachi quest** est l'une des fonctionnalités les plus uniques et nostalgiques de ce jeu de simulation de vie décalé signé Nintendo. Inspiré des jeux de rôle rétro classiques en 8-bits comme le tout premier Final Fantasy, ce mini-jeu transforme quatre insulaires choisis au hasard en héros pixélisés. Ces héros doivent se lancer dans une courte aventure d'exploration de donjon, combattant des aliments vivants et des trésors de valeur pour obtenir des récompenses de haut niveau.
+
+Pour participer à cet événement quotidien, les joueurs doivent d'abord déverrouiller le Parc d'attractions. Cela se produit dès qu'un Mii de votre île fait une déclaration d'amour pour la toute première fois. Une fois débloqué, le mini-jeu devient accessible deux fois par jour durant des plages horaires spécifiques.
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Coût par partie | 0,25 $ (US) / 1,00 £ (UK) / 1,00 € (EU) / 100 ¥ (JP) |
+| Session de l'après-midi | De 14h30 à 16h30 |
+| Session du soir | De 21h00 à 23h00 |
+| Limite quotidienne | Jouable exactement une fois par jour |
+| Style visuel | Pixel art rétro 8-bits avec bande-son chiptune |
+
+Contrairement aux RPG typiques où vous contrôlez directement les attributs de votre équipe, ce mini-jeu sélectionne automatiquement quatre Miis au hasard dans votre immeuble d'appartements. Leurs statistiques, points de vie et capacités de combat dépendent entièrement de leur type de personnalité prédéterminé.
+
+<Callout type="info" title="Conseil de routine quotidienne">
+N'oubliez pas de vous rendre au Parc d'attractions pendant les heures indiquées. Comme vous ne pouvez jouer qu'une seule fois par jour calendaire, rater la session de l'après-midi signifie que vous devrez attendre celle du soir pour tenter votre chance et remporter de rares trésors à revendre au magasin d'occasion.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personnalités des Miis et classes de RPG">
+
+Lorsque vous lancez le mini-jeu, les quatre Miis sélectionnés sont affectés à l'une des quatre classes distinctes : Guerrier, Prêtre, Combattant ou Mage. Ces classes correspondent directement aux quatre grands groupes de personnalité des Miis. Comprendre ces correspondances est essentiel pour évaluer les chances de survie de votre équipe avant même le début du premier tour.
+
+| Groupe de personnalité | Classe de RPG | PV max | PM max | Action principale & Style de combat |
+| --- | --- | --- | --- | --- |
+| Extraverti (US) / Énergique (EU) | Guerrier | 120 | N/A | Dégâts physiques élevés, précision plus faible |
+| Décontracté (US/EU) | Prêtre | 100 | 40 | Soin automatique sur l'allié ayant le moins de PV |
+| Confiant (US/EU) | Combattant | 140 | N/A | Taux de coups critiques élevé, précision de base faible |
+| Indépendant (US) / Réservé (EU) | Mage | 80 | 60 | Dégâts magiques élevés, sorts à coût en PM élevé |
+
+Chaque classe remplit un rôle stratégique précis au combat. Bien que vous ne puissiez pas choisir quels Miis entrent dans le donjon, savoir comment tirer parti de leurs actions automatisées vous aidera à les guider vers la victoire.
+
+<CardGrid cols={2}>
+  <Card title="Le Guerrier (Extraverti / Énergique)">
+    - **Grande robustesse** : Dispose d'une réserve solide de 120 PV pour survivre aux attaques monocibles.
+    - **Attaque physique** : Utilise un puissant coup d'épée qui inflige de lourds dégâts physiques.
+    - **Compromis de précision** : Son attaque spéciale est extrêmement puissante mais présente un risque notable de rater sa cible.
+  </Card>
+  <Card title="Le Prêtre (Décontracté)">
+    - **Soutien de l'équipe** : La seule classe capable de restaurer la santé des alliés blessés ou à terre.
+    - **Soin intelligent** : Cible automatiquement le membre de l'équipe qui a actuellement le moins de PV.
+    - **Dépendant du mana** : Coûte 10 PM par soin, ce qui permet un maximum de quatre soins par partie.
+  </Card>
+  <Card title="Le Combattant (Confiant)">
+    - **Statistiques de tank** : Possède la plus grande réserve de santé du jeu avec 140 PV.
+    - **Coups critiques** : Son coup de pied a une forte probabilité de réussir un coup critique.
+    - **Grande variance** : Très sujet aux ratés, ce qui en fait un choix à haut risque mais à haute récompense.
+  </Card>
+  <Card title="Le Mage (Indépendant / Réservé)">
+    - **Canon de verre** : Dispose de la plus faible réserve de santé avec seulement 80 PV, ce qui le rend très vulnérable.
+    - **Dégâts maximums** : Son sort est l'attaque offensive la plus puissante de tout le jeu.
+    - **Gestion des PM** : Limité à l'utilisation de sorts tant que sa réserve de 60 PM le permet.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Composition d'équipe idéale">
+Une configuration d'équipe optimale comprend au moins un Mage pour infliger rapidement des dégâts et un Prêtre pour maintenir la santé de l'équipe. Si votre sélection aléatoire vous attribue plusieurs Prêtres ou Mages, vos chances de vaincre le boss final augmentent considérablement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de victoire pour Tomodachi Quest">
+
+La progression dans **tomodachi life tomodachi quest** est structurée comme un court défi composé de trois à quatre combats. Traverser ce donjon avec succès nécessite une gestion rigoureuse des ressources, en particulier en ce qui concerne la réserve limitée de PM de vos lanceurs de sorts.
+
+La structure du donjon intègre une mécanique de chemin divisé prédéfinie. Une fois le deuxième combat remporté à l'intérieur du donjon, vous devez choisir d'aller soit à gauche, soit à droite. Ce choix déclenche un calcul aléatoire à 50/50 pour déterminer si vous accédez directement au boss ou si vous tombez sur une impasse, ce qui déclenche un combat d'embuscade supplémentaire.
+
+<Steps>
+  <Step num="1" title="Le combat en extérieur">
+    Vous commencez sur les plaines herbeuses à l'extérieur du château. L'ennemi ici est toujours un aliment de base de faible valeur. Utilisez des attaques physiques de base pour préserver les PM de votre Prêtre et de votre Mage pour les étapes ultérieures.
+  </Step>
+  <Step num="2" title="L'entrée du donjon">
+    En entrant dans le château, vous faites face à un aliment de niveau intermédiaire légèrement plus fort. Si la santé de votre équipe est élevée, continuez à utiliser des attaques standard. Si un Mage fragile a subi des dégâts au premier tour, envisagez d'utiliser un unique soin de Prêtre.
+  </Step>
+  <Step num="3" title="La décision du chemin divisé">
+    Choisissez la gauche ou la droite. Si le jeu vous dirige vers un mur, vos Miis feront demi-tour et seront pris en embuscade par un troisième ennemi ordinaire. Si vous évitez le mur, vous passez ce combat et vous dirigez directement vers le boss.
+  </Step>
+  <Step num="4" title="L'affrontement avec le boss">
+    Affrontez un trésor de grande valeur ou un aliment de luxe. Lancez immédiatement les sorts de votre Mage et utilisez les PM restants du Prêtre pour maintenir en vie vos combattants les plus robustes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Danger d'embuscade">
+Tomber sur l'impasse vous force à mener un troisième combat. Cette rencontre supplémentaire peut épuiser les PV et les PM de votre équipe avant le combat contre le boss. Si votre Mage se retrouve à court de PM pendant l'embuscade, il sera contraint d'utiliser de faibles attaques physiques lors du combat final.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mécaniques de boss et récompenses du magasin d'occasion">
+
+Les ennemis que vous rencontrez tout au long de la quête représentent divers objets du jeu. Fait intéressant, les points de vie maximaux d'un ennemi ordinaire correspondent directement à sa valeur monétaire dans les fichiers du jeu. Par exemple, un aliment d'une valeur de 1,50 $ aura exactement 150 PV en combat. 
+
+Le boss final, quant à lui, ne suit pas cette règle. Il possède toujours une réserve de santé standardisée de 2 800 PV, ce qui en fait un redoutable sac à PV face aux attaques physiques.
+
+| Type de boss | PV estimés | Types d'attaque | Récompense en cas de victoire |
+| --- | --- | --- | --- |
+| Roi caviar | 2 800 | Attaque monocible / Souffle de feu de groupe | Caviar (Nourriture chère) |
+| Diamant | 2 800 | Attaque monocible / Souffle de feu de groupe | Diamant (Trésor rare) |
+| Lingot d'or | 2 800 | Attaque monocible / Souffle de feu de groupe | Lingot d'or (Trésor rare) |
+| Maquereau grillé | 2 800 | Attaque monocible / Souffle de feu de groupe | Maquereau grillé (Poisson) |
+
+Si les PV d'un Mii tombent à zéro pendant ces combats, il fera semblant de s'effondrer et restera hors de combat. Il n'existe aucun sort ou objet de résurrection dans ce mini-jeu. Si toute votre équipe est décimée, la partie se termine immédiatement et vous repartez les mains vides, avec seulement un lot de consolation bon marché comme un rouleau de papier toilette.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Tactiques clés pour la victoire :"
+  items={[
+    "Conservez les PM du Mage durant les deux premiers combats pour terrasser rapidement le boss.",
+    "Laissez le Prêtre soigner automatiquement ; ne perdez pas de tours à deviner qui a besoin de soins.",
+    "Vendez les trésors remportés sur le boss au magasin d'occasion pour gagner rapidement de l'argent.",
+    "Jouez quotidiennement pour accumuler des objets rares comme des lingots d'or et des diamants."
+  ]}
+/>
+
+<Callout type="tip" title="Attitudes d'attaque du boss">
+Le boss dispose de deux attaques : un coup monocible à dégâts élevés qui peut rater sa cible, et une attaque de souffle de feu plus faible qui touche toute l'équipe mais ne rate jamais. Lorsque le boss enchaîne les souffles de feu, assurez-vous que votre Prêtre a encore assez de PM pour soigner vos alliés les plus affaiblis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+Bien que ce mini-jeu rétro soit simple à comprendre, les joueurs se posent souvent des questions sur ses mécaniques, ses récompenses et son lien avec d'autres titres de la série.
+
+<FAQ items={[
+  {
+    question: "Puis-je sélectionner manuellement les Miis qui participent à la quête ?",
+    answer: "Non. Les quatre Miis sont choisis de manière complètement aléatoire parmi les résidents actifs vivant dans l'immeuble d'appartements de votre île."
+  },
+  {
+    question: "Que se passe-t-il si un Mii est vaincu lors des premiers combats ?",
+    answer: "Si un Mii perd tous ses PV, il reste hors de combat pour le reste de la partie. Si vous remportez le combat, il marchera avec une animation de blessure, le dos courbé, dans les pièces suivantes."
+  },
+  {
+    question: "Le choix du chemin divisé dans la grotte est-il réellement contrôlable ?",
+    answer: "Non. Le choix entre la gauche et la droite est une illusion visuelle. Le jeu détermine si vous heurtez un mur ou si vous avancez vers le boss via un calcul aléatoire à 50/50, quelle que soit la direction choisie."
+  },
+  {
+    question: "Ce mini-jeu est-il présent dans d'autres versions ou suites ?",
+    answer: "Bien que la quête originale en 8-bits soit exclusive à ce titre, la séquence de rêve RPG dans d'autres opus de la série s'inspire très largement de ces mécaniques de combat et de ces effets sonores précis."
+  }
+]} />
+
+<Callout type="info" title="Verdict Final">
+Le mini-jeu **tomodachi life tomodachi quest** est un clin d'œil chaleureux à l'histoire du jeu vidéo classique. En comprenant comment les personnalités des Miis se traduisent en classes de combat et en gérant efficacement la santé de votre équipe, vous pourrez vaincre régulièrement les boss à 2 800 PV et repartir avec les trésors les plus précieux de l'île.
+</Callout>
+
+</Section>

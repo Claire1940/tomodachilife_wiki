@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest: Guida RPG e Classifica delle Classi",
+  description: "Domina Tomodachi Quest in Tomodachi Life. Scopri le classi dei Mii, i gruppi di personalità, le strategie di battaglia e le ricompense dei boss in questa guida RPG a 8 bit.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "Team Wiki di tomodachi life living the dream release date"
+}
+
+<Callout type="info" title="Guida Rapida">
+- **Gioco principale**: Il **tomodachi life tomodachi quest** è un mini-gioco RPG a 8 bit situato nel Luna Park.
+- **Determinazione della classe**: Ai tuoi Mii vengono assegnati ruoli in base ai loro gruppi di personalità.
+- **Flusso di battaglia**: Completa fino a quattro battaglie, affrontando un percorso biforcato 50/50 per raggiungere il boss finale.
+- **Meccaniche dei boss**: Ogni boss ha esattamente 2.800 PS e rilascia l'oggetto fisico che rappresenta una volta sconfitto.
+- **Strategia vincente**: Dai priorità alle cure del Chierico e alle magie del Mago per sopravvivere agli attacchi di fuoco ad alto danno.
+</Callout>
+
+<Section icon={Map} title="Introduzione all'RPG del Luna Park">
+
+Il mini-gioco **tomodachi life tomodachi quest** è una delle caratteristiche più uniche e nostalgiche del bizzarro simulatore di vita di Nintendo. Ispirato ai classici giochi di ruolo retrò a 8 bit come l'originale Final Fantasy, questo mini-gioco trasforma quattro abitanti casuali dell'isola in eroi pixelati. Questi eroi devono imbarcarsi in una breve avventura all'interno di un dungeon, combattendo contro alimenti senzienti e tesori preziosi per reclamare ricompense di alto valore.
+
+Per partecipare a questo evento quotidiano, i giocatori devono prima sbloccare il Luna Park. Questo avviene non appena un Mii sulla tua isola fa una confessione d'amore per la primissima volta. Una volta sbloccato, il mini-gioco diventa disponibile due volte al giorno durante fasce orarie specifiche.
+
+| Caratteristica | Dettagli |
+| --- | --- |
+| Costo per partita | $0.25 (US) / £1.00 (UK) / €1.00 (EU) / ¥100 (JP) |
+| Fascia pomeridiana | Dalle 14:30 alle 16:30 |
+| Fascia serale | Dalle 21:00 alle 23:00 |
+| Limite giornaliero | Giocabile esattamente una volta al giorno |
+| Stile visivo | Pixel art retrò a 8 bit con audio chiptune |
+
+A differenza dei tipici RPG in cui hai il controllo diretto sugli attributi del tuo gruppo, questo mini-gioco seleziona automaticamente quattro Mii casuali dal tuo condominio. Le loro statistiche, i punti salute (PS) e le abilità di combattimento dipendono interamente dai loro tipi di personalità prestabiliti.
+
+<Callout type="info" title="Consiglio per la Routine Quotidiana">
+Assicurati di visitare il Luna Park durante gli orari designati. Poiché puoi giocare solo una volta per giorno solare, perdere la fascia pomeridiana significa dover aspettare fino a sera per tentare la fortuna e vincere rari tesori per il banco dei pegni.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalità dei Mii e Classi RPG">
+
+All'inizio del mini-gioco, ai quattro Mii scelti viene assegnata una delle quattro classi distinte: Guerriero, Chierico, Combattente o Mago. Queste classi corrispondono direttamente ai quattro gruppi principali di personalità dei Mii. Comprendere questi allineamenti è fondamentale per valutare le probabilità di sopravvivenza del tuo gruppo prima ancora che inizi il primo turno.
+
+| Gruppo di Personalità | Classe RPG | PS Base | PM Base | Azione Principale e Stile di Combattimento |
+| --- | --- | --- | --- | --- |
+| Estroverso (US) / Energico (EU) | Guerriero | 120 | N/D | Elevato danno fisico, precisione inferiore |
+| Tranquillo (US/EU) | Chierico | 100 | 40 | Guarigione automatica dell'alleato con meno PS |
+| Sicuro di sé (US/EU) | Combattente | 140 | N/D | Alto tasso di colpi critici, bassa precisione di base |
+| Indipendente (US) / Riservato (EU) | Mago | 80 | 60 | Elevato danno magico, incantesimi ad alto costo di PM |
+
+Ogni classe svolge un ruolo strategico specifico in battaglia. Sebbene tu non possa scegliere quali Mii entrano nel dungeon, sapere come sfruttare le loro azioni automatizzate ti aiuterà a guidarli verso la vittoria.
+
+<CardGrid cols={2}>
+  <Card title="Il Guerriero (Estroverso / Energico)">
+    - **Elevata durabilità**: Vanta una solida riserva di 120 PS per sopravvivere agli attacchi a bersaglio singolo.
+    - **Offensiva fisica**: Usa un potente fendente di spada che infligge ingenti danni fisici.
+    - **Compromesso sulla precisione**: Il suo attacco speciale è estremamente potente, ma ha una notevole probabilità di fallire.
+  </Card>
+  <Card title="Il Chierico (Tranquillo)">
+    - **Supporto al gruppo**: L'unica classe in grado di ripristinare la salute degli alleati feriti o esausti.
+    - **Guarigione intelligente**: Prende di mira automaticamente il membro del gruppo che attualmente ha meno PS.
+    - **Dipendente dal Mana**: Costa 10 PM per cura, consentendo un massimo di quattro guarigioni per partita.
+  </Card>
+  <Card title="Il Combattente (Sicuro di sé)">
+    - **Statistiche da Tank**: Presenta la riserva di salute più alta del gioco con 140 PS.
+    - **Colpi critici**: Il suo attacco con calcio ha un'alta probabilità di mandare a segno un colpo critico.
+    - **Alta varianza**: Molto incline a mancare il bersaglio, il che lo rende una scelta ad alto rischio e alto rendimento.
+  </Card>
+  <Card title="Il Mago (Indipendente / Riservato)">
+    - **Cannone di vetro**: Possiede la riserva di salute più bassa con soli 80 PS, il che lo rende molto vulnerabile.
+    - **Danno massimo**: Il suo lancio di incantesimi è la mossa offensiva più potente di tutto il gioco.
+    - **Gestione dei PM**: Limitato all'uso di incantesimi finché dura la sua riserva di 60 PM.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Composizione Ideale del Gruppo">
+La composizione ottimale del gruppo include almeno un Mago per un rapido output di danni e un Chierico per sostenere la salute del gruppo. Se la selezione casuale ti assegna più Chierici o Maghi, le tue possibilità di sconfiggere il boss finale aumentano notevolmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Strategie Vincenti per Tomodachi Life Tomodachi Quest">
+
+La progressione di **tomodachi life tomodachi quest** è strutturata come una breve sfida composta da tre o quattro battaglie. Esplorare con successo questo dungeon richiede un'attenta gestione delle risorse, in particolare per quanto riguarda le riserve limitate di PM dei tuoi incantatori.
+
+La struttura del dungeon presenta una meccanica di percorso biforcato predeterminata. Una volta superata la seconda battaglia all'interno del dungeon, dovrai scegliere se andare a sinistra o a destra. Questa scelta avvia un calcolo 50/50 per determinarre se procederai direttamente verso il boss o se finirai in un vicolo cieco, incorrendo in una battaglia extra con imboscata.
+
+<Steps>
+  <Step num="1" title="La Battaglia all'Aperto">
+    Inizi sulle pianure erbose fuori dal castello. Il nemico qui è sempre un alimento comune di scarso valore. Usa attacchi fisici di base per preservare i PM del Chierico e del Mago per le fasi successive.
+  </Step>
+  <Step num="2" title="L'Ingresso del Dungeon">
+    Entrando nel castello, affronterai un alimento di livello medio leggermente più forte. Se la salute del gruppo è alta, continua a usare attacchi standard. Se un fragile Mago ha subito danni nel primo round, considera l'uso di una singola cura del Chierico.
+  </Step>
+  <Step num="3" title="La Decisione della Biforcazione">
+    Scegli sinistra o destra. Se il gioco ti indirizza contro un muro, i tuoi Mii si gireranno e subiranno un'imboscata da parte di un terzo nemico comune. Se eviti il muro, salterai completamente questo scontro e andrai dritto al boss.
+  </Step>
+  <Step num="4" title="La Sfida contro il Boss">
+    Affronta un tesoro di alto valore o un alimento di lusso. Scatena immediatamente gli incantesimi del tuo Mago e usa i PM rimanenti del Chierico per tenere in vita i tuoi combattenti più forti.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pericolo di Imboscata">
+Finire contro il muro del vicolo cieco costringe a una terza battaglia. Questo scontro extra può prosciugare i PS e i PM del tuo gruppo prima della battaglia con il boss. Se il tuo Mago esaurisce i PM durante l'imboscata, sarà costretto a usare deboli attacchi fisici nella battaglia finale.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meccaniche dei Boss e Ricompense del Banco dei Pegni">
+
+I nemici che incontri durante la missione rappresentano vari oggetti presenti nel gioco. Curiosamente, i punti salute massimi di un nemico comune corrispondono direttamente al suo valore monetario nei file di gioco. Ad esempio, un alimento che vale 1,50 $ avrà esattamente 150 PS in battaglia.
+
+Il boss finale, tuttavia, non segue questa regola. Il boss possiede sempre una riserva di salute standardizzata di 2.800 PS, il che lo rende una formidabile spugna per gli attacchi fisici.
+
+| Tipo di Boss | PS Stimati | Tipi di Attacco | Ricompensa alla Sconfitta |
+| --- | --- | --- | --- |
+| Re del caviale | 2.800 | Colpo a bersaglio singolo / Soffio di fuoco di gruppo | Caviale (Alimento costoso) |
+| Diamante | 2.800 | Colpo a bersaglio singolo / Soffio di fuoco di gruppo | Diamante (Tesoro raro) |
+| Lingotto d'oro | 2.800 | Colpo a bersaglio singolo / Soffio di fuoco di gruppo | Lingotto d'oro (Tesoro raro) |
+| Sgombro alla griglia | 2.800 | Colpo a bersaglio singolo / Soffio di fuoco di gruppo | Sgombro alla griglia (Pesce) |
+
+Se la salute di un Mii scende a zero durante questi scontri, farà finta di morire e rimarrà fuori combattimento. Non ci sono incantesimi o oggetti di resurrezione in questo mini-gioco. Se l'intero gruppo viene sconfitto, la partita termina immediatamente e te ne andrai con nient'altro che un misero premio di consolazione, come un pezzo di carta igienica.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Tattiche Chiave per la Vittoria:"
+  items={[
+    "Conserva i PM del Mago durante le prime due battaglie per scatenare tutto il danno sul boss.",
+    "Lascia che i Chierici curino automaticamente; non sprecare turni cercando di indovinare chi ha bisogno di salute.",
+    "Vendi i tesori vinti dai boss al Banco dei Pegni per guadagnare denaro rapidamente.",
+    "Gioca ogni giorno per accumulare oggetti rari come lingotti d'oro e diamanti."
+  ]}
+/>
+
+<Callout type="tip" title="Schemi di Attacco del Boss">
+Il boss ha due attacchi: un colpo a bersaglio singolo ad alto danno che può fallire, e un attacco con soffio di fuoco più debole che colpisce l'intero gruppo ma non manca mai. Quando il boss usa ripetutamente il soffio di fuoco, assicurati che il tuo Chierico abbia ancora PM per curare i membri del gruppo con meno salute.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Domande Frequenti">
+
+Sebbene questo mini-gioco retrò sia piuttosto lineare, i giocatori hanno spesso domande sulle sue meccaniche, sulle ricompense e sul legame con gli altri titoli della serie.
+
+<FAQ items={[
+  {
+    question: "Posso selezionare manualmente quali Mii partecipano alla missione?",
+    answer: "No. I quattro Mii vengono scelti in modo completamente casuale tra i residenti attivi che vivono nel condominio della tua isola."
+  },
+  {
+    question: "Cosa succede se un Mii viene sconfitto durante le prime battaglie?",
+    answer: "Se un Mii perde tutta la salute, rimane fuori combattimento per il resto della partita. Se vinci la battaglia, camminerà con un'animazione ricurva e dolorante nelle stanze successive."
+  },
+  {
+    question: "La scelta del percorso biforcato nella grotta del dungeon è effettivamente controllabile?",
+    answer: "No. La scelta tra sinistra e destra è un'illusione visiva. Il gioco determina se colpirai un muro o procederai verso il boss utilizzando un calcolo casuale 50/50, indipendentemente dalla direzione scelta."
+  },
+  {
+    question: "Questo mini-gioco ritorna in altre versioni o sequel?",
+    answer: "Sebbene la missione originale a 8 bit sia un'esclusiva di questo titolo, la sequenza del Sogno RPG in altre iterazioni della serie è fortemente ispirata a queste esatte meccaniche di combattimento ed effetti sonori."
+  }
+]} />
+
+<Callout type="info" title="Verdetto Finale">
+Il mini-gioco **tomodachi life tomodachi quest** è un delizioso omaggio alla storia dei videogiochi classici. Comprendendo come le personalità dei Mii si associano alle classi di combattimento e gestendo in modo efficiente la salute del gruppo, potrai sconfiggere costantemente i boss da 2.800 PS e assicurarti i tesori più preziosi dell'isola.
+</Callout>
+
+</Section>

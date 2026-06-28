@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest: Guía de RPG y Clasificación de Clases",
+  description: "Domina Tomodachi Quest en Tomodachi Life. Aprende sobre las clases de Mii, grupos de personalidad, estrategias de batalla y recompensas de jefes en esta guía de RPG de 8 bits.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de tomodachi life living the dream release date",
+  keywords: "tomodachi life, tomodachi quest, guía rpg, clases mii, personalidades"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Juego Base**: El **tomodachi life tomodachi quest** es un minijuego de RPG de 8 bits ubicado en el Parque de Atracciones.
+- **Determinación de Clase**: A tus Miis se les asignan roles basados en sus grupos de personalidad.
+- **Flujo de Batalla**: Completa hasta cuatro batallas, navegando por un camino dividido 50/50 para llegar al jefe final.
+- **Mecánicas de Jefes**: Cada jefe tiene un total fijo de 2,800 HP y suelta el objeto físico que representan al ser derrotados.
+- **Estrategia Ganadora**: Prioriza la curación del Clérigo y los hechizos del Mago para sobrevivir a los ataques de fuego de alto daño.
+</Callout>
+
+<Section icon={Map} title="Una Introducción al RPG del Parque de Atracciones">
+
+El minijuego **tomodachi life tomodachi quest** es una de las características más únicas y nostálgicas del peculiar juego de simulación de vida de Nintendo. Estilizado como los clásicos juegos de rol retro de 8 bits como el Final Fantasy original, este minijuego transforma a cuatro isleños aleatorios en héroes pixelados. Estos héroes deben embarcarse en una corta aventura de exploración de mazmorras, luchando contra alimentos con vida y tesoros valiosos para reclamar recompensas de alta gama.
+
+Para participar en este evento diario, los jugadores deben desbloquear primero el Parque de Atracciones. Esto se logra una vez que cualquier Mii en tu isla hace una confesión de amor por primera vez. Una vez desbloqueado, el minijuego está disponible dos veces al día durante ventanas de tiempo específicas.
+
+| Característica | Detalles |
+| --- | --- |
+| Costo por partida | $0.25 (EE. UU.) / £1.00 (Reino Unido) / €1.00 (UE) / ¥100 (JP) |
+| Ventana de la tarde | 2:30 PM a 4:30 PM |
+| Ventana de la noche | 9:00 PM a 11:00 PM |
+| Límite diario | Jugable exactamente una vez al día |
+| Estilo visual | Pixel art retro de 8 bits con audio chiptune |
+
+A diferencia de los RPG típicos donde tienes control directo sobre los atributos de tu equipo, este minijuego selecciona automáticamente a cuatro Miis aleatorios de tu edificio de apartamentos. Sus estadísticas, puntos de salud y habilidades de combate dependen totalmente de sus tipos de personalidad preestablecidos.
+
+<Callout type="info" title="Consejo de Rutina Diaria">
+Asegúrate de visitar el Parque de Atracciones durante las horas designadas. Dado que solo puedes jugar una vez por día natural, perder la ventana de la tarde significa que debes esperar hasta la noche para probar suerte y ganar tesoros raros para la casa de empeño.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalidades de Mii y Clases de RPG">
+
+Al comenzar el minijuego, los cuatro Miis elegidos son asignados a una de cuatro clases distintas: Guerrero, Clérigo, Luchador o Mago. Estas clases corresponden directamente a los cuatro grupos principales de personalidad Mii. Entender estas alineaciones es crítico para evaluar las posibilidades de supervivencia de tu equipo antes de que comience el primer turno.
+
+| Grupo de Personalidad | Clase de RPG | HP Base | MP Base | Acción Principal y Estilo de Combate |
+| --- | --- | --- | --- | --- |
+| Extrovertido (EE. UU.) / Enérgico (UE) | Guerrero | 120 | N/A | Alto daño físico, menor precisión |
+| Tranquilo (EE. UU./UE) | Clérigo | 100 | 40 | Curación automática para el aliado con menos HP |
+| Seguro de sí mismo (EE. UU./UE) | Luchador | 140 | N/A | Alta tasa de golpes críticos, baja precisión base |
+| Independiente (EE. UU.) / Reservado (UE) | Mago | 80 | 60 | Alto daño mágico, hechizos de alto costo de MP |
+
+Cada clase cumple un papel estratégico específico en la batalla. Aunque no puedes elegir qué Miis entran en la mazmorra, saber cómo utilizar sus acciones automatizadas te ayudará a guiarlos hacia la victoria.
+
+<CardGrid cols={2}>
+  <Card title="El Guerrero (Extrovertido / Enérgico)">
+    - **Alta Durabilidad**: Cuenta con una sólida reserva de 120 HP para sobrevivir a ataques de un solo objetivo.
+    - **Ofensiva Física**: Utiliza un fuerte espadazo que inflige un gran daño físico.
+    - **Compensación de Precisión**: Su ataque especial es muy poderoso pero tiene una probabilidad notable de fallar.
+  </Card>
+  <Card title="El Clérigo (Tranquilo)">
+    - **Soporte de Equipo**: La única clase capaz de restaurar la salud de los aliados caídos o heridos.
+    - **Curación Inteligente**: Se dirige automáticamente a cualquier miembro del equipo que tenga el HP más bajo en ese momento.
+    - **Dependiente del Maná**: Cuesta 10 MP por curación, lo que permite un máximo de cuatro curaciones por partida.
+  </Card>
+  <Card title="El Luchador (Seguro de sí mismo)">
+    - **Estadísticas de Tanque**: Presenta la reserva de salud más alta del juego con 140 HP.
+    - **Golpes Críticos**: Su ataque de patada tiene una alta probabilidad de asestar un golpe crítico.
+    - **Alta Varianza**: Muy propenso a fallar, lo que lo convierte en una opción de alto riesgo y alta recompensa.
+  </Card>
+  <Card title="El Mago (Independiente / Reservado)">
+    - **Cañón de Cristal**: Posee la reserva de salud más baja con 80 HP, lo que lo hace muy vulnerable.
+    - **Daño Máximo**: Su lanzamiento de hechizos es el movimiento ofensivo más poderoso de todo el juego.
+    - **Gestión de MP**: Limitado a usar hechizos mientras dure su reserva de 60 MP.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Composición Ideal del Equipo">
+Una configuración de equipo óptima incluye al menos un Mago para una producción de daño rápida y un Clérigo para mantener la salud del grupo. Si tu selección aleatoria arroja varios Clérigos o Magos, tus posibilidades de derrotar al jefe final aumentan significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias Ganadoras para Tomodachi Life Tomodachi Quest">
+
+La progresión de **tomodachi life tomodachi quest** está estructurada como un corto desafío que consiste en tres o cuatro batallas. Navegar por esta mazmorra con éxito requiere una gestión cuidadosa de los recursos, particularmente al tratar con las limitadas reservas de MP de tus lanzadores de hechizos.
+
+El diseño de la mazmorra presenta una mecánica de camino dividido predeterminada. Una vez que superas la segunda batalla dentro de la mazmorra, debes elegir ir a la izquierda o a la derecha. Esta elección inicia un cálculo de 50/50 para determinar si procedes directamente al jefe o llegas a un callejón sin salida, lo que resulta en una batalla de emboscada adicional.
+
+<Steps>
+  <Step num="1" title="La Batalla de Campo">
+    Comienzas en las llanuras de hierba fuera del castillo. El enemigo aquí siempre es un alimento común de bajo valor. Usa ataques físicos básicos para preservar el MP de tu Clérigo y Mago para las etapas posteriores.
+  </Step>
+  <Step num="2" title="La Entrada de la Mazmorra">
+    Al entrar al castillo, te enfrentas a un alimento de nivel medio ligeramente más fuerte. Si la salud de tu equipo es alta, continúa usando ataques estándar. Si un Mago frágil recibió daño en la primera ronda, considera usar una sola curación del Clérigo.
+  </Step>
+  <Step num="3" title="La Decisión del Camino Dividido">
+    Elige izquierda o derecha. Si el juego te dirige a una pared, tus Miis darán la vuelta y serán emboscados por un tercer enemigo regular. Si evitas la pared, te saltas esta pelea por completo y vas directo al jefe.
+  </Step>
+  <Step num="4" title="El Enfrentamiento con el Jefe">
+    Enfréntate a un tesoro de alto valor o a un alimento de lujo. Desata los hechizos de tu Mago inmediatamente y usa el MP restante del Clérigo para mantener vivos a tus atacantes más fuertes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peligro de Emboscada">
+Chocar con la pared del callejón sin salida obliga a una tercera batalla. Este encuentro extra puede agotar el HP y MP de tu equipo antes de la pelea con el jefe. Si tu Mago se queda sin MP durante la emboscada, se verá obligado a usar ataques físicos débiles en la batalla final.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mecánicas de Jefes y Recompensas de la Casa de Empeño">
+
+Los enemigos que encuentras a lo largo de la búsqueda representan varios objetos encontrados en el juego. Curiosamente, los puntos de salud máximos de un enemigo regular corresponden directamente a su valor monetario en los archivos del juego. Por ejemplo, un alimento que vale $1.50 tendrá exactamente 150 HP en batalla.
+
+El jefe final, sin embargo, no sigue esta regla. El jefe siempre posee una reserva de salud estandarizada de 2,800 HP, lo que lo convierte en una esponja formidable para los ataques físicos.
+
+| Tipo de Jefe | HP Estimado | Tipos de Ataque | Recompensa al Derrotarlo |
+| --- | --- | --- | --- |
+| Rey Caviar | 2,800 | Golpe a un solo objetivo / Aliento de fuego grupal | Caviar (Comida cara) |
+| Diamante | 2,800 | Golpe a un solo objetivo / Aliento de fuego grupal | Diamante (Tesoro raro) |
+| Lingote de Oro | 2,800 | Golpe a un solo objetivo / Aliento de fuego grupal | Lingote de Oro (Tesoro raro) |
+| Caballa a la Parrilla | 2,800 | Golpe a un solo objetivo / Aliento de fuego grupal | Caballa a la Parrilla (Marisco) |
+
+Si la salud de cualquier Mii cae a cero durante estas peleas, fingirán morir y permanecerán incapacitados. No hay hechizos ni objetos de resurrección en este minijuego. Si todo tu equipo es derrotado, el juego termina inmediatamente y te vas con nada más que un premio de consolación barato como un trozo de papel higiénico.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Tácticas Clave para la Victoria:"
+  items={[
+    "Conserva el MP del Mago durante las dos primeras batallas para aniquilar al jefe.",
+    "Deja que los Clérigos curen automáticamente; no pierdas turnos adivinando quién necesita salud.",
+    "Vende tus tesoros de jefe ganados en la Casa de Empeño para obtener dinero rápido.",
+    "Juega a diario para acumular objetos raros como Lingotes de Oro y Diamantes."
+  ]}
+/>
+
+<Callout type="tip" title="Patrones de Ataque del Jefe">
+El jefe tiene dos ataques: un golpe a un solo objetivo de alto daño que puede fallar, y un ataque de aliento de fuego más débil que golpea a todo el equipo pero nunca falla. Cuando el jefe use repetidamente el aliento de fuego, asegúrate de que tu Clérigo aún tenga MP para curar a los miembros con menos salud.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Aunque este minijuego retro es sencillo, los jugadores a menudo tienen preguntas sobre sus mecánicas, recompensas y conexión con otros títulos de la serie.
+
+<FAQ items={[
+  {
+    question: "¿Puedo seleccionar manualmente qué Miis participan en la búsqueda?",
+    answer: "No. Los cuatro Miis se eligen completamente al azar de entre los residentes activos que viven en el edificio de apartamentos de tu isla."
+  },
+  {
+    question: "¿Qué pasa si un Mii es derrotado durante las primeras batallas?",
+    answer: "Si un Mii pierde toda su salud, permanece incapacitado por el resto de la partida. Si ganas la batalla, caminará con una animación de herido y encorvado en las habitaciones siguientes."
+  },
+  {
+    question: "¿Es controlable realmente la elección del camino dividido en la cueva de la mazmorra?",
+    answer: "No. La elección entre izquierda y derecha es una ilusión visual. El juego determina si chocas con una pared o procedes al jefe mediante un cálculo aleatorio de 50/50, independientemente de la dirección que elijas."
+  },
+  {
+    question: "¿Regresa este minijuego en otras versiones o secuelas?",
+    answer: "Aunque la búsqueda original de 8 bits es exclusiva de este título, la secuencia del Sueño RPG en otras entregas de la serie está fuertemente inspirada en estas mismas mecánicas de combate y efectos de sonido."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+El **tomodachi life tomodachi quest** es un guiño encantador a la historia de los videojuegos clásicos. Al entender cómo las personalidades Mii se asignan a las clases de combate y gestionar la salud de tu equipo de manera eficiente, puedes derrotar consistentemente a los jefes de 2,800 HP y asegurar los tesoros más valiosos de la isla.
+</Callout>
+
+</Section>

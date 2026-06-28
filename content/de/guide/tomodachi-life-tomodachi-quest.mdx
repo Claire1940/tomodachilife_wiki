@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest: RPG-Guide & Klassen-Rangliste",
+  description: "Meistere Tomodachi Quest in Tomodachi Life. Erfahre alles über Mii-Klassen, Persönlichkeitsgruppen, Kampfstrategien und Boss-Belohnungen in diesem 8-Bit-RPG-Guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "tomodachi life living the dream release date Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Kernspiel**: Das **Tomodachi Life Tomodachi Quest** ist ein 8-Bit-RPG-Minispiel, das sich im Freizeitpark befindet.
+- **Klassenbestimmung**: Deinen Miis werden Rollen basierend auf ihren Persönlichkeitsgruppen zugewiesen.
+- **Kampfablauf**: Bestreite bis zu vier Kämpfe und navigiere durch einen 50/50-Pfad, um den Endboss zu erreichen.
+- **Boss-Mechaniken**: Jeder Boss hat genau 2.800 KP und lässt bei einer Niederlage das physische Item fallen, das er darstellt.
+- **Erfolgsstrategie**: Priorisiere die Heilung des Klerikers und die Zauber des Magiers, um folgenschwere Feuerangriffe zu überleben.
+</Callout>
+
+<Section icon={Map} title="Eine Einführung in das Freizeitpark-RPG">
+
+Das Minispiel **Tomodachi Life Tomodachi Quest** ist eines der einzigartigsten und nostalgischsten Features in Nintendos skurriler Lebenssimulation. Im Stil klassischer 8-Bit-Retro-Rollenspiele wie dem originalen Final Fantasy verwandelt dieses Minispiel vier zufällige Inselbewohner in pixelige Helden. Diese Helden müssen sich auf ein kurzes Dungeon-Abenteuer begeben, bei dem sie lebendige Lebensmittel und wertvolle Schätze bekämpfen, um hochkarätige Belohnungen einzufordern.
+
+Um an diesem täglichen Event teilzunehmen, müssen Spieler zuerst den Freizeitpark freischalten. Dies geschieht, sobald ein Mii auf deiner Insel zum allerersten Mal ein Liebesgeständnis ablegt. Nach der Freischaltung ist das Minispiel zweimal täglich in bestimmten Zeitfenstern verfügbar.
+
+| Feature | Details |
+| --- | --- |
+| Kosten pro Spiel | 0,25 $ (US) / 1,00 £ (UK) / 1,00 € (EU) / 100 ¥ (JP) |
+| Nachmittags-Zeitfenster | 14:30 Uhr bis 16:30 Uhr |
+| Abend-Zeitfenster | 21:00 Uhr bis 23:00 Uhr |
+| Tägliches Limit | Genau einmal pro Tag spielbar |
+| Visueller Stil | 8-Bit-Retro-Pixel-Art mit Chiptune-Sound |
+
+Im Gegensatz zu typischen RPGs, in denen du die Attribute deiner Gruppe direkt kontrollierst, wählt dieses Minispiel automatisch vier zufällige Miis aus deinem Apartmentgebäude aus. Ihre Statuswerte, Kraftpunkte (KP) und Kampffähigkeiten hängen vollständig von ihren vordefinierten Persönlichkeitstypen ab.
+
+<Callout type="info" title="Tipp für die tägliche Routine">
+Vergiss nicht, den Freizeitpark während der angegebenen Zeiten zu besuchen. Da du nur einmal pro Kalendertag spielen kannst, musst du bei Verpassen des Nachmittags-Zeitfensters bis zum Abend warten, um dein Glück beim Gewinnen seltener Pfandhaus-Schätze zu versuchen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mii-Persönlichkeiten und RPG-Klassen">
+
+Wenn du das Minispiel startest, werden die vier ausgewählten Miis einer von vier verschiedenen Klassen zugewiesen: Krieger, Kleriker, Kämpfer oder Magier. Diese Klassen entsprechen direkt den vier primären Mii-Persönlichkeitsgruppen. Das Verständnis dieser Zuordnungen ist entscheidend, um die Überlebenschancen deiner Gruppe zu bewerten, noch bevor die erste Runde beginnt.
+
+| Persönlichkeitsgruppe | RPG-Klasse | Basis-KP | Basis-MP | Primäre Aktion & Kampfstil |
+| --- | --- | --- | --- | --- |
+| Lebhaft (US: Outgoing / EU: Energetic) | Krieger | 120 | – | Hoher physischer Schaden, geringere Genauigkeit |
+| Gelassen (US/EU: Easygoing) | Kleriker | 100 | 40 | Automatische Heilung für den Verbündeten mit den niedrigsten KP |
+| Selbstsicher (US/EU: Confident) | Kämpfer | 140 | – | Hohe Rate an kritischen Treffern, geringe Basisgenauigkeit |
+| Zurückhaltend (US: Independent / EU: Reserved) | Magier | 80 | 60 | Hoher magischer Schaden, Zauber mit hohen MP-Kosten |
+
+Jede Klasse erfüllt eine bestimmte strategische Rolle im Kampf. Obwohl du nicht aussuchen kannst, welche Miis das Dungeon betreten, hilft dir das Wissen über ihre automatisierten Aktionen dabei, sie zum Sieg zu führen.
+
+<CardGrid cols={2}>
+  <Card title="Der Krieger (Lebhaft)">
+    - **Hohe Zähigkeit**: Verfügt über einen soliden Pool von 120 KP, um Einzelziel-Angriffe zu überleben.
+    - **Physische Offensive**: Nutzt einen kräftigen Schwerthieb, der schweren physischen Schaden verursacht.
+    - **Abstrich bei der Genauigkeit**: Ihr Spezialangriff ist enorm stark, hat aber eine spürbare Chance, danebenzugehen.
+  </Card>
+  <Card title="Der Kleriker (Gelassen)">
+    - **Gruppen-Support**: Die einzige Klasse, die in der Lage ist, die Gesundheit verletzter Verbündeter wiederherzustellen.
+    - **Intelligente Heilung**: Zielt automatisch auf das Gruppenmitglied ab, das aktuell die niedrigsten KP hat.
+    - **Mana-abhängig**: Kostet 10 MP pro Heilung, was maximal vier Heilungen pro Durchlauf ermöglicht.
+  </Card>
+  <Card title="Der Kämpfer (Selbstsicher)">
+    - **Tank-Werte**: Bietet mit 140 KP den größten Gesundheitspool im Spiel.
+    - **Kritische Treffer**: Ihr Tritt-Angriff hat eine hohe Wahrscheinlichkeit, einen kritischen Treffer zu landen.
+    - **Hohe Varianz**: Sehr anfällig für Fehlschläge, was sie zu einer High-Risk-High-Reward-Option macht.
+  </Card>
+  <Card title="Der Magier (Zurückhaltend)">
+    - **Glaskanone**: Hat mit 80 KP den niedrigsten Gesundheitspool, was sie extrem verwundbar macht.
+    - **Maximaler Schaden**: Ihr Zauberspruch ist der stärkste offensive Spielzug im gesamten Spiel.
+    - **MP-Management**: Auf das Wirken von Zaubern beschränkt, solange ihr Pool von 60 MP reicht.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ideale Teamzusammenstellung">
+Eine optimale Gruppenzusammenstellung enthält mindestens einen Magier für schnellen Schaden und einen Kleriker, um die Gesundheit der Gruppe aufrechtzuerhalten. Wenn deine Zufallsauswahl mehrere Kleriker oder Magier hervorbringt, steigen deine Chancen, den Endboss zu besiegen, erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Erfolgsstrategien für Tomodachi Life Tomodachi Quest">
+
+Der Ablauf von **Tomodachi Life Tomodachi Quest** ist als kurzer Spießrutenlauf strukturiert, der aus drei bis vier Kämpfen besteht. Das erfolgreiche Durchqueren dieses Dungeons erfordert sorgfältiges Ressourcenmanagement, insbesondere im Umgang mit den begrenzten MP-Pools deiner Zauberwirker.
+
+Das Dungeon-Layout bietet eine fest einprogrammierte Weggabelungs-Mechanik. Sobald du den zweiten Kampf im Dungeon bestritten hast, musst du dich entscheiden, ob du nach links oder rechts gehst. Diese Wahl löst eine 50/50-Berechnung aus, die bestimmt, ob du direkt zum Boss gelangst oder in einer Sackgasse landest, was zu einem zusätzlichen Hinterhalt-Kampf führt.
+
+<Steps>
+  <Step num="1" title="Der Feldkampf">
+    Du beginnst auf den grasbewachsenen Ebenen außerhalb des Schlosses. Der Gegner hier ist immer ein gewöhnliches Lebensmittel von geringem Wert. Nutze einfache physische Angriffe, um die MP deines Klerikers und Magiers für spätere Phasen aufzusparen.
+  </Step>
+  <Step num="2" title="Der Dungeon-Eingang">
+    Beim Betreten des Schlosses triffst du auf ein etwas stärkeres Lebensmittel der mittleren Kategorie. Wenn die Gesundheit deiner Gruppe hoch ist, setze die Standardangriffe fort. Wenn ein empfindlicher Magier in der ersten Runde Schaden erlitten hat, ziehe eine einzelne Heilung durch den Kleriker in Betracht.
+  </Step>
+  <Step num="3" title="Die Weggabelung">
+    Wähle links oder rechts. Wenn das Spiel dich vor eine Wand führt, drehen sich deine Miis um und werden von einem dritten normalen Gegner in einen Hinterhalt gelockt. Wenn du die Wand umgehst, überspringst du diesen Kampf komplett und gelangst direkt zum Boss.
+  </Step>
+  <Step num="4" title="Der Boss-Showdown">
+    Tritt gegen einen wertvollen Schatz oder ein Luxus-Lebensmittel an. Entfessle sofort die Zauber deines Magiers und nutze die verbleibenden MP des Klerikers, um deine stärksten Angreifer am Leben zu erhalten.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gefahr durch Hinterhalt">
+Das Stoßen auf die Sackgasse erzwingt einen dritten Kampf. Diese zusätzliche Begegnung kann die KP und MP deiner Gruppe vor dem Bosskampf aufzehren. Wenn deinem Magier während des Hinterhalts die MP ausgehen, ist er im finalen Kampf gezwungen, schwache physische Angriffe einzusetzen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Boss-Mechaniken und Pfandhaus-Belohnungen">
+
+Die Gegner, denen du während des Quests begegnest, repräsentieren verschiedene Gegenstände, die im Spiel zu finden sind. Interessanterweise entsprechen die maximalen Kraftpunkte eines normalen Gegners direkt seinem Geldwert in den Spieldateien. Beispielsweise hat ein Lebensmittel im Wert von 1,50 $ im Kampf genau 150 KP.
+
+Der Endboss folgt dieser Regel jedoch nicht. Der Boss besitzt immer einen standardisierten Gesundheitspool von 2.800 KP, was ihn zu einem zähen Gegner für physische Angriffe macht.
+
+| Boss-Typ | Geschätzte KP | Angriffsarten | Belohnung bei Sieg |
+| --- | --- | --- | --- |
+| Kaviar-König | 2.800 | Einzelziel-Hieb / Gruppen-Feueratem | Kaviar (Teures Essen) |
+| Diamant | 2.800 | Einzelziel-Hieb / Gruppen-Feueratem | Diamant (Seltener Schatz) |
+| Goldbarren | 2.800 | Einzelziel-Hieb / Gruppen-Feueratem | Goldbarren (Seltener Schatz) |
+| Gegrillte Makrele | 2.800 | Einzelziel-Hieb / Gruppen-Feueratem | Gegrillte Makrele (Meeresfrüchte) |
+
+Wenn die Gesundheit eines Miis während dieser Kämpfe auf null sinkt, tut es so, als würde es sterben, und bleibt kampfunfähig. Es gibt in diesem Minispiel keine Wiederbelebungszauber oder -gegenstände. Wenn deine gesamte Gruppe besiegt wird, endet das Spiel sofort und du gehst mit nichts als einem billigen Trostpreis wie einem Stück Toilettenpapier nach Hause.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Wichtige Taktiken für den Sieg:"
+  items={[
+    "Spare die MP des Magiers während der ersten beiden Kämpfe auf, um den Boss schnell zu besiegen.",
+    "Lass Kleriker automatisch heilen; verschwende keine Runden mit dem Erraten, wer Gesundheit benötigt.",
+    "Verkaufe deine gewonnenen Boss-Schätze im Pfandhaus für schnelles Geld.",
+    "Spiele täglich, um seltene Gegenstände wie Goldbarren und Diamanten anzuhäufen."
+  ]}
+/>
+
+<Callout type="tip" title="Boss-Angriffsmuster">
+Der Boss hat zwei Angriffe: einen Einzelziel-Hieb mit hohem Schaden, der fehlschlagen kann, und einen schwächeren Feueratem-Angriff, der die gesamte Gruppe trifft, aber nie fehlschlägt. Wenn der Boss ununterbrochen Feueratem einsetzt, stelle sicher, dass dein Kleriker noch MP hat, um deine Gruppenmitglieder mit den niedrigsten KP zu heilen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+Obwohl dieses Retro-Minispiel unkompliziert ist, haben Spieler oft Fragen zu seinen Mechaniken, Belohnungen und der Verbindung zu anderen Titeln der Reihe.
+
+<FAQ items={[
+  {
+    question: "Kann ich manuell auswählen, welche Miis am Quest teilnehmen?",
+    answer: "Nein. Die vier Miis werden völlig zufällig aus den aktiven Bewohnern des Apartmentgebäudes deiner Insel ausgewählt."
+  },
+  {
+    question: "Was passiert, wenn ein Mii in den frühen Kämpfen besiegt wird?",
+    answer: "Wenn ein Mii all seine Gesundheit verliert, bleibt es für den Rest des Durchlaufs kampfunfähig. Wenn du den Kampf gewinnst, läuft es in den folgenden Räumen mit einer gekrümmten, verletzten Animation."
+  },
+  {
+    question: "Ist die Weggabelung in der Dungeon-Höhle tatsächlich steuerbar?",
+    answer: "Nein. Die Wahl zwischen links und rechts ist eine visuelle Illusion. Das Spiel bestimmt mithilfe einer einfachen 50/50-Zufallsberechnung, ob du gegen eine Wand stößt oder zum Boss gelangst – unabhängig von der gewählten Richtung."
+  },
+  {
+    question: "Kehrt dieses Minispiel in anderen Versionen oder Fortsetzungen zurück?",
+    answer: "Obwohl das ursprüngliche 8-Bit-Quest exklusiv für diesen Titel ist, ist die RPG-Traumsequenz in anderen Iterationen der Reihe stark von genau diesen Kampfmechaniken und Soundeffekten inspiriert."
+  }
+]} />
+
+<Callout type="info" title="Fazit">
+Das **Tomodachi Life Tomodachi Quest** ist eine wunderbare Hommage an die klassische Spielegeschichte. Wenn du verstehst, wie die Mii-Persönlichkeiten den Kampfklassen zugeordnet sind, und die Gesundheit deiner Gruppe effizient verwaltest, kannst du die Bosse mit 2.800 KP zuverlässig besiegen und dir die wertvollsten Schätze der Insel sichern.
+</Callout>
+
+</Section>

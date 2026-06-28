@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest: RPG Gids & Klasse-klassementen",
+  description: "Beheers Tomodachi Quest in Tomodachi Life. Leer meer over Mii-klassen, persoonlijkheidsgroepen, gevechtsstrategieën en baasbeloningen in deze 8-bit RPG-gids.",
+  category: "Gids",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "tomodachi life living the dream release date Wiki-team"
+}
+
+<Callout type="info" title="Snelle gids">
+- **Basisspel**: De **tomodachi life tomodachi quest** is een 8-bit RPG-minigame die zich in het pretpark bevindt.
+- **Klassebepaling**: Je Mii's krijgen rollen toegewezen op basis van hun persoonlijkheidsgroepen.
+- **Gevechtsverloop**: Voltooi maximaal vier gevechten en navigeer door een 50/50 gesplitst pad om de eindbaas te bereiken.
+- **Baasmechanieken**: Elke baas heeft exact 2.800 HP en laat bij een nederlaag het fysieke voorwerp vallen dat hij vertegenwoordigt.
+- **Winnende strategie**: Geef prioriteit aan de genezing van de Cleric en de spreuken van de Mage om vuuraanvallen met veel schade te overleven.
+</Callout>
+
+<Section icon={Map} title="Een introductie tot de pretpark-RPG">
+
+De **tomodachi life tomodachi quest**-minigame is een van de meest unieke en nostalgische functies in Nintendo's eigenzinnige levenssimulatiespel. Deze minigame, in de stijl van klassieke 8-bit retro rollenspellen zoals de originele Final Fantasy, verandert vier willekeurige eilandbewoners in gepixelde helden. Deze helden moeten op een kort kerkeravontuur gaan en vechten tegen levende voedselproducten en waardevolle schatten om hoogwaardige beloningen te claimen.
+
+Om deel te nemen aan dit dagelijkse evenement moeten spelers eerst het pretpark ontgrendelen. Dit wordt bereikt zodra een Mii op je eiland voor de allereerste keer een liefdesverklaring aflegt. Eenmaal ontgrendeld, wordt de minigame twee keer per dag beschikbaar tijdens specifieke tijdsvensters.
+
+| Functie | Details |
+| --- | --- |
+| Kosten per spel | $0,25 (VS) / £1,00 (VK) / €1,00 (EU) / ¥100 (JP) |
+| Middagvenster | 14:30 tot 16:30 uur |
+| Avondvenster | 21:00 tot 23:00 uur |
+| Dagelijkse limiet | Precies één keer per dag speelbaar |
+| Visuele stijl | 8-bit retro pixelart met chiptune-audio |
+
+In tegenstelling tot typische RPG's waarin je directe controle hebt over de eigenschappen van je team, selecteert deze minigame automatisch vier willekeurige Mii's uit je appartementencomplex. Hun statistieken, gezondheidspunten en gevechtsvaardigheden zijn volledig afhankelijk van hun vooraf bepaalde persoonlijkheidstypes.
+
+<Callout type="info" title="Tip voor de dagelijkse routine">
+Zorg ervoor dat je het pretpark tijdens de aangegeven uren bezoekt. Omdat je slechts één keer per kalenderdag kunt spelen, betekent het missen van het middagvenster dat je tot de avond moet wachten om je geluk te beproeven bij het winnen van zeldzame schatten voor de pandjeswinkel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mii-persoonlijkheden en RPG-klassen">
+
+Wanneer je de minigame start, de vier gekozen Mii's worden toegewezen aan een van de vier verschillende klassen: Warrior, Cleric, Fighter of Mage. Deze klassen komen rechtstreeks overeen met de vier primaire Mii-persoonlijkheidsgroepen. Het begrijpen van deze uitlijningen is cruciaal om de overlevingskansen van je team te evalueren voordat de eerste beurt begint.
+
+| Persoonlijkheidsgroep | RPG-klasse | Basis HP | Basis MP | Primaire actie & gevechtsstijl |
+| --- | --- | --- | --- | --- |
+| Outgoing (VS) / Energetic (EU) | Warrior | 120 | n.v.t. | Hoge fysieke schade, lagere nauwkeurigheid |
+| Easygoing (VS/EU) | Cleric | 100 | 40 | Automatische genezing voor bondgenoot met laagste HP |
+| Confident (VS/EU) | Fighter | 140 | n.v.t. | Hoge kans op kritieke treffers, lage basisnauwkeurigheid |
+| Independent (VS) / Reserved (EU) | Mage | 80 | 60 | Hoge magische schade, spreuken met hoge MP-kosten |
+
+Elke klasse heeft een specifieke strategische rol in het gevecht. Hoewel je niet kunt kiezen welke Mii's de kerker betreden, helpt het kennen van hun geautomatiseerde acties je om hen naar de overwinning te leiden.
+
+<CardGrid cols={2}>
+  <Card title="De Warrior (Outgoing / Energetic)">
+    - **Hoge duurzaamheid**: Beschikt over een solide HP-pool van 120 om aanvallen op één doelwit te overleven.
+    - **Fysieke aanval**: Gebruikt een krachtige zwaardslag die zware fysieke schade toebrengt.
+    - **Compromis in nauwkeurigheid**: Hun speciale aanval is zeer krachtig, maar heeft een aanzienlijke kans om te missen.
+  </Card>
+  <Card title="De Cleric (Easygoing)">
+    - **Teamondersteuning**: De enige klasse die in staat is om de gezondheid van gevallen of gewonde bondgenoten te herstellen.
+    - **Slimme genezing**: Richt zich automatisch op het teamlid dat momenteel de laagste HP heeft.
+    - **Afhankelijk van mana**: Kost 10 MP per genezing, wat een maximum van vier genezingen per run mogelijk maakt.
+  </Card>
+  <Card title="De Fighter (Confident)">
+    - **Tankstatistieken**: Heeft met 140 HP de grootste gezondheidspool in het spel.
+    - **Kritieke treffers**: Hun trapaanval heeft een hoge kans om een kritieke treffer te landen.
+    - **Hoge variantie**: Zeer gevoelig voor missen, wat ze 'high-risk, high-reward' maakt.
+  </Card>
+  <Card title="De Mage (Independent / Reserved)">
+    - **Glass Cannon**: Heeft de laagste gezondheidspool met 80 HP, waardoor ze zeer kwetsbaar zijn.
+    - **Maximale schade**: Hun magische spreuk is de krachtigste offensieve zet in het hele spel.
+    - **MP-beheer**: Beperkt tot het gebruik van spreuken zolang hun MP-pool van 60 meegaat.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ideale teamsamenstelling">
+Een optimale teamsamenstelling bevat ten minste één Mage voor een snelle schade-output en één Cleric om de gezondheid van het team op peil te houden. Als je willekeurige selectie meerdere Clerics of Mages oplevert, nemen je kansen om de eindbaas te verslaan aanzienlijk toe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Winnende strategieën voor Tomodachi Life Tomodachi Quest">
+
+Het verloop van de **tomodachi life tomodachi quest** is gestructureerd als een korte vuurdoop bestaande uit drie tot vier gevechten. Om deze kerker succesvol te doorkruisen is zorgvuldig middelenbeheer vereist, vooral wat betreft de beperkte MP-pools van je magiërs.
+
+De kerkerindeling bevat een vastgelegd mechanisme met een gesplitst pad. Zodra je het tweede gevecht in de kerker hebt gewonnen, moet je kiezen om naar links of naar rechts te gaan. Deze keuze start een 50/50-berekening om te bepalen of je direct doorgaat naar de baas of op een doodlopend spoor stuit, wat resulteert in een extra hinderlaaggevecht.
+
+<Steps>
+  <Step num="1" title="Het veldgevecht">
+    Je begint op de grasvlakten buiten het kasteel. De vijand hier is altijd een algemeen voedselproduct van lage waarde. Gebruik basis fysieke aanvallen om de MP van je Cleric en Mage te sparen voor latere fasen.
+  </Step>
+  <Step num="2" title="De ingang van de kerker">
+    Bij het betreden van het kasteel sta je tegenover een iets sterker voedselproduct uit de middenklasse. Als de gezondheid van je team hoog is, blijf dan standaardaanvallen gebruiken. Als een kwetsbare Mage schade heeft opgelopen in de eerste ronde, overweeg dan om één Cleric-genezing te gebruiken.
+  </Step>
+  <Step num="3" title="De beslissing op het gesplitste pad">
+    Kies links of rechts. Als het spel je naar een muur leidt, draaien je Mii's zich om en lopen ze in een hinderlaag van een derde gewone vijand. Als je de muur omzeilt, sla je dit gevecht volledig over en ga je rechtstreeks naar de baas.
+  </Step>
+  <Step num="4" title="De confrontatie met de baas">
+    Neem het op tegen een waardevolle schat of een luxe voedselproduct. Ontketen onmiddellijk de spreuken van je Mage en gebruik de resterende MP van de Cleric om je sterkste aanvallers in leven te houden.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gevaar voor hinderlagen">
+Het raken van de doodlopende muur dwingt een derde gevecht af. Deze extra ontmoeting kan de HP en MP van je team uitputten voor het baasgevecht. Als je Mage tijdens de hinderlaag zonder MP komt te zitten, zal deze gedwongen zijn om zwakke fysieke aanvallen te gebruiken in het eindgevecht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Baasmechanieken en beloningen van de pandjeswinkel">
+
+De vijanden die je tijdens de zoektocht tegenkomt, vertegenwoordigen verschillende voorwerpen die in het spel te vinden zijn. Interessant is dat de maximale gezondheidspunten van een normale vijand rechtstreeks overeenkomen met de geldwaarde in de spelbestanden. Een voedselproduct met een waarde van $1,50 heeft bijvoorbeeld precies 150 HP in de strijd.
+
+De eindbaas volgt deze regel echter niet. De baas heeft altijd een gestandaardiseerde gezondheidspool van 2.800 HP, waardoor het een geduchte spons is voor fysieke aanvallen.
+
+| Baastype | Geschat HP | Aanvalstypes | Beloning bij nederlaag |
+| --- | --- | --- | --- |
+| Caviar King | 2.800 | Aanval op één doelwit / Groepsvuuradem | Kaviaar (duur voedsel) |
+| Diamant | 2.800 | Aanval op één doelwit / Groepsvuuradem | Diamant (zeldzame schat) |
+| Goudstaaf | 2.800 | Aanval op één doelwit / Groepsvuuradem | Goudstaaf (zeldzame schat) |
+| Gegrilde makreel | 2.800 | Aanval op één doelwit / Groepsvuuradem | Gegrilde makreel (zeevruchten) |
+
+Als de gezondheid van een Mii tijdens deze gevechten tot nul daalt, doet deze alsof hij sterft en blijft hij uitgeschakeld. Er zijn geen wederopstandingsspreuken of -voorwerpen in deze minigame. Als je hele team wordt uitgeschakeld, eindigt het spel onmiddellijk en loop je weg met niets anders dan een goedkope troostprijs zoals een stuk toiletpapier.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Belangrijke tactieken voor de overwinning:"
+  items={[
+    "Spaar de MP van de Mage tijdens de eerste twee gevechten om de baas snel uit te schakelen.",
+    "Laat Clerics automatisch genezen; verspil geen beurten door te raden wie gezondheid nodig heeft.",
+    "Verkoop je gewonnen baasschatten in de pandjeswinkel voor snel geld.",
+    "Speel dagelijks om zeldzame voorwerpen zoals goudstaven en diamanten te verzamelen."
+  ]}
+/>
+
+<Callout type="tip" title="Aanvalspatronen van de baas">
+De baas heeft twee aanvallen: een aanval op één doelwit met hoge schade die kan missen, en een zwakkere vuurademaanval die het hele team raakt maar nooit mist. Wanneer de baas vuuradem spamt, zorg er dan voor dat je Cleric nog MP heeft om je teamleden met de laagste gezondheid te genezen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Veelgestelde vragen">
+
+Hoewel deze retro-minigame eenvoudig is, hebben spelers vaak vragen over de mechanieken, beloningen en de connectie met andere titels in de serie.
+
+<FAQ items={[
+  {
+    question: "Kan ik handmatig selecteren welke Mii's deelnemen aan de quest?",
+    answer: "Nee. De vier Mii's worden volledig willekeurig gekozen uit de actieve bewoners die in het appartementencomplex op je eiland wonen."
+  },
+  {
+    question: "Wat gebeurt er als een Mii wordt verslagen tijdens de vroege gevechten?",
+    answer: "Als een Mii alle gezondheid verliest, blijft deze de rest van de run uitgeschakeld. Als je het gevecht wint, lopen ze in volgende kamers met een voorovergebogen, gewonde animatie."
+  },
+  {
+    question: "Is de keuze voor het gesplitste pad bij de kerkergrot daadwerkelijk controleerbaar?",
+    answer: "Nee. De keuze tussen links en rechts is een visuele illusie. Het spel bepaalt of je op een muur stuit of doorgaat naar de baas met behulp van een vlakke 50/50 willekeurige berekening, ongeacht de richting die je kiest."
+  },
+  {
+    question: "Keert deze minigame terug in andere versies of vervolgen?",
+    answer: "Hoewel de originele 8-bit quest exclusief is voor deze titel, is de RPG-droomreeks in andere iteraties van de serie sterk geïnspireerd op precies deze gevechtsmechanieken en geluidseffecten."
+  }
+]} />
+
+<Callout type="info" title="Eindoordeel">
+De **tomodachi life tomodachi quest** is een heerlijke knipoog naar de klassieke gamegeschiedenis. Door te begrijpen hoe Mii-persoonlijkheden zich vertalen naar gevechtsklassen en door de gezondheid van je team efficiënt te beheren, kun je consequent de bazen met 2.800 HP verslaan en de meest waardevolle schatten op het eiland bemachtigen.
+</Callout>
+
+</Section>

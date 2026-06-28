@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Tomodachi Quest: RPG Guide & Class Rankings",
+  description: "Master Tomodachi Quest in Tomodachi Life. Learn about Mii classes, personality groups, battle strategies, and boss rewards in this 8-bit RPG guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tomodachi+Quest+Guide",
+  date: "2026-06-28",
+  author: "tomodachi life living the dream release date Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Game**: The **tomodachi life tomodachi quest** is an 8-bit RPG mini-game located at the Amusement Park.
+- **Class Determination**: Your Miis are assigned roles based on their personality groups.
+- **Battle Flow**: Complete up to four battles, navigating a 50/50 split path to reach the final boss.
+- **Boss Mechanics**: Every boss has a flat 2,800 HP and drops the physical item they represent upon defeat.
+- **Winning Strategy**: Prioritize Cleric healing and Mage spells to survive high-damage fire attacks.
+</Callout>
+
+<Section icon={Map} title="An Introduction to the Amusement Park RPG">
+
+The **tomodachi life tomodachi quest** mini-game is one of the most unique and nostalgic features in Nintendo's quirky life-simulation game. Styled after classic 8-bit retro role-playing games like the original Final Fantasy, this mini-game transforms four random islanders into pixelated heroes. These heroes must embark on a short dungeon-crawling adventure, fighting off sentient food items and valuable treasures to claim high-end rewards.
+
+To participate in this daily event, players must first unlock the Amusement Park. This is achieved once any Mii on your island makes a love confession for the very first time. Once unlocked, the mini-game becomes available twice a day during specific time windows.
+
+| Feature | Details |
+| --- | --- |
+| Cost Per Play | $0.25 (US) / £1.00 (UK) / €1.00 (EU) / ¥100 (JP) |
+| Afternoon Window | 2:30 PM to 4:30 PM |
+| Evening Window | 9:00 PM to 11:00 PM |
+| Daily Limit | Playable exactly once per day |
+| Visual Style | 8-bit retro pixel art with chiptune audio |
+
+Unlike typical RPGs where you have direct control over your party's attributes, this mini-game automatically selects four random Miis from your apartment building. Their statistics, health points, and combat abilities are entirely dependent on their pre-established personality types.
+
+<Callout type="info" title="Daily Routine Tip">
+Make sure to check the Amusement Park during the designated hours. Since you can only play once per calendar day, missing the afternoon window means you must wait until the evening to try your luck at winning rare pawn shop treasures.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mii Personalities and RPG Classes">
+
+When you start the mini-game, the four chosen Miis are assigned to one of four distinct classes: Warrior, Cleric, Fighter, or Mage. These classes correspond directly to the four primary Mii personality groups. Understanding these alignments is critical for evaluating your party's survival chances before the first turn even begins.
+
+| Personality Group | RPG Class | Base HP | Base MP | Primary Action & Combat Style |
+| --- | --- | --- | --- | --- |
+| Outgoing (US) / Energetic (EU) | Warrior | 120 | N/A | High physical damage, lower accuracy |
+| Easygoing (US/EU) | Cleric | 100 | 40 | Automatic healing for lowest HP ally |
+| Confident (US/EU) | Fighter | 140 | N/A | High critical hit rate, low base accuracy |
+| Independent (US) / Reserved (EU) | Mage | 80 | 60 | High magic damage, high MP cost spells |
+
+Each class serves a specific strategic role in battle. While you cannot choose which Miis enter the dungeon, knowing how to utilize their automated actions will help you guide them to victory.
+
+<CardGrid cols={2}>
+  <Card title="The Warrior (Outgoing / Energetic)">
+    - **High Durability**: Boasts a solid 120 HP pool to survive single-target strikes.
+    - **Physical Offense**: Uses a strong sword swing that deals heavy physical damage.
+    - **Accuracy Trade-off**: Their special attack is highly powerful but has a notable chance to miss.
+  </Card>
+  <Card title="The Cleric (Easygoing)">
+    - **Party Support**: The only class capable of restoring health to fallen or injured allies.
+    - **Smart Healing**: Automatically targets whichever party member currently has the lowest HP.
+    - **Mana Dependent**: Costs 10 MP per heal, allowing for a maximum of four heals per run.
+  </Card>
+  <Card title="The Fighter (Confident)">
+    - **Tank Stats**: Features the highest health pool in the game at 140 HP.
+    - **Critical Strikes**: Their kick attack has a high probability of landing a critical hit.
+    - **High Variance**: Highly susceptible to missing, making them high-risk, high-reward.
+  </Card>
+  <Card title="The Mage (Independent / Reserved)">
+    - **Glass Cannon**: Possesses the lowest health pool at 80 HP, making them highly vulnerable.
+    - **Maximum Damage**: Their spellcast is the most powerful offensive move in the entire game.
+    - **MP Management**: Limited to using spells while their 60 MP pool lasts.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ideal Team Composition">
+An optimal party setup includes at least one Mage for fast damage output and one Cleric to sustain the party's health. If your random select yields multiple Clerics or Mages, your chances of defeating the final boss increase significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Winning Strategies for Tomodachi Life Tomodachi Quest">
+
+The progression of the **tomodachi life tomodachi quest** is structured as a short gauntlet consisting of three to four battles. Navigating this dungeon successfully requires careful resource management, particularly when dealing with your spellcasters' limited MP pools.
+
+The dungeon layout features a hard-coded split-path mechanic. Once you clear the second battle inside the dungeon, you must choose to go either left or right. This choice initiates a 50/50 calculation to determine whether you proceed directly to the boss or hit a dead end, resulting in an extra ambush battle.
+
+<Steps>
+  <Step num="1" title="The Field Battle">
+    You begin on the grassy plains outside the castle. The enemy here is always a low-value common food item. Use basic physical attacks to preserve your Cleric's and Mage's MP for later stages.
+  </Step>
+  <Step num="2" title="The Dungeon Entrance">
+    Upon entering the castle, you face a slightly stronger mid-tier food item. If your party's health is high, continue using standard attacks. If a squishy Mage took damage in the first round, consider using a single Cleric heal.
+  </Step>
+  <Step num="3" title="The Split Path Decision">
+    Choose left or right. If the game routes you to a wall, your Miis will turn around and be ambushed by a third regular enemy. If you bypass the wall, you skip this fight entirely and head straight to the boss.
+  </Step>
+  <Step num="4" title="The Boss Showdown">
+    Face off against a high-value treasure or luxury food item. Unleash your Mage's spells immediately and use the Cleric's remaining MP to keep your heaviest hitters alive.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ambush Danger">
+Hitting the dead-end wall forces a third battle. This extra encounter can deplete your party's HP and MP before the boss fight. If your Mage runs out of MP during the ambush, they will be forced to use weak physical attacks in the final battle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Boss Mechanics and Pawn Shop Rewards">
+
+The enemies you encounter throughout the quest represent various items found in the game. Interestingly, a regular enemy's maximum health points correspond directly to its monetary value in the game files. For example, a food item worth $1.50 will have exactly 150 HP in battle. 
+
+The final boss, however, does not follow this rule. The boss always possesses a standardized health pool of 2,800 HP, making it a formidable sponge for physical attacks.
+
+| Boss Type | Estimated HP | Attack Types | Reward Upon Defeat |
+| --- | --- | --- | --- |
+| Caviar King | 2,800 | Single-Target Strike / Group Fire Breath | Caviar (Expensive Food) |
+| Diamond | 2,800 | Single-Target Strike / Group Fire Breath | Diamond (Rare Treasure) |
+| Gold Bar | 2,800 | Single-Target Strike / Group Fire Breath | Gold Bar (Rare Treasure) |
+| Grilled Mackerel | 2,800 | Single-Target Strike / Group Fire Breath | Grilled Mackerel (Seafood) |
+
+If any Mii's health drops to zero during these fights, they will pretend to die and remain incapacitated. There are no revival spells or items in this mini-game. If your entire party is wiped out, the game ends immediately, and you walk away with nothing but a cheap consolation prize like a piece of toilet paper.
+
+<Checklist
+  id="quest-victory-checklist"
+  title="Key Tactics for Victory:"
+  items={[
+    "Conserve Mage MP during the first two battles to burst down the boss.",
+    "Let Clerics heal automatically; do not waste turns guessing who needs health.",
+    "Sell your winning boss treasures at the Pawn Shop for quick cash.",
+    "Play daily to accumulate rare items like Gold Bars and Diamonds."
+  ]}
+/>
+
+<Callout type="tip" title="Boss Attack Patterns">
+The boss has two attacks: a high-damage single-target strike that can miss, and a weaker fire breath attack that hits the entire party but never misses. When the boss spams fire breath, ensure your Cleric still has MP to heal your lowest-health party members.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+While this retro mini-game is straightforward, players often have questions about its mechanics, rewards, and connection to other titles in the series.
+
+<FAQ items={[
+  {
+    question: "Can I manually select which Miis participate in the quest?",
+    answer: "No. The four Miis are chosen completely at random from the active residents living in your island's apartment building."
+  },
+  {
+    question: "What happens if a Mii is defeated during the early battles?",
+    answer: "If a Mii loses all health, they remain incapacitated for the rest of the run. If you win the battle, they will walk with a hunched-over, injured animation in subsequent rooms."
+  },
+  {
+    question: "Is the split-path choice at the dungeon cave actually controllable?",
+    answer: "No. The choice between left and right is a visual illusion. The game determines whether you hit a wall or proceed to the boss using a flat 50/50 random calculation, regardless of the direction you pick."
+  },
+  {
+    question: "Does this mini-game return in other versions or sequels?",
+    answer: "While the original 8-bit quest is exclusive to this title, the RPG Dream sequence in other series iterations is heavily inspired by these exact combat mechanics and sound effects."
+  }
+]} />
+
+<Callout type="info" title="Final Verdict">
+The **tomodachi life tomodachi quest** is a delightful nod to classic gaming history. By understanding how Mii personalities map to combat classes and managing your party's health efficiently, you can consistently defeat the 2,800 HP bosses and secure the most valuable treasures on the island.
+</Callout>
+
+</Section>
