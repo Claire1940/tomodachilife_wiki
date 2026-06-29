@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Citra: Gids voor Emulator-installatie & Prestaties",
+  description: "Configureer Tomodachi Life op de Citra-emulator. Optimaliseer grafische instellingen, los veelvoorkomende problemen op en beheer je eiland in 2026.",
+  category: "Gids",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Citra+Setup",
+  date: "2026-06-30",
+  author: "tomodachi life living the dream release date Wiki Team",
+  keywords: "Tomodachi Life, Citra, emulator, installatie, gids, prestaties, Mii, instellingen"
+}
+
+<Callout type="info" title="Beknopte Gids">
+- **Core Emulator**: Speel Tomodachi Life op de pc met de stabiele builds van de Citra-emulator in 2026.
+- **Belangrijkste vereiste**: Een gedecodeerd ROM-bestand is vereist om de game door de emulator te laten herkennen en opstarten.
+- **Kritieke Fix**: Installeer het gedeelde systeemlettertype-archief om de veelvoorkomende glitch met lege Mii-gezichten te voorkomen.
+- **Prestatiedoel**: Schaal de interne resolutie naar 3x of 4x voor strakke, high-definition character-modellen.
+- **Beste Lay-out**: Gebruik de side-by-side schermindeling in de emulatorinstellingen voor de beste navigatie op twee schermen.
+</Callout>
+
+<Section icon={Map} title="Aan de slag met de Tomodachi Life Citra-installatie">
+
+Het emuleren van klassieke handheld-titels op moderne hardware biedt verbeterde beelden en aanpasbare besturingsschema's. Om Tomodachi Life op pc of compatibele mobiele apparaten te spelen, is de Citra-emulator nodig, die de omgeving met twee schermen van de originele console reconstrueert. In 2026 bieden door de community onderhouden builds van de emulator verbeterde compatibiliteit, waardoor het makkelijker is om sociale simulatiegames zonder prestatieproblemen uit te voeren.
+
+Voordat je met het installatieproces begint, moeten spelers de juiste emulator-build selecteren. Verschillende builds geven prioriteit aan stabiliteit of experimentele functies, wat van invloed kan zijn op de manier waarop de game unieke shaders en aangepaste audiobestanden rendert.
+
+<CardGrid cols={3}>
+  <Card title="Nightly Build">
+    - **Hoge stabiliteit**
+    - Grondig geteste updates
+    - Aanbevolen voor algemeen gebruik
+  </Card>
+  <Card title="Canary Build">
+    - **Experimentele functies**
+    - Frequente updatecycli
+    - Kan kleine bugs bevatten
+  </Card>
+  <Card title="Aangepaste Community Forks">
+    - **Specifieke game-fixes**
+    - Verbeterde shader-compilatie
+    - Variabele systeemstabiliteit
+  </Card>
+</CardGrid>
+
+Om de emulator efficiënt te laten draaien, moet je hardwareconfiguratie voldoen aan of beter zijn dan de standaardspecificaties. Hoewel de simulatie-elementen van de game niet erg veeleisend zijn, vereist het opschalen van de resolutie voldoende grafische rekenkracht.
+
+| Vereiste | Minimale Specificaties | Aanbevolen Specificaties |
+|-------------|---------------|-------------------|
+| Besturingssysteem | Windows 10 64-bit | Windows 11 64-bit |
+| Processor | Intel Core i3 | Intel Core i5 of AMD Ryzen 5 |
+| Grafische kaart | OpenGL 3.3 compatibel | NVIDIA GTX 1060 of AMD equivalent |
+| Systeemgeheugen | 8 GB RAM | 16 GB RAM |
+| Opslagruimte | 2 GB vrije ruimte | SSD-opslag |
+
+<Callout type="info" title="Hardwarecompatibiliteit">
+Geïntegreerde grafische chips kunnen de game op de oorspronkelijke resolutie draaien, maar toegewezen grafische hardware wordt sterk aanbevolen als je de renderresolutie boven de standaarddefinitie wilt schalen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimale Emulator-instellingen voor Beeld en Geluid">
+
+Het behalen van een vloeiende framerate en heldere audio in de game vereist aanpassingen in de configuratiepanelen van de emulator. De standaardinstellingen zijn ontworpen voor maximale compatibiliteit met minder krachtige hardware, wat vaak resulteert in gepixelde character-modellen en doffe audio.
+
+In het tabblad voor grafische configuratie kunnen spelers instellingen aanpassen om de visuele kwaliteit te verbeteren. Het aanpassen van de interne resolutie verandert het gepixelde 240p-scherm van de originele console in een scherpe high-definition ervaring.
+
+| Instellingsnaam | Standaardwaarde | Aanbevolen waarde | Impact |
+|--------------|---------------|-------------------|--------|
+| Interne Resolutie | 1x Native | 3x of 4x Native | Vermindert gekartelde randen aanzienlijk |
+| Textuurfilter | Geen | Anime of Bicubic | Maakt interface-elementen vloeiender |
+| Schermindeling | Standaard | Side by Side | Geeft beide schermen duidelijk weer |
+| Shader-type | Normale Shader | Aparte Shader | Voorkomt frame drops tijdens overgangen |
+| Audio Stretching | Ingeschakeld | Uitgeschakeld | Vermindert audiovertraging en gekraak |
+
+<Callout type="tip" title="Optimalisatie van Schermindeling">
+Het gebruik van de side-by-side schermindeling maakt het makkelijker om de belangrijkste eilandgebeurtenissen te bekijken terwijl je de Mii-statusupdates op het secundaire touchscreen bijhoudt.
+</Callout>
+
+Audioconfiguratie is even belangrijk voor deze titel, aangezien de game zwaar leunt op tekst-naar-spraak spraaksynthese. Als er haperingen in de audio-emulatie optreden, zullen de gesynthetiseerde stemmen vervormd klinken, waardoor dialogen moeilijk te begrijpen zijn. Het uitschakelen van audio stretching en het selecteren van de juiste audio-backend stabiliseert meestal de spraakuitvoer.
+
+</Section>
+
+<Section icon={Target} title="Stapsgewijze Installatie en Game-import">
+
+Het opzetten van de game vereist dat de bestanden in de juiste mappen worden geplaatst en dat de emulator wordt geconfigureerd om je gamebibliotheek te herkennen. Volg deze stappen om je omgeving voor te bereiden.
+
+<Steps>
+  <Step num="1" title="Download en Installeer de Emulator">
+    Download het nieuwste stabiele installatiebestand voor jouw besturingssysteem. Voer het bestand uit en volg de aanwijzingen op het scherm om de installatie te voltooien.
+  </Step>
+  <Step num="2" title="Bereid de Gedecodeerde ROM voor">
+    Zorg ervoor dat je gamebestand in een gedecodeerd formaat is. De emulator kan geen versleutelde bestanden direct van fysieke cartridges lezen zonder de juiste conversie.
+  </Step>
+  <Step num="3" title="Maak een Specifieke Game-map">
+    Maak een map op je schijf aan met de naam Games. Verplaats je gedecodeerde gamebestand naar deze map om je bibliotheek georganiseerd te houden.
+  </Step>
+  <Step num="4" title="Configureer het Game-pad">
+    Open de emulator, dubbelklik op het hoofdvenster en selecteer de map die je hebt aangemaakt. Het game-icoon zou in de hoofdlijst moeten verschijnen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Bestandsformaten">
+Zorg ervoor dat je gamebestand de juiste extensie gebruikt. De emulator ondersteunt voornamelijk gedecodeerde bestanden en gecomprimeerde archieven moeten worden uitgepakt voordat je ze opstart.
+</Callout>
+
+Zodra de gamemap is ingesteld, controleer je of de game succesvol opstart. Als de software niet laadt, controleer dan de logconsole om ontbrekende systeemonderdelen of formaatfouten te identificeren.
+
+</Section>
+
+<Section icon={Shield} title="Problemen met Veelvoorkomende Glitches Oplossen">
+
+Spelers die de game op een emulator draaien, kunnen specifieke visuele of audio-bugs tegenkomen die niet op de originele hardware bestonden. Het meest voorkomende probleem is de glitch met ontbrekende Mii-gezichten, waarbij personages verschijnen met lege of beschadigde gezichtstexturen.
+
+Dit probleem treedt op omdat de emulator geen toegang heeft tot de eigen systeemlettertypes die het originele besturingssysteem gebruikt om gezichtskenmerken te renderen. Om dit op te lossen, moet je de gedeelde systeembestanden importeren in de emulatormap.
+
+| Probleembeschrijving | Oorzaak | Aanbevolen Oplossing |
+|-------------------|---------------|----------------------|
+| Lege Mii-gezichten | Ontbrekende systeemlettertypes | Importeer systeemlettertypebestanden naar de gebruikersmap |
+| Zwart scherm bij opstarten | Versleuteld gamebestand | Decodeer het gamebestand met externe tools |
+| Audio-gekraak | Audio buffer desync | Schakel audio-backend over naar cubeb of SDL2 |
+| Save Data Corrupt | Onjuist afsluiten emulator | Sla altijd in-game op en wacht tot het schrijven klaar is |
+| Lage Framerate | Overmatige resolutieschaling | Verlaag interne resolutie naar 2x of 3x |
+
+<Callout type="success" title="Mii-gezicht Resolutie">
+Nadat je de gedeelde lettertypebestanden naar de systeemmap hebt gekopieerd, herstart je de emulator. De wijzigingen worden onmiddellijk toegepast en herstellen alle gezichtskenmerken voor bestaande en nieuwe Mii's.
+</Callout>
+
+Als prestatiedips aanhouden tijdens het spelen, kan het uitschakelen van hardware-shaders of het wissen van de shader-cache haperingen oplossen die worden veroorzaakt door het on-the-fly compileren van nieuwe visuele assets.
+
+</Section>
+
+<Section icon={Trophy} title="Eilandbeheer en Progressiedoelen">
+
+Zodra de technische setup is voltooid, kunnen spelers zich concentreren op het ontwikkelen van hun virtuele eiland. De gameplay-loop draait om het maken van Mii's, het beheren van hun relaties en het ontgrendelen van nieuwe winkels en items.
+
+Het verdienen van in-game valuta is essentieel voor het kopen van kleding, voedsel en interieurs voor appartementen. Spelers ontvangen financiële beloningen door problemen voor hun eilandbewoners op te lossen en dagelijkse donaties bij de centrale fontein te innen.
+
+<Checklist
+  id="daily-island-goals"
+  title="Dagelijkse Progressie Checklist:"
+  items={[
+    "Incasseer ochtenddonaties bij de centrale fontein",
+    "Los geschillen en relatieproblemen tussen eilandbewoners op",
+    "Controleer de pandjeshuis voor waardevolle handelsitems",
+    "Speel minigames met Mii's om mysterieboxen te verdienen",
+    "Update de inventaris van de kleding- en interieurwinkel"
+  ]}
+/>
+
+<Callout type="info" title="Real-Time Klok Events">
+De game werkt met een real-time kloksysteem. Bepaalde gebeurtenissen, winkelitems en donaties verversen op specifieke tijden van de dag, wat spelers aanmoedigt om regelmatig in te loggen.
+</Callout>
+
+Het beheren van relaties is een ander belangrijk mechanisme. Mii's van het andere geslacht van vergelijkbare leeftijd zullen in de loop van de tijd met elkaar omgaan, wat leidt tot vriendschappen, romantische bekentenissen en uiteindelijk huwelijken. Het monitoren van deze interacties zorgt voor een gestage stroom van unieke gebeurtenissen op het eiland.
+
+</Section>
+
+<Section icon={Swords} title="Veelgestelde Vragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Hoe los ik de kapotte Mii-gezichten in Tomodachi Life Citra op?",
+    answer: "Deze bug wordt veroorzaakt door ontbrekende systeemlettertypes. Je moet de gedeelde systeemlettertypebestanden van een console verkrijgen en deze naar de systeemmap van de emulator kopiëren."
+  },
+  {
+    question: "Kan ik mijn save-bestand van een fysieke console naar de emulator overzetten?",
+    answer: "Ja. Je kunt je save-bestand exporteren met homebrew-tools op je console en de map met save-gegevens naar de bijbehorende map in de emulator kopiëren."
+  },
+  {
+    question: "Waarom draait de game langzaam op mijn computer?",
+    answer: "Prestatieproblemen worden meestal veroorzaakt door de interne resolutieschaal te hoog in te stellen of door incompatibele grafische backends zoals OpenGL te gebruiken op oudere AMD-hardware."
+  },
+  {
+    question: "Ondersteunt de emulator lokale draadloze functies voor ruilen?",
+    answer: "Sommige community-builds bieden lokale multiplayer-emulatie via virtuele netwerken, waardoor spelers ontdekkingsreizigers en items kunnen uitwisselen, hoewel de compatibiliteit varieert."
+  }
+]} />
+
+<Callout type="tip" title="Aanbeveling voor Save-back-ups">
+Maak regelmatig handmatige back-ups van je save-map. Emulator-updates kunnen soms paden van save-bestanden of configuratiebestanden wijzigen, wat je voortgang in gevaar kan brengen.
+</Callout>
+
+</Section>

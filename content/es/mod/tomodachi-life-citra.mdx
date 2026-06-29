@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Citra: Guía de configuración y rendimiento del emulador",
+  description: "Configura Tomodachi Life en el emulador Citra. Optimiza los ajustes gráficos, resuelve fallos comunes y gestiona tu isla en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Citra+Setup",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de tomodachi life living the dream release date"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Emulador principal**: Juega a Tomodachi Life en PC usando las versiones estables del emulador Citra en 2026.
+- **Requisito clave**: Se requiere un archivo ROM desencriptado para que el emulador reconozca e inicie el juego.
+- **Solución crítica**: Instala el archivo de fuentes del sistema compartido para evitar el fallo común de la cara en blanco de los Mii.
+- **Objetivo de rendimiento**: Escala la resolución interna a 3x o 4x para obtener modelos de personajes limpios y en alta definición.
+- **Diseño de pantalla**: Utiliza el diseño de pantalla en paralelo (side-by-side) en los ajustes del emulador para una mejor navegación en doble pantalla.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos con la configuración de Tomodachi Life en Citra">
+
+Emular títulos clásicos de consolas portátiles en hardware moderno ofrece gráficos mejorados y esquemas de control personalizables. Jugar a Tomodachi Life en PC o dispositivos móviles compatibles requiere el emulador Citra, que reconstruye el entorno de doble pantalla de la consola original. En 2026, las versiones del emulador mantenidas por la comunidad ofrecen una compatibilidad mejorada, lo que facilita la ejecución de juegos de simulación social sin cuellos de botella en el rendimiento.
+
+Antes de iniciar el proceso de instalación, los jugadores deben seleccionar la versión adecuada del emulador. Las diferentes versiones priorizan la estabilidad o las funciones experimentales, lo que puede afectar a la forma en que el juego renderiza sombreadores (shaders) únicos y archivos de audio personalizados.
+
+<CardGrid cols={3}>
+  <Card title="Versión Nightly">
+    - **Alta estabilidad**
+    - Actualizaciones minuciosamente probadas
+    - Recomendada para juego general
+  </Card>
+  <Card title="Versión Canary">
+    - **Funciones experimentales**
+    - Ciclos de actualización frecuentes
+    - Puede contener errores menores
+  </Card>
+  <Card title="Bifurcaciones personalizadas de la comunidad">
+    - **Correcciones de juegos específicas**
+    - Compilación de sombreadores mejorada
+    - Estabilidad del sistema variable
+  </Card>
+</CardGrid>
+
+Para ejecutar el emulador de manera eficiente, tu configuración de hardware debe cumplir o superar las especificaciones estándar. Aunque los elementos de simulación del juego no son muy exigentes, escalar la resolución requiere una potencia de procesamiento gráfico adecuada.
+
+| Requisito | Especificaciones mínimas | Especificaciones recomendadas |
+|-------------|---------------|-------------------|
+| Sistema operativo | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| Procesador | Intel Core i3 | Intel Core i5 o AMD Ryzen 5 |
+| Tarjeta gráfica | Compatible con OpenGL 3.3 | NVIDIA GTX 1060 o equivalente de AMD |
+| Memoria del sistema | 8 GB de RAM | 16 GB de RAM |
+| Espacio de almacenamiento | 2 GB de espacio libre | Almacenamiento SSD |
+
+<Callout type="info" title="Compatibilidad de hardware">
+Los chips gráficos integrados pueden ejecutar el juego a la resolución nativa, pero se recomienda encarecidamente hardware gráfico dedicado si pretendes escalar la resolución de renderizado más allá de las definiciones estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración óptima del emulador para gráficos y audio">
+
+Lograr una tasa de fotogramas fluida y un audio claro en el juego requiere realizar ajustes dentro de los paneles de configuración del emulador. Los ajustes predeterminados están diseñados para una máxima compatibilidad en hardware de gama baja, lo que a menudo resulta en modelos de personajes pixelados y una salida de audio deficiente.
+
+Dentro de la pestaña de configuración de gráficos, los jugadores pueden ajustar las opciones para mejorar la fidelidad visual. Ajustar la resolución interna transforma la pantalla pixelada de 240p de la consola original en una experiencia nítida de alta definición.
+
+| Nombre del ajuste | Valor predeterminado | Valor recomendado | Impacto |
+|--------------|---------------|-------------------|--------|
+| Resolución interna | 1x Nativa | 3x o 4x Nativa | Reduce drásticamente los bordes dentados |
+| Filtro de texturas | Ninguno | Anime o Bicúbico | Suaviza los elementos de la interfaz |
+| Diseño de pantalla | Predeterminado | En paralelo (Side by Side) | Muestra ambas pantallas con claridad |
+| Tipo de sombreador | Sombreador normal | Sombreador separado | Evita caídas de fotogramas durante las transiciones |
+| Estiramiento de audio | Activado | Desactivado | Reduce el retraso y los chasquidos de audio |
+
+<Callout type="tip" title="Optimización del diseño de pantalla">
+El uso del diseño de pantalla en paralelo facilita la visualización de los eventos de la isla principal al mismo tiempo que se realiza un seguimiento de las actualizaciones de estado de los Mii en la pantalla táctil secundaria.
+</Callout>
+
+La configuración de audio es igualmente importante para este título, ya que el juego depende en gran medida de la síntesis de voz de texto a voz. Si se producen tirones en la emulación de audio, las voces sintetizadas sonarán distorsionadas, lo que dificultará la comprensión de los diálogos. Desactivar el estiramiento de audio y seleccionar el motor de audio (backend) correcto suele estabilizar la salida de voz.
+
+</Section>
+
+<Section icon={Target} title="Instalación paso a paso e importación del juego">
+
+Configurar el juego requiere colocar los archivos en los directorios correctos y configurar el emulador para que reconozca tu biblioteca de juegos. Sigue estos pasos para preparar tu entorno.
+
+<Steps>
+  <Step num="1" title="Adquirir e instalar el emulador">
+    Descarga el instalador estable más reciente para tu sistema operativo. Ejecuta el archivo ejecutable y sigue las instrucciones en pantalla para completar la instalación.
+  </Step>
+  <Step num="2" title="Preparar la ROM desencriptada">
+    Asegúrate de que el archivo de tu juego esté en formato desencriptado. El emulador no puede leer archivos encriptados directamente de cartuchos físicos sin la conversión adecuada.
+  </Step>
+  <Step num="3" title="Crear un directorio de juegos dedicado">
+    Crea una carpeta en tu unidad de almacenamiento llamada "Games". Mueve el archivo desencriptado del juego a esta carpeta para mantener tu directorio organizado.
+  </Step>
+  <Step num="4" title="Configurar la ruta del directorio de juegos">
+    Abre el emulador, haz doble clic en la ventana principal y selecciona la carpeta que creaste. El icono del juego debería aparecer en la lista de la biblioteca principal.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Formatos de archivo">
+Asegúrate de que el archivo del juego utilice la extensión correcta. El emulador admite principalmente archivos desencriptados, y los archivos comprimidos deben descomprimirse antes de iniciar el juego.
+</Callout>
+
+Una vez configurado el directorio del juego, verifica que el juego se inicie correctamente. Si el software no se carga, comprueba la consola de registro (log) para identificar componentes del sistema faltantes o errores de formato.
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas de fallos comunes y soluciones">
+
+Los jugadores que ejecutan el juego en un emulador pueden experimentar errores visuales o de audio específicos que no existían en el hardware original. El problema más común es el fallo de la cara de Mii ausente, donde los personajes aparecen con texturas faciales en blanco o corruptas.
+
+Este problema ocurre porque el emulador no tiene acceso a las fuentes del sistema patentadas que utiliza el sistema operativo original para renderizar los rasgos faciales. Para solucionar esto, es necesario importar los archivos de sistema compartidos al directorio del emulador.
+
+| Descripción del problema | Causa principal | Solución recomendada |
+|-------------------|---------------|----------------------|
+| Caras de Mii en blanco | Falta de fuentes de sistema compartidas | Importa los archivos de fuentes del sistema a la carpeta de usuario |
+| Pantalla negra al iniciar | Archivo de juego encriptado | Desencripta el archivo del juego usando herramientas externas |
+| Chasquidos de audio | Desincronización del búfer de audio | Cambia el motor de audio a cubeb o SDL2 |
+| Datos de guardado corruptos | Apagado incorrecto del emulador | Guarda siempre dentro del juego y espera a que termine la escritura |
+| Tasa de fotogramas baja | Escalado de resolución excesivo | Reduce la resolución interna a 2x o 3x |
+
+<Callout type="success" title="Resolución del problema de caras de Mii">
+Después de copiar los archivos de fuentes compartidos en el directorio del sistema, reinicia el emulador. Los cambios se aplicarán de inmediato, restaurando todos los rasgos faciales de los Mii existentes y nuevos.
+</Callout>
+
+Si los problemas de rendimiento persisten durante el juego, desactivar los sombreadores por hardware o borrar la caché de sombreadores puede resolver los tirones causados por la compilación de nuevos elementos visuales sobre la marcha.
+
+</Section>
+
+<Section icon={Trophy} title="Gestión de la isla y objetivos de progresión">
+
+Una vez completada la configuración técnica, los jugadores pueden concentrarse en desarrollar su isla virtual. El ciclo de juego gira en torno a la creación de Miis, la gestión de sus relaciones y el desbloqueo de nuevas tiendas y objetos.
+
+Ganar dinero en el juego es esencial para comprar ropa, comida e interiores de apartamentos. Los jugadores reciben recompensas financieras al resolver problemas para sus isleños y al recolectar donaciones diarias en la fuente central.
+
+<Checklist
+  id="daily-island-goals"
+  title="Lista de tareas de progresión diaria:"
+  items={[
+    "Recolectar las donaciones de la mañana en la fuente central",
+    "Resolver disputas de los isleños y problemas de relación",
+    "Revisar la casa de empeños en busca de objetos de intercambio de gran valor",
+    "Jugar minijuegos con los Miis para ganar cajas misteriosas",
+    "Actualizar los inventarios de las tiendas de ropa e interiores"
+  ]}
+/>
+
+<Callout type="info" title="Eventos del reloj en tiempo real">
+El juego funciona con un sistema de reloj en tiempo real. Ciertos eventos, artículos de las tiendas y donaciones se actualizan a horas específicas del día, lo que anima a los jugadores a conectarse con regularidad.
+</Callout>
+
+La gestión de relaciones es otra mecánica clave. Los Miis de sexo opuesto y edades similares interactuarán con el tiempo, lo que dará lugar a amistades, confesiones románticas y, finalmente, al matrimonio. El seguimiento de estas interacciones garantiza un flujo constante de eventos únicos en la isla.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono las caras rotas de los Mii en Tomodachi Life en Citra?",
+    answer: "Este error se debe a la falta de fuentes del sistema. Debes obtener los archivos de fuentes del sistema compartidos de una consola y copiarlos en el directorio del sistema del emulador."
+  },
+  {
+    question: "¿Puedo transferir mi archivo de guardado de una consola física al emulador?",
+    answer: "Sí. Puedes exportar tu archivo de guardado utilizando herramientas de homebrew en tu consola y copiar la carpeta de datos de guardado en el directorio correspondiente del emulador."
+  },
+  {
+    question: "¿Por qué el juego funciona lento en mi ordenador?",
+    answer: "Los problemas de rendimiento suelen deberse a configurar la escala de resolución interna demasiado alta o a utilizar motores gráficos incompatibles como OpenGL en hardware AMD antiguo."
+  },
+  {
+    question: "¿Soporta el emulador funciones inalámbricas locales para realizar intercambios?",
+    answer: "Algunas versiones de la comunidad ofrecen emulación de multijugador local a través de redes virtuales, lo que permite a los jugadores intercambiar viajeros y objetos, aunque la compatibilidad varía."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación de copia de seguridad de guardado">
+Crea copias de seguridad manuales de tu directorio de guardado con regularidad. Las actualizaciones del emulador pueden alterar ocasionalmente las rutas de guardado o los archivos de configuración, lo que podría poner en riesgo tu progreso.
+</Callout>
+
+</Section>

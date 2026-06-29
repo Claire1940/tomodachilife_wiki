@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Citra: Emulator-Einrichtungs- & Leistungsleitfaden",
+  description: "Konfiguriere Tomodachi Life auf dem Citra-Emulator. Optimiere Grafikeinstellungen, behebe häufige Fehler und verwalte deine Insel im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Citra+Setup",
+  date: "2026-06-30",
+  author: "tomodachi life living the dream release date Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Kern-Emulator**: Spiele Tomodachi Life im Jahr 2026 mit den stabilen Builds des Citra-Emulators auf dem PC.
+- **Wichtige Voraussetzung**: Eine entschlüsselte ROM-Datei ist erforderlich, damit der Emulator das Spiel erkennt und startet.
+- **Kritischer Fix**: Installiere das Archiv der geteilten Systemschriftarten, um den häufigen Fehler mit leeren Mii-Gesichtern zu verhindern.
+- **Leistungsziel**: Skaliere die interne Auflösung auf 3x oder 4x für scharfe, hochauflösende Charaktermodelle.
+- **Bestes Layout**: Verwende das Nebeneinander-Bildschirmlayout in den Emulator-Einstellungen für die beste Navigation auf zwei Bildschirmen.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte mit der Citra-Einrichtung für Tomodachi Life">
+
+Das Emulieren klassischer Handheld-Titel auf moderner Hardware bietet verbesserte Grafik und anpassbare Steuerungsschemata. Um Tomodachi Life auf dem PC oder kompatiblen Mobilgeräten zu spielen, ist der Citra-Emulator erforderlich, der die Doppelbildschirm-Umgebung der Originalkonsole rekonstruiert. Im Jahr 2026 bieten von der Community gepflegte Builds des Emulators eine verbesserte Kompatibilität, was das Ausführen von Lebenssimulationen ohne Leistungsengpässe erleichtert.
+
+Vor Beginn des Installationsprozesses müssen Spieler den passenden Emulator-Build auswählen. Verschiedene Builds setzen unterschiedliche Prioritäten auf Stabilität oder experimentelle Funktionen, was sich darauf auswirken kann, wie das Spiel einzigartige Shader und benutzerdefinierte Audiodateien wiedergibt.
+
+<CardGrid cols={3}>
+  <Card title="Nightly Build">
+    - **Hohe Stabilität**
+    - Gründlich getestete Updates
+    - Empfohlen für das allgemeine Spielen
+  </Card>
+  <Card title="Canary Build">
+    - **Experimentelle Funktionen**
+    - Häufige Update-Zyklen
+    - Kann kleinere Fehler enthalten
+  </Card>
+  <Card title="Custom Community Forks">
+    - **Spezifische Spiel-Fixes**
+    - Verbesserte Shader-Kompilierung
+    - Variable Systemstabilität
+  </Card>
+</CardGrid>
+
+Um den Emulator effizient auszuführen, sollte deine Hardwarekonfiguration die Standardanforderungen erfüllen oder übertreffen. Obwohl die Simulationselemente des Spiels nicht besonders anspruchsvoll sind, erfordert das Skalieren der Auflösung eine angemessene Grafikleistung.
+
+| Anforderung | Mindestanforderungen | Empfohlene Anforderungen |
+|-------------|----------------------|--------------------------|
+| Betriebssystem | Windows 10 64-Bit | Windows 11 64-Bit |
+| Prozessor | Intel Core i3 | Intel Core i5 oder AMD Ryzen 5 |
+| Grafikkarte | OpenGL 3.3 kompatibel | NVIDIA GTX 1060 oder AMD-Äquivalent |
+| Arbeitsspeicher | 8 GB RAM | 16 GB RAM |
+| Speicherplatz | 2 GB freier Speicherplatz | SSD-Speicher |
+
+<Callout type="info" title="Hardwarekompatibilität">
+Integrierte Grafikchips können das Spiel in nativer Auflösung ausführen, aber dedizierte Grafikhardware wird dringend empfohlen, wenn du die Rendering-Auflösung über die Standardauflösung hinaus skalieren möchtest.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimale Emulator-Einstellungen für Grafik und Audio">
+
+Um eine flüssige Bildrate und klaren Ton im Spiel zu erreichen, sind Anpassungen in den Konfigurationsmenüs des Emulators erforderlich. Die Standardeinstellungen sind auf maximale Kompatibilität mit leistungsschwächerer Hardware ausgelegt, was oft zu verpixelten Charaktermodellen und dumpfer Audioausgabe führt.
+
+Im Reiter für die Grafikkonfiguration können Spieler Einstellungen anpassen, um die visuelle Qualität zu verbessern. Das Anpassen der internen Auflösung verwandelt das verpixelte 240p-Display der Originalkonsole in ein gestochen scharfes High-Definition-Erlebnis.
+
+| Einstellungsname | Standardwert | Empfohlener Wert | Auswirkung |
+|------------------|--------------|------------------|------------|
+| Interne Auflösung | 1x Nativ | 3x oder 4x Nativ | Reduziert unschöne Kanten drastisch |
+| Texturfilter | Keiner | Anime oder Bikubisch | Glättet Interface-Elemente |
+| Bildschirmlayout | Standard | Nebeneinander | Zeigt beide Bildschirme übersichtlich an |
+| Shader-Typ | Normaler Shader | Separater Shader | Verhindert Bildeinbrüche bei Übergängen |
+| Audio-Stretching | Aktiviert | Deaktiviert | Reduziert Audioverzögerungen und Knistern |
+
+<Callout type="tip" title="Optimierung des Bildschirmlayouts">
+Die Verwendung des Nebeneinander-Bildschirmlayouts erleichtert es, die Hauptereignisse auf der Insel im Blick zu behalten, während man gleichzeitig die Mii-Status-Updates auf dem sekundären Touchscreen verfolgt.
+</Callout>
+
+Die Audiokonfiguration ist für diesen Titel ebenso wichtig, da das Spiel stark auf Text-zu-Sprache-Stoffsynthese angewiesen ist. Wenn die Audioemulation stottert, klingen die synthetisierten Stimmen verzerrt, was Dialoge schwer verständlich macht. Das Deaktivieren von Audio-Stretching und die Auswahl des richtigen Audio-Backends stabilisieren in der Regel die Sprachausgabe.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Installation und Spielimport">
+
+Das Einrichten des Spiels erfordert das Ablegen der Dateien in den richtigen Verzeichnissen und das Konfigurieren des Emulators, damit er deine Spielbibliothek erkennt. Befolge diese Schritte, um deine Umgebung vorzubereiten.
+
+<Steps>
+  <Step num="1" title="Emulator erwerben und installieren">
+    Lade das neueste stabile Installationsprogramm für dein Betriebssystem herunter. Führe die ausführbare Datei aus und folge den Anweisungen auf dem Bildschirm, um die Installation abzuschließen.
+  </Step>
+  <Step num="2" title="Entschlüsselte ROM vorbereiten">
+    Stelle sicher, dass deine Spieldatei in einem entschlüsselten Format vorliegt. Der Emulator kann verschlüsselte Dateien direkt von physischen Verkaufsmodulen ohne entsprechende Konvertierung nicht lesen.
+  </Step>
+  <Step num="3" title="Eigenes Spielverzeichnis erstellen">
+    Erstelle auf deinem Speicherlaufwerk einen Ordner namens "Spiele". Verschiebe deine entschlüsselte Spieldatei in diesen Ordner, um dein Verzeichnis organisiert zu halten.
+  </Step>
+  <Step num="4" title="Pfad des Spielverzeichnisses konfigurieren">
+    Öffne den Emulator, doppelklicke auf das Hauptfenster und wähle den von dir erstellten Ordner aus. Das Spielsymbol sollte nun in der Hauptbibliothek erscheinen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Dateiformate">
+Stelle sicher, dass deine Spieldatei die korrekte Dateiendung hat. Der Emulator unterstützt hauptsächlich entschlüsselte Dateien, und komprimierte Archive müssen vor dem Start entpackt werden.
+</Callout>
+
+Sobald das Spielverzeichnis eingerichtet ist, überprüfe, ob das Spiel erfolgreich startet. Wenn die Software nicht geladen werden kann, überprüfe die Protokollkonsole, um fehlende Systemkomponenten oder Formatfehler zu identifizieren.
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung für häufige Probleme und Fixes">
+
+Spieler, die das Spiel auf einem Emulator ausführen, können auf spezifische Grafik- oder Audiofehler stoßen, die auf der Original-Hardware nicht existierten. Das häufigste Problem ist der Fehler mit den fehlenden Mii-Gesichtern, bei dem Charaktere mit leeren oder fehlerhaften Gesichtstexturen erscheinen.
+
+Dieses Problem tritt auf, weil dem Emulator der Zugriff auf die proprietären Systemschriftarten fehlt, die vom ursprünglichen Betriebssystem zur Darstellung von Gesichtszügen verwendet werden. Um dies zu beheben, müssen die freigegebenen Systemdateien in das Emulatorverzeichnis importiert werden.
+
+| Problembeschreibung | Hauptursache | Empfohlene Lösung |
+|---------------------|--------------|-------------------|
+| Leere Mii-Gesichter | Fehlende geteilte Systemschriftarten | Systemschriftdateien in den Benutzerordner importieren |
+| Schwarzer Bildschirm beim Start | Verschlüsselte Spieldatei | Spieldatei mit externen Tools entschlüsseln |
+| Audioknistern | Desynchronisation des Audio-Puffers | Audio-Backend auf cubeb oder SDL2 umstellen |
+| Speicherdaten beschädigt | Unsachgemäßes Schließen des Emulators | Immer im Spiel speichern und warten, bis der Schreibvorgang abgeschlossen ist |
+| Niedrige Bildraten | Zu hohe Auflösungsskalierung | Interne Auflösung auf 2x oder 3x verringern |
+
+<Callout type="success" title="Behebung des Mii-Gesichter-Fehlers">
+Starte den Emulator neu, nachdem du die freigegebenen Schriftdateien in das Systemverzeichnis kopiert hast. Die Änderungen werden sofort wirksam und stellen alle Gesichtszüge für bestehende und neue Miis wieder her.
+</Callout>
+
+Wenn die Leistung während des Spielens weiterhin einbricht, kann das Deaktivieren von Hardware-Shadern oder das Löschen des Shader-Caches das Ruckeln beheben, das durch das spontane Kompilieren neuer visueller Assets verursacht wird.
+
+</Section>
+
+<Section icon={Trophy} title="Inselverwaltung und Fortschrittsziele">
+
+Sobald die technische Einrichtung abgeschlossen ist, können sich die Spieler auf den Aufbau ihrer virtuellen Insel konzentrieren. Die Gameplay-Schleife dreht sich um das Erstellen von Miis, das Verwalten ihrer Beziehungen und das Freischalten neuer Geschäfte und Gegenstände.
+
+Das Verdienen der Spielwährung ist unerlässlich für den Kauf von Kleidung, Essen und Wohnungseinrichtungen. Spieler erhalten finanzielle Belohnungen, indem sie Probleme für ihre Inselbewohner lösen und tägliche Spenden am zentralen Brunnen sammeln.
+
+<Checklist
+  id="daily-island-goals"
+  title="Tägliche Fortschritts-Checkliste:"
+  items={[
+    "Sammle morgendliche Spenden am zentralen Brunnen",
+    "Löse Streitigkeiten und Beziehungsprobleme der Inselbewohner",
+    "Suche im Pfandhaus nach wertvollen Handelsgegenständen",
+    "Spiele Minispiele mit den Miis, um Überraschungsboxen zu verdienen",
+    "Aktualisiere die Bestände im Kleidungs- und Einrichtungsgeschäft"
+  ]}
+/>
+
+<Callout type="info" title="Echtzeituhr-Ereignisse">
+Das Spiel läuft über ein Echtzeituhr-System. Bestimmte Ereignisse, Shop-Artikel und Spenden werden zu bestimmten Tageszeiten aktualisiert, was die Spieler dazu anregt, regelmäßig vorbeizuschauen.
+</Callout>
+
+Die Verwaltung von Beziehungen ist eine weitere Schlüsselmechanik. Miis unterschiedlichen Geschlechts in ähnlichem Alter interagieren im Laufe der Zeit miteinander, was zu Freundschaften, Liebeserklärungen und schließlich zur Heirat führt. Das Überwachen dieser Interaktionen sorgt für einen stetigen Fluss einzigartiger Ereignisse auf der Insel.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie behebe ich die fehlerhaften Mii-Gesichter in Tomodachi Life Citra?",
+    answer: "Dieser Fehler wird durch fehlende Systemschriftarten verursacht. Du musst die geteilten Systemschriftdateien von einer Konsole beziehen und sie in das Systemverzeichnis des Emulators kopieren."
+  },
+  {
+    question: "Kann ich meinen Spielstand von einer physischen Konsole auf den Emulator übertragen?",
+    answer: "Ja. Du kannst deinen Spielstand mithilfe von Homebrew-Tools auf deiner Konsole exportieren und den Speicherdatenordner in das entsprechende Verzeichnis im Emulator kopieren."
+  },
+  {
+    question: "Warum läuft das Spiel auf meinem Computer so langsam?",
+    answer: "Leistungsprobleme werden in der Regel durch eine zu hoch eingestellte interne Auflösungsskalierung oder die Verwendung inkompatibler Grafik-Backends wie OpenGL auf älterer AMD-Hardware verursacht."
+  },
+  {
+    question: "Unterstützt der Emulator lokale Drahtlosfunktionen für den Handel?",
+    answer: "Einige Community-Builds bieten eine lokale Multiplayer-Emulation über virtuelle Netzwerke, die es Spielern ermöglicht, Reisende und Gegenstände auszutauschen, obwohl die Kompatibilität variiert."
+  }
+]} />
+
+<Callout type="tip" title="Empfehlung zur Datensicherung">
+Erstelle regelmäßig manuelle Backups deines Speicherverzeichnisses. Emulator-Updates können gelegentlich Speicherpfade oder Konfigurationsdateien ändern, was deinen Fortschritt gefährden kann.
+</Callout>
+
+</Section>

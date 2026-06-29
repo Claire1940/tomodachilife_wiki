@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Citra: Emulator Setup & Performance Guide",
+  description: "Configure Tomodachi Life on the Citra emulator. Optimize graphics settings, resolve common glitches, and manage your island in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Citra+Setup",
+  date: "2026-06-30",
+  author: "tomodachi life living the dream release date Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Emulator**: Play Tomodachi Life on PC using the stable builds of the Citra emulator in 2026.
+- **Key Requirement**: A decrypted ROM file is required for the emulator to recognize and boot the game.
+- **Critical Fix**: Install the shared system font archive to prevent the common blank Mii face glitch.
+- **Performance Target**: Scale the internal resolution to 3x or 4x for clean, high-definition character models.
+- **Top Layout**: Use the side-by-side screen layout in the emulator settings for the best dual-screen navigation.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Tomodachi Life Citra Setup">
+
+Emulating classic handheld titles on modern hardware offers enhanced visuals and customizable control schemes. Playing Tomodachi Life on PC or compatible mobile devices requires the Citra emulator, which reconstructs the dual-screen environment of the original console. In 2026, community-maintained builds of the emulator offer improved compatibility, making it easier to run social simulation games without performance bottlenecks.
+
+Before starting the installation process, players must select the appropriate emulator build. Different builds prioritize stability or experimental features, which can affect how the game renders unique shaders and custom audio files.
+
+<CardGrid cols={3}>
+  <Card title="Nightly Build">
+    - **High stability**
+    - Thoroughly tested updates
+    - Recommended for general play
+  </Card>
+  <Card title="Canary Build">
+    - **Experimental features**
+    - Frequent update cycles
+    - May contain minor bugs
+  </Card>
+  <Card title="Custom Community Forks">
+    - **Specific game fixes**
+    - Enhanced shader compilation
+    - Variable system stability
+  </Card>
+</CardGrid>
+
+To run the emulator efficiently, your hardware configuration should meet or exceed the standard specifications. While the simulation elements of the game are not highly demanding, scaling the resolution requires adequate graphics processing power.
+
+| Requirement | Minimum Specs | Recommended Specs |
+|-------------|---------------|-------------------|
+| Operating System | Windows 10 64-bit | Windows 11 64-bit |
+| Processor | Intel Core i3 | Intel Core i5 or AMD Ryzen 5 |
+| Graphics Card | OpenGL 3.3 compatible | NVIDIA GTX 1060 or AMD equivalent |
+| System Memory | 8 GB RAM | 16 GB RAM |
+| Storage Space | 2 GB free space | SSD storage |
+
+<Callout type="info" title="Hardware Compatibility">
+Integrated graphics chips can run the game at native resolution, but dedicated graphics hardware is highly recommended if you intend to scale the rendering resolution beyond standard definitions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Emulator Settings for Graphics and Audio">
+
+Achieving a smooth frame rate and clear audio in the game requires adjustments within the emulator configuration panels. The default settings are designed for maximum compatibility across low-end hardware, which often results in pixelated character models and muddy audio output.
+
+Inside the graphics configuration tab, players can adjust settings to improve visual fidelity. Adjusting the internal resolution transforms the pixelated 240p display of the original console into a crisp high-definition experience.
+
+| Setting Name | Default Value | Recommended Value | Impact |
+|--------------|---------------|-------------------|--------|
+| Internal Resolution | 1x Native | 3x or 4x Native | Drastically reduces jagged edges |
+| Texture Filter | None | Anime or Bicubic | Smoothes out interface elements |
+| Screen Layout | Default | Side by Side | Displays both screens clearly |
+| Shader Shader Type | Normal Shader | Separate Shader | Prevents frame drops during transitions |
+| Audio Stretching | Enabled | Disabled | Reduces audio delay and crackling |
+
+<Callout type="tip" title="Screen Layout Optimization">
+Using the side-by-side screen layout makes it easier to view the main island events while keeping track of Mii status updates on the secondary touch screen.
+</Callout>
+
+Audio configuration is equally important for this title, as the game relies heavily on text-to-speech voice synthesis. If the audio emulation stuttering occurs, the synthesized voices will sound distorted, making dialog difficult to understand. Disabling audio stretching and selecting the correct audio backend usually stabilizes the voice output.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Installation and Game Importing">
+
+Setting up the game requires placing the files in the correct directories and configuring the emulator to recognize your game library. Follow these steps to prepare your environment.
+
+<Steps>
+  <Step num="1" title="Acquire and Install the Emulator">
+    Download the latest stable installer for your operating system. Run the executable file and follow the on-screen prompts to complete the installation.
+  </Step>
+  <Step num="2" title="Prepare the Decrypted ROM">
+    Ensure your game file is in a decrypted format. The emulator cannot read encrypted files directly from physical retail cartridges without proper conversion.
+  </Step>
+  <Step num="3" title="Create a Dedicated Game Directory">
+    Create a folder on your storage drive labeled Games. Move your decrypted game file into this folder to keep your directory organized.
+  </Step>
+  <Step num="4" title="Configure the Game Directory Path">
+    Open the emulator, double-click the main window, and select the folder you created. The game icon should appear in the main library list.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="File Formats">
+Ensure your game file uses the correct extension. The emulator primarily supports decrypted files, and compressed archives must be unpacked before launching.
+</Callout>
+
+Once the game directory is set up, verify that the game boots successfully. If the software fails to load, check the log console to identify missing system components or format errors.
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Glitches and Fixes">
+
+Players running the game on an emulator may encounter specific visual or audio bugs that did not exist on the original hardware. The most common issue is the missing Mii face glitch, where characters appear with blank or corrupted facial textures.
+
+This issue occurs because the emulator lacks access to the proprietary system fonts used by the original operating system to render facial features. Resolving this requires importing the shared system files into the emulator directory.
+
+| Issue Description | Primary Cause | Recommended Solution |
+|-------------------|---------------|----------------------|
+| Blank Mii Faces | Missing shared system fonts | Import system font files to the user folder |
+| Black Screen on Boot | Encrypted game file | Decrypt the game file using external tools |
+| Audio Crackling | Audio buffer desync | Switch audio backend to cubeb or SDL2 |
+| Save Data Corrupt | Improper emulator shutdown | Always save in-game and wait for writing to finish |
+| Low Frame Rates | Excessive resolution scaling | Lower internal resolution to 2x or 3x |
+
+<Callout type="success" title="Mii Face Resolution">
+After copying the shared font files into the system directory, restart the emulator. The changes will apply immediately, restoring all facial features to existing and new Miis.
+</Callout>
+
+If performance drops persist during gameplay, disabling hardware shaders or clearing the shader cache can resolve stuttering caused by compiling new visual assets on the fly.
+
+</Section>
+
+<Section icon={Trophy} title="Island Management and Progression Goals">
+
+Once the technical setup is complete, players can focus on developing their virtual island. The gameplay loop revolves around creating Miis, managing their relationships, and unlocking new shops and items.
+
+Earning in-game currency is essential for purchasing clothing, food, and apartment interiors. Players receive financial rewards by solving problems for their islanders and collecting daily donations at the central fountain.
+
+<Checklist
+  id="daily-island-goals"
+  title="Daily Progression Checklist:"
+  items={[
+    "Collect morning donations at the central fountain",
+    "Resolve islander disputes and relationship issues",
+    "Check the pawn shop for high-value trade items",
+    "Play mini-games with Miis to earn mystery boxes",
+    "Update the clothing and interior shop inventories"
+  ]}
+/>
+
+<Callout type="info" title="Real-Time Clock Events">
+The game operates on a real-time clock system. Certain events, shop items, and donations refresh at specific times of the day, encouraging players to check in regularly.
+</Callout>
+
+Managing relationships is another key mechanic. Opposite-gender Miis of similar ages will interact over time, leading to friendships, romantic confessions, and eventually marriage. Monitoring these interactions ensures a steady flow of unique events on the island.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I fix the broken Mii faces in Tomodachi Life Citra?",
+    answer: "This bug is caused by missing system fonts. You must obtain the shared system font files from a console and copy them into the system directory of the emulator."
+  },
+  {
+    question: "Can I transfer my save file from a physical console to the emulator?",
+    answer: "Yes. You can export your save file using homebrew tools on your console and copy the save data folder to the corresponding directory in the emulator."
+  },
+  {
+    question: "Why does the game run slowly on my computer?",
+    answer: "Performance issues are usually caused by setting the internal resolution scale too high or using incompatible graphics backends like OpenGL on older AMD hardware."
+  },
+  {
+    question: "Does the emulator support local wireless features for trading?",
+    answer: "Some community builds offer local multiplayer emulation over virtual networks, allowing players to exchange explorers and items, though compatibility varies."
+  }
+]} />
+
+<Callout type="tip" title="Save Backup Recommendation">
+Regularly create manual backups of your save directory. Emulator updates can occasionally alter save paths or configuration files, potentially risking your progress.
+</Callout>
+
+</Section>

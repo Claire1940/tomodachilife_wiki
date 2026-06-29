@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tomodachi Life Citra: Guida alla Configurazione e alle Prestazioni",
+  description: "Configura Tomodachi Life sull'emulatore Citra. Ottimizza le impostazioni grafiche, risolvi i glitch comuni e gestisci la tua isola nel 2026.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Tomodachi+Life+Citra+Setup",
+  date: "2026-06-30",
+  author: "Team Wiki di tomodachi life living the dream release date",
+  keywords: "Tomodachi Life, Citra, emulatore, configurazione, prestazioni, guida 2026"
+}
+
+<Callout type="info" title="Guida Rapida">
+- **Emulatore Core**: Gioca a Tomodachi Life su PC utilizzando le build stabili dell'emulatore Citra nel 2026.
+- **Requisito Chiave**: È necessario un file ROM decriptato affinché l'emulatore riconosca e avvii il gioco.
+- **Correzione Critica**: Installa l'archivio dei font di sistema condivisi per prevenire il comune glitch dei volti Mii vuoti.
+- **Obiettivo Prestazioni**: Scala la risoluzione interna a 3x o 4x per modelli di personaggi puliti e in alta definizione.
+- **Layout Ottimale**: Usa il layout dello schermo affiancato nelle impostazioni dell'emulatore per la migliore navigazione a doppio schermo.
+</Callout>
+
+<Section icon={Map} title="Iniziare con la Configurazione di Tomodachi Life su Citra">
+
+L'emulazione di titoli classici per console portatili su hardware moderno offre una grafica migliorata e schemi di controllo personalizzabili. Giocare a Tomodachi Life su PC o dispositivi mobili compatibili richiede l'emulatore Citra, che ricostruisce l'ambiente a doppio schermo della console originale. Nel 2026, le build dell'emulatore mantenute dalla community offrono una migliore compatibilità, rendendo più facile eseguire giochi di simulazione sociale senza colli di bottiglia nelle prestazioni.
+
+Prima di iniziare il processo di installazione, i giocatori devono selezionare la build dell'emulatore appropriata. Diverse build danno priorità alla stabilità o alle funzionalità sperimentali, il che può influire sul modo in cui il gioco esegue il rendering di shader unici e file audio personalizzati.
+
+<CardGrid cols={3}>
+  <Card title="Build Nightly">
+    - **Alta stabilità**
+    - Aggiornamenti accuratamente testati
+    - Consigliata per il gioco generale
+  </Card>
+  <Card title="Build Canary">
+    - **Funzionalità sperimentali**
+    - Cicli di aggiornamento frequenti
+    - Potrebbe contenere bug minori
+  </Card>
+  <Card title="Fork Personalizzati">
+    - **Correzioni specifiche**
+    - Compilazione shader migliorata
+    - Stabilità del sistema variabile
+  </Card>
+</CardGrid>
+
+Per eseguire l'emulatore in modo efficiente, la configurazione hardware dovrebbe soddisfare o superare le specifiche standard. Sebbene gli elementi di simulazione del gioco non siano molto impegnativi, la scalabilità della risoluzione richiede un'adeguata potenza di elaborazione grafica.
+
+| Requisito | Specifiche Minime | Specifiche Consigliate |
+|-------------|---------------|-------------------|
+| Sistema Operativo | Windows 10 64-bit | Windows 11 64-bit |
+| Processore | Intel Core i3 | Intel Core i5 o AMD Ryzen 5 |
+| Scheda Grafica | Compatibile OpenGL 3.3 | NVIDIA GTX 1060 o equivalente AMD |
+| Memoria di Sistema | 8 GB RAM | 16 GB RAM |
+| Spazio di Archiviazione | 2 GB di spazio libero | Archiviazione SSD |
+
+<Callout type="info" title="Compatibilità Hardware">
+I chip grafici integrati possono eseguire il gioco alla risoluzione nativa, ma l'hardware grafico dedicato è caldamente consigliato se si intende scalare la risoluzione di rendering oltre le definizioni standard.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Impostazioni Ottimali dell'Emulatore per Grafica e Audio">
+
+Ottenere un frame rate fluido e un audio chiaro nel gioco richiede regolazioni all'interno dei pannelli di configurazione dell'emulatore. Le impostazioni predefinite sono progettate per la massima compatibilità su hardware di fascia bassa, il che spesso si traduce in modelli di personaggi pixelati e un output audio confuso.
+
+All'interno della scheda di configurazione grafica, i giocatori possono regolare le impostazioni per migliorare la fedeltà visiva. La regolazione della risoluzione interna trasforma il display pixelato a 240p della console originale in un'esperienza nitida in alta definizione.
+
+| Nome Impostazione | Valore Predefinito | Valore Consigliato | Impatto |
+|--------------|---------------|-------------------|--------|
+| Risoluzione Interna | 1x Nativa | 3x o 4x Nativa | Riduce drasticamente i bordi seghettati |
+| Filtro Texture | Nessuno | Anime o Bicubico | Leviga gli elementi dell'interfaccia |
+| Layout Schermo | Predefinito | Affiancato | Visualizza chiaramente entrambi gli schermi |
+| Tipo di Shader | Shader Normale | Shader Separato | Previene cali di frame durante le transizioni |
+| Stretching Audio | Abilitato | Disabilitato | Riduce il ritardo e il crepitio dell'audio |
+
+<Callout type="tip" title="Ottimizzazione del Layout dello Schermo">
+L'uso del layout dello schermo affiancato facilita la visualizzazione degli eventi principali dell'isola, tenendo d'occhio gli aggiornamenti di stato dei Mii sul secondo schermo touch.
+</Callout>
+
+La configurazione audio è altrettanto importante per questo titolo, poiché il gioco si affida pesantemente alla sintesi vocale text-to-speech. Se si verifica uno stuttering nell'emulazione audio, le voci sintetizzate risulteranno distorte, rendendo difficili da capire i dialoghi. Disabilitare lo stretching audio e selezionare il backend audio corretto di solito stabilizza l'output vocale.
+
+</Section>
+
+<Section icon={Target} title="Installazione Passo-Passo e Importazione del Gioco">
+
+La configurazione del gioco richiede il posizionamento dei file nelle directory corrette e la configurazione dell'emulatore affinché riconosca la tua libreria di giochi. Segui questi passaggi per preparare il tuo ambiente.
+
+<Steps>
+  <Step num="1" title="Acquisire e Installare l'Emulatore">
+    Scarica l'ultimo installer stabile per il tuo sistema operativo. Esegui il file eseguibile e segui le istruzioni a schermo per completare l'installazione.
+  </Step>
+  <Step num="2" title="Preparare la ROM Decriptata">
+    Assicurati che il file del gioco sia in un formato decriptato. L'emulatore non può leggere direttamente i file criptati dalle cartucce fisiche senza una corretta conversione.
+  </Step>
+  <Step num="3" title="Crea una Directory di Gioco Dedicata">
+    Crea una cartella sull'unità di archiviazione denominata "Games". Sposta il file del gioco decriptato in questa cartella per mantenere organizzata la tua directory.
+  </Step>
+  <Step num="4" title="Configura il Percorso della Directory">
+    Apri l'emulatore, fai doppio clic sulla finestra principale e seleziona la cartella che hai creato. L'icona del gioco dovrebbe apparire nell'elenco della libreria principale.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Formati di File">
+Assicurati che il file del gioco utilizzi l'estensione corretta. L'emulatore supporta principalmente file decriptati e gli archivi compressi devono essere decompressi prima dell'avvio.
+</Callout>
+
+Una volta impostata la directory del gioco, verifica che il gioco si avvii correttamente. Se il software non si carica, controlla la console dei log per identificare componenti di sistema mancanti o errori di formato.
+
+</Section>
+
+<Section icon={Shield} title="Risoluzione dei Glitch Comuni e Correzioni">
+
+I giocatori che eseguono il gioco su un emulatore potrebbero riscontrare bug visivi o audio specifici che non esistevano sull'hardware originale. Il problema più comune è il glitch dei volti Mii mancanti, in cui i personaggi appaiono con texture facciali vuote o corrotte.
+
+Questo problema si verifica perché l'emulatore non ha accesso ai font di sistema proprietari utilizzati dal sistema operativo originale per il rendering dei tratti del viso. La risoluzione richiede l'importazione dei file di sistema condivisi nella directory dell'emulatore.
+
+| Descrizione del Problema | Causa Principale | Soluzione Consigliata |
+|-------------------|---------------|----------------------|
+| Volti Mii Vuoti | Font di sistema mancanti | Importa i file dei font di sistema nella cartella user |
+| Schermo Nero all'Avvio | File di gioco criptato | Decripta il file del gioco utilizzando strumenti esterni |
+| Crepitio Audio | Desincronizzazione buffer | Cambia il backend audio in cubeb o SDL2 |
+| Salvataggio Corrotto | Chiusura impropria | Salva sempre nel gioco e attendi la fine della scrittura |
+| Frame Rate Bassi | Scaling risoluzione eccessivo | Abbassa la risoluzione interna a 2x o 3x |
+
+<Callout type="success" title="Risoluzione Volti Mii">
+Dopo aver copiato i file dei font condivisi nella directory di sistema, riavvia l'emulatore. Le modifiche verranno applicate immediatamente, ripristinando tutti i tratti del viso ai Mii esistenti e nuovi.
+</Callout>
+
+Se i cali di prestazioni persistono durante il gameplay, disabilitare gli shader hardware o svuotare la cache degli shader può risolvere lo stuttering causato dalla compilazione di nuove risorse visive al volo.
+
+</Section>
+
+<Section icon={Trophy} title="Gestione dell'Isola e Obiettivi di Progressione">
+
+Una volta completata la configurazione tecnica, i giocatori possono concentrarsi sullo sviluppo della loro isola virtuale. Il ciclo di gioco ruota attorno alla creazione di Mii, alla gestione delle loro relazioni e allo sblocco di nuovi negozi e oggetti.
+
+Guadagnare valuta di gioco è essenziale per acquistare vestiti, cibo e arredamento per gli appartamenti. I giocatori ricevono ricompense finanziarie risolvendo i problemi dei loro isolani e raccogliendo donazioni giornaliere alla fontana centrale.
+
+<Checklist
+  id="daily-island-goals"
+  title="Checklist di Progressione Giornaliera:"
+  items={[
+    "Raccogli le donazioni mattutine alla fontana centrale",
+    "Risolvi le dispute e i problemi relazionali degli isolani",
+    "Controlla il banco dei pegni per oggetti di scambio di alto valore",
+    "Gioca ai mini-giochi con i Mii per guadagnare scatole a sorpresa",
+    "Aggiorna gli inventari del negozio di abbigliamento e di arredamento"
+  ]}
+/>
+
+<Callout type="info" title="Eventi in Tempo Reale">
+Il gioco funziona su un sistema di orologio in tempo reale. Certi eventi, oggetti nei negozi e donazioni si aggiornano in orari specifici della giornata, incoraggiando i giocatori a controllare regolarmente.
+</Callout>
+
+La gestione delle relazioni è un'altra meccanica chiave. Mii di sesso opposto e di età simile interagiranno nel tempo, portando ad amicizie, confessioni romantiche e infine al matrimonio. Monitorare queste interazioni assicura un flusso costante di eventi unici sull'isola.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Come posso risolvere i volti Mii rotti in Tomodachi Life Citra?",
+    answer: "Questo bug è causato dalla mancanza dei font di sistema. Devi ottenere i file dei font di sistema condivisi da una console e copiarli nella directory di sistema dell'emulatore."
+  },
+  {
+    question: "Posso trasferire il mio file di salvataggio da una console fisica all'emulatore?",
+    answer: "Sì. Puoi esportare il tuo file di salvataggio utilizzando strumenti homebrew sulla tua console e copiare la cartella dei dati di salvataggio nella directory corrispondente nell'emulatore."
+  },
+  {
+    question: "Perché il gioco gira lentamente sul mio computer?",
+    answer: "I problemi di prestazioni sono solitamente causati da un'impostazione troppo alta della risoluzione interna o dall'uso di backend grafici incompatibili come OpenGL su hardware AMD più vecchio."
+  },
+  {
+    question: "L'emulatore supporta le funzioni wireless locali per gli scambi?",
+    answer: "Alcune build della community offrono l'emulazione multiplayer locale su reti virtuali, consentendo ai giocatori di scambiare esploratori e oggetti, sebbene la compatibilità vari."
+  }
+]} />
+
+<Callout type="tip" title="Raccomandazione Backup Salvataggi">
+Crea regolarmente backup manuali della tua directory di salvataggio. Gli aggiornamenti dell'emulatore possono occasionalmente alterare i percorsi di salvataggio o i file di configurazione, rischiando potenzialmente di perdere i tuoi progressi.
+</Callout>
+
+</Section>
